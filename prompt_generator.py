@@ -1,48 +1,52 @@
-import random
 from typing import List
+from prompt_templates import PromptTemplateManager
 
 class PromptGenerator:
     def __init__(self):
-        # Base prompt that will be included in every generation
-        self.BASE_PROMPT = "CRYPTO, MEME, HYPERPOP, INTERNET, YOUTHFUL, 2024"
+        self.template_manager = PromptTemplateManager()
         
-        # Additional words that can be randomly added
-        self.ADDITIONAL_WORDS = [
-            "VIRAL",
-            "TRENDING",
-            "AESTHETIC",
-            "DIGITAL",
-            "GLITCH",
-            "FUTURE",
-            "REMIX",
-            "VIBE",
-            "CULTURE"
-        ]
+    def generate_prompt(self, template_name: str = "crypto_meme") -> str:
+        """
+        Generate a prompt using the specified template.
+        Falls back to crypto_meme template if the specified template doesn't exist.
+        """
+        prompt = self.template_manager.generate_prompt(template_name)
+        if prompt is None:
+            # Fallback to crypto_meme template
+            prompt = self.template_manager.generate_prompt("crypto_meme")
+        return prompt
 
-    def generate_prompt(self) -> str:
+    def get_prompt_variations(self, num_variations: int = 3, template_name: str = "crypto_meme") -> List[str]:
         """
-        Generate a prompt that always includes the base prompt plus 1-3 random additional words.
-        Returns a string with all words joined by commas.
-        """
-        # Determine how many additional words to use (1-3)
-        num_additional = random.randint(1, 3)
-        
-        # Randomly select the specified number of additional words
-        selected_words = random.sample(self.ADDITIONAL_WORDS, num_additional)
-        
-        # Combine base prompt with selected additional words
-        full_prompt = f"{self.BASE_PROMPT}, {', '.join(selected_words)}"
-        
-        return full_prompt
-
-    def get_prompt_variations(self, num_variations: int = 3) -> List[str]:
-        """
-        Generate multiple variations of prompts.
+        Generate multiple variations of prompts using the specified template.
         
         Args:
             num_variations: Number of variations to generate (default: 3)
+            template_name: Name of the template to use (default: crypto_meme)
             
         Returns:
             List of generated prompt strings
         """
-        return [self.generate_prompt() for _ in range(num_variations)]
+        return self.template_manager.generate_variations(template_name, num_variations)
+
+    def list_available_templates(self) -> List[str]:
+        """List all available template names."""
+        return self.template_manager.list_templates()
+
+    def create_custom_template(self, name: str, template: str, variations: dict) -> bool:
+        """
+        Create a new custom template.
+        
+        Args:
+            name: Template name
+            template: Template string with placeholders
+            variations: Dictionary of variation lists for placeholders
+            
+        Returns:
+            True if template was created successfully
+        """
+        try:
+            self.template_manager.create_template(name, template, variations)
+            return True
+        except Exception:
+            return False

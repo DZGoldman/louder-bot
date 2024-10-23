@@ -31,3 +31,19 @@ Stacktrace:
 2024-10-23 22:45:17,398 - INFO - Navigating to Suno.ai login page...
 2024-10-23 22:45:37,243 - INFO - Chrome WebDriver initialized successfully
 2024-10-23 22:45:37,243 - INFO - Navigating to Suno.ai login page...
+2024-10-23 22:45:48,679 - ERROR - Timeout waiting for element: button[data-testid='login-button']
+2024-10-23 22:45:48,680 - ERROR - Login timeout: Message: Could not find login button
+
+2024-10-23 22:45:48,680 - ERROR - Error in main execution: Message: Could not find login button
+
+2024-10-23 22:45:48,757 - INFO - WebDriver closed successfully
+2024-10-23 22:45:49,333 - ERROR - Timeout waiting for element: button[data-testid='login-button']
+2024-10-23 22:45:49,333 - ERROR - Login timeout: Message: Could not find login button
+
+2024-10-23 22:45:49,333 - ERROR - Error in main execution: Message: Could not find login button
+
+2024-10-23 22:45:49,410 - INFO - WebDriver closed successfully
+2024-10-23 22:46:08,364 - ERROR - Timeout waiting for element: button[data-testid='login-button']
+2024-10-23 22:46:08,365 - ERROR - Login timeout: Message: Could not find login button
+
+2024-10-23 22:46:08,453 - INFO - WebDriver closed successfully

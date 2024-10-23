@@ -1,0 +1,10 @@
+{
+  "name": "synthwave",
+  "template": "SYNTHWAVE, {decade}, {mood}, {theme}, {style}",
+  "variations": {
+    "decade": ["80s", "RETRO", "NOSTALGIC", "VINTAGE"],
+    "mood": ["ATMOSPHERIC", "DARK", "DREAMY", "EPIC"],
+    "theme": ["CYBERPUNK", "NEON", "MIDNIGHT", "DYSTOPIAN"],
+    "style": ["CINEMATIC", "AMBIENT", "ELECTRONIC", "SYNTHPOP"]
+  }
+}
