@@ -23,6 +23,10 @@ args = "Analyzer"
 task = "workflow.run"
 args = "UdioBot"
 
+[[workflows.workflow.tasks]]
+task = "workflow.run"
+args = "CLI_Test"
+
 [[workflows.workflow]]
 name = "SunoBot"
 author = "agent"
@@ -55,6 +59,17 @@ agentRequireRestartOnSave = false
 [[workflows.workflow.tasks]]
 task = "shell.exec"
 args = "python main.py"
+
+[[workflows.workflow]]
+name = "CLI_Test"
+author = "agent"
+
+[workflows.workflow.metadata]
+agentRequireRestartOnSave = false
+
+[[workflows.workflow.tasks]]
+task = "shell.exec"
+args = "python cli.py generate --variations 1"
 
 [deployment]
 run = ["sh", "-c", "python main.py"]

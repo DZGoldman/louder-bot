@@ -15,4 +15,5 @@ dependencies = [
     "beautifulsoup4>=4.12.3",
     "logging",
     "python-dotenv",
+    "click>=8.1.7",
 ]
