@@ -1,0 +1,27 @@
+2024-10-23 22:44:15,753 - INFO - Chrome WebDriver initialized successfully
+2024-10-23 22:44:36,843 - ERROR - Timeout while attempting to log in
+2024-10-23 22:44:36,843 - ERROR - Error in main execution: Message: 
+Stacktrace:
+#0 0x55d5f9b66e3a <unknown>
+#1 0x55d5f985045c <unknown>
+#2 0x55d5f989c5b5 <unknown>
+#3 0x55d5f989c671 <unknown>
+#4 0x55d5f98e0f14 <unknown>
+#5 0x55d5f98bf4dd <unknown>
+#6 0x55d5f98de2cc <unknown>
+#7 0x55d5f98bf253 <unknown>
+#8 0x55d5f988f1c7 <unknown>
+#9 0x55d5f988fb3e <unknown>
+#10 0x55d5f9b2d27b <unknown>
+#11 0x55d5f9b31327 <unknown>
+#12 0x55d5f9b19dae <unknown>
+#13 0x55d5f9b31df2 <unknown>
+#14 0x55d5f9afe74f <unknown>
+#15 0x55d5f9b56128 <unknown>
+#16 0x55d5f9b562fb <unknown>
+#17 0x55d5f9b65f6c <unknown>
+#18 0x7f160aeab272 start_thread
+
+2024-10-23 22:44:36,903 - INFO - WebDriver closed successfully
+2024-10-23 22:44:58,505 - INFO - Chrome WebDriver initialized successfully
+2024-10-23 22:44:58,505 - INFO - Navigating to Suno.ai login page...

@@ -1,0 +1,11 @@
+2024-10-23 19:56:11,551 - INFO - Starting Suno Bot
+2024-10-23 19:56:11,551 - INFO - Starting processing for theme: CRYPTO
+2024-10-23 19:56:12,268 - ERROR - Fatal error: BrowserType.launch: Executable doesn't exist at /home/runner/SunoMusicBot/.cache/ms-playwright/firefox-1465/firefox/firefox
+╔════════════════════════════════════════════════════════════╗
+║ Looks like Playwright was just installed or updated.       ║
+║ Please run the following command to download new browsers: ║
+║                                                            ║
+║     playwright install                                     ║
+║                                                            ║
+║ <3 Playwright Team                                         ║
+╚════════════════════════════════════════════════════════════╝

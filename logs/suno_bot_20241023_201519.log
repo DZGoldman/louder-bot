@@ -1,0 +1,20 @@
+2024-10-23 20:15:19,089 - INFO - Starting Udio Bot
+2024-10-23 20:15:19,089 - INFO - Starting processing for theme: CRYPTO
+2024-10-23 20:15:19,134 - WARNING - Failed to start Xvfb: [Errno 2] No such file or directory: 'Xvfb'. Falling back to regular headless mode.
+2024-10-23 20:15:19,444 - INFO - Starting Udio Bot
+2024-10-23 20:15:19,444 - INFO - Starting processing for theme: CRYPTO
+2024-10-23 20:15:19,449 - WARNING - Failed to start Xvfb: [Errno 2] No such file or directory: 'Xvfb'. Falling back to regular headless mode.
+2024-10-23 20:15:20,819 - ERROR - Attempt 1 failed: Message: Service /home/runner/.cache/selenium/chromedriver/linux64/125.0.6422.141/chromedriver unexpectedly exited. Status code was: 127
+
+2024-10-23 20:15:20,833 - ERROR - Attempt 1 failed: Message: Service /home/runner/.cache/selenium/chromedriver/linux64/125.0.6422.141/chromedriver unexpectedly exited. Status code was: 127
+
+2024-10-23 20:15:25,890 - ERROR - Attempt 2 failed: Message: Service /home/runner/.cache/selenium/chromedriver/linux64/125.0.6422.141/chromedriver unexpectedly exited. Status code was: 127
+
+2024-10-23 20:15:25,901 - ERROR - Attempt 2 failed: Message: Service /home/runner/.cache/selenium/chromedriver/linux64/125.0.6422.141/chromedriver unexpectedly exited. Status code was: 127
+
+2024-10-23 20:15:30,980 - ERROR - Attempt 3 failed: Message: Service /home/runner/.cache/selenium/chromedriver/linux64/125.0.6422.141/chromedriver unexpectedly exited. Status code was: 127
+
+2024-10-23 20:15:30,981 - ERROR - Fatal error: Failed to initialize Chrome WebDriver after multiple attempts
+2024-10-23 20:15:30,986 - ERROR - Attempt 3 failed: Message: Service /home/runner/.cache/selenium/chromedriver/linux64/125.0.6422.141/chromedriver unexpectedly exited. Status code was: 127
+
+2024-10-23 20:15:30,986 - ERROR - Fatal error: Failed to initialize Chrome WebDriver after multiple attempts

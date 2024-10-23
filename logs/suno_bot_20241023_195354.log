@@ -1,0 +1,13 @@
+2024-10-23 19:53:54,558 - INFO - Starting Suno Bot
+2024-10-23 19:53:54,558 - INFO - Starting processing for theme: CRYPTO
+2024-10-23 19:53:54,835 - INFO - Starting Suno Bot
+2024-10-23 19:53:54,836 - INFO - Starting processing for theme: CRYPTO
+2024-10-23 19:53:55,510 - ERROR - Fatal error: BrowserType.launch: Executable doesn't exist at /home/runner/SunoMusicBot/.cache/ms-playwright/chromium-1140/chrome-linux/chrome
+╔════════════════════════════════════════════════════════════╗
+║ Looks like Playwright was just installed or updated.       ║
+║ Please run the following command to download new browsers: ║
+║                                                            ║
+║     playwright install                                     ║
+║                                                            ║
+║ <3 Playwright Team                                         ║
+╚════════════════════════════════════════════════════════════╝

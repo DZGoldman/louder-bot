@@ -1,0 +1,11 @@
+2024-10-23 20:12:37,656 - INFO - Starting Udio Bot
+2024-10-23 20:12:37,657 - INFO - Starting processing for theme: CRYPTO
+2024-10-23 20:12:37,657 - INFO - ====== WebDriver manager ======
+2024-10-23 20:12:37,693 - INFO - Get LATEST chromedriver version for google-chrome
+2024-10-23 20:12:37,755 - INFO - About to download new driver from https://chromedriver.storage.googleapis.com/114.0.5735.90/chromedriver_linux64.zip
+2024-10-23 20:12:37,812 - INFO - Driver downloading response is 200
+2024-10-23 20:12:37,866 - INFO - Get LATEST chromedriver version for google-chrome
+2024-10-23 20:12:38,023 - INFO - Get LATEST chromedriver version for google-chrome
+2024-10-23 20:12:38,097 - INFO - Driver has been saved in cache [/home/runner/.wdm/drivers/chromedriver/linux64/114.0.5735.90]
+2024-10-23 20:12:38,111 - ERROR - Fatal error: Message: Service /home/runner/.wdm/drivers/chromedriver/linux64/114.0.5735.90/chromedriver unexpectedly exited. Status code was: 127
+

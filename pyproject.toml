@@ -1,0 +1,18 @@
+[project]
+name = "repl-nix-sunomusicbot"
+version = "0.1.0"
+description = "Add your description here"
+requires-python = ">=3.11"
+dependencies = [
+    "asyncio>=3.4.3",
+    "pathlib>=1.0.1",
+    "playwright>=1.48.0",
+    "selenium>=4.25.0",
+    "selenium-wire>=5.1.0",
+    "trafilatura>=1.12.2",
+    "webdriver-manager>=4.0.2",
+    "requests>=2.32.3",
+    "beautifulsoup4>=4.12.3",
+    "logging",
+    "python-dotenv",
+]
