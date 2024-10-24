@@ -6029,3 +6029,1022 @@ Stacktrace:
 2024-10-24 20:43:45,857 - INFO - Starting login attempt 1/3
 2024-10-24 20:45:51,205 - INFO - Chrome WebDriver initialized successfully
 2024-10-24 20:45:51,206 - INFO - Starting login attempt 1/3
+2024-10-24 20:46:30,385 - INFO - Chrome WebDriver initialized successfully
+2024-10-24 20:46:30,390 - INFO - Starting login attempt 1/3
+2024-10-24 20:46:30,647 - INFO - Chrome WebDriver initialized successfully
+2024-10-24 20:46:30,647 - INFO - Starting login attempt 1/3
+2024-10-24 20:46:30,768 - INFO - Chrome WebDriver initialized successfully
+2024-10-24 20:46:30,773 - INFO - Chrome WebDriver initialized successfully
+2024-10-24 20:46:30,775 - INFO - Starting login attempt 1/3
+2024-10-24 20:46:30,787 - INFO - Starting login attempt 1/3
+2024-10-24 20:47:43,029 - WARNING - Failed with selector //button[contains(@class, 'inline-flex') and contains(@class, 'items-center') and contains(@class, 'justify-center') and contains(@class, 'whitespace-nowrap')]: Message: 
+
+2024-10-24 20:47:43,169 - WARNING - Failed with selector //button[contains(@class, 'inline-flex') and contains(@class, 'items-center') and contains(@class, 'justify-center') and contains(@class, 'whitespace-nowrap')]: Message: 
+
+2024-10-24 20:47:43,415 - INFO - Screenshot saved: logs/click_failure_Sign in button.png
+2024-10-24 20:47:43,604 - INFO - Screenshot saved: logs/click_failure_Sign in button.png
+2024-10-24 20:47:43,981 - WARNING - Failed with selector //button[contains(@class, 'inline-flex') and contains(@class, 'items-center') and contains(@class, 'justify-center') and contains(@class, 'whitespace-nowrap')]: Message: 
+
+2024-10-24 20:47:44,164 - WARNING - Failed with selector //button[contains(@class, 'inline-flex') and contains(@class, 'items-center') and contains(@class, 'justify-center') and contains(@class, 'whitespace-nowrap')]: Message: 
+
+2024-10-24 20:47:44,527 - INFO - Screenshot saved: logs/click_failure_Sign in button.png
+2024-10-24 20:47:44,875 - INFO - Screenshot saved: logs/click_failure_Sign in button.png
+2024-10-24 20:47:45,764 - INFO - Successfully clicked Sign in button
+2024-10-24 20:47:45,928 - INFO - Successfully clicked Sign in button
+2024-10-24 20:47:46,826 - INFO - Successfully clicked Sign in button
+2024-10-24 20:47:47,183 - INFO - Successfully clicked Sign in button
+2024-10-24 20:48:51,060 - WARNING - Failed with selector //button[contains(., 'Continue with Google')]: Message: 
+Stacktrace:
+#0 0x55cc5f2c0e3a <unknown>
+#1 0x55cc5efaa45c <unknown>
+#2 0x55cc5eff65b5 <unknown>
+#3 0x55cc5eff6671 <unknown>
+#4 0x55cc5f03af14 <unknown>
+#5 0x55cc5f0194dd <unknown>
+#6 0x55cc5f0382cc <unknown>
+#7 0x55cc5f019253 <unknown>
+#8 0x55cc5efe91c7 <unknown>
+#9 0x55cc5efe9b3e <unknown>
+#10 0x55cc5f28727b <unknown>
+#11 0x55cc5f28b327 <unknown>
+#12 0x55cc5f273dae <unknown>
+#13 0x55cc5f28bdf2 <unknown>
+#14 0x55cc5f25874f <unknown>
+#15 0x55cc5f2b0128 <unknown>
+#16 0x55cc5f2b02fb <unknown>
+#17 0x55cc5f2bff6c <unknown>
+#18 0x7f3870763272 start_thread
+
+2024-10-24 20:48:51,186 - WARNING - Failed with selector //button[contains(., 'Continue with Google')]: Message: 
+Stacktrace:
+#0 0x56251c216e3a <unknown>
+#1 0x56251bf0045c <unknown>
+#2 0x56251bf4c5b5 <unknown>
+#3 0x56251bf4c671 <unknown>
+#4 0x56251bf90f14 <unknown>
+#5 0x56251bf6f4dd <unknown>
+#6 0x56251bf8e2cc <unknown>
+#7 0x56251bf6f253 <unknown>
+#8 0x56251bf3f1c7 <unknown>
+#9 0x56251bf3fb3e <unknown>
+#10 0x56251c1dd27b <unknown>
+#11 0x56251c1e1327 <unknown>
+#12 0x56251c1c9dae <unknown>
+#13 0x56251c1e1df2 <unknown>
+#14 0x56251c1ae74f <unknown>
+#15 0x56251c206128 <unknown>
+#16 0x56251c2062fb <unknown>
+#17 0x56251c215f6c <unknown>
+#18 0x7f92d162c272 start_thread
+
+2024-10-24 20:48:51,324 - INFO - Screenshot saved: logs/click_failure_Google login button.png
+2024-10-24 20:48:51,504 - INFO - Screenshot saved: logs/click_failure_Google login button.png
+2024-10-24 20:48:52,155 - WARNING - Failed with selector //button[contains(., 'Continue with Google')]: Message: 
+Stacktrace:
+#0 0x55f0eb84ce3a <unknown>
+#1 0x55f0eb53645c <unknown>
+#2 0x55f0eb5825b5 <unknown>
+#3 0x55f0eb582671 <unknown>
+#4 0x55f0eb5c6f14 <unknown>
+#5 0x55f0eb5a54dd <unknown>
+#6 0x55f0eb5c42cc <unknown>
+#7 0x55f0eb5a5253 <unknown>
+#8 0x55f0eb5751c7 <unknown>
+#9 0x55f0eb575b3e <unknown>
+#10 0x55f0eb81327b <unknown>
+#11 0x55f0eb817327 <unknown>
+#12 0x55f0eb7ffdae <unknown>
+#13 0x55f0eb817df2 <unknown>
+#14 0x55f0eb7e474f <unknown>
+#15 0x55f0eb83c128 <unknown>
+#16 0x55f0eb83c2fb <unknown>
+#17 0x55f0eb84bf6c <unknown>
+#18 0x7fc343961272 start_thread
+
+2024-10-24 20:48:52,422 - INFO - Screenshot saved: logs/click_failure_Google login button.png
+2024-10-24 20:48:52,423 - WARNING - Failed with selector //button[contains(., 'Continue with Google')]: Message: 
+Stacktrace:
+#0 0x5597f12c9e3a <unknown>
+#1 0x5597f0fb345c <unknown>
+#2 0x5597f0fff5b5 <unknown>
+#3 0x5597f0fff671 <unknown>
+#4 0x5597f1043f14 <unknown>
+#5 0x5597f10224dd <unknown>
+#6 0x5597f10412cc <unknown>
+#7 0x5597f1022253 <unknown>
+#8 0x5597f0ff21c7 <unknown>
+#9 0x5597f0ff2b3e <unknown>
+#10 0x5597f129027b <unknown>
+#11 0x5597f1294327 <unknown>
+#12 0x5597f127cdae <unknown>
+#13 0x5597f1294df2 <unknown>
+#14 0x5597f126174f <unknown>
+#15 0x5597f12b9128 <unknown>
+#16 0x5597f12b92fb <unknown>
+#17 0x5597f12c8f6c <unknown>
+#18 0x7f4eb30a1272 start_thread
+
+2024-10-24 20:48:52,779 - INFO - Screenshot saved: logs/click_failure_Google login button.png
+2024-10-24 20:49:51,614 - WARNING - Failed with selector //button[contains(., 'Sign in with Google')]: Message: 
+Stacktrace:
+#0 0x55cc5f2c0e3a <unknown>
+#1 0x55cc5efaa45c <unknown>
+#2 0x55cc5eff65b5 <unknown>
+#3 0x55cc5eff6671 <unknown>
+#4 0x55cc5f03af14 <unknown>
+#5 0x55cc5f0194dd <unknown>
+#6 0x55cc5f0382cc <unknown>
+#7 0x55cc5f019253 <unknown>
+#8 0x55cc5efe91c7 <unknown>
+#9 0x55cc5efe9b3e <unknown>
+#10 0x55cc5f28727b <unknown>
+#11 0x55cc5f28b327 <unknown>
+#12 0x55cc5f273dae <unknown>
+#13 0x55cc5f28bdf2 <unknown>
+#14 0x55cc5f25874f <unknown>
+#15 0x55cc5f2b0128 <unknown>
+#16 0x55cc5f2b02fb <unknown>
+#17 0x55cc5f2bff6c <unknown>
+#18 0x7f3870763272 start_thread
+
+2024-10-24 20:49:51,737 - WARNING - Failed with selector //button[contains(., 'Sign in with Google')]: Message: 
+Stacktrace:
+#0 0x56251c216e3a <unknown>
+#1 0x56251bf0045c <unknown>
+#2 0x56251bf4c5b5 <unknown>
+#3 0x56251bf4c671 <unknown>
+#4 0x56251bf90f14 <unknown>
+#5 0x56251bf6f4dd <unknown>
+#6 0x56251bf8e2cc <unknown>
+#7 0x56251bf6f253 <unknown>
+#8 0x56251bf3f1c7 <unknown>
+#9 0x56251bf3fb3e <unknown>
+#10 0x56251c1dd27b <unknown>
+#11 0x56251c1e1327 <unknown>
+#12 0x56251c1c9dae <unknown>
+#13 0x56251c1e1df2 <unknown>
+#14 0x56251c1ae74f <unknown>
+#15 0x56251c206128 <unknown>
+#16 0x56251c2062fb <unknown>
+#17 0x56251c215f6c <unknown>
+#18 0x7f92d162c272 start_thread
+
+2024-10-24 20:49:51,990 - INFO - Screenshot saved: logs/click_failure_Google login button.png
+2024-10-24 20:49:52,153 - INFO - Screenshot saved: logs/click_failure_Google login button.png
+2024-10-24 20:49:52,715 - WARNING - Failed with selector //button[contains(., 'Sign in with Google')]: Message: 
+Stacktrace:
+#0 0x55f0eb84ce3a <unknown>
+#1 0x55f0eb53645c <unknown>
+#2 0x55f0eb5825b5 <unknown>
+#3 0x55f0eb582671 <unknown>
+#4 0x55f0eb5c6f14 <unknown>
+#5 0x55f0eb5a54dd <unknown>
+#6 0x55f0eb5c42cc <unknown>
+#7 0x55f0eb5a5253 <unknown>
+#8 0x55f0eb5751c7 <unknown>
+#9 0x55f0eb575b3e <unknown>
+#10 0x55f0eb81327b <unknown>
+#11 0x55f0eb817327 <unknown>
+#12 0x55f0eb7ffdae <unknown>
+#13 0x55f0eb817df2 <unknown>
+#14 0x55f0eb7e474f <unknown>
+#15 0x55f0eb83c128 <unknown>
+#16 0x55f0eb83c2fb <unknown>
+#17 0x55f0eb84bf6c <unknown>
+#18 0x7fc343961272 start_thread
+
+2024-10-24 20:49:53,001 - INFO - Screenshot saved: logs/click_failure_Google login button.png
+2024-10-24 20:49:53,077 - WARNING - Failed with selector //button[contains(., 'Sign in with Google')]: Message: 
+Stacktrace:
+#0 0x5597f12c9e3a <unknown>
+#1 0x5597f0fb345c <unknown>
+#2 0x5597f0fff5b5 <unknown>
+#3 0x5597f0fff671 <unknown>
+#4 0x5597f1043f14 <unknown>
+#5 0x5597f10224dd <unknown>
+#6 0x5597f10412cc <unknown>
+#7 0x5597f1022253 <unknown>
+#8 0x5597f0ff21c7 <unknown>
+#9 0x5597f0ff2b3e <unknown>
+#10 0x5597f129027b <unknown>
+#11 0x5597f1294327 <unknown>
+#12 0x5597f127cdae <unknown>
+#13 0x5597f1294df2 <unknown>
+#14 0x5597f126174f <unknown>
+#15 0x5597f12b9128 <unknown>
+#16 0x5597f12b92fb <unknown>
+#17 0x5597f12c8f6c <unknown>
+#18 0x7f4eb30a1272 start_thread
+
+2024-10-24 20:49:53,358 - INFO - Screenshot saved: logs/click_failure_Google login button.png
+2024-10-24 20:50:52,326 - WARNING - Failed with selector //button[contains(@class, 'google')]: Message: 
+Stacktrace:
+#0 0x55cc5f2c0e3a <unknown>
+#1 0x55cc5efaa45c <unknown>
+#2 0x55cc5eff65b5 <unknown>
+#3 0x55cc5eff6671 <unknown>
+#4 0x55cc5f03af14 <unknown>
+#5 0x55cc5f0194dd <unknown>
+#6 0x55cc5f0382cc <unknown>
+#7 0x55cc5f019253 <unknown>
+#8 0x55cc5efe91c7 <unknown>
+#9 0x55cc5efe9b3e <unknown>
+#10 0x55cc5f28727b <unknown>
+#11 0x55cc5f28b327 <unknown>
+#12 0x55cc5f273dae <unknown>
+#13 0x55cc5f28bdf2 <unknown>
+#14 0x55cc5f25874f <unknown>
+#15 0x55cc5f2b0128 <unknown>
+#16 0x55cc5f2b02fb <unknown>
+#17 0x55cc5f2bff6c <unknown>
+#18 0x7f3870763272 start_thread
+
+2024-10-24 20:50:52,475 - WARNING - Failed with selector //button[contains(@class, 'google')]: Message: 
+Stacktrace:
+#0 0x56251c216e3a <unknown>
+#1 0x56251bf0045c <unknown>
+#2 0x56251bf4c5b5 <unknown>
+#3 0x56251bf4c671 <unknown>
+#4 0x56251bf90f14 <unknown>
+#5 0x56251bf6f4dd <unknown>
+#6 0x56251bf8e2cc <unknown>
+#7 0x56251bf6f253 <unknown>
+#8 0x56251bf3f1c7 <unknown>
+#9 0x56251bf3fb3e <unknown>
+#10 0x56251c1dd27b <unknown>
+#11 0x56251c1e1327 <unknown>
+#12 0x56251c1c9dae <unknown>
+#13 0x56251c1e1df2 <unknown>
+#14 0x56251c1ae74f <unknown>
+#15 0x56251c206128 <unknown>
+#16 0x56251c2062fb <unknown>
+#17 0x56251c215f6c <unknown>
+#18 0x7f92d162c272 start_thread
+
+2024-10-24 20:50:52,648 - INFO - Screenshot saved: logs/click_failure_Google login button.png
+2024-10-24 20:50:52,777 - INFO - Screenshot saved: logs/click_failure_Google login button.png
+2024-10-24 20:50:53,284 - WARNING - Failed with selector //button[contains(@class, 'google')]: Message: 
+Stacktrace:
+#0 0x55f0eb84ce3a <unknown>
+#1 0x55f0eb53645c <unknown>
+#2 0x55f0eb5825b5 <unknown>
+#3 0x55f0eb582671 <unknown>
+#4 0x55f0eb5c6f14 <unknown>
+#5 0x55f0eb5a54dd <unknown>
+#6 0x55f0eb5c42cc <unknown>
+#7 0x55f0eb5a5253 <unknown>
+#8 0x55f0eb5751c7 <unknown>
+#9 0x55f0eb575b3e <unknown>
+#10 0x55f0eb81327b <unknown>
+#11 0x55f0eb817327 <unknown>
+#12 0x55f0eb7ffdae <unknown>
+#13 0x55f0eb817df2 <unknown>
+#14 0x55f0eb7e474f <unknown>
+#15 0x55f0eb83c128 <unknown>
+#16 0x55f0eb83c2fb <unknown>
+#17 0x55f0eb84bf6c <unknown>
+#18 0x7fc343961272 start_thread
+
+2024-10-24 20:50:53,563 - INFO - Screenshot saved: logs/click_failure_Google login button.png
+2024-10-24 20:56:07,998 - INFO - Chrome WebDriver initialized successfully
+2024-10-24 20:56:07,999 - INFO - Starting login attempt 1/3
+2024-10-24 20:56:12,615 - INFO - Successfully clicked Sign in button
+2024-10-24 20:57:14,733 - WARNING - Failed with selector //button[normalize-space(text())='Continue with Google']: Message: 
+Stacktrace:
+#0 0x5640c749ee3a <unknown>
+#1 0x5640c718845c <unknown>
+#2 0x5640c71d45b5 <unknown>
+#3 0x5640c71d4671 <unknown>
+#4 0x5640c7218f14 <unknown>
+#5 0x5640c71f74dd <unknown>
+#6 0x5640c72162cc <unknown>
+#7 0x5640c71f7253 <unknown>
+#8 0x5640c71c71c7 <unknown>
+#9 0x5640c71c7b3e <unknown>
+#10 0x5640c746527b <unknown>
+#11 0x5640c7469327 <unknown>
+#12 0x5640c7451dae <unknown>
+#13 0x5640c7469df2 <unknown>
+#14 0x5640c743674f <unknown>
+#15 0x5640c748e128 <unknown>
+#16 0x5640c748e2fb <unknown>
+#17 0x5640c749df6c <unknown>
+#18 0x7f436cf3c272 start_thread
+
+2024-10-24 20:57:49,535 - INFO - Chrome WebDriver initialized successfully
+2024-10-24 20:57:49,535 - INFO - Starting login attempt 1/3
+2024-10-24 20:57:50,288 - WARNING - Page load attempt failed: 'UdioMusicBot' object has no attribute 'wait_for_page_load'
+2024-10-24 20:57:54,315 - WARNING - Page load attempt failed: 'UdioMusicBot' object has no attribute 'wait_for_page_load'
+2024-10-24 20:57:58,334 - WARNING - Page load attempt failed: 'UdioMusicBot' object has no attribute 'wait_for_page_load'
+2024-10-24 20:58:01,335 - ERROR - Login attempt 1 failed: 'UdioMusicBot' object has no attribute 'wait_and_click'
+2024-10-24 20:58:01,494 - INFO - Screenshot saved: logs/login_failure_1.png
+2024-10-24 20:58:06,564 - INFO - WebDriver closed successfully
+2024-10-24 20:58:06,926 - INFO - Chrome WebDriver initialized successfully
+2024-10-24 20:58:06,927 - INFO - Starting login attempt 2/3
+2024-10-24 20:58:08,322 - WARNING - Page load attempt failed: 'UdioMusicBot' object has no attribute 'wait_for_page_load'
+2024-10-24 20:58:12,413 - WARNING - Page load attempt failed: 'UdioMusicBot' object has no attribute 'wait_for_page_load'
+2024-10-24 20:58:16,336 - WARNING - Page load attempt failed: 'UdioMusicBot' object has no attribute 'wait_for_page_load'
+2024-10-24 20:58:19,337 - ERROR - Login attempt 2 failed: 'UdioMusicBot' object has no attribute 'wait_and_click'
+2024-10-24 20:58:19,482 - INFO - Screenshot saved: logs/login_failure_2.png
+2024-10-24 20:58:24,552 - INFO - WebDriver closed successfully
+2024-10-24 20:58:24,926 - INFO - Chrome WebDriver initialized successfully
+2024-10-24 20:58:24,927 - INFO - Starting login attempt 3/3
+2024-10-24 20:58:25,515 - WARNING - Page load attempt failed: 'UdioMusicBot' object has no attribute 'wait_for_page_load'
+2024-10-24 20:58:29,407 - WARNING - Page load attempt failed: 'UdioMusicBot' object has no attribute 'wait_for_page_load'
+2024-10-24 20:58:33,312 - WARNING - Page load attempt failed: 'UdioMusicBot' object has no attribute 'wait_for_page_load'
+2024-10-24 20:58:36,312 - ERROR - Login attempt 3 failed: 'UdioMusicBot' object has no attribute 'wait_and_click'
+2024-10-24 20:58:36,466 - INFO - Screenshot saved: logs/login_failure_3.png
+2024-10-24 20:58:36,466 - ERROR - Maximum retry attempts reached
+2024-10-24 20:58:36,466 - ERROR - Error in main execution: Login failed after 3 attempts
+2024-10-24 20:58:36,536 - INFO - WebDriver closed successfully
+2024-10-24 20:59:08,592 - INFO - Chrome WebDriver initialized successfully
+2024-10-24 20:59:08,592 - INFO - Starting login attempt 1/3
+2024-10-24 20:59:12,759 - INFO - Clicked Sign in button successfully
+2024-10-24 20:59:34,614 - INFO - Chrome WebDriver initialized successfully
+2024-10-24 20:59:34,614 - INFO - Starting login attempt 1/3
+2024-10-24 20:59:36,762 - INFO - Chrome WebDriver initialized successfully
+2024-10-24 20:59:36,762 - INFO - Starting login attempt 1/3
+2024-10-24 20:59:41,020 - INFO - Clicked Sign in button successfully
+2024-10-24 21:00:03,491 - WARNING - Failed to click Google login button with selector //button[contains(@class, 'google-oauth')]: Message: 
+Stacktrace:
+#0 0x55e2cb887e3a <unknown>
+#1 0x55e2cb57145c <unknown>
+#2 0x55e2cb5bd5b5 <unknown>
+#3 0x55e2cb5bd671 <unknown>
+#4 0x55e2cb601f14 <unknown>
+#5 0x55e2cb5e04dd <unknown>
+#6 0x55e2cb5ff2cc <unknown>
+#7 0x55e2cb5e0253 <unknown>
+#8 0x55e2cb5b01c7 <unknown>
+#9 0x55e2cb5b0b3e <unknown>
+#10 0x55e2cb84e27b <unknown>
+#11 0x55e2cb852327 <unknown>
+#12 0x55e2cb83adae <unknown>
+#13 0x55e2cb852df2 <unknown>
+#14 0x55e2cb81f74f <unknown>
+#15 0x55e2cb877128 <unknown>
+#16 0x55e2cb8772fb <unknown>
+#17 0x55e2cb886f6c <unknown>
+#18 0x7f851f523272 start_thread
+
+2024-10-24 21:00:23,940 - WARNING - Failed to click Google login button with selector //button[normalize-space(text())='Continue with Google']: Message: 
+Stacktrace:
+#0 0x55e2cb887e3a <unknown>
+#1 0x55e2cb57145c <unknown>
+#2 0x55e2cb5bd5b5 <unknown>
+#3 0x55e2cb5bd671 <unknown>
+#4 0x55e2cb601f14 <unknown>
+#5 0x55e2cb5e04dd <unknown>
+#6 0x55e2cb5ff2cc <unknown>
+#7 0x55e2cb5e0253 <unknown>
+#8 0x55e2cb5b01c7 <unknown>
+#9 0x55e2cb5b0b3e <unknown>
+#10 0x55e2cb84e27b <unknown>
+#11 0x55e2cb852327 <unknown>
+#12 0x55e2cb83adae <unknown>
+#13 0x55e2cb852df2 <unknown>
+#14 0x55e2cb81f74f <unknown>
+#15 0x55e2cb877128 <unknown>
+#16 0x55e2cb8772fb <unknown>
+#17 0x55e2cb886f6c <unknown>
+#18 0x7f851f523272 start_thread
+
+2024-10-24 21:00:44,385 - WARNING - Failed to click Google login button with selector //button[normalize-space(text())='Sign in with Google']: Message: 
+Stacktrace:
+#0 0x55e2cb887e3a <unknown>
+#1 0x55e2cb57145c <unknown>
+#2 0x55e2cb5bd5b5 <unknown>
+#3 0x55e2cb5bd671 <unknown>
+#4 0x55e2cb601f14 <unknown>
+#5 0x55e2cb5e04dd <unknown>
+#6 0x55e2cb5ff2cc <unknown>
+#7 0x55e2cb5e0253 <unknown>
+#8 0x55e2cb5b01c7 <unknown>
+#9 0x55e2cb5b0b3e <unknown>
+#10 0x55e2cb84e27b <unknown>
+#11 0x55e2cb852327 <unknown>
+#12 0x55e2cb83adae <unknown>
+#13 0x55e2cb852df2 <unknown>
+#14 0x55e2cb81f74f <unknown>
+#15 0x55e2cb877128 <unknown>
+#16 0x55e2cb8772fb <unknown>
+#17 0x55e2cb886f6c <unknown>
+#18 0x7f851f523272 start_thread
+
+2024-10-24 21:01:04,809 - WARNING - Failed to click Google login button with selector //button[.//img[contains(@src, 'google')]]: Message: 
+Stacktrace:
+#0 0x55e2cb887e3a <unknown>
+#1 0x55e2cb57145c <unknown>
+#2 0x55e2cb5bd5b5 <unknown>
+#3 0x55e2cb5bd671 <unknown>
+#4 0x55e2cb601f14 <unknown>
+#5 0x55e2cb5e04dd <unknown>
+#6 0x55e2cb5ff2cc <unknown>
+#7 0x55e2cb5e0253 <unknown>
+#8 0x55e2cb5b01c7 <unknown>
+#9 0x55e2cb5b0b3e <unknown>
+#10 0x55e2cb84e27b <unknown>
+#11 0x55e2cb852327 <unknown>
+#12 0x55e2cb83adae <unknown>
+#13 0x55e2cb852df2 <unknown>
+#14 0x55e2cb81f74f <unknown>
+#15 0x55e2cb877128 <unknown>
+#16 0x55e2cb8772fb <unknown>
+#17 0x55e2cb886f6c <unknown>
+#18 0x7f851f523272 start_thread
+
+2024-10-24 21:01:25,263 - WARNING - Failed to click Google login button with selector //div[@role='button'][contains(., 'Google')]: Message: 
+Stacktrace:
+#0 0x55e2cb887e3a <unknown>
+#1 0x55e2cb57145c <unknown>
+#2 0x55e2cb5bd5b5 <unknown>
+#3 0x55e2cb5bd671 <unknown>
+#4 0x55e2cb601f14 <unknown>
+#5 0x55e2cb5e04dd <unknown>
+#6 0x55e2cb5ff2cc <unknown>
+#7 0x55e2cb5e0253 <unknown>
+#8 0x55e2cb5b01c7 <unknown>
+#9 0x55e2cb5b0b3e <unknown>
+#10 0x55e2cb84e27b <unknown>
+#11 0x55e2cb852327 <unknown>
+#12 0x55e2cb83adae <unknown>
+#13 0x55e2cb852df2 <unknown>
+#14 0x55e2cb81f74f <unknown>
+#15 0x55e2cb877128 <unknown>
+#16 0x55e2cb8772fb <unknown>
+#17 0x55e2cb886f6c <unknown>
+#18 0x7f851f523272 start_thread
+
+2024-10-24 21:01:25,263 - ERROR - Failed to click Google login button with all selectors
+2024-10-24 21:01:36,490 - WARNING - Failed to click Google login button (retry) with selector //button[contains(@class, 'google-oauth')]: Message: 
+Stacktrace:
+#0 0x55e2cb887e3a <unknown>
+#1 0x55e2cb57145c <unknown>
+#2 0x55e2cb5bd5b5 <unknown>
+#3 0x55e2cb5bd671 <unknown>
+#4 0x55e2cb601f14 <unknown>
+#5 0x55e2cb5e04dd <unknown>
+#6 0x55e2cb5ff2cc <unknown>
+#7 0x55e2cb5e0253 <unknown>
+#8 0x55e2cb5b01c7 <unknown>
+#9 0x55e2cb5b0b3e <unknown>
+#10 0x55e2cb84e27b <unknown>
+#11 0x55e2cb852327 <unknown>
+#12 0x55e2cb83adae <unknown>
+#13 0x55e2cb852df2 <unknown>
+#14 0x55e2cb81f74f <unknown>
+#15 0x55e2cb877128 <unknown>
+#16 0x55e2cb8772fb <unknown>
+#17 0x55e2cb886f6c <unknown>
+#18 0x7f851f523272 start_thread
+
+2024-10-24 21:01:46,697 - WARNING - Failed to click Google login button (retry) with selector //button[normalize-space(text())='Continue with Google']: Message: 
+Stacktrace:
+#0 0x55e2cb887e3a <unknown>
+#1 0x55e2cb57145c <unknown>
+#2 0x55e2cb5bd5b5 <unknown>
+#3 0x55e2cb5bd671 <unknown>
+#4 0x55e2cb601f14 <unknown>
+#5 0x55e2cb5e04dd <unknown>
+#6 0x55e2cb5ff2cc <unknown>
+#7 0x55e2cb5e0253 <unknown>
+#8 0x55e2cb5b01c7 <unknown>
+#9 0x55e2cb5b0b3e <unknown>
+#10 0x55e2cb84e27b <unknown>
+#11 0x55e2cb852327 <unknown>
+#12 0x55e2cb83adae <unknown>
+#13 0x55e2cb852df2 <unknown>
+#14 0x55e2cb81f74f <unknown>
+#15 0x55e2cb877128 <unknown>
+#16 0x55e2cb8772fb <unknown>
+#17 0x55e2cb886f6c <unknown>
+#18 0x7f851f523272 start_thread
+
+2024-10-24 21:01:56,930 - WARNING - Failed to click Google login button (retry) with selector //button[normalize-space(text())='Sign in with Google']: Message: 
+Stacktrace:
+#0 0x55e2cb887e3a <unknown>
+#1 0x55e2cb57145c <unknown>
+#2 0x55e2cb5bd5b5 <unknown>
+#3 0x55e2cb5bd671 <unknown>
+#4 0x55e2cb601f14 <unknown>
+#5 0x55e2cb5e04dd <unknown>
+#6 0x55e2cb5ff2cc <unknown>
+#7 0x55e2cb5e0253 <unknown>
+#8 0x55e2cb5b01c7 <unknown>
+#9 0x55e2cb5b0b3e <unknown>
+#10 0x55e2cb84e27b <unknown>
+#11 0x55e2cb852327 <unknown>
+#12 0x55e2cb83adae <unknown>
+#13 0x55e2cb852df2 <unknown>
+#14 0x55e2cb81f74f <unknown>
+#15 0x55e2cb877128 <unknown>
+#16 0x55e2cb8772fb <unknown>
+#17 0x55e2cb886f6c <unknown>
+#18 0x7f851f523272 start_thread
+
+2024-10-24 21:02:04,853 - INFO - Chrome WebDriver initialized successfully
+2024-10-24 21:02:04,854 - INFO - Starting login attempt 1/3
+2024-10-24 21:02:05,901 - INFO - Chrome WebDriver initialized successfully
+2024-10-24 21:02:05,901 - INFO - Starting login attempt 1/3
+2024-10-24 21:02:10,015 - INFO - Clicked Sign in button successfully
+2024-10-24 21:02:10,020 - INFO - Waiting for login modal...
+2024-10-24 21:02:13,313 - INFO - Clicked Continue with email button successfully
+2024-10-24 21:02:13,314 - INFO - Entering email credentials...
+2024-10-24 21:02:24,707 - ERROR - Failed to handle email login form: Message: 
+Stacktrace:
+#0 0x560b91f25e3a <unknown>
+#1 0x560b91c0f45c <unknown>
+#2 0x560b91c5b5b5 <unknown>
+#3 0x560b91c5b671 <unknown>
+#4 0x560b91c9ff14 <unknown>
+#5 0x560b91c7e4dd <unknown>
+#6 0x560b91c9d2cc <unknown>
+#7 0x560b91c7e253 <unknown>
+#8 0x560b91c4e1c7 <unknown>
+#9 0x560b91c4eb3e <unknown>
+#10 0x560b91eec27b <unknown>
+#11 0x560b91ef0327 <unknown>
+#12 0x560b91ed8dae <unknown>
+#13 0x560b91ef0df2 <unknown>
+#14 0x560b91ebd74f <unknown>
+#15 0x560b91f15128 <unknown>
+#16 0x560b91f152fb <unknown>
+#17 0x560b91f24f6c <unknown>
+#18 0x7f01b6d87272 start_thread
+
+2024-10-24 21:02:24,866 - INFO - Screenshot saved: logs/email_form_failure.png
+2024-10-24 21:02:24,866 - ERROR - Login attempt 1 failed: Failed to complete email login form
+2024-10-24 21:02:25,032 - INFO - Screenshot saved: logs/login_failure_1.png
+2024-10-24 21:02:30,100 - INFO - WebDriver closed successfully
+2024-10-24 21:02:30,459 - INFO - Chrome WebDriver initialized successfully
+2024-10-24 21:02:30,459 - INFO - Starting login attempt 2/3
+2024-10-24 21:02:34,403 - INFO - Clicked Sign in button successfully
+2024-10-24 21:02:34,404 - INFO - Waiting for login modal...
+2024-10-24 21:02:37,660 - INFO - Clicked Continue with email button successfully
+2024-10-24 21:02:37,661 - INFO - Entering email credentials...
+2024-10-24 21:02:49,027 - ERROR - Failed to handle email login form: Message: 
+Stacktrace:
+#0 0x55aac623be3a <unknown>
+#1 0x55aac5f2545c <unknown>
+#2 0x55aac5f715b5 <unknown>
+#3 0x55aac5f71671 <unknown>
+#4 0x55aac5fb5f14 <unknown>
+#5 0x55aac5f944dd <unknown>
+#6 0x55aac5fb32cc <unknown>
+#7 0x55aac5f94253 <unknown>
+#8 0x55aac5f641c7 <unknown>
+#9 0x55aac5f64b3e <unknown>
+#10 0x55aac620227b <unknown>
+#11 0x55aac6206327 <unknown>
+#12 0x55aac61eedae <unknown>
+#13 0x55aac6206df2 <unknown>
+#14 0x55aac61d374f <unknown>
+#15 0x55aac622b128 <unknown>
+#16 0x55aac622b2fb <unknown>
+#17 0x55aac623af6c <unknown>
+#18 0x7f0f8b3bb272 start_thread
+
+2024-10-24 21:02:49,174 - INFO - Screenshot saved: logs/email_form_failure.png
+2024-10-24 21:02:49,174 - ERROR - Login attempt 2 failed: Failed to complete email login form
+2024-10-24 21:02:49,324 - INFO - Screenshot saved: logs/login_failure_2.png
+2024-10-24 21:02:54,394 - INFO - WebDriver closed successfully
+2024-10-24 21:02:54,757 - INFO - Chrome WebDriver initialized successfully
+2024-10-24 21:02:54,757 - INFO - Starting login attempt 3/3
+2024-10-24 21:02:58,799 - INFO - Clicked Sign in button successfully
+2024-10-24 21:02:58,800 - INFO - Waiting for login modal...
+2024-10-24 21:03:02,079 - INFO - Clicked Continue with email button successfully
+2024-10-24 21:03:02,079 - INFO - Entering email credentials...
+2024-10-24 21:03:13,485 - ERROR - Failed to handle email login form: Message: 
+Stacktrace:
+#0 0x55c0b6954e3a <unknown>
+#1 0x55c0b663e45c <unknown>
+#2 0x55c0b668a5b5 <unknown>
+#3 0x55c0b668a671 <unknown>
+#4 0x55c0b66cef14 <unknown>
+#5 0x55c0b66ad4dd <unknown>
+#6 0x55c0b66cc2cc <unknown>
+#7 0x55c0b66ad253 <unknown>
+#8 0x55c0b667d1c7 <unknown>
+#9 0x55c0b667db3e <unknown>
+#10 0x55c0b691b27b <unknown>
+#11 0x55c0b691f327 <unknown>
+#12 0x55c0b6907dae <unknown>
+#13 0x55c0b691fdf2 <unknown>
+#14 0x55c0b68ec74f <unknown>
+#15 0x55c0b6944128 <unknown>
+#16 0x55c0b69442fb <unknown>
+#17 0x55c0b6953f6c <unknown>
+#18 0x7f6999eaa272 start_thread
+
+2024-10-24 21:03:13,622 - INFO - Screenshot saved: logs/email_form_failure.png
+2024-10-24 21:03:13,622 - ERROR - Login attempt 3 failed: Failed to complete email login form
+2024-10-24 21:03:13,770 - INFO - Screenshot saved: logs/login_failure_3.png
+2024-10-24 21:03:13,771 - ERROR - Maximum retry attempts reached
+2024-10-24 21:03:13,771 - ERROR - Error in main execution: Login failed after 3 attempts
+2024-10-24 21:03:13,838 - INFO - WebDriver closed successfully
+2024-10-24 21:03:17,352 - INFO - Chrome WebDriver initialized successfully
+2024-10-24 21:03:17,353 - INFO - Starting login attempt 1/3
+2024-10-24 21:03:19,638 - INFO - Chrome WebDriver initialized successfully
+2024-10-24 21:03:19,641 - INFO - Starting login attempt 1/3
+2024-10-24 21:03:23,833 - INFO - Clicked Sign in button successfully
+2024-10-24 21:03:23,834 - INFO - Waiting for login modal...
+2024-10-24 21:03:25,128 - INFO - Clicked Continue with email button successfully
+2024-10-24 21:03:25,129 - INFO - Entering email credentials...
+2024-10-24 21:03:36,529 - ERROR - Failed to handle email login form: Message: 
+Stacktrace:
+#0 0x5573eb166e3a <unknown>
+#1 0x5573eae5045c <unknown>
+#2 0x5573eae9c5b5 <unknown>
+#3 0x5573eae9c671 <unknown>
+#4 0x5573eaee0f14 <unknown>
+#5 0x5573eaebf4dd <unknown>
+#6 0x5573eaede2cc <unknown>
+#7 0x5573eaebf253 <unknown>
+#8 0x5573eae8f1c7 <unknown>
+#9 0x5573eae8fb3e <unknown>
+#10 0x5573eb12d27b <unknown>
+#11 0x5573eb131327 <unknown>
+#12 0x5573eb119dae <unknown>
+#13 0x5573eb131df2 <unknown>
+#14 0x5573eb0fe74f <unknown>
+#15 0x5573eb156128 <unknown>
+#16 0x5573eb1562fb <unknown>
+#17 0x5573eb165f6c <unknown>
+#18 0x7f2d6b4e3272 start_thread
+
+2024-10-24 21:03:36,693 - INFO - Screenshot saved: logs/email_form_failure.png
+2024-10-24 21:03:36,693 - ERROR - Login attempt 1 failed: Failed to complete email login form
+2024-10-24 21:03:36,855 - INFO - Screenshot saved: logs/login_failure_1.png
+2024-10-24 21:03:41,927 - INFO - WebDriver closed successfully
+2024-10-24 21:03:42,267 - INFO - Chrome WebDriver initialized successfully
+2024-10-24 21:03:42,268 - INFO - Starting login attempt 2/3
+2024-10-24 21:03:46,512 - INFO - Clicked Sign in button successfully
+2024-10-24 21:03:46,515 - INFO - Waiting for login modal...
+2024-10-24 21:03:47,866 - INFO - Clicked Continue with email button successfully
+2024-10-24 21:03:47,867 - INFO - Entering email credentials...
+2024-10-24 21:03:59,278 - ERROR - Failed to handle email login form: Message: 
+Stacktrace:
+#0 0x55ae6462ce3a <unknown>
+#1 0x55ae6431645c <unknown>
+#2 0x55ae643625b5 <unknown>
+#3 0x55ae64362671 <unknown>
+#4 0x55ae643a6f14 <unknown>
+#5 0x55ae643854dd <unknown>
+#6 0x55ae643a42cc <unknown>
+#7 0x55ae64385253 <unknown>
+#8 0x55ae643551c7 <unknown>
+#9 0x55ae64355b3e <unknown>
+#10 0x55ae645f327b <unknown>
+#11 0x55ae645f7327 <unknown>
+#12 0x55ae645dfdae <unknown>
+#13 0x55ae645f7df2 <unknown>
+#14 0x55ae645c474f <unknown>
+#15 0x55ae6461c128 <unknown>
+#16 0x55ae6461c2fb <unknown>
+#17 0x55ae6462bf6c <unknown>
+#18 0x7fb47a6a7272 start_thread
+
+2024-10-24 21:03:59,430 - INFO - Screenshot saved: logs/email_form_failure.png
+2024-10-24 21:03:59,430 - ERROR - Login attempt 2 failed: Failed to complete email login form
+2024-10-24 21:03:59,583 - INFO - Screenshot saved: logs/login_failure_2.png
+2024-10-24 21:04:04,651 - INFO - WebDriver closed successfully
+2024-10-24 21:04:04,966 - INFO - Chrome WebDriver initialized successfully
+2024-10-24 21:04:04,967 - INFO - Starting login attempt 3/3
+2024-10-24 21:04:08,848 - INFO - Clicked Sign in button successfully
+2024-10-24 21:04:08,848 - INFO - Waiting for login modal...
+2024-10-24 21:04:10,120 - INFO - Clicked Continue with email button successfully
+2024-10-24 21:04:10,120 - INFO - Entering email credentials...
+2024-10-24 21:04:21,569 - ERROR - Failed to handle email login form: Message: 
+Stacktrace:
+#0 0x55ab2cc9de3a <unknown>
+#1 0x55ab2c98745c <unknown>
+#2 0x55ab2c9d35b5 <unknown>
+#3 0x55ab2c9d3671 <unknown>
+#4 0x55ab2ca17f14 <unknown>
+#5 0x55ab2c9f64dd <unknown>
+#6 0x55ab2ca152cc <unknown>
+#7 0x55ab2c9f6253 <unknown>
+#8 0x55ab2c9c61c7 <unknown>
+#9 0x55ab2c9c6b3e <unknown>
+#10 0x55ab2cc6427b <unknown>
+#11 0x55ab2cc68327 <unknown>
+#12 0x55ab2cc50dae <unknown>
+#13 0x55ab2cc68df2 <unknown>
+#14 0x55ab2cc3574f <unknown>
+#15 0x55ab2cc8d128 <unknown>
+#16 0x55ab2cc8d2fb <unknown>
+#17 0x55ab2cc9cf6c <unknown>
+#18 0x7f2440792272 start_thread
+
+2024-10-24 21:04:21,758 - INFO - Screenshot saved: logs/email_form_failure.png
+2024-10-24 21:04:21,758 - ERROR - Login attempt 3 failed: Failed to complete email login form
+2024-10-24 21:04:21,918 - INFO - Screenshot saved: logs/login_failure_3.png
+2024-10-24 21:04:21,918 - ERROR - Maximum retry attempts reached
+2024-10-24 21:04:21,918 - ERROR - Error in main execution: Login failed after 3 attempts
+2024-10-24 21:04:21,992 - INFO - WebDriver closed successfully
+2024-10-24 21:04:47,261 - INFO - Chrome WebDriver initialized successfully
+2024-10-24 21:04:47,262 - INFO - Starting login attempt 1/3
+2024-10-24 21:04:47,502 - INFO - Attempting to load homepage...
+2024-10-24 21:04:50,917 - INFO - Attempting to click sign-in button...
+2024-10-24 21:04:52,112 - INFO - Clicked Sign in button successfully
+2024-10-24 21:04:52,113 - INFO - Waiting for login modal...
+2024-10-24 21:04:52,149 - INFO - Login modal detected successfully
+2024-10-24 21:04:52,150 - INFO - Attempting to click email login button...
+2024-10-24 21:04:53,388 - INFO - Clicked Continue with email button successfully
+2024-10-24 21:04:53,388 - INFO - Handling email login form...
+2024-10-24 21:04:54,556 - INFO - Email entered successfully
+2024-10-24 21:05:04,764 - ERROR - Failed to handle email login form: Message: 
+Stacktrace:
+#0 0x557cd4327e3a <unknown>
+#1 0x557cd401145c <unknown>
+#2 0x557cd405d5b5 <unknown>
+#3 0x557cd405d671 <unknown>
+#4 0x557cd40a1f14 <unknown>
+#5 0x557cd40804dd <unknown>
+#6 0x557cd409f2cc <unknown>
+#7 0x557cd4080253 <unknown>
+#8 0x557cd40501c7 <unknown>
+#9 0x557cd4050b3e <unknown>
+#10 0x557cd42ee27b <unknown>
+#11 0x557cd42f2327 <unknown>
+#12 0x557cd42dadae <unknown>
+#13 0x557cd42f2df2 <unknown>
+#14 0x557cd42bf74f <unknown>
+#15 0x557cd4317128 <unknown>
+#16 0x557cd43172fb <unknown>
+#17 0x557cd4326f6c <unknown>
+#18 0x7f26eefd0272 start_thread
+
+2024-10-24 21:05:04,916 - INFO - Screenshot saved: logs/email_form_failure.png
+2024-10-24 21:05:04,916 - ERROR - Login attempt 1 failed: Failed to complete email login form: Message: 
+Stacktrace:
+#0 0x557cd4327e3a <unknown>
+#1 0x557cd401145c <unknown>
+#2 0x557cd405d5b5 <unknown>
+#3 0x557cd405d671 <unknown>
+#4 0x557cd40a1f14 <unknown>
+#5 0x557cd40804dd <unknown>
+#6 0x557cd409f2cc <unknown>
+#7 0x557cd4080253 <unknown>
+#8 0x557cd40501c7 <unknown>
+#9 0x557cd4050b3e <unknown>
+#10 0x557cd42ee27b <unknown>
+#11 0x557cd42f2327 <unknown>
+#12 0x557cd42dadae <unknown>
+#13 0x557cd42f2df2 <unknown>
+#14 0x557cd42bf74f <unknown>
+#15 0x557cd4317128 <unknown>
+#16 0x557cd43172fb <unknown>
+#17 0x557cd4326f6c <unknown>
+#18 0x7f26eefd0272 start_thread
+
+2024-10-24 21:05:05,083 - INFO - Screenshot saved: logs/login_failure_1.png
+2024-10-24 21:05:10,154 - INFO - WebDriver closed successfully
+2024-10-24 21:06:27,379 - INFO - Chrome WebDriver initialized successfully
+2024-10-24 21:06:27,379 - INFO - Starting login attempt 1/3
+2024-10-24 21:06:27,537 - INFO - Attempting to load homepage...
+2024-10-24 21:06:30,927 - INFO - Attempting to click sign-in button...
+2024-10-24 21:06:32,122 - INFO - Clicked Sign in button successfully
+2024-10-24 21:06:35,123 - INFO - Waiting for login modal...
+2024-10-24 21:06:35,140 - INFO - Modal found with selector: //div[@role='dialog']
+2024-10-24 21:06:35,146 - INFO - Login modal detected successfully
+2024-10-24 21:06:35,146 - INFO - Attempting to click email login button...
+2024-10-24 21:06:36,385 - INFO - Clicked Continue with email button successfully
+2024-10-24 21:06:36,386 - INFO - Handling email login form...
+2024-10-24 21:06:37,611 - INFO - Email entered successfully
+2024-10-24 21:06:47,852 - ERROR - Failed to handle email login form: Message: 
+Stacktrace:
+#0 0x560f95f0ce3a <unknown>
+#1 0x560f95bf645c <unknown>
+#2 0x560f95c425b5 <unknown>
+#3 0x560f95c42671 <unknown>
+#4 0x560f95c86f14 <unknown>
+#5 0x560f95c654dd <unknown>
+#6 0x560f95c842cc <unknown>
+#7 0x560f95c65253 <unknown>
+#8 0x560f95c351c7 <unknown>
+#9 0x560f95c35b3e <unknown>
+#10 0x560f95ed327b <unknown>
+#11 0x560f95ed7327 <unknown>
+#12 0x560f95ebfdae <unknown>
+#13 0x560f95ed7df2 <unknown>
+#14 0x560f95ea474f <unknown>
+#15 0x560f95efc128 <unknown>
+#16 0x560f95efc2fb <unknown>
+#17 0x560f95f0bf6c <unknown>
+#18 0x7f7aad9e6272 start_thread
+
+2024-10-24 21:06:48,009 - INFO - Screenshot saved: logs/email_form_failure.png
+2024-10-24 21:06:48,010 - ERROR - Modal interaction failed: Failed to complete email login form: Message: 
+Stacktrace:
+#0 0x560f95f0ce3a <unknown>
+#1 0x560f95bf645c <unknown>
+#2 0x560f95c425b5 <unknown>
+#3 0x560f95c42671 <unknown>
+#4 0x560f95c86f14 <unknown>
+#5 0x560f95c654dd <unknown>
+#6 0x560f95c842cc <unknown>
+#7 0x560f95c65253 <unknown>
+#8 0x560f95c351c7 <unknown>
+#9 0x560f95c35b3e <unknown>
+#10 0x560f95ed327b <unknown>
+#11 0x560f95ed7327 <unknown>
+#12 0x560f95ebfdae <unknown>
+#13 0x560f95ed7df2 <unknown>
+#14 0x560f95ea474f <unknown>
+#15 0x560f95efc128 <unknown>
+#16 0x560f95efc2fb <unknown>
+#17 0x560f95f0bf6c <unknown>
+#18 0x7f7aad9e6272 start_thread
+
+2024-10-24 21:06:48,182 - INFO - Screenshot saved: logs/modal_interaction_failure.png
+2024-10-24 21:06:48,182 - ERROR - Login attempt 1 failed: Failed to complete email login form: Message: 
+Stacktrace:
+#0 0x560f95f0ce3a <unknown>
+#1 0x560f95bf645c <unknown>
+#2 0x560f95c425b5 <unknown>
+#3 0x560f95c42671 <unknown>
+#4 0x560f95c86f14 <unknown>
+#5 0x560f95c654dd <unknown>
+#6 0x560f95c842cc <unknown>
+#7 0x560f95c65253 <unknown>
+#8 0x560f95c351c7 <unknown>
+#9 0x560f95c35b3e <unknown>
+#10 0x560f95ed327b <unknown>
+#11 0x560f95ed7327 <unknown>
+#12 0x560f95ebfdae <unknown>
+#13 0x560f95ed7df2 <unknown>
+#14 0x560f95ea474f <unknown>
+#15 0x560f95efc128 <unknown>
+#16 0x560f95efc2fb <unknown>
+#17 0x560f95f0bf6c <unknown>
+#18 0x7f7aad9e6272 start_thread
+
+2024-10-24 21:06:48,341 - INFO - Screenshot saved: logs/login_failure_1.png
+2024-10-24 21:06:53,409 - INFO - WebDriver closed successfully
+2024-10-24 21:06:55,759 - INFO - Chrome WebDriver initialized successfully
+2024-10-24 21:06:55,759 - INFO - Starting login attempt 2/3
+2024-10-24 21:06:55,881 - INFO - Attempting to load homepage...
+2024-10-24 21:06:59,199 - INFO - Attempting to click sign-in button...
+2024-10-24 21:07:00,379 - INFO - Clicked Sign in button successfully
+2024-10-24 21:07:03,380 - INFO - Waiting for login modal...
+2024-10-24 21:07:03,402 - INFO - Modal found with selector: //div[@role='dialog']
+2024-10-24 21:07:03,408 - INFO - Login modal detected successfully
+2024-10-24 21:07:03,408 - INFO - Attempting to click email login button...
+2024-10-24 21:07:04,626 - INFO - Clicked Continue with email button successfully
+2024-10-24 21:07:04,627 - INFO - Handling email login form...
+2024-10-24 21:07:05,817 - INFO - Email entered successfully
+2024-10-24 21:07:16,041 - ERROR - Failed to handle email login form: Message: 
+Stacktrace:
+#0 0x55b97a73fe3a <unknown>
+#1 0x55b97a42945c <unknown>
+#2 0x55b97a4755b5 <unknown>
+#3 0x55b97a475671 <unknown>
+#4 0x55b97a4b9f14 <unknown>
+#5 0x55b97a4984dd <unknown>
+#6 0x55b97a4b72cc <unknown>
+#7 0x55b97a498253 <unknown>
+#8 0x55b97a4681c7 <unknown>
+#9 0x55b97a468b3e <unknown>
+#10 0x55b97a70627b <unknown>
+#11 0x55b97a70a327 <unknown>
+#12 0x55b97a6f2dae <unknown>
+#13 0x55b97a70adf2 <unknown>
+#14 0x55b97a6d774f <unknown>
+#15 0x55b97a72f128 <unknown>
+#16 0x55b97a72f2fb <unknown>
+#17 0x55b97a73ef6c <unknown>
+#18 0x7f5ff32e1272 start_thread
+
+2024-10-24 21:07:16,193 - INFO - Screenshot saved: logs/email_form_failure.png
+2024-10-24 21:07:16,193 - ERROR - Modal interaction failed: Failed to complete email login form: Message: 
+Stacktrace:
+#0 0x55b97a73fe3a <unknown>
+#1 0x55b97a42945c <unknown>
+#2 0x55b97a4755b5 <unknown>
+#3 0x55b97a475671 <unknown>
+#4 0x55b97a4b9f14 <unknown>
+#5 0x55b97a4984dd <unknown>
+#6 0x55b97a4b72cc <unknown>
+#7 0x55b97a498253 <unknown>
+#8 0x55b97a4681c7 <unknown>
+#9 0x55b97a468b3e <unknown>
+#10 0x55b97a70627b <unknown>
+#11 0x55b97a70a327 <unknown>
+#12 0x55b97a6f2dae <unknown>
+#13 0x55b97a70adf2 <unknown>
+#14 0x55b97a6d774f <unknown>
+#15 0x55b97a72f128 <unknown>
+#16 0x55b97a72f2fb <unknown>
+#17 0x55b97a73ef6c <unknown>
+#18 0x7f5ff32e1272 start_thread
+
+2024-10-24 21:07:16,358 - INFO - Screenshot saved: logs/modal_interaction_failure.png
+2024-10-24 21:07:16,359 - ERROR - Login attempt 2 failed: Failed to complete email login form: Message: 
+Stacktrace:
+#0 0x55b97a73fe3a <unknown>
+#1 0x55b97a42945c <unknown>
+#2 0x55b97a4755b5 <unknown>
+#3 0x55b97a475671 <unknown>
+#4 0x55b97a4b9f14 <unknown>
+#5 0x55b97a4984dd <unknown>
+#6 0x55b97a4b72cc <unknown>
+#7 0x55b97a498253 <unknown>
+#8 0x55b97a4681c7 <unknown>
+#9 0x55b97a468b3e <unknown>
+#10 0x55b97a70627b <unknown>
+#11 0x55b97a70a327 <unknown>
+#12 0x55b97a6f2dae <unknown>
+#13 0x55b97a70adf2 <unknown>
+#14 0x55b97a6d774f <unknown>
+#15 0x55b97a72f128 <unknown>
+#16 0x55b97a72f2fb <unknown>
+#17 0x55b97a73ef6c <unknown>
+#18 0x7f5ff32e1272 start_thread
+
+2024-10-24 21:07:16,504 - INFO - Screenshot saved: logs/login_failure_2.png
+2024-10-24 21:07:21,572 - INFO - WebDriver closed successfully
+2024-10-24 21:07:23,987 - INFO - Chrome WebDriver initialized successfully
+2024-10-24 21:07:23,987 - INFO - Starting login attempt 3/3
+2024-10-24 21:07:24,102 - INFO - Attempting to load homepage...
+2024-10-24 21:07:27,394 - INFO - Attempting to click sign-in button...
+2024-10-24 21:07:28,568 - INFO - Clicked Sign in button successfully
+2024-10-24 21:07:31,569 - INFO - Waiting for login modal...
+2024-10-24 21:07:31,589 - INFO - Modal found with selector: //div[@role='dialog']
+2024-10-24 21:07:31,598 - INFO - Login modal detected successfully
+2024-10-24 21:07:31,599 - INFO - Attempting to click email login button...
+2024-10-24 21:07:32,899 - INFO - Clicked Continue with email button successfully
+2024-10-24 21:07:32,899 - INFO - Handling email login form...
+2024-10-24 21:07:34,109 - INFO - Email entered successfully
+2024-10-24 21:07:44,340 - ERROR - Failed to handle email login form: Message: 
+Stacktrace:
+#0 0x558625612e3a <unknown>
+#1 0x5586252fc45c <unknown>
+#2 0x5586253485b5 <unknown>
+#3 0x558625348671 <unknown>
+#4 0x55862538cf14 <unknown>
+#5 0x55862536b4dd <unknown>
+#6 0x55862538a2cc <unknown>
+#7 0x55862536b253 <unknown>
+#8 0x55862533b1c7 <unknown>
+#9 0x55862533bb3e <unknown>
+#10 0x5586255d927b <unknown>
+#11 0x5586255dd327 <unknown>
+#12 0x5586255c5dae <unknown>
+#13 0x5586255dddf2 <unknown>
+#14 0x5586255aa74f <unknown>
+#15 0x558625602128 <unknown>
+#16 0x5586256022fb <unknown>
+#17 0x558625611f6c <unknown>
+#18 0x7fb8f14dc272 start_thread
+
+2024-10-24 21:07:44,493 - INFO - Screenshot saved: logs/email_form_failure.png
+2024-10-24 21:07:44,493 - ERROR - Modal interaction failed: Failed to complete email login form: Message: 
+Stacktrace:
+#0 0x558625612e3a <unknown>
+#1 0x5586252fc45c <unknown>
+#2 0x5586253485b5 <unknown>
+#3 0x558625348671 <unknown>
+#4 0x55862538cf14 <unknown>
+#5 0x55862536b4dd <unknown>
+#6 0x55862538a2cc <unknown>
+#7 0x55862536b253 <unknown>
+#8 0x55862533b1c7 <unknown>
+#9 0x55862533bb3e <unknown>
+#10 0x5586255d927b <unknown>
+#11 0x5586255dd327 <unknown>
+#12 0x5586255c5dae <unknown>
+#13 0x5586255dddf2 <unknown>
+#14 0x5586255aa74f <unknown>
+#15 0x558625602128 <unknown>
+#16 0x5586256022fb <unknown>
+#17 0x558625611f6c <unknown>
+#18 0x7fb8f14dc272 start_thread
+
+2024-10-24 21:07:44,656 - INFO - Screenshot saved: logs/modal_interaction_failure.png
+2024-10-24 21:07:44,656 - ERROR - Login attempt 3 failed: Failed to complete email login form: Message: 
+Stacktrace:
+#0 0x558625612e3a <unknown>
+#1 0x5586252fc45c <unknown>
+#2 0x5586253485b5 <unknown>
+#3 0x558625348671 <unknown>
+#4 0x55862538cf14 <unknown>
+#5 0x55862536b4dd <unknown>
+#6 0x55862538a2cc <unknown>
+#7 0x55862536b253 <unknown>
+#8 0x55862533b1c7 <unknown>
+#9 0x55862533bb3e <unknown>
+#10 0x5586255d927b <unknown>
+#11 0x5586255dd327 <unknown>
+#12 0x5586255c5dae <unknown>
+#13 0x5586255dddf2 <unknown>
+#14 0x5586255aa74f <unknown>
+#15 0x558625602128 <unknown>
+#16 0x5586256022fb <unknown>
+#17 0x558625611f6c <unknown>
+#18 0x7fb8f14dc272 start_thread
+
+2024-10-24 21:07:44,819 - INFO - Screenshot saved: logs/login_failure_3.png
+2024-10-24 21:07:44,820 - ERROR - Maximum retry attempts reached
+2024-10-24 21:07:44,820 - ERROR - Error in main execution: Login failed after 3 attempts
+2024-10-24 21:07:44,889 - INFO - WebDriver closed successfully

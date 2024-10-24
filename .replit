@@ -43,6 +43,14 @@ args = "LoginTest"
 task = "workflow.run"
 args = "SiteAnalyzer"
 
+[[workflows.workflow.tasks]]
+task = "workflow.run"
+args = "UdioAnalyzer"
+
+[[workflows.workflow.tasks]]
+task = "workflow.run"
+args = "SunoAnalyzer"
+
 [[workflows.workflow]]
 name = "SunoBot"
 author = "agent"
@@ -129,7 +137,29 @@ agentRequireRestartOnSave = false
 
 [[workflows.workflow.tasks]]
 task = "shell.exec"
-args = "python analyze_site.py && python analyze_login.py"
+args = "python analyze_site.py"
+
+[[workflows.workflow]]
+name = "UdioAnalyzer"
+author = "agent"
+
+[workflows.workflow.metadata]
+agentRequireRestartOnSave = false
+
+[[workflows.workflow.tasks]]
+task = "shell.exec"
+args = "python analyze_site.py"
+
+[[workflows.workflow]]
+name = "SunoAnalyzer"
+author = "agent"
+
+[workflows.workflow.metadata]
+agentRequireRestartOnSave = false
+
+[[workflows.workflow.tasks]]
+task = "shell.exec"
+args = "python analyze_site.py"
 
 [deployment]
 run = ["sh", "-c", "python main.py"]

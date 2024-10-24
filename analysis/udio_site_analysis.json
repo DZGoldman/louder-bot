@@ -1,0 +1,298 @@
+{
+  "current_url": "https://www.udio.com/",
+  "title": "Udio | AI Music Generator - Official Website",
+  "elements": {
+    "login_buttons": [
+      {
+        "xpath": "//button[contains(@class, 'border-white/10') and contains(text(), 'Sign In')]",
+        "tag_name": "button",
+        "is_displayed": true,
+        "location": {
+          "x": 1675,
+          "y": 35
+        },
+        "attributes": {
+          "class": "inline-flex items-center justify-center whitespace-nowrap font-medium ring-offset-background transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50 border-[0.5px] border-white/10 bg-white/5 text-white hover:bg-secondary/80 h-10 rounded-md px-4 py-2 relative text-base",
+          "id": "",
+          "text": "Sign In",
+          "aria-label": null,
+          "type": "submit",
+          "href": null
+        },
+        "html": "<button class=\"inline-flex items-center justify-center whitespace-nowrap font-medium ring-offset-background transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50 border-[0.5px] border-white/10 bg-white/5 text-white hover:bg-secondary/80 h-10 rounded-md px-4 py-2 relative text-base\">Sign In</button>"
+      },
+      {
+        "xpath": "//button[contains(@class, 'bg-white/5') and contains(text(), 'Sign')]",
+        "tag_name": "button",
+        "is_displayed": true,
+        "location": {
+          "x": 1675,
+          "y": 35
+        },
+        "attributes": {
+          "class": "inline-flex items-center justify-center whitespace-nowrap font-medium ring-offset-background transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50 border-[0.5px] border-white/10 bg-white/5 text-white hover:bg-secondary/80 h-10 rounded-md px-4 py-2 relative text-base",
+          "id": "",
+          "text": "Sign In",
+          "aria-label": null,
+          "type": "submit",
+          "href": null
+        },
+        "html": "<button class=\"inline-flex items-center justify-center whitespace-nowrap font-medium ring-offset-background transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50 border-[0.5px] border-white/10 bg-white/5 text-white hover:bg-secondary/80 h-10 rounded-md px-4 py-2 relative text-base\">Sign In</button>"
+      }
+    ],
+    "email_fields": [],
+    "continue_buttons": [
+      {
+        "xpath": "//button[contains(@class, 'bg-brand-magenta')]",
+        "tag_name": "button",
+        "is_displayed": true,
+        "location": {
+          "x": 1777,
+          "y": 35
+        },
+        "attributes": {
+          "class": "inline-flex items-center justify-center whitespace-nowrap font-medium ring-offset-background transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50 bg-brand-magenta text-base text-white hover:bg-[#b5084a] h-10 rounded-md px-4 py-2 relative",
+          "id": "",
+          "text": "Sign Up",
+          "type": "submit"
+        },
+        "html": "<button class=\"inline-flex items-center justify-center whitespace-nowrap font-medium ring-offset-background transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50 bg-brand-magenta text-base text-white hover:bg-[#b5084a] h-10 rounded-md px-4 py-2 relative\">Sign Up</button>"
+      },
+      {
+        "xpath": "//button[contains(@class, 'bg-brand-magenta')]",
+        "tag_name": "button",
+        "is_displayed": true,
+        "location": {
+          "x": 1464,
+          "y": 459
+        },
+        "attributes": {
+          "class": "inline-flex items-center justify-center whitespace-nowrap font-medium ring-offset-background transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50 bg-brand-magenta text-base text-white hover:bg-[#b5084a] h-10 rounded-md px-4 py-2 w-[90px]",
+          "id": "",
+          "text": "Create",
+          "type": "submit"
+        },
+        "html": "<button class=\"inline-flex items-center justify-center whitespace-nowrap font-medium ring-offset-background transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50 bg-brand-magenta text-base text-white hover:bg-[#b5084a] h-10 rounded-md px-4 py-2 w-[90px]\">Create</button>"
+      },
+      {
+        "xpath": "//button[contains(@class, 'bg-brand-magenta')]",
+        "tag_name": "button",
+        "is_displayed": false,
+        "location": {
+          "x": 0,
+          "y": 0
+        },
+        "attributes": {
+          "class": "inline-flex items-center justify-center whitespace-nowrap font-medium ring-offset-background transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50 bg-brand-magenta text-base text-white hover:bg-[#b5084a] h-10 rounded-md px-4 py-2 w-[120px]",
+          "id": "",
+          "text": "",
+          "type": "submit"
+        },
+        "html": "<button class=\"inline-flex items-center justify-center whitespace-nowrap font-medium ring-offset-background transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50 bg-brand-magenta text-base text-white hover:bg-[#b5084a] h-10 rounded-md px-4 py-2 w-[120px]\">Create</button>"
+      },
+      {
+        "xpath": "//button[contains(@class, 'bg-brand-magenta')]",
+        "tag_name": "button",
+        "is_displayed": true,
+        "location": {
+          "x": 796,
+          "y": 5401
+        },
+        "attributes": {
+          "class": "inline-flex items-center justify-center whitespace-nowrap font-medium ring-offset-background transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50 bg-brand-magenta text-white hover:bg-brand-accent rounded-md px-6 py-1 mt-20 h-[70px] border border-white/20 text-2xl",
+          "id": "",
+          "text": "Create your first song",
+          "type": "submit"
+        },
+        "html": "<button class=\"inline-flex items-center justify-center whitespace-nowrap font-medium ring-offset-background transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50 bg-brand-magenta text-white hover:bg-brand-accent rounded-md px-6 py-1 mt-20 h-[70px] border border-white/20 text-2xl\" style=\"box-shadow: rgba(227, 11, 94, 0.9) 0px 0px 204px 0px;\">Create your first song</button>"
+      }
+    ]
+  },
+  "modal": {
+    "url": "https://www.udio.com/",
+    "elements": {
+      "email_fields": [
+        {
+          "xpath": "//input[@type='email']",
+          "tag_name": "input",
+          "is_displayed": true,
+          "location": {
+            "x": 820,
+            "y": 487
+          },
+          "attributes": {
+            "class": "flex h-10 w-full rounded-md border border-input bg-background px-3 py-2 text-sm ring-offset-background file:border-0 file:bg-transparent file:text-sm file:font-medium placeholder:text-muted-foreground focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:cursor-not-allowed disabled:opacity-50",
+            "id": "",
+            "placeholder": "Enter your email",
+            "type": "email",
+            "name": ""
+          },
+          "html": "<input class=\"flex h-10 w-full rounded-md border border-input bg-background px-3 py-2 text-sm ring-offset-background file:border-0 file:bg-transparent file:text-sm file:font-medium placeholder:text-muted-foreground focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:cursor-not-allowed disabled:opacity-50\" placeholder=\"Enter your email\" type=\"email\" value=\"\">"
+        },
+        {
+          "xpath": "//input[contains(@placeholder, 'email')]",
+          "tag_name": "input",
+          "is_displayed": true,
+          "location": {
+            "x": 820,
+            "y": 487
+          },
+          "attributes": {
+            "class": "flex h-10 w-full rounded-md border border-input bg-background px-3 py-2 text-sm ring-offset-background file:border-0 file:bg-transparent file:text-sm file:font-medium placeholder:text-muted-foreground focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:cursor-not-allowed disabled:opacity-50",
+            "id": "",
+            "placeholder": "Enter your email",
+            "type": "email",
+            "name": ""
+          },
+          "html": "<input class=\"flex h-10 w-full rounded-md border border-input bg-background px-3 py-2 text-sm ring-offset-background file:border-0 file:bg-transparent file:text-sm file:font-medium placeholder:text-muted-foreground focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:cursor-not-allowed disabled:opacity-50\" placeholder=\"Enter your email\" type=\"email\" value=\"\">"
+        }
+      ],
+      "continue_buttons": [
+        {
+          "xpath": "//button[contains(@class, 'bg-brand-magenta')]",
+          "tag_name": "button",
+          "is_displayed": true,
+          "location": {
+            "x": 1792,
+            "y": 35
+          },
+          "attributes": {
+            "class": "inline-flex items-center justify-center whitespace-nowrap font-medium ring-offset-background transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50 bg-brand-magenta text-base text-white hover:bg-[#b5084a] h-10 rounded-md px-4 py-2 relative",
+            "id": "",
+            "text": "Sign Up",
+            "type": "submit"
+          },
+          "html": "<button class=\"inline-flex items-center justify-center whitespace-nowrap font-medium ring-offset-background transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50 bg-brand-magenta text-base text-white hover:bg-[#b5084a] h-10 rounded-md px-4 py-2 relative\">Sign Up</button>"
+        },
+        {
+          "xpath": "//button[contains(@class, 'bg-brand-magenta')]",
+          "tag_name": "button",
+          "is_displayed": true,
+          "location": {
+            "x": 1464,
+            "y": 459
+          },
+          "attributes": {
+            "class": "inline-flex items-center justify-center whitespace-nowrap font-medium ring-offset-background transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50 bg-brand-magenta text-base text-white hover:bg-[#b5084a] h-10 rounded-md px-4 py-2 w-[90px]",
+            "id": "",
+            "text": "Create",
+            "type": "submit"
+          },
+          "html": "<button class=\"inline-flex items-center justify-center whitespace-nowrap font-medium ring-offset-background transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50 bg-brand-magenta text-base text-white hover:bg-[#b5084a] h-10 rounded-md px-4 py-2 w-[90px]\">Create</button>"
+        },
+        {
+          "xpath": "//button[contains(@class, 'bg-primary')]",
+          "tag_name": "button",
+          "is_displayed": true,
+          "location": {
+            "x": 820,
+            "y": 359
+          },
+          "attributes": {
+            "class": "items-center whitespace-nowrap text-sm font-medium ring-offset-background transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50 bg-primary text-primary-foreground hover:bg-primary/90 h-10 rounded-md px-4 py-2 flex w-full justify-center",
+            "id": "",
+            "text": "",
+            "type": "submit"
+          },
+          "html": "<button class=\"items-center whitespace-nowrap text-sm font-medium ring-offset-background transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50 bg-primary text-primary-foreground hover:bg-primary/90 h-10 rounded-md px-4 py-2 flex w-full justify-center\" aria-label=\"Sign in with Google\"><img alt=\"Google Logo\" loading=\"lazy\" width=\"24\" height=\"24\" decoding=\"async\" data-nimg=\"1\" class=\"\" srcset=\"/logos/Google.svg 1x, /logos/Google.svg 2x\" src=\"/logos/Google.svg\" style=\"color: transparent;\"></button>"
+        },
+        {
+          "xpath": "//button[contains(@class, 'bg-primary')]",
+          "tag_name": "button",
+          "is_displayed": true,
+          "location": {
+            "x": 892,
+            "y": 359
+          },
+          "attributes": {
+            "class": "items-center whitespace-nowrap text-sm font-medium ring-offset-background transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50 bg-primary text-primary-foreground hover:bg-primary/90 h-10 rounded-md px-4 py-2 flex w-full justify-center",
+            "id": "",
+            "text": "",
+            "type": "submit"
+          },
+          "html": "<button class=\"items-center whitespace-nowrap text-sm font-medium ring-offset-background transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50 bg-primary text-primary-foreground hover:bg-primary/90 h-10 rounded-md px-4 py-2 flex w-full justify-center\" aria-label=\"Sign in with Discord\"><img alt=\"Discord Logo\" loading=\"lazy\" width=\"24\" height=\"24\" decoding=\"async\" data-nimg=\"1\" class=\"\" srcset=\"/logos/Discord.svg 1x, /logos/Discord.svg 2x\" src=\"/logos/Discord.svg\" style=\"color: transparent;\"></button>"
+        },
+        {
+          "xpath": "//button[contains(@class, 'bg-primary')]",
+          "tag_name": "button",
+          "is_displayed": true,
+          "location": {
+            "x": 964,
+            "y": 359
+          },
+          "attributes": {
+            "class": "items-center whitespace-nowrap text-sm font-medium ring-offset-background transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50 bg-primary text-primary-foreground hover:bg-primary/90 h-10 rounded-md px-4 py-2 flex w-full justify-center",
+            "id": "",
+            "text": "",
+            "type": "submit"
+          },
+          "html": "<button class=\"items-center whitespace-nowrap text-sm font-medium ring-offset-background transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50 bg-primary text-primary-foreground hover:bg-primary/90 h-10 rounded-md px-4 py-2 flex w-full justify-center\" aria-label=\"Sign in with Twitter\"><img alt=\"Twitter Logo\" loading=\"lazy\" width=\"24\" height=\"24\" decoding=\"async\" data-nimg=\"1\" class=\"\" srcset=\"/logos/X.svg 1x, /logos/X.svg 2x\" src=\"/logos/X.svg\" style=\"color: transparent;\"></button>"
+        },
+        {
+          "xpath": "//button[contains(@class, 'bg-primary')]",
+          "tag_name": "button",
+          "is_displayed": true,
+          "location": {
+            "x": 1036,
+            "y": 359
+          },
+          "attributes": {
+            "class": "items-center whitespace-nowrap text-sm font-medium ring-offset-background transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50 bg-primary text-primary-foreground hover:bg-primary/90 h-10 rounded-md px-4 py-2 flex w-full justify-center",
+            "id": "",
+            "text": "",
+            "type": "submit"
+          },
+          "html": "<button class=\"items-center whitespace-nowrap text-sm font-medium ring-offset-background transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50 bg-primary text-primary-foreground hover:bg-primary/90 h-10 rounded-md px-4 py-2 flex w-full justify-center\" aria-label=\"Sign in with Apple\"><img alt=\"Apple Logo\" loading=\"lazy\" width=\"24\" height=\"24\" decoding=\"async\" data-nimg=\"1\" class=\"\" srcset=\"/logos/Apple.svg 1x, /logos/Apple.svg 2x\" src=\"/logos/Apple.svg\" style=\"color: transparent;\"></button>"
+        },
+        {
+          "xpath": "//button[contains(@class, 'bg-primary')]",
+          "tag_name": "button",
+          "is_displayed": true,
+          "location": {
+            "x": 820,
+            "y": 543
+          },
+          "attributes": {
+            "class": "inline-flex items-center justify-center whitespace-nowrap text-sm font-medium ring-offset-background transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50 bg-primary text-primary-foreground hover:bg-primary/90 h-10 rounded-md px-4 py-2 w-full",
+            "id": "",
+            "text": "Continue with email",
+            "type": "submit"
+          },
+          "html": "<button class=\"inline-flex items-center justify-center whitespace-nowrap text-sm font-medium ring-offset-background transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50 bg-primary text-primary-foreground hover:bg-primary/90 h-10 rounded-md px-4 py-2 w-full\" type=\"submit\">Continue with email</button>"
+        },
+        {
+          "xpath": "//button[contains(text(), 'Continue')]",
+          "tag_name": "button",
+          "is_displayed": true,
+          "location": {
+            "x": 820,
+            "y": 543
+          },
+          "attributes": {
+            "class": "inline-flex items-center justify-center whitespace-nowrap text-sm font-medium ring-offset-background transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50 bg-primary text-primary-foreground hover:bg-primary/90 h-10 rounded-md px-4 py-2 w-full",
+            "id": "",
+            "text": "Continue with email",
+            "type": "submit"
+          },
+          "html": "<button class=\"inline-flex items-center justify-center whitespace-nowrap text-sm font-medium ring-offset-background transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50 bg-primary text-primary-foreground hover:bg-primary/90 h-10 rounded-md px-4 py-2 w-full\" type=\"submit\">Continue with email</button>"
+        },
+        {
+          "xpath": "//button[@type='submit']",
+          "tag_name": "button",
+          "is_displayed": true,
+          "location": {
+            "x": 820,
+            "y": 543
+          },
+          "attributes": {
+            "class": "inline-flex items-center justify-center whitespace-nowrap text-sm font-medium ring-offset-background transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50 bg-primary text-primary-foreground hover:bg-primary/90 h-10 rounded-md px-4 py-2 w-full",
+            "id": "",
+            "text": "Continue with email",
+            "type": "submit"
+          },
+          "html": "<button class=\"inline-flex items-center justify-center whitespace-nowrap text-sm font-medium ring-offset-background transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50 bg-primary text-primary-foreground hover:bg-primary/90 h-10 rounded-md px-4 py-2 w-full\" type=\"submit\">Continue with email</button>"
+        }
+      ]
+    }
+  }
+}

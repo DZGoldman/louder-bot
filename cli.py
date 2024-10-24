@@ -1,13 +1,13 @@
 import click
 import json
 import logging
-from main import UdioMusicBot
+from main import SunoMusicBot
 from prompt_generator import PromptGenerator
 from cloud_storage import CloudStorageManager
 
 @click.group()
 def cli():
-    """Udio Music Bot CLI - Generate AI music with ease"""
+    """Suno Music Bot CLI - Generate AI music with ease"""
     pass
 
 @cli.command()
@@ -18,7 +18,7 @@ def generate(prompt, variations, template):
     """Generate music with a custom prompt, template, or auto-generated prompts"""
     bot = None
     try:
-        bot = UdioMusicBot()
+        bot = SunoMusicBot()
         bot.login()
         
         if prompt:
@@ -40,8 +40,6 @@ def generate(prompt, variations, template):
     finally:
         if bot:
             bot.close()
-
-# ... [Rest of the CLI commands remain unchanged] ...
 
 if __name__ == '__main__':
     cli()

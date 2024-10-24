@@ -1,0 +1,410 @@
+{
+  "current_url": "https://suno.com/",
+  "title": "Suno",
+  "elements": {
+    "login_buttons": [],
+    "email_fields": [],
+    "continue_buttons": [
+      {
+        "xpath": "//button[contains(@class, 'bg-primary')]",
+        "tag_name": "button",
+        "is_displayed": true,
+        "location": {
+          "x": 40,
+          "y": 835
+        },
+        "attributes": {
+          "class": "group font-medium font-sans text-sm flex flex-row flex-nowrap items-center justify-center select-none disabled:brightness-50 disabled:cursor-not-allowed bg-primary text-vinylBlack-darker hover:text-vinylBlack-darker hover:bg-secondary hover:border-transparentWhite border border-vinylBlack-darker py-3 px-10 rounded-md",
+          "id": "",
+          "text": "Sign In",
+          "type": "submit"
+        },
+        "html": "<button aria-label=\"\" class=\"group font-medium font-sans text-sm flex flex-row flex-nowrap items-center justify-center select-none disabled:brightness-50 disabled:cursor-not-allowed bg-primary text-vinylBlack-darker hover:text-vinylBlack-darker hover:bg-secondary hover:border-transparentWhite border border-vinylBlack-darker py-3 px-10 rounded-md\"><span class=\"mr-1\"><div class=\"mr-1\"><svg stroke=\"currentColor\" fill=\"currentColor\" stroke-width=\"0\" viewBox=\"0 0 24 24\" height=\"1em\" width=\"1em\" xmlns=\"http://www.w3.org/2000/svg\"><path fill=\"none\" d=\"M0 0h24v24H0z\"></path><path d=\"M11 7L9.6 8.4l2.6 2.6H2v2h10.2l-2.6 2.6L11 17l5-5-5-5zm9 12h-8v2h8c1.1 0 2-.9 2-2V5c0-1.1-.9-2-2-2h-8v2h8v14z\"></path></svg></div></span><span class=\"\">Sign In</span></button>"
+      },
+      {
+        "xpath": "//button[contains(@class, 'bg-primary')]",
+        "tag_name": "button",
+        "is_displayed": false,
+        "location": {
+          "x": 0,
+          "y": 0
+        },
+        "attributes": {
+          "class": "group font-medium font-sans text-sm flex flex-row flex-nowrap items-center justify-center select-none disabled:brightness-50 disabled:cursor-not-allowed bg-primary text-vinylBlack-darker hover:text-vinylBlack-darker hover:bg-secondary hover:border-transparentWhite border border-vinylBlack-darker py-2 px-6 rounded-md",
+          "id": "",
+          "text": "",
+          "type": "submit"
+        },
+        "html": "<button aria-label=\"\" class=\"group font-medium font-sans text-sm flex flex-row flex-nowrap items-center justify-center select-none disabled:brightness-50 disabled:cursor-not-allowed bg-primary text-vinylBlack-darker hover:text-vinylBlack-darker hover:bg-secondary hover:border-transparentWhite border border-vinylBlack-darker py-2 px-6 rounded-md\"><span class=\"mr-1\"><div class=\"mr-1\"><svg stroke=\"currentColor\" fill=\"currentColor\" stroke-width=\"0\" viewBox=\"0 0 24 24\" height=\"1em\" width=\"1em\" xmlns=\"http://www.w3.org/2000/svg\"><path fill=\"none\" d=\"M0 0h24v24H0z\"></path><path d=\"M11 7L9.6 8.4l2.6 2.6H2v2h10.2l-2.6 2.6L11 17l5-5-5-5zm9 12h-8v2h8c1.1 0 2-.9 2-2V5c0-1.1-.9-2-2-2h-8v2h8v14z\"></path></svg></div></span><span class=\"\">Sign In</span></button>"
+      },
+      {
+        "xpath": "//button[contains(@class, 'bg-primary')]",
+        "tag_name": "button",
+        "is_displayed": true,
+        "location": {
+          "x": 216,
+          "y": 706
+        },
+        "attributes": {
+          "class": "bg-quaternary text-white hover:bg-primary/30 font-medium px-4 py-1 rounded-md text-sm font-sans disabled:brightness-50 disabled:cursor-not-allowed select-none flex gap-2 items-center",
+          "id": "",
+          "text": "Cover",
+          "type": "submit"
+        },
+        "html": "<button class=\"bg-quaternary text-white hover:bg-primary/30 font-medium px-4 py-1 rounded-md text-sm font-sans disabled:brightness-50 disabled:cursor-not-allowed select-none flex gap-2 items-center\" draggable=\"false\">Cover</button>"
+      },
+      {
+        "xpath": "//button[contains(@class, 'bg-primary')]",
+        "tag_name": "button",
+        "is_displayed": true,
+        "location": {
+          "x": 293,
+          "y": 706
+        },
+        "attributes": {
+          "class": "bg-quaternary text-white hover:bg-primary/30 font-medium px-4 py-1 rounded-md text-sm font-sans disabled:brightness-50 disabled:cursor-not-allowed select-none flex gap-2 items-center",
+          "id": "",
+          "text": "Extend",
+          "type": "submit"
+        },
+        "html": "<button class=\"bg-quaternary text-white hover:bg-primary/30 font-medium px-4 py-1 rounded-md text-sm font-sans disabled:brightness-50 disabled:cursor-not-allowed select-none flex gap-2 items-center\" draggable=\"false\">Extend</button>"
+      },
+      {
+        "xpath": "//button[contains(@class, 'bg-primary')]",
+        "tag_name": "button",
+        "is_displayed": true,
+        "location": {
+          "x": 394,
+          "y": 706
+        },
+        "attributes": {
+          "class": "bg-quaternary text-white hover:bg-primary/30 font-medium px-4 py-1 rounded-md text-sm font-sans disabled:brightness-50 disabled:cursor-not-allowed select-none flex gap-2 items-center",
+          "id": "",
+          "text": "Cover",
+          "type": "submit"
+        },
+        "html": "<button class=\"bg-quaternary text-white hover:bg-primary/30 font-medium px-4 py-1 rounded-md text-sm font-sans disabled:brightness-50 disabled:cursor-not-allowed select-none flex gap-2 items-center\" draggable=\"false\">Cover</button>"
+      },
+      {
+        "xpath": "//button[contains(@class, 'bg-primary')]",
+        "tag_name": "button",
+        "is_displayed": true,
+        "location": {
+          "x": 471,
+          "y": 706
+        },
+        "attributes": {
+          "class": "bg-quaternary text-white hover:bg-primary/30 font-medium px-4 py-1 rounded-md text-sm font-sans disabled:brightness-50 disabled:cursor-not-allowed select-none flex gap-2 items-center",
+          "id": "",
+          "text": "Extend",
+          "type": "submit"
+        },
+        "html": "<button class=\"bg-quaternary text-white hover:bg-primary/30 font-medium px-4 py-1 rounded-md text-sm font-sans disabled:brightness-50 disabled:cursor-not-allowed select-none flex gap-2 items-center\" draggable=\"false\">Extend</button>"
+      },
+      {
+        "xpath": "//button[contains(@class, 'bg-primary')]",
+        "tag_name": "button",
+        "is_displayed": true,
+        "location": {
+          "x": 573,
+          "y": 706
+        },
+        "attributes": {
+          "class": "bg-quaternary text-white hover:bg-primary/30 font-medium px-4 py-1 rounded-md text-sm font-sans disabled:brightness-50 disabled:cursor-not-allowed select-none flex gap-2 items-center",
+          "id": "",
+          "text": "Cover",
+          "type": "submit"
+        },
+        "html": "<button class=\"bg-quaternary text-white hover:bg-primary/30 font-medium px-4 py-1 rounded-md text-sm font-sans disabled:brightness-50 disabled:cursor-not-allowed select-none flex gap-2 items-center\" draggable=\"false\">Cover</button>"
+      },
+      {
+        "xpath": "//button[contains(@class, 'bg-primary')]",
+        "tag_name": "button",
+        "is_displayed": true,
+        "location": {
+          "x": 650,
+          "y": 706
+        },
+        "attributes": {
+          "class": "bg-quaternary text-white hover:bg-primary/30 font-medium px-4 py-1 rounded-md text-sm font-sans disabled:brightness-50 disabled:cursor-not-allowed select-none flex gap-2 items-center",
+          "id": "",
+          "text": "Extend",
+          "type": "submit"
+        },
+        "html": "<button class=\"bg-quaternary text-white hover:bg-primary/30 font-medium px-4 py-1 rounded-md text-sm font-sans disabled:brightness-50 disabled:cursor-not-allowed select-none flex gap-2 items-center\" draggable=\"false\">Extend</button>"
+      },
+      {
+        "xpath": "//button[contains(@class, 'bg-primary')]",
+        "tag_name": "button",
+        "is_displayed": true,
+        "location": {
+          "x": 752,
+          "y": 706
+        },
+        "attributes": {
+          "class": "bg-quaternary text-white hover:bg-primary/30 font-medium px-4 py-1 rounded-md text-sm font-sans disabled:brightness-50 disabled:cursor-not-allowed select-none flex gap-2 items-center",
+          "id": "",
+          "text": "Cover",
+          "type": "submit"
+        },
+        "html": "<button class=\"bg-quaternary text-white hover:bg-primary/30 font-medium px-4 py-1 rounded-md text-sm font-sans disabled:brightness-50 disabled:cursor-not-allowed select-none flex gap-2 items-center\" draggable=\"false\">Cover</button>"
+      },
+      {
+        "xpath": "//button[contains(@class, 'bg-primary')]",
+        "tag_name": "button",
+        "is_displayed": true,
+        "location": {
+          "x": 828,
+          "y": 706
+        },
+        "attributes": {
+          "class": "bg-quaternary text-white hover:bg-primary/30 font-medium px-4 py-1 rounded-md text-sm font-sans disabled:brightness-50 disabled:cursor-not-allowed select-none flex gap-2 items-center",
+          "id": "",
+          "text": "Extend",
+          "type": "submit"
+        },
+        "html": "<button class=\"bg-quaternary text-white hover:bg-primary/30 font-medium px-4 py-1 rounded-md text-sm font-sans disabled:brightness-50 disabled:cursor-not-allowed select-none flex gap-2 items-center\" draggable=\"false\">Extend</button>"
+      },
+      {
+        "xpath": "//button[contains(@class, 'bg-primary')]",
+        "tag_name": "button",
+        "is_displayed": true,
+        "location": {
+          "x": 930,
+          "y": 706
+        },
+        "attributes": {
+          "class": "bg-quaternary text-white hover:bg-primary/30 font-medium px-4 py-1 rounded-md text-sm font-sans disabled:brightness-50 disabled:cursor-not-allowed select-none flex gap-2 items-center",
+          "id": "",
+          "text": "Cover",
+          "type": "submit"
+        },
+        "html": "<button class=\"bg-quaternary text-white hover:bg-primary/30 font-medium px-4 py-1 rounded-md text-sm font-sans disabled:brightness-50 disabled:cursor-not-allowed select-none flex gap-2 items-center\" draggable=\"false\">Cover</button>"
+      },
+      {
+        "xpath": "//button[contains(@class, 'bg-primary')]",
+        "tag_name": "button",
+        "is_displayed": true,
+        "location": {
+          "x": 1007,
+          "y": 706
+        },
+        "attributes": {
+          "class": "bg-quaternary text-white hover:bg-primary/30 font-medium px-4 py-1 rounded-md text-sm font-sans disabled:brightness-50 disabled:cursor-not-allowed select-none flex gap-2 items-center",
+          "id": "",
+          "text": "Extend",
+          "type": "submit"
+        },
+        "html": "<button class=\"bg-quaternary text-white hover:bg-primary/30 font-medium px-4 py-1 rounded-md text-sm font-sans disabled:brightness-50 disabled:cursor-not-allowed select-none flex gap-2 items-center\" draggable=\"false\">Extend</button>"
+      },
+      {
+        "xpath": "//button[contains(@class, 'bg-primary')]",
+        "tag_name": "button",
+        "is_displayed": true,
+        "location": {
+          "x": 1108,
+          "y": 706
+        },
+        "attributes": {
+          "class": "bg-quaternary text-white hover:bg-primary/30 font-medium px-4 py-1 rounded-md text-sm font-sans disabled:brightness-50 disabled:cursor-not-allowed select-none flex gap-2 items-center",
+          "id": "",
+          "text": "Cover",
+          "type": "submit"
+        },
+        "html": "<button class=\"bg-quaternary text-white hover:bg-primary/30 font-medium px-4 py-1 rounded-md text-sm font-sans disabled:brightness-50 disabled:cursor-not-allowed select-none flex gap-2 items-center\" draggable=\"false\">Cover</button>"
+      },
+      {
+        "xpath": "//button[contains(@class, 'bg-primary')]",
+        "tag_name": "button",
+        "is_displayed": true,
+        "location": {
+          "x": 1185,
+          "y": 706
+        },
+        "attributes": {
+          "class": "bg-quaternary text-white hover:bg-primary/30 font-medium px-4 py-1 rounded-md text-sm font-sans disabled:brightness-50 disabled:cursor-not-allowed select-none flex gap-2 items-center",
+          "id": "",
+          "text": "Extend",
+          "type": "submit"
+        },
+        "html": "<button class=\"bg-quaternary text-white hover:bg-primary/30 font-medium px-4 py-1 rounded-md text-sm font-sans disabled:brightness-50 disabled:cursor-not-allowed select-none flex gap-2 items-center\" draggable=\"false\">Extend</button>"
+      },
+      {
+        "xpath": "//button[contains(@class, 'bg-primary')]",
+        "tag_name": "button",
+        "is_displayed": true,
+        "location": {
+          "x": 1287,
+          "y": 706
+        },
+        "attributes": {
+          "class": "bg-quaternary text-white hover:bg-primary/30 font-medium px-4 py-1 rounded-md text-sm font-sans disabled:brightness-50 disabled:cursor-not-allowed select-none flex gap-2 items-center",
+          "id": "",
+          "text": "Cover",
+          "type": "submit"
+        },
+        "html": "<button class=\"bg-quaternary text-white hover:bg-primary/30 font-medium px-4 py-1 rounded-md text-sm font-sans disabled:brightness-50 disabled:cursor-not-allowed select-none flex gap-2 items-center\" draggable=\"false\">Cover</button>"
+      },
+      {
+        "xpath": "//button[contains(@class, 'bg-primary')]",
+        "tag_name": "button",
+        "is_displayed": true,
+        "location": {
+          "x": 1364,
+          "y": 706
+        },
+        "attributes": {
+          "class": "bg-quaternary text-white hover:bg-primary/30 font-medium px-4 py-1 rounded-md text-sm font-sans disabled:brightness-50 disabled:cursor-not-allowed select-none flex gap-2 items-center",
+          "id": "",
+          "text": "Extend",
+          "type": "submit"
+        },
+        "html": "<button class=\"bg-quaternary text-white hover:bg-primary/30 font-medium px-4 py-1 rounded-md text-sm font-sans disabled:brightness-50 disabled:cursor-not-allowed select-none flex gap-2 items-center\" draggable=\"false\">Extend</button>"
+      },
+      {
+        "xpath": "//button[contains(@class, 'bg-primary')]",
+        "tag_name": "button",
+        "is_displayed": true,
+        "location": {
+          "x": 1466,
+          "y": 706
+        },
+        "attributes": {
+          "class": "bg-quaternary text-white hover:bg-primary/30 font-medium px-4 py-1 rounded-md text-sm font-sans disabled:brightness-50 disabled:cursor-not-allowed select-none flex gap-2 items-center",
+          "id": "",
+          "text": "Cover",
+          "type": "submit"
+        },
+        "html": "<button class=\"bg-quaternary text-white hover:bg-primary/30 font-medium px-4 py-1 rounded-md text-sm font-sans disabled:brightness-50 disabled:cursor-not-allowed select-none flex gap-2 items-center\" draggable=\"false\">Cover</button>"
+      },
+      {
+        "xpath": "//button[contains(@class, 'bg-primary')]",
+        "tag_name": "button",
+        "is_displayed": true,
+        "location": {
+          "x": 1542,
+          "y": 706
+        },
+        "attributes": {
+          "class": "bg-quaternary text-white hover:bg-primary/30 font-medium px-4 py-1 rounded-md text-sm font-sans disabled:brightness-50 disabled:cursor-not-allowed select-none flex gap-2 items-center",
+          "id": "",
+          "text": "Extend",
+          "type": "submit"
+        },
+        "html": "<button class=\"bg-quaternary text-white hover:bg-primary/30 font-medium px-4 py-1 rounded-md text-sm font-sans disabled:brightness-50 disabled:cursor-not-allowed select-none flex gap-2 items-center\" draggable=\"false\">Extend</button>"
+      },
+      {
+        "xpath": "//button[contains(@class, 'bg-primary')]",
+        "tag_name": "button",
+        "is_displayed": true,
+        "location": {
+          "x": 1644,
+          "y": 706
+        },
+        "attributes": {
+          "class": "bg-quaternary text-white hover:bg-primary/30 font-medium px-4 py-1 rounded-md text-sm font-sans disabled:brightness-50 disabled:cursor-not-allowed select-none flex gap-2 items-center",
+          "id": "",
+          "text": "Cover",
+          "type": "submit"
+        },
+        "html": "<button class=\"bg-quaternary text-white hover:bg-primary/30 font-medium px-4 py-1 rounded-md text-sm font-sans disabled:brightness-50 disabled:cursor-not-allowed select-none flex gap-2 items-center\" draggable=\"false\">Cover</button>"
+      },
+      {
+        "xpath": "//button[contains(@class, 'bg-primary')]",
+        "tag_name": "button",
+        "is_displayed": true,
+        "location": {
+          "x": 1721,
+          "y": 706
+        },
+        "attributes": {
+          "class": "bg-quaternary text-white hover:bg-primary/30 font-medium px-4 py-1 rounded-md text-sm font-sans disabled:brightness-50 disabled:cursor-not-allowed select-none flex gap-2 items-center",
+          "id": "",
+          "text": "Extend",
+          "type": "submit"
+        },
+        "html": "<button class=\"bg-quaternary text-white hover:bg-primary/30 font-medium px-4 py-1 rounded-md text-sm font-sans disabled:brightness-50 disabled:cursor-not-allowed select-none flex gap-2 items-center\" draggable=\"false\">Extend</button>"
+      },
+      {
+        "xpath": "//button[contains(@class, 'bg-primary')]",
+        "tag_name": "button",
+        "is_displayed": true,
+        "location": {
+          "x": 1822,
+          "y": 706
+        },
+        "attributes": {
+          "class": "bg-quaternary text-white hover:bg-primary/30 font-medium px-4 py-1 rounded-md text-sm font-sans disabled:brightness-50 disabled:cursor-not-allowed select-none flex gap-2 items-center",
+          "id": "",
+          "text": "Cover",
+          "type": "submit"
+        },
+        "html": "<button class=\"bg-quaternary text-white hover:bg-primary/30 font-medium px-4 py-1 rounded-md text-sm font-sans disabled:brightness-50 disabled:cursor-not-allowed select-none flex gap-2 items-center\" draggable=\"false\">Cover</button>"
+      },
+      {
+        "xpath": "//button[contains(@class, 'bg-primary')]",
+        "tag_name": "button",
+        "is_displayed": true,
+        "location": {
+          "x": 1899,
+          "y": 706
+        },
+        "attributes": {
+          "class": "bg-quaternary text-white hover:bg-primary/30 font-medium px-4 py-1 rounded-md text-sm font-sans disabled:brightness-50 disabled:cursor-not-allowed select-none flex gap-2 items-center",
+          "id": "",
+          "text": "Extend",
+          "type": "submit"
+        },
+        "html": "<button class=\"bg-quaternary text-white hover:bg-primary/30 font-medium px-4 py-1 rounded-md text-sm font-sans disabled:brightness-50 disabled:cursor-not-allowed select-none flex gap-2 items-center\" draggable=\"false\">Extend</button>"
+      },
+      {
+        "xpath": "//button[contains(@class, 'bg-primary')]",
+        "tag_name": "button",
+        "is_displayed": true,
+        "location": {
+          "x": 2001,
+          "y": 706
+        },
+        "attributes": {
+          "class": "bg-quaternary text-white hover:bg-primary/30 font-medium px-4 py-1 rounded-md text-sm font-sans disabled:brightness-50 disabled:cursor-not-allowed select-none flex gap-2 items-center",
+          "id": "",
+          "text": "Cover",
+          "type": "submit"
+        },
+        "html": "<button class=\"bg-quaternary text-white hover:bg-primary/30 font-medium px-4 py-1 rounded-md text-sm font-sans disabled:brightness-50 disabled:cursor-not-allowed select-none flex gap-2 items-center\" draggable=\"false\">Cover</button>"
+      },
+      {
+        "xpath": "//button[contains(@class, 'bg-primary')]",
+        "tag_name": "button",
+        "is_displayed": true,
+        "location": {
+          "x": 2078,
+          "y": 706
+        },
+        "attributes": {
+          "class": "bg-quaternary text-white hover:bg-primary/30 font-medium px-4 py-1 rounded-md text-sm font-sans disabled:brightness-50 disabled:cursor-not-allowed select-none flex gap-2 items-center",
+          "id": "",
+          "text": "Extend",
+          "type": "submit"
+        },
+        "html": "<button class=\"bg-quaternary text-white hover:bg-primary/30 font-medium px-4 py-1 rounded-md text-sm font-sans disabled:brightness-50 disabled:cursor-not-allowed select-none flex gap-2 items-center\" draggable=\"false\">Extend</button>"
+      },
+      {
+        "xpath": "//button[contains(@class, 'bg-primary')]",
+        "tag_name": "button",
+        "is_displayed": true,
+        "location": {
+          "x": 1777,
+          "y": 670
+        },
+        "attributes": {
+          "class": "rounded-full border font-sans font-medium text-center bg-transparent border-primary/30 hover:bg-primary/10 px-4 py-2 text-xs block w-max min-w-[calc(min(80%,120px))] mx-auto",
+          "id": "",
+          "text": "Remix",
+          "type": "button"
+        },
+        "html": "<button class=\"rounded-full border font-sans font-medium text-center bg-transparent border-primary/30 hover:bg-primary/10 px-4 py-2 text-xs block w-max min-w-[calc(min(80%,120px))] mx-auto\" type=\"button\">Remix</button>"
+      }
+    ]
+  }
+}
