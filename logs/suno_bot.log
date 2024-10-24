@@ -47,3 +47,47 @@ Stacktrace:
 2024-10-23 22:46:08,365 - ERROR - Login timeout: Message: Could not find login button
 
 2024-10-23 22:46:08,453 - INFO - WebDriver closed successfully
+2024-10-23 22:47:10,938 - INFO - Chrome WebDriver initialized successfully
+2024-10-23 22:47:10,938 - INFO - Navigating to Suno.ai login page...
+2024-10-23 22:47:11,348 - INFO - Chrome WebDriver initialized successfully
+2024-10-23 22:47:11,349 - INFO - Navigating to Suno.ai login page...
+2024-10-23 22:47:11,547 - INFO - Chrome WebDriver initialized successfully
+2024-10-23 22:47:11,548 - INFO - Navigating to Suno.ai login page...
+2024-10-23 22:47:43,006 - ERROR - Timeout waiting for element: button[data-testid='login-button']
+2024-10-23 22:47:43,006 - ERROR - Login timeout: Message: Could not find login button
+
+2024-10-23 22:47:43,007 - ERROR - Error in main execution: Message: Could not find login button
+
+2024-10-23 22:47:43,094 - INFO - WebDriver closed successfully
+2024-10-23 22:47:43,325 - ERROR - Timeout waiting for element: button[data-testid='login-button']
+2024-10-23 22:47:43,325 - ERROR - Login timeout: Message: Could not find login button
+
+2024-10-23 22:47:43,402 - INFO - WebDriver closed successfully
+2024-10-23 22:47:43,440 - ERROR - Timeout waiting for element: button[data-testid='login-button']
+2024-10-23 22:47:43,440 - ERROR - Login timeout: Message: Could not find login button
+
+2024-10-23 22:47:43,440 - ERROR - Error in main execution: Message: Could not find login button
+
+2024-10-23 22:47:43,517 - INFO - WebDriver closed successfully
+2024-10-24 04:31:07,188 - INFO - Chrome WebDriver initialized successfully
+2024-10-24 04:31:07,189 - INFO - Navigating to Suno.ai login page...
+2024-10-24 04:31:07,189 - INFO - Chrome WebDriver initialized successfully
+2024-10-24 04:31:07,189 - INFO - Navigating to Suno.ai login page...
+2024-10-24 04:31:07,194 - INFO - Chrome WebDriver initialized successfully
+2024-10-24 04:31:07,196 - INFO - Navigating to Suno.ai login page...
+2024-10-24 04:31:38,553 - ERROR - Timeout waiting for element: button[data-testid='login-button']
+2024-10-24 04:31:38,554 - ERROR - Login timeout: Message: Could not find login button
+
+2024-10-24 04:31:38,628 - INFO - WebDriver closed successfully
+2024-10-24 04:31:40,262 - ERROR - Timeout waiting for element: button[data-testid='login-button']
+2024-10-24 04:31:40,262 - ERROR - Login timeout: Message: Could not find login button
+
+2024-10-24 04:31:40,262 - ERROR - Error in main execution: Message: Could not find login button
+
+2024-10-24 04:31:40,293 - ERROR - Timeout waiting for element: button[data-testid='login-button']
+2024-10-24 04:31:40,293 - ERROR - Login timeout: Message: Could not find login button
+
+2024-10-24 04:31:40,294 - ERROR - Error in main execution: Message: Could not find login button
+
+2024-10-24 04:31:40,377 - INFO - WebDriver closed successfully
+2024-10-24 04:31:40,384 - INFO - WebDriver closed successfully

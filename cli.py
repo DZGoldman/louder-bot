@@ -3,6 +3,7 @@ import json
 import logging
 from main import SunoMusicBot
 from prompt_generator import PromptGenerator
+from cloud_storage import CloudStorageManager
 
 @click.group()
 def cli():
@@ -91,6 +92,39 @@ def list_downloads():
         click.echo("No music files found in downloads directory.")
     else:
         click.echo(f"\nTotal files: {count}")
+
+@cli.command()
+def list_cloud_files():
+    """List all files stored in cloud storage"""
+    try:
+        storage = CloudStorageManager()
+        files = storage.list_files()
+        
+        click.echo("\nCloud Storage Files:")
+        click.echo("-" * 50)
+        
+        if not files:
+            click.echo("No files found in cloud storage.")
+            return
+            
+        for file in files:
+            click.echo(f"- {file}")
+        click.echo(f"\nTotal files: {len(files)}")
+        
+    except Exception as e:
+        click.echo(f"Error listing cloud files: {str(e)}", err=True)
+
+@cli.command()
+@click.argument('file_path')
+def upload_to_cloud(file_path):
+    """Upload a specific file to cloud storage"""
+    try:
+        storage = CloudStorageManager()
+        url = storage.upload_file(file_path)
+        click.echo(f"File uploaded successfully!")
+        click.echo(f"Public URL: {url}")
+    except Exception as e:
+        click.echo(f"Error uploading file: {str(e)}", err=True)
 
 if __name__ == '__main__':
     cli()

@@ -16,4 +16,5 @@ dependencies = [
     "logging",
     "python-dotenv",
     "click>=8.1.7",
+    "google-cloud-storage>=2.18.2",
 ]

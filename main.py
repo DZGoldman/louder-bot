@@ -9,6 +9,7 @@ from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
 from selenium.common.exceptions import TimeoutException, WebDriverException
 from prompt_generator import PromptGenerator
+from cloud_storage import CloudStorageManager
 
 # Configure logging
 logging.basicConfig(
@@ -28,6 +29,7 @@ class SunoMusicBot:
         self.downloads_dir.mkdir(exist_ok=True)
         self.logs_dir.mkdir(exist_ok=True)
         self.prompt_generator = PromptGenerator()
+        self.cloud_storage = CloudStorageManager()
         self.setup_driver()
 
     def setup_driver(self):
@@ -35,7 +37,6 @@ class SunoMusicBot:
         chrome_options = Options()
         chrome_options.add_argument("--no-sandbox")
         chrome_options.add_argument("--disable-dev-shm-usage")
-        # Removed headless mode for better interaction
         chrome_options.add_argument("--window-size=1920,1080")
         
         # Set up downloads directory
@@ -49,7 +50,7 @@ class SunoMusicBot:
 
         try:
             self.driver = webdriver.Chrome(options=chrome_options)
-            self.wait = WebDriverWait(self.driver, 30)  # Increased timeout
+            self.wait = WebDriverWait(self.driver, 30)
             logger.info("Chrome WebDriver initialized successfully")
         except WebDriverException as e:
             logger.error(f"Failed to initialize WebDriver: {str(e)}")
@@ -115,8 +116,17 @@ class SunoMusicBot:
             if not self.wait_and_click(download_selector):
                 raise TimeoutException("Music generation failed or timed out")
             
-            # Wait for download to complete
+            # Wait for download to complete and get the latest downloaded file
             time.sleep(5)
+            latest_file = self._get_latest_download()
+            if latest_file:
+                # Upload to cloud storage
+                try:
+                    public_url = self.cloud_storage.upload_file(latest_file)
+                    logger.info(f"Uploaded to cloud storage: {public_url}")
+                except Exception as e:
+                    logger.error(f"Failed to upload to cloud storage: {str(e)}")
+            
             logger.info(f"Successfully generated music for prompt: {prompt}")
             
         except TimeoutException as e:
@@ -125,6 +135,17 @@ class SunoMusicBot:
         except Exception as e:
             logger.error(f"Generation error: {str(e)}")
             raise
+
+    def _get_latest_download(self) -> Path | None:
+        """Get the most recently downloaded file."""
+        try:
+            files = list(self.downloads_dir.glob("*.wav"))
+            if not files:
+                return None
+            return max(files, key=lambda x: x.stat().st_mtime)
+        except Exception as e:
+            logger.error(f"Error getting latest download: {str(e)}")
+            return None
 
     def close(self):
         """Clean up resources."""
