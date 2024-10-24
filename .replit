@@ -31,6 +31,14 @@ args = "CLI_Test"
 task = "workflow.run"
 args = "Cloud_Storage_Test"
 
+[[workflows.workflow.tasks]]
+task = "workflow.run"
+args = "LoginAnalyzer"
+
+[[workflows.workflow.tasks]]
+task = "workflow.run"
+args = "LoginTest"
+
 [[workflows.workflow]]
 name = "SunoBot"
 author = "agent"
@@ -85,6 +93,28 @@ agentRequireRestartOnSave = false
 [[workflows.workflow.tasks]]
 task = "shell.exec"
 args = "python cli.py list-cloud-files"
+
+[[workflows.workflow]]
+name = "LoginAnalyzer"
+author = "agent"
+
+[workflows.workflow.metadata]
+agentRequireRestartOnSave = false
+
+[[workflows.workflow.tasks]]
+task = "shell.exec"
+args = "python analyze_login.py"
+
+[[workflows.workflow]]
+name = "LoginTest"
+author = "agent"
+
+[workflows.workflow.metadata]
+agentRequireRestartOnSave = false
+
+[[workflows.workflow.tasks]]
+task = "shell.exec"
+args = "python main.py"
 
 [deployment]
 run = ["sh", "-c", "python main.py"]

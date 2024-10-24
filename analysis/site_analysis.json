@@ -1,0 +1,5874 @@
+{
+  "current_url": "https://suno.com/",
+  "title": "Suno",
+  "elements": {
+    "links": [
+      {
+        "tag_name": "a",
+        "text": "",
+        "class": "relative inline-block w-[6.5rem] h-[6.5rem]",
+        "href": "https://suno.com/",
+        "id": "",
+        "aria_label": null,
+        "is_displayed": true,
+        "location": {
+          "x": 40,
+          "y": 8
+        }
+      },
+      {
+        "tag_name": "a",
+        "text": "Home",
+        "class": "",
+        "href": "https://suno.com/",
+        "id": "",
+        "aria_label": null,
+        "is_displayed": true,
+        "location": {
+          "x": 0,
+          "y": 120
+        }
+      },
+      {
+        "tag_name": "a",
+        "text": "Create",
+        "class": "",
+        "href": "https://suno.com/create",
+        "id": "",
+        "aria_label": null,
+        "is_displayed": true,
+        "location": {
+          "x": 0,
+          "y": 156
+        }
+      },
+      {
+        "tag_name": "a",
+        "text": "Library",
+        "class": "",
+        "href": "https://suno.com/me",
+        "id": "",
+        "aria_label": null,
+        "is_displayed": true,
+        "location": {
+          "x": 0,
+          "y": 192
+        }
+      },
+      {
+        "tag_name": "a",
+        "text": "Explore",
+        "class": "",
+        "href": "https://suno.com/explore",
+        "id": "",
+        "aria_label": null,
+        "is_displayed": true,
+        "location": {
+          "x": 0,
+          "y": 228
+        }
+      },
+      {
+        "tag_name": "a",
+        "text": "Search",
+        "class": "",
+        "href": "https://suno.com/search",
+        "id": "",
+        "aria_label": null,
+        "is_displayed": true,
+        "location": {
+          "x": 0,
+          "y": 264
+        }
+      },
+      {
+        "tag_name": "a",
+        "text": "",
+        "class": "chakra-link css-spn4bz",
+        "href": "https://twitter.com/suno_ai_",
+        "id": "",
+        "aria_label": null,
+        "is_displayed": true,
+        "location": {
+          "x": 36,
+          "y": 614
+        }
+      },
+      {
+        "tag_name": "a",
+        "text": "",
+        "class": "chakra-link css-spn4bz",
+        "href": "https://www.instagram.com/sunomusic/",
+        "id": "",
+        "aria_label": null,
+        "is_displayed": true,
+        "location": {
+          "x": 68,
+          "y": 614
+        }
+      },
+      {
+        "tag_name": "a",
+        "text": "",
+        "class": "chakra-link css-spn4bz",
+        "href": "https://www.tiktok.com/@sunomusic",
+        "id": "",
+        "aria_label": null,
+        "is_displayed": true,
+        "location": {
+          "x": 100,
+          "y": 614
+        }
+      },
+      {
+        "tag_name": "a",
+        "text": "",
+        "class": "chakra-link css-spn4bz",
+        "href": "https://discord.com/invite/suno",
+        "id": "",
+        "aria_label": null,
+        "is_displayed": true,
+        "location": {
+          "x": 132,
+          "y": 614
+        }
+      },
+      {
+        "tag_name": "a",
+        "text": "Notifications",
+        "class": "",
+        "href": "https://suno.com/notifications",
+        "id": "",
+        "aria_label": null,
+        "is_displayed": true,
+        "location": {
+          "x": 0,
+          "y": 508
+        }
+      },
+      {
+        "tag_name": "a",
+        "text": "Careers",
+        "class": "",
+        "href": "https://jobs.ashbyhq.com/suno",
+        "id": "",
+        "aria_label": null,
+        "is_displayed": true,
+        "location": {
+          "x": 0,
+          "y": 472
+        }
+      },
+      {
+        "tag_name": "a",
+        "text": "About",
+        "class": "",
+        "href": "https://suno.com/about",
+        "id": "",
+        "aria_label": null,
+        "is_displayed": true,
+        "location": {
+          "x": 0,
+          "y": 436
+        }
+      },
+      {
+        "tag_name": "a",
+        "text": "Help",
+        "class": "",
+        "href": "https://help.suno.com/",
+        "id": "",
+        "aria_label": null,
+        "is_displayed": true,
+        "location": {
+          "x": 0,
+          "y": 400
+        }
+      },
+      {
+        "tag_name": "a",
+        "text": "What's New?\n20",
+        "class": "",
+        "href": "https://suno.com/#",
+        "id": "",
+        "aria_label": null,
+        "is_displayed": true,
+        "location": {
+          "x": 0,
+          "y": 360
+        }
+      },
+      {
+        "tag_name": "a",
+        "text": "Subscribe",
+        "class": "",
+        "href": "https://suno.com/account",
+        "id": "",
+        "aria_label": null,
+        "is_displayed": true,
+        "location": {
+          "x": 0,
+          "y": 316
+        }
+      },
+      {
+        "tag_name": "a",
+        "text": "",
+        "class": "relative inline-block h-full w-[5rem] @sm:w-[6.5rem] max-w-full",
+        "href": "https://suno.com/",
+        "id": "",
+        "aria_label": null,
+        "is_displayed": false,
+        "location": {
+          "x": 0,
+          "y": 0
+        }
+      },
+      {
+        "tag_name": "a",
+        "text": "TIMBALAND + SUNO\nGrammy-winning producer Timbaland launches contest exclusively on Suno",
+        "class": "cursor-pointer",
+        "href": "https://on.suno.com/4heKUm4",
+        "id": "",
+        "aria_label": null,
+        "is_displayed": true,
+        "location": {
+          "x": 216,
+          "y": 20
+        }
+      },
+      {
+        "tag_name": "a",
+        "text": "Timbaland x Alejandro - \"Love Again\" (Stems)",
+        "class": "w-auto",
+        "href": "https://suno.com/playlist/2479ec84-fc53-4611-b014-0ffc90c030dd",
+        "id": "",
+        "aria_label": null,
+        "is_displayed": true,
+        "location": {
+          "x": 216,
+          "y": 317
+        }
+      },
+      {
+        "tag_name": "a",
+        "text": "\"Love Again\" | Full Track",
+        "class": "",
+        "href": "https://suno.com/song/848008e2-704d-4d0d-8bcb-a6fdc579ae29",
+        "id": "",
+        "aria_label": null,
+        "is_displayed": true,
+        "location": {
+          "x": 216,
+          "y": 633
+        }
+      },
+      {
+        "tag_name": "a",
+        "text": "",
+        "class": "block relative z-10",
+        "href": "https://suno.com/@timbaland",
+        "id": "",
+        "aria_label": null,
+        "is_displayed": true,
+        "location": {
+          "x": 216,
+          "y": 659
+        }
+      },
+      {
+        "tag_name": "a",
+        "text": "Timbaland",
+        "class": "",
+        "href": "https://suno.com/@timbaland",
+        "id": "",
+        "aria_label": null,
+        "is_displayed": true,
+        "location": {
+          "x": 256,
+          "y": 665
+        }
+      },
+      {
+        "tag_name": "a",
+        "text": "\"Love Again\" | Intro",
+        "class": "",
+        "href": "https://suno.com/song/8fa573a1-33e3-4312-93e0-5ffb640351f1",
+        "id": "",
+        "aria_label": null,
+        "is_displayed": true,
+        "location": {
+          "x": 394,
+          "y": 633
+        }
+      },
+      {
+        "tag_name": "a",
+        "text": "",
+        "class": "block relative z-10",
+        "href": "https://suno.com/@timbaland",
+        "id": "",
+        "aria_label": null,
+        "is_displayed": true,
+        "location": {
+          "x": 394,
+          "y": 659
+        }
+      },
+      {
+        "tag_name": "a",
+        "text": "Timbaland",
+        "class": "",
+        "href": "https://suno.com/@timbaland",
+        "id": "",
+        "aria_label": null,
+        "is_displayed": true,
+        "location": {
+          "x": 434,
+          "y": 665
+        }
+      },
+      {
+        "tag_name": "a",
+        "text": "\"Love Again\" | Verse 1",
+        "class": "",
+        "href": "https://suno.com/song/f48a9cdb-0573-417a-9cb9-281cd0f4da3e",
+        "id": "",
+        "aria_label": null,
+        "is_displayed": true,
+        "location": {
+          "x": 573,
+          "y": 633
+        }
+      },
+      {
+        "tag_name": "a",
+        "text": "",
+        "class": "block relative z-10",
+        "href": "https://suno.com/@timbaland",
+        "id": "",
+        "aria_label": null,
+        "is_displayed": true,
+        "location": {
+          "x": 573,
+          "y": 659
+        }
+      },
+      {
+        "tag_name": "a",
+        "text": "Timbaland",
+        "class": "",
+        "href": "https://suno.com/@timbaland",
+        "id": "",
+        "aria_label": null,
+        "is_displayed": true,
+        "location": {
+          "x": 613,
+          "y": 665
+        }
+      },
+      {
+        "tag_name": "a",
+        "text": "\"Love Again\" | Pre Chorus",
+        "class": "",
+        "href": "https://suno.com/song/b16ae822-d447-4ae1-9df3-b7775807a9de",
+        "id": "",
+        "aria_label": null,
+        "is_displayed": true,
+        "location": {
+          "x": 752,
+          "y": 633
+        }
+      },
+      {
+        "tag_name": "a",
+        "text": "",
+        "class": "block relative z-10",
+        "href": "https://suno.com/@timbaland",
+        "id": "",
+        "aria_label": null,
+        "is_displayed": true,
+        "location": {
+          "x": 752,
+          "y": 659
+        }
+      },
+      {
+        "tag_name": "a",
+        "text": "Timbaland",
+        "class": "",
+        "href": "https://suno.com/@timbaland",
+        "id": "",
+        "aria_label": null,
+        "is_displayed": true,
+        "location": {
+          "x": 792,
+          "y": 665
+        }
+      },
+      {
+        "tag_name": "a",
+        "text": "\"Love Again\" | Chorus",
+        "class": "",
+        "href": "https://suno.com/song/a2c6e775-35b0-4a42-8c30-6e4d5c7673b0",
+        "id": "",
+        "aria_label": null,
+        "is_displayed": true,
+        "location": {
+          "x": 930,
+          "y": 633
+        }
+      },
+      {
+        "tag_name": "a",
+        "text": "",
+        "class": "block relative z-10",
+        "href": "https://suno.com/@timbaland",
+        "id": "",
+        "aria_label": null,
+        "is_displayed": true,
+        "location": {
+          "x": 930,
+          "y": 659
+        }
+      },
+      {
+        "tag_name": "a",
+        "text": "Timbaland",
+        "class": "",
+        "href": "https://suno.com/@timbaland",
+        "id": "",
+        "aria_label": null,
+        "is_displayed": true,
+        "location": {
+          "x": 970,
+          "y": 665
+        }
+      },
+      {
+        "tag_name": "a",
+        "text": "\"Love Again\" | Post Chorus",
+        "class": "",
+        "href": "https://suno.com/song/c2f3a1df-f749-45d4-ad59-5d8e637f71e8",
+        "id": "",
+        "aria_label": null,
+        "is_displayed": true,
+        "location": {
+          "x": 1108,
+          "y": 633
+        }
+      },
+      {
+        "tag_name": "a",
+        "text": "",
+        "class": "block relative z-10",
+        "href": "https://suno.com/@timbaland",
+        "id": "",
+        "aria_label": null,
+        "is_displayed": true,
+        "location": {
+          "x": 1108,
+          "y": 659
+        }
+      },
+      {
+        "tag_name": "a",
+        "text": "Timbaland",
+        "class": "",
+        "href": "https://suno.com/@timbaland",
+        "id": "",
+        "aria_label": null,
+        "is_displayed": true,
+        "location": {
+          "x": 1148,
+          "y": 665
+        }
+      },
+      {
+        "tag_name": "a",
+        "text": "Beard Blur Boogie",
+        "class": "",
+        "href": "https://suno.com/song/5ea58d1a-d36e-43b6-8630-e0cd9a84bd72",
+        "id": "",
+        "aria_label": null,
+        "is_displayed": true,
+        "location": {
+          "x": 216,
+          "y": 1128
+        }
+      },
+      {
+        "tag_name": "a",
+        "text": "big band 30's 20's ragtime",
+        "class": "hover:underline",
+        "href": "https://suno.com/style/big%20band%2030's%2020's%20ragtime",
+        "id": "",
+        "aria_label": null,
+        "is_displayed": true,
+        "location": {
+          "x": 216,
+          "y": 1152
+        }
+      },
+      {
+        "tag_name": "a",
+        "text": "",
+        "class": "block relative z-10",
+        "href": "https://suno.com/@sunosocials",
+        "id": "",
+        "aria_label": null,
+        "is_displayed": true,
+        "location": {
+          "x": 216,
+          "y": 1174
+        }
+      },
+      {
+        "tag_name": "a",
+        "text": "suno",
+        "class": "",
+        "href": "https://suno.com/@sunosocials",
+        "id": "",
+        "aria_label": null,
+        "is_displayed": true,
+        "location": {
+          "x": 256,
+          "y": 1180
+        }
+      },
+      {
+        "tag_name": "a",
+        "text": "Grinning Demons of the Night",
+        "class": "",
+        "href": "https://suno.com/song/1fd0ce28-421f-45b0-86d8-96ac8f55b050",
+        "id": "",
+        "aria_label": null,
+        "is_displayed": true,
+        "location": {
+          "x": 394,
+          "y": 1128
+        }
+      },
+      {
+        "tag_name": "a",
+        "text": "psychedelic alt-pop operatic",
+        "class": "hover:underline",
+        "href": "https://suno.com/style/psychedelic%20alt-pop%20operatic",
+        "id": "",
+        "aria_label": null,
+        "is_displayed": true,
+        "location": {
+          "x": 394,
+          "y": 1152
+        }
+      },
+      {
+        "tag_name": "a",
+        "text": "",
+        "class": "block relative z-10",
+        "href": "https://suno.com/@coolhapoy",
+        "id": "",
+        "aria_label": null,
+        "is_displayed": true,
+        "location": {
+          "x": 394,
+          "y": 1174
+        }
+      },
+      {
+        "tag_name": "a",
+        "text": "Cool happy Cissa",
+        "class": "",
+        "href": "https://suno.com/@coolhapoy",
+        "id": "",
+        "aria_label": null,
+        "is_displayed": true,
+        "location": {
+          "x": 434,
+          "y": 1180
+        }
+      },
+      {
+        "tag_name": "a",
+        "text": "McBoo Grooves",
+        "class": "",
+        "href": "https://suno.com/song/3b8be35f-8a4d-4713-a2a6-37a44725f646",
+        "id": "",
+        "aria_label": null,
+        "is_displayed": true,
+        "location": {
+          "x": 573,
+          "y": 1128
+        }
+      },
+      {
+        "tag_name": "a",
+        "text": "funky edm playful",
+        "class": "hover:underline",
+        "href": "https://suno.com/style/funky%20edm%20playful",
+        "id": "",
+        "aria_label": null,
+        "is_displayed": true,
+        "location": {
+          "x": 573,
+          "y": 1152
+        }
+      },
+      {
+        "tag_name": "a",
+        "text": "",
+        "class": "block relative z-10",
+        "href": "https://suno.com/@aikrista",
+        "id": "",
+        "aria_label": null,
+        "is_displayed": true,
+        "location": {
+          "x": 573,
+          "y": 1174
+        }
+      },
+      {
+        "tag_name": "a",
+        "text": "AiKrista",
+        "class": "",
+        "href": "https://suno.com/@aikrista",
+        "id": "",
+        "aria_label": null,
+        "is_displayed": true,
+        "location": {
+          "x": 613,
+          "y": 1180
+        }
+      },
+      {
+        "tag_name": "a",
+        "text": "Brooding Midnight Revelry",
+        "class": "",
+        "href": "https://suno.com/song/a4978c60-9153-4d41-ab95-c97f1da1b3b6",
+        "id": "",
+        "aria_label": null,
+        "is_displayed": true,
+        "location": {
+          "x": 752,
+          "y": 1128
+        }
+      },
+      {
+        "tag_name": "a",
+        "text": "medieval baroque harpsichord-heavy",
+        "class": "hover:underline",
+        "href": "https://suno.com/style/medieval%20baroque%20harpsichord-heavy",
+        "id": "",
+        "aria_label": null,
+        "is_displayed": true,
+        "location": {
+          "x": 752,
+          "y": 1152
+        }
+      },
+      {
+        "tag_name": "a",
+        "text": "",
+        "class": "block relative z-10",
+        "href": "https://suno.com/@peachycat",
+        "id": "",
+        "aria_label": null,
+        "is_displayed": true,
+        "location": {
+          "x": 752,
+          "y": 1174
+        }
+      },
+      {
+        "tag_name": "a",
+        "text": "Peachez",
+        "class": "",
+        "href": "https://suno.com/@peachycat",
+        "id": "",
+        "aria_label": null,
+        "is_displayed": true,
+        "location": {
+          "x": 792,
+          "y": 1180
+        }
+      },
+      {
+        "tag_name": "a",
+        "text": "Fck Around and Find Out",
+        "class": "",
+        "href": "https://suno.com/song/58dabc7d-fd70-4145-bd47-e4af5bf2a307",
+        "id": "",
+        "aria_label": null,
+        "is_displayed": true,
+        "location": {
+          "x": 930,
+          "y": 1128
+        }
+      },
+      {
+        "tag_name": "a",
+        "text": "spoken word rock rebellious gritty",
+        "class": "hover:underline",
+        "href": "https://suno.com/style/spoken%20word%20rock%20rebellious%20gritty",
+        "id": "",
+        "aria_label": null,
+        "is_displayed": true,
+        "location": {
+          "x": 930,
+          "y": 1152
+        }
+      },
+      {
+        "tag_name": "a",
+        "text": "",
+        "class": "block relative z-10",
+        "href": "https://suno.com/@notaudiodev",
+        "id": "",
+        "aria_label": null,
+        "is_displayed": true,
+        "location": {
+          "x": 930,
+          "y": 1174
+        }
+      },
+      {
+        "tag_name": "a",
+        "text": "Christian",
+        "class": "",
+        "href": "https://suno.com/@notaudiodev",
+        "id": "",
+        "aria_label": null,
+        "is_displayed": true,
+        "location": {
+          "x": 970,
+          "y": 1180
+        }
+      },
+      {
+        "tag_name": "a",
+        "text": "Digital Symphony Delight",
+        "class": "",
+        "href": "https://suno.com/song/1f755e64-dde4-451d-b9bb-1bf79d0b6ba5",
+        "id": "",
+        "aria_label": null,
+        "is_displayed": true,
+        "location": {
+          "x": 1108,
+          "y": 1128
+        }
+      },
+      {
+        "tag_name": "a",
+        "text": "electronic funk groovy",
+        "class": "hover:underline",
+        "href": "https://suno.com/style/electronic%20funk%20groovy",
+        "id": "",
+        "aria_label": null,
+        "is_displayed": true,
+        "location": {
+          "x": 1108,
+          "y": 1152
+        }
+      },
+      {
+        "tag_name": "a",
+        "text": "",
+        "class": "block relative z-10",
+        "href": "https://suno.com/@coolhapoy",
+        "id": "",
+        "aria_label": null,
+        "is_displayed": true,
+        "location": {
+          "x": 1108,
+          "y": 1174
+        }
+      },
+      {
+        "tag_name": "a",
+        "text": "Cool happy Cissa",
+        "class": "",
+        "href": "https://suno.com/@coolhapoy",
+        "id": "",
+        "aria_label": null,
+        "is_displayed": true,
+        "location": {
+          "x": 1148,
+          "y": 1180
+        }
+      },
+      {
+        "tag_name": "a",
+        "text": "Monsters in Your Head",
+        "class": "",
+        "href": "https://suno.com/song/b136f905-c147-4d69-b3bc-0b6cbfcd663f",
+        "id": "",
+        "aria_label": null,
+        "is_displayed": true,
+        "location": {
+          "x": 216,
+          "y": 1602
+        }
+      },
+      {
+        "tag_name": "a",
+        "text": "Dark eerie Alternative Folk,",
+        "class": "hover:underline",
+        "href": "https://suno.com/style/Dark%20eerie%20Alternative%20Folk",
+        "id": "",
+        "aria_label": null,
+        "is_displayed": true,
+        "location": {
+          "x": 216,
+          "y": 1626
+        }
+      },
+      {
+        "tag_name": "a",
+        "text": "",
+        "class": "hover:underline",
+        "href": "https://suno.com/style/Acoustic",
+        "id": "",
+        "aria_label": null,
+        "is_displayed": false,
+        "location": {
+          "x": 226,
+          "y": 1646
+        }
+      },
+      {
+        "tag_name": "a",
+        "text": "",
+        "class": "hover:underline",
+        "href": "https://suno.com/style/female%20vocals",
+        "id": "",
+        "aria_label": null,
+        "is_displayed": false,
+        "location": {
+          "x": 216,
+          "y": 1646
+        }
+      },
+      {
+        "tag_name": "a",
+        "text": "",
+        "class": "hover:underline",
+        "href": "https://suno.com/style/minimal",
+        "id": "",
+        "aria_label": null,
+        "is_displayed": false,
+        "location": {
+          "x": 226,
+          "y": 1666
+        }
+      },
+      {
+        "tag_name": "a",
+        "text": "",
+        "class": "hover:underline",
+        "href": "https://suno.com/style/lullaby%20gone%20wrong",
+        "id": "",
+        "aria_label": null,
+        "is_displayed": false,
+        "location": {
+          "x": 216,
+          "y": 1666
+        }
+      },
+      {
+        "tag_name": "a",
+        "text": "",
+        "class": "block relative z-10",
+        "href": "https://suno.com/@puffinsarecooltoo",
+        "id": "",
+        "aria_label": null,
+        "is_displayed": true,
+        "location": {
+          "x": 216,
+          "y": 1648
+        }
+      },
+      {
+        "tag_name": "a",
+        "text": "PuffinsAreCoolToo",
+        "class": "",
+        "href": "https://suno.com/@puffinsarecooltoo",
+        "id": "",
+        "aria_label": null,
+        "is_displayed": true,
+        "location": {
+          "x": 256,
+          "y": 1654
+        }
+      },
+      {
+        "tag_name": "a",
+        "text": "Tainted Love\u2019s Ambition",
+        "class": "",
+        "href": "https://suno.com/song/21fc761a-1806-406b-8e9b-cb8822076e98",
+        "id": "",
+        "aria_label": null,
+        "is_displayed": true,
+        "location": {
+          "x": 394,
+          "y": 1602
+        }
+      },
+      {
+        "tag_name": "a",
+        "text": "anti-vocaloid+erratic;reverb|jungle+frantic;eerie;fast+electronic+hardcore|breakbeats;breakcore+weirdcore;ethereal",
+        "class": "hover:underline",
+        "href": "https://suno.com/style/anti-vocaloid%2Berratic%3Breverb%7Cjungle%2Bfrantic%3Beerie%3Bfast%2Belectronic%2Bhardcore%7Cbreakbeats%3Bbreakcore%2Bweirdcore%3Bethereal",
+        "id": "",
+        "aria_label": null,
+        "is_displayed": true,
+        "location": {
+          "x": 394,
+          "y": 1626
+        }
+      },
+      {
+        "tag_name": "a",
+        "text": "",
+        "class": "block relative z-10",
+        "href": "https://suno.com/@reimuu",
+        "id": "",
+        "aria_label": null,
+        "is_displayed": true,
+        "location": {
+          "x": 394,
+          "y": 1648
+        }
+      },
+      {
+        "tag_name": "a",
+        "text": "Reimu",
+        "class": "",
+        "href": "https://suno.com/@reimuu",
+        "id": "",
+        "aria_label": null,
+        "is_displayed": true,
+        "location": {
+          "x": 434,
+          "y": 1654
+        }
+      },
+      {
+        "tag_name": "a",
+        "text": "Like Me Love Me",
+        "class": "",
+        "href": "https://suno.com/song/c1800c55-0df2-40e1-b618-fd96d167ede2",
+        "id": "",
+        "aria_label": null,
+        "is_displayed": true,
+        "location": {
+          "x": 573,
+          "y": 1602
+        }
+      },
+      {
+        "tag_name": "a",
+        "text": "edm disco pop,",
+        "class": "hover:underline",
+        "href": "https://suno.com/style/edm%20disco%20pop",
+        "id": "",
+        "aria_label": null,
+        "is_displayed": true,
+        "location": {
+          "x": 573,
+          "y": 1626
+        }
+      },
+      {
+        "tag_name": "a",
+        "text": "sweet female voice,",
+        "class": "hover:underline",
+        "href": "https://suno.com/style/sweet%20female%20voice",
+        "id": "",
+        "aria_label": null,
+        "is_displayed": true,
+        "location": {
+          "x": 573,
+          "y": 1626
+        }
+      },
+      {
+        "tag_name": "a",
+        "text": "",
+        "class": "hover:underline",
+        "href": "https://suno.com/style/catchy%20progressive%20melody",
+        "id": "",
+        "aria_label": null,
+        "is_displayed": false,
+        "location": {
+          "x": 573,
+          "y": 1646
+        }
+      },
+      {
+        "tag_name": "a",
+        "text": "",
+        "class": "hover:underline",
+        "href": "https://suno.com/style/heavy%20upbeats",
+        "id": "",
+        "aria_label": null,
+        "is_displayed": false,
+        "location": {
+          "x": 573,
+          "y": 1666
+        }
+      },
+      {
+        "tag_name": "a",
+        "text": "",
+        "class": "block relative z-10",
+        "href": "https://suno.com/@yandere128",
+        "id": "",
+        "aria_label": null,
+        "is_displayed": true,
+        "location": {
+          "x": 573,
+          "y": 1648
+        }
+      },
+      {
+        "tag_name": "a",
+        "text": "Yandere Aosh",
+        "class": "",
+        "href": "https://suno.com/@yandere128",
+        "id": "",
+        "aria_label": null,
+        "is_displayed": true,
+        "location": {
+          "x": 613,
+          "y": 1654
+        }
+      },
+      {
+        "tag_name": "a",
+        "text": "Get Ready... [SSC6, Global]",
+        "class": "",
+        "href": "https://suno.com/song/ec59c26a-e03b-4eba-89a8-dded45cbd4de",
+        "id": "",
+        "aria_label": null,
+        "is_displayed": true,
+        "location": {
+          "x": 752,
+          "y": 1602
+        }
+      },
+      {
+        "tag_name": "a",
+        "text": "SSC6 is soon",
+        "class": "hover:underline",
+        "href": "https://suno.com/style/SSC6%20is%20soon",
+        "id": "",
+        "aria_label": null,
+        "is_displayed": true,
+        "location": {
+          "x": 752,
+          "y": 1626
+        }
+      },
+      {
+        "tag_name": "a",
+        "text": "",
+        "class": "block relative z-10",
+        "href": "https://suno.com/@namestaken",
+        "id": "",
+        "aria_label": null,
+        "is_displayed": true,
+        "location": {
+          "x": 752,
+          "y": 1648
+        }
+      },
+      {
+        "tag_name": "a",
+        "text": "@JoshuaSodil [YouTube]",
+        "class": "",
+        "href": "https://suno.com/@namestaken",
+        "id": "",
+        "aria_label": null,
+        "is_displayed": true,
+        "location": {
+          "x": 792,
+          "y": 1654
+        }
+      },
+      {
+        "tag_name": "a",
+        "text": "It'll be okay (feat. Futurecho)",
+        "class": "",
+        "href": "https://suno.com/song/605bdadc-8805-421d-a7fe-b59f2b5fdfeb",
+        "id": "",
+        "aria_label": null,
+        "is_displayed": true,
+        "location": {
+          "x": 930,
+          "y": 1602
+        }
+      },
+      {
+        "tag_name": "a",
+        "text": "(no style)",
+        "class": "hover:underline",
+        "href": "https://suno.com/style/(no%20style)",
+        "id": "",
+        "aria_label": null,
+        "is_displayed": true,
+        "location": {
+          "x": 930,
+          "y": 1626
+        }
+      },
+      {
+        "tag_name": "a",
+        "text": "",
+        "class": "block relative z-10",
+        "href": "https://suno.com/@oyojee",
+        "id": "",
+        "aria_label": null,
+        "is_displayed": true,
+        "location": {
+          "x": 930,
+          "y": 1648
+        }
+      },
+      {
+        "tag_name": "a",
+        "text": "Oyojee",
+        "class": "",
+        "href": "https://suno.com/@oyojee",
+        "id": "",
+        "aria_label": null,
+        "is_displayed": true,
+        "location": {
+          "x": 970,
+          "y": 1654
+        }
+      },
+      {
+        "tag_name": "a",
+        "text": "HAro [C3 Halloween Contest]",
+        "class": "",
+        "href": "https://suno.com/song/c69f163c-3fac-446b-ae33-48e831159bb9",
+        "id": "",
+        "aria_label": null,
+        "is_displayed": true,
+        "location": {
+          "x": 1108,
+          "y": 1602
+        }
+      },
+      {
+        "tag_name": "a",
+        "text": "whistles spooky melody,",
+        "class": "hover:underline",
+        "href": "https://suno.com/style/whistles%20spooky%20melody",
+        "id": "",
+        "aria_label": null,
+        "is_displayed": true,
+        "location": {
+          "x": 1108,
+          "y": 1626
+        }
+      },
+      {
+        "tag_name": "a",
+        "text": "",
+        "class": "hover:underline",
+        "href": "https://suno.com/style/big%20electronic%20%20guitar",
+        "id": "",
+        "aria_label": null,
+        "is_displayed": false,
+        "location": {
+          "x": 1108,
+          "y": 1646
+        }
+      },
+      {
+        "tag_name": "a",
+        "text": "",
+        "class": "hover:underline",
+        "href": "https://suno.com/style/groovy%20drum",
+        "id": "",
+        "aria_label": null,
+        "is_displayed": false,
+        "location": {
+          "x": 1108,
+          "y": 1646
+        }
+      },
+      {
+        "tag_name": "a",
+        "text": "",
+        "class": "hover:underline",
+        "href": "https://suno.com/style/dark%20hunt",
+        "id": "",
+        "aria_label": null,
+        "is_displayed": false,
+        "location": {
+          "x": 1160,
+          "y": 1666
+        }
+      },
+      {
+        "tag_name": "a",
+        "text": "",
+        "class": "hover:underline",
+        "href": "https://suno.com/style/%5Bstrong%5D",
+        "id": "",
+        "aria_label": null,
+        "is_displayed": false,
+        "location": {
+          "x": 1108,
+          "y": 1666
+        }
+      },
+      {
+        "tag_name": "a",
+        "text": "",
+        "class": "hover:underline",
+        "href": "https://suno.com/style/%5Bcatchy%5D",
+        "id": "",
+        "aria_label": null,
+        "is_displayed": false,
+        "location": {
+          "x": 1124,
+          "y": 1686
+        }
+      },
+      {
+        "tag_name": "a",
+        "text": "",
+        "class": "block relative z-10",
+        "href": "https://suno.com/@game",
+        "id": "",
+        "aria_label": null,
+        "is_displayed": true,
+        "location": {
+          "x": 1108,
+          "y": 1648
+        }
+      },
+      {
+        "tag_name": "a",
+        "text": "GameIsHere\ud83d\udc22//[YT:@GameMusic05127]",
+        "class": "",
+        "href": "https://suno.com/@game",
+        "id": "",
+        "aria_label": null,
+        "is_displayed": true,
+        "location": {
+          "x": 1148,
+          "y": 1654
+        }
+      },
+      {
+        "tag_name": "a",
+        "text": "",
+        "class": "font-sans font-medium text-sm @xs:text-base hover:underline",
+        "href": "https://suno.com/song/848008e2-704d-4d0d-8bcb-a6fdc579ae29",
+        "id": "",
+        "aria_label": null,
+        "is_displayed": false,
+        "location": {
+          "x": 0,
+          "y": 0
+        }
+      },
+      {
+        "tag_name": "a",
+        "text": "",
+        "class": "",
+        "href": "https://suno.com/@timbaland",
+        "id": "",
+        "aria_label": null,
+        "is_displayed": false,
+        "location": {
+          "x": 0,
+          "y": 0
+        }
+      },
+      {
+        "tag_name": "a",
+        "text": "",
+        "class": "rounded-full border font-sans font-medium text-center bg-primary text-vinylBlack-darker px-8 py-2 text-sm block w-full @sm:w-auto mx-auto",
+        "href": "https://suno.com/playlist/2479ec84-fc53-4611-b014-0ffc90c030dd",
+        "id": "",
+        "aria_label": null,
+        "is_displayed": false,
+        "location": {
+          "x": 0,
+          "y": 0
+        }
+      },
+      {
+        "tag_name": "a",
+        "text": "",
+        "class": "py-1.5 rounded-full font-sans text-center px-3 text-xs @xs:px-4 @xs:text-sm @sm:px-6 @sm:text-base text-vinylBlack-darker bg-primary",
+        "href": "https://suno.com/",
+        "id": "",
+        "aria_label": null,
+        "is_displayed": false,
+        "location": {
+          "x": 0,
+          "y": 0
+        }
+      },
+      {
+        "tag_name": "a",
+        "text": "",
+        "class": "py-1.5 rounded-full font-sans text-center px-3 text-xs @xs:px-4 @xs:text-sm @sm:px-6 @sm:text-base text-primary bg-vinylBlack-darker",
+        "href": "https://suno.com/create",
+        "id": "",
+        "aria_label": null,
+        "is_displayed": false,
+        "location": {
+          "x": 0,
+          "y": 0
+        }
+      },
+      {
+        "tag_name": "a",
+        "text": "",
+        "class": "py-1.5 rounded-full font-sans text-center px-3 text-xs @xs:px-4 @xs:text-sm @sm:px-6 @sm:text-base text-primary bg-vinylBlack-darker",
+        "href": "https://suno.com/me",
+        "id": "",
+        "aria_label": null,
+        "is_displayed": false,
+        "location": {
+          "x": 0,
+          "y": 0
+        }
+      },
+      {
+        "tag_name": "a",
+        "text": "",
+        "class": "py-1.5 rounded-full font-sans text-center px-3 text-xs @xs:px-4 @xs:text-sm @sm:px-6 @sm:text-base text-primary bg-vinylBlack-darker",
+        "href": "https://suno.com/explore",
+        "id": "",
+        "aria_label": null,
+        "is_displayed": false,
+        "location": {
+          "x": 0,
+          "y": 0
+        }
+      },
+      {
+        "tag_name": "a",
+        "text": "Listen & Create",
+        "class": "rounded-full border font-sans font-medium text-center bg-primary text-vinylBlack-darker px-8 py-2 text-sm flex flex-row gap-2 justify-center items-center w-full @md:w-auto mx-auto",
+        "href": "https://suno.com/playlist/2479ec84-fc53-4611-b014-0ffc90c030dd",
+        "id": "",
+        "aria_label": null,
+        "is_displayed": true,
+        "location": {
+          "x": 182,
+          "y": 463
+        }
+      }
+    ],
+    "buttons": [
+      {
+        "tag_name": "button",
+        "text": "Sign In",
+        "class": "group font-medium font-sans text-sm flex flex-row flex-nowrap items-center justify-center select-none disabled:brightness-50 disabled:cursor-not-allowed bg-primary text-vinylBlack-darker hover:text-vinylBlack-darker hover:bg-secondary hover:border-transparentWhite border border-vinylBlack-darker py-3 px-10 rounded-md",
+        "href": null,
+        "id": "",
+        "aria_label": "",
+        "is_displayed": true,
+        "location": {
+          "x": 40,
+          "y": 552
+        }
+      },
+      {
+        "tag_name": "button",
+        "text": "",
+        "class": "",
+        "href": null,
+        "id": "",
+        "aria_label": null,
+        "is_displayed": false,
+        "location": {
+          "x": 40,
+          "y": 308
+        }
+      },
+      {
+        "tag_name": "button",
+        "text": "",
+        "class": "chakra-button css-suawtg",
+        "href": null,
+        "id": "",
+        "aria_label": "Search",
+        "is_displayed": false,
+        "location": {
+          "x": 0,
+          "y": 0
+        }
+      },
+      {
+        "tag_name": "button",
+        "text": "",
+        "class": "group font-medium font-sans text-sm flex flex-row flex-nowrap items-center justify-center select-none disabled:brightness-50 disabled:cursor-not-allowed bg-primary text-vinylBlack-darker hover:text-vinylBlack-darker hover:bg-secondary hover:border-transparentWhite border border-vinylBlack-darker py-2 px-6 rounded-md",
+        "href": null,
+        "id": "",
+        "aria_label": "",
+        "is_displayed": false,
+        "location": {
+          "x": 0,
+          "y": 0
+        }
+      },
+      {
+        "tag_name": "button",
+        "text": "",
+        "class": "flex flex-0 flex-row-reverse mr-6",
+        "href": null,
+        "id": "",
+        "aria_label": "Close",
+        "is_displayed": true,
+        "location": {
+          "x": 700,
+          "y": 48
+        }
+      },
+      {
+        "tag_name": "button",
+        "text": "Create a Song",
+        "class": "font-sans text-white text-[16px] font-medium p-4 rounded-full transition duration-300 ease-in-out shadow-lg buttonAnimate  hover:opacity-90  items-center justify-center",
+        "href": null,
+        "id": "",
+        "aria_label": null,
+        "is_displayed": true,
+        "location": {
+          "x": 594,
+          "y": 220
+        }
+      },
+      {
+        "tag_name": "button",
+        "text": "Show more",
+        "class": "font-sans text-lg cursor-pointer flex-row flex items-center gap-2 text-sm hover:underline",
+        "href": null,
+        "id": "",
+        "aria_label": "",
+        "is_displayed": true,
+        "location": {
+          "x": 714,
+          "y": 317
+        }
+      },
+      {
+        "tag_name": "button",
+        "text": "",
+        "class": "absolute top-0 left-0 bg-gradient-to-r from-vinylBlack-darker via-vinylBlack-darker/75 to-transparent w-16 h-full z-[2] hidden sm:flex items-center justify-center transition ease-linear opacity-0 pointer-events-none",
+        "href": null,
+        "id": "",
+        "aria_label": "Scroll left",
+        "is_displayed": false,
+        "location": {
+          "x": 216,
+          "y": 375
+        }
+      },
+      {
+        "tag_name": "button",
+        "text": "",
+        "class": "flex items-center justify-center rounded-full p-4 w-14 h-14 backdrop-blur-lg bg-vinylBlack-darker/50 text-current border-none outline-none absolute top-1.5 end-1.5 transition[transform,opacity] duration-150 -translate-y-full opacity-0",
+        "href": null,
+        "id": "",
+        "aria_label": null,
+        "is_displayed": false,
+        "location": {
+          "x": 314,
+          "y": 325
+        }
+      },
+      {
+        "tag_name": "button",
+        "text": "",
+        "class": "flex-row items-center gap-1 rounded-md px-2 py-1 font-mono font-bold text-[11px] text-primary backdrop-blur-lg bg-vinylBlack-darker/50 shadow-lg inline-flex w-auto hover:text-vinylBlack-dark hover:bg-gray-800/30",
+        "href": null,
+        "id": "",
+        "aria_label": "Play button with play count",
+        "is_displayed": true,
+        "location": {
+          "x": 224,
+          "y": 585
+        }
+      },
+      {
+        "tag_name": "button",
+        "text": "",
+        "class": "flex-row items-center gap-1 rounded-md px-2 py-1 font-mono font-bold text-[11px] text-primary backdrop-blur-lg bg-vinylBlack-darker/50 shadow-lg inline-flex w-auto hover:text-vinylBlack-dark hover:bg-gray-800/30",
+        "href": null,
+        "id": "",
+        "aria_label": "Like button with like count",
+        "is_displayed": true,
+        "location": {
+          "x": 256,
+          "y": 585
+        }
+      },
+      {
+        "tag_name": "button",
+        "text": "",
+        "class": "chakra-button chakra-menu__menu-button css-o244em",
+        "href": null,
+        "id": "menu-button-:ru:",
+        "aria_label": "More Actions",
+        "is_displayed": false,
+        "location": {
+          "x": 0,
+          "y": 0
+        }
+      },
+      {
+        "tag_name": "button",
+        "text": "",
+        "class": "",
+        "href": null,
+        "id": "radix-:r11:",
+        "aria_label": null,
+        "is_displayed": true,
+        "location": {
+          "x": 344,
+          "y": 659
+        }
+      },
+      {
+        "tag_name": "button",
+        "text": "Cover",
+        "class": "bg-quaternary text-white hover:bg-primary/30 font-medium px-4 py-1 rounded-md text-sm font-sans disabled:brightness-50 disabled:cursor-not-allowed select-none flex gap-2 items-center",
+        "href": null,
+        "id": "",
+        "aria_label": null,
+        "is_displayed": true,
+        "location": {
+          "x": 216,
+          "y": 699
+        }
+      },
+      {
+        "tag_name": "button",
+        "text": "Extend",
+        "class": "bg-quaternary text-white hover:bg-primary/30 font-medium px-4 py-1 rounded-md text-sm font-sans disabled:brightness-50 disabled:cursor-not-allowed select-none flex gap-2 items-center",
+        "href": null,
+        "id": "",
+        "aria_label": null,
+        "is_displayed": true,
+        "location": {
+          "x": 294,
+          "y": 699
+        }
+      },
+      {
+        "tag_name": "button",
+        "text": "",
+        "class": "flex items-center justify-center rounded-full p-4 w-14 h-14 backdrop-blur-lg bg-vinylBlack-darker/50 text-current border-none outline-none absolute top-1.5 end-1.5 transition[transform,opacity] duration-150 -translate-y-full opacity-0",
+        "href": null,
+        "id": "",
+        "aria_label": null,
+        "is_displayed": false,
+        "location": {
+          "x": 492,
+          "y": 325
+        }
+      },
+      {
+        "tag_name": "button",
+        "text": "",
+        "class": "flex-row items-center gap-1 rounded-md px-2 py-1 font-mono font-bold text-[11px] text-primary backdrop-blur-lg bg-vinylBlack-darker/50 shadow-lg inline-flex w-auto hover:text-vinylBlack-dark hover:bg-gray-800/30",
+        "href": null,
+        "id": "",
+        "aria_label": "Play button with play count",
+        "is_displayed": true,
+        "location": {
+          "x": 402,
+          "y": 585
+        }
+      },
+      {
+        "tag_name": "button",
+        "text": "",
+        "class": "flex-row items-center gap-1 rounded-md px-2 py-1 font-mono font-bold text-[11px] text-primary backdrop-blur-lg bg-vinylBlack-darker/50 shadow-lg inline-flex w-auto hover:text-vinylBlack-dark hover:bg-gray-800/30",
+        "href": null,
+        "id": "",
+        "aria_label": "Like button with like count",
+        "is_displayed": true,
+        "location": {
+          "x": 434,
+          "y": 585
+        }
+      },
+      {
+        "tag_name": "button",
+        "text": "",
+        "class": "chakra-button chakra-menu__menu-button css-o244em",
+        "href": null,
+        "id": "menu-button-:r1b:",
+        "aria_label": "More Actions",
+        "is_displayed": false,
+        "location": {
+          "x": 0,
+          "y": 0
+        }
+      },
+      {
+        "tag_name": "button",
+        "text": "",
+        "class": "",
+        "href": null,
+        "id": "radix-:r1e:",
+        "aria_label": null,
+        "is_displayed": true,
+        "location": {
+          "x": 522,
+          "y": 659
+        }
+      },
+      {
+        "tag_name": "button",
+        "text": "Cover",
+        "class": "bg-quaternary text-white hover:bg-primary/30 font-medium px-4 py-1 rounded-md text-sm font-sans disabled:brightness-50 disabled:cursor-not-allowed select-none flex gap-2 items-center",
+        "href": null,
+        "id": "",
+        "aria_label": null,
+        "is_displayed": true,
+        "location": {
+          "x": 394,
+          "y": 699
+        }
+      },
+      {
+        "tag_name": "button",
+        "text": "Extend",
+        "class": "bg-quaternary text-white hover:bg-primary/30 font-medium px-4 py-1 rounded-md text-sm font-sans disabled:brightness-50 disabled:cursor-not-allowed select-none flex gap-2 items-center",
+        "href": null,
+        "id": "",
+        "aria_label": null,
+        "is_displayed": true,
+        "location": {
+          "x": 472,
+          "y": 699
+        }
+      },
+      {
+        "tag_name": "button",
+        "text": "",
+        "class": "flex items-center justify-center rounded-full p-4 w-14 h-14 backdrop-blur-lg bg-vinylBlack-darker/50 text-current border-none outline-none absolute top-1.5 end-1.5 transition[transform,opacity] duration-150 -translate-y-full opacity-0",
+        "href": null,
+        "id": "",
+        "aria_label": null,
+        "is_displayed": false,
+        "location": {
+          "x": 671,
+          "y": 325
+        }
+      },
+      {
+        "tag_name": "button",
+        "text": "",
+        "class": "flex-row items-center gap-1 rounded-md px-2 py-1 font-mono font-bold text-[11px] text-primary backdrop-blur-lg bg-vinylBlack-darker/50 shadow-lg inline-flex w-auto hover:text-vinylBlack-dark hover:bg-gray-800/30",
+        "href": null,
+        "id": "",
+        "aria_label": "Play button with play count",
+        "is_displayed": true,
+        "location": {
+          "x": 581,
+          "y": 585
+        }
+      },
+      {
+        "tag_name": "button",
+        "text": "",
+        "class": "flex-row items-center gap-1 rounded-md px-2 py-1 font-mono font-bold text-[11px] text-primary backdrop-blur-lg bg-vinylBlack-darker/50 shadow-lg inline-flex w-auto hover:text-vinylBlack-dark hover:bg-gray-800/30",
+        "href": null,
+        "id": "",
+        "aria_label": "Like button with like count",
+        "is_displayed": true,
+        "location": {
+          "x": 613,
+          "y": 585
+        }
+      },
+      {
+        "tag_name": "button",
+        "text": "",
+        "class": "chakra-button chakra-menu__menu-button css-o244em",
+        "href": null,
+        "id": "menu-button-:r1o:",
+        "aria_label": "More Actions",
+        "is_displayed": false,
+        "location": {
+          "x": 0,
+          "y": 0
+        }
+      },
+      {
+        "tag_name": "button",
+        "text": "",
+        "class": "",
+        "href": null,
+        "id": "radix-:r1r:",
+        "aria_label": null,
+        "is_displayed": true,
+        "location": {
+          "x": 701,
+          "y": 659
+        }
+      },
+      {
+        "tag_name": "button",
+        "text": "Cover",
+        "class": "bg-quaternary text-white hover:bg-primary/30 font-medium px-4 py-1 rounded-md text-sm font-sans disabled:brightness-50 disabled:cursor-not-allowed select-none flex gap-2 items-center",
+        "href": null,
+        "id": "",
+        "aria_label": null,
+        "is_displayed": true,
+        "location": {
+          "x": 573,
+          "y": 699
+        }
+      },
+      {
+        "tag_name": "button",
+        "text": "Extend",
+        "class": "bg-quaternary text-white hover:bg-primary/30 font-medium px-4 py-1 rounded-md text-sm font-sans disabled:brightness-50 disabled:cursor-not-allowed select-none flex gap-2 items-center",
+        "href": null,
+        "id": "",
+        "aria_label": null,
+        "is_displayed": true,
+        "location": {
+          "x": 651,
+          "y": 699
+        }
+      },
+      {
+        "tag_name": "button",
+        "text": "",
+        "class": "flex items-center justify-center rounded-full p-4 w-14 h-14 backdrop-blur-lg bg-vinylBlack-darker/50 text-current border-none outline-none absolute top-1.5 end-1.5 transition[transform,opacity] duration-150 -translate-y-full opacity-0",
+        "href": null,
+        "id": "",
+        "aria_label": null,
+        "is_displayed": false,
+        "location": {
+          "x": 850,
+          "y": 325
+        }
+      },
+      {
+        "tag_name": "button",
+        "text": "",
+        "class": "flex-row items-center gap-1 rounded-md px-2 py-1 font-mono font-bold text-[11px] text-primary backdrop-blur-lg bg-vinylBlack-darker/50 shadow-lg inline-flex w-auto hover:text-vinylBlack-dark hover:bg-gray-800/30",
+        "href": null,
+        "id": "",
+        "aria_label": "Play button with play count",
+        "is_displayed": true,
+        "location": {
+          "x": 760,
+          "y": 585
+        }
+      },
+      {
+        "tag_name": "button",
+        "text": "",
+        "class": "flex-row items-center gap-1 rounded-md px-2 py-1 font-mono font-bold text-[11px] text-primary backdrop-blur-lg bg-vinylBlack-darker/50 shadow-lg inline-flex w-auto hover:text-vinylBlack-dark hover:bg-gray-800/30",
+        "href": null,
+        "id": "",
+        "aria_label": "Like button with like count",
+        "is_displayed": true,
+        "location": {
+          "x": 792,
+          "y": 585
+        }
+      },
+      {
+        "tag_name": "button",
+        "text": "",
+        "class": "chakra-button chakra-menu__menu-button css-o244em",
+        "href": null,
+        "id": "menu-button-:r25:",
+        "aria_label": "More Actions",
+        "is_displayed": false,
+        "location": {
+          "x": 0,
+          "y": 0
+        }
+      },
+      {
+        "tag_name": "button",
+        "text": "",
+        "class": "",
+        "href": null,
+        "id": "radix-:r28:",
+        "aria_label": null,
+        "is_displayed": true,
+        "location": {
+          "x": 880,
+          "y": 659
+        }
+      },
+      {
+        "tag_name": "button",
+        "text": "Cover",
+        "class": "bg-quaternary text-white hover:bg-primary/30 font-medium px-4 py-1 rounded-md text-sm font-sans disabled:brightness-50 disabled:cursor-not-allowed select-none flex gap-2 items-center",
+        "href": null,
+        "id": "",
+        "aria_label": null,
+        "is_displayed": true,
+        "location": {
+          "x": 752,
+          "y": 699
+        }
+      },
+      {
+        "tag_name": "button",
+        "text": "Extend",
+        "class": "bg-quaternary text-white hover:bg-primary/30 font-medium px-4 py-1 rounded-md text-sm font-sans disabled:brightness-50 disabled:cursor-not-allowed select-none flex gap-2 items-center",
+        "href": null,
+        "id": "",
+        "aria_label": null,
+        "is_displayed": true,
+        "location": {
+          "x": 830,
+          "y": 699
+        }
+      },
+      {
+        "tag_name": "button",
+        "text": "",
+        "class": "flex items-center justify-center rounded-full p-4 w-14 h-14 backdrop-blur-lg bg-vinylBlack-darker/50 text-current border-none outline-none absolute top-1.5 end-1.5 transition[transform,opacity] duration-150 -translate-y-full opacity-0",
+        "href": null,
+        "id": "",
+        "aria_label": null,
+        "is_displayed": false,
+        "location": {
+          "x": 1028,
+          "y": 325
+        }
+      },
+      {
+        "tag_name": "button",
+        "text": "",
+        "class": "flex-row items-center gap-1 rounded-md px-2 py-1 font-mono font-bold text-[11px] text-primary backdrop-blur-lg bg-vinylBlack-darker/50 shadow-lg inline-flex w-auto hover:text-vinylBlack-dark hover:bg-gray-800/30",
+        "href": null,
+        "id": "",
+        "aria_label": "Play button with play count",
+        "is_displayed": true,
+        "location": {
+          "x": 938,
+          "y": 585
+        }
+      },
+      {
+        "tag_name": "button",
+        "text": "",
+        "class": "flex-row items-center gap-1 rounded-md px-2 py-1 font-mono font-bold text-[11px] text-primary backdrop-blur-lg bg-vinylBlack-darker/50 shadow-lg inline-flex w-auto hover:text-vinylBlack-dark hover:bg-gray-800/30",
+        "href": null,
+        "id": "",
+        "aria_label": "Like button with like count",
+        "is_displayed": true,
+        "location": {
+          "x": 970,
+          "y": 585
+        }
+      },
+      {
+        "tag_name": "button",
+        "text": "",
+        "class": "chakra-button chakra-menu__menu-button css-o244em",
+        "href": null,
+        "id": "menu-button-:r2i:",
+        "aria_label": "More Actions",
+        "is_displayed": false,
+        "location": {
+          "x": 0,
+          "y": 0
+        }
+      },
+      {
+        "tag_name": "button",
+        "text": "",
+        "class": "",
+        "href": null,
+        "id": "radix-:r2l:",
+        "aria_label": null,
+        "is_displayed": true,
+        "location": {
+          "x": 1058,
+          "y": 659
+        }
+      },
+      {
+        "tag_name": "button",
+        "text": "Cover",
+        "class": "bg-quaternary text-white hover:bg-primary/30 font-medium px-4 py-1 rounded-md text-sm font-sans disabled:brightness-50 disabled:cursor-not-allowed select-none flex gap-2 items-center",
+        "href": null,
+        "id": "",
+        "aria_label": null,
+        "is_displayed": true,
+        "location": {
+          "x": 930,
+          "y": 699
+        }
+      },
+      {
+        "tag_name": "button",
+        "text": "Extend",
+        "class": "bg-quaternary text-white hover:bg-primary/30 font-medium px-4 py-1 rounded-md text-sm font-sans disabled:brightness-50 disabled:cursor-not-allowed select-none flex gap-2 items-center",
+        "href": null,
+        "id": "",
+        "aria_label": null,
+        "is_displayed": true,
+        "location": {
+          "x": 1008,
+          "y": 699
+        }
+      },
+      {
+        "tag_name": "button",
+        "text": "",
+        "class": "flex items-center justify-center rounded-full p-4 w-14 h-14 backdrop-blur-lg bg-vinylBlack-darker/50 text-current border-none outline-none absolute top-1.5 end-1.5 transition[transform,opacity] duration-150 -translate-y-full opacity-0",
+        "href": null,
+        "id": "",
+        "aria_label": null,
+        "is_displayed": false,
+        "location": {
+          "x": 1206,
+          "y": 325
+        }
+      },
+      {
+        "tag_name": "button",
+        "text": "",
+        "class": "flex-row items-center gap-1 rounded-md px-2 py-1 font-mono font-bold text-[11px] text-primary backdrop-blur-lg bg-vinylBlack-darker/50 shadow-lg inline-flex w-auto hover:text-vinylBlack-dark hover:bg-gray-800/30",
+        "href": null,
+        "id": "",
+        "aria_label": "Play button with play count",
+        "is_displayed": true,
+        "location": {
+          "x": 1116,
+          "y": 585
+        }
+      },
+      {
+        "tag_name": "button",
+        "text": "",
+        "class": "flex-row items-center gap-1 rounded-md px-2 py-1 font-mono font-bold text-[11px] text-primary backdrop-blur-lg bg-vinylBlack-darker/50 shadow-lg inline-flex w-auto hover:text-vinylBlack-dark hover:bg-gray-800/30",
+        "href": null,
+        "id": "",
+        "aria_label": "Like button with like count",
+        "is_displayed": true,
+        "location": {
+          "x": 1148,
+          "y": 585
+        }
+      },
+      {
+        "tag_name": "button",
+        "text": "",
+        "class": "chakra-button chakra-menu__menu-button css-o244em",
+        "href": null,
+        "id": "menu-button-:r2v:",
+        "aria_label": "More Actions",
+        "is_displayed": false,
+        "location": {
+          "x": 0,
+          "y": 0
+        }
+      },
+      {
+        "tag_name": "button",
+        "text": "",
+        "class": "",
+        "href": null,
+        "id": "radix-:r32:",
+        "aria_label": null,
+        "is_displayed": true,
+        "location": {
+          "x": 1236,
+          "y": 659
+        }
+      },
+      {
+        "tag_name": "button",
+        "text": "Cover",
+        "class": "bg-quaternary text-white hover:bg-primary/30 font-medium px-4 py-1 rounded-md text-sm font-sans disabled:brightness-50 disabled:cursor-not-allowed select-none flex gap-2 items-center",
+        "href": null,
+        "id": "",
+        "aria_label": null,
+        "is_displayed": true,
+        "location": {
+          "x": 1108,
+          "y": 699
+        }
+      },
+      {
+        "tag_name": "button",
+        "text": "Extend",
+        "class": "bg-quaternary text-white hover:bg-primary/30 font-medium px-4 py-1 rounded-md text-sm font-sans disabled:brightness-50 disabled:cursor-not-allowed select-none flex gap-2 items-center",
+        "href": null,
+        "id": "",
+        "aria_label": null,
+        "is_displayed": true,
+        "location": {
+          "x": 1186,
+          "y": 699
+        }
+      },
+      {
+        "tag_name": "button",
+        "text": "",
+        "class": "absolute top-0 right-0 bg-gradient-to-l from-vinylBlack-darker via-vinylBlack-darker/75 to-transparent w-16 h-full z-[2] hidden sm:flex items-center justify-center transition ease-linear opacity-100 pointer-events-auto",
+        "href": null,
+        "id": "",
+        "aria_label": "Scroll right",
+        "is_displayed": true,
+        "location": {
+          "x": 700,
+          "y": 375
+        }
+      },
+      {
+        "tag_name": "button",
+        "text": "",
+        "class": "absolute top-0 left-0 bg-gradient-to-r from-vinylBlack-darker via-vinylBlack-darker/75 to-transparent w-16 h-full z-[2] hidden sm:flex items-center justify-center transition ease-linear opacity-0 pointer-events-none",
+        "href": null,
+        "id": "",
+        "aria_label": "Scroll left",
+        "is_displayed": false,
+        "location": {
+          "x": 216,
+          "y": 870
+        }
+      },
+      {
+        "tag_name": "button",
+        "text": "",
+        "class": "flex items-center justify-center rounded-full p-4 w-14 h-14 backdrop-blur-lg bg-vinylBlack-darker/50 text-current border-none outline-none absolute top-1.5 end-1.5 transition[transform,opacity] duration-150 -translate-y-full opacity-0",
+        "href": null,
+        "id": "",
+        "aria_label": null,
+        "is_displayed": false,
+        "location": {
+          "x": 314,
+          "y": 820
+        }
+      },
+      {
+        "tag_name": "button",
+        "text": "2.3K",
+        "class": "flex-row items-center gap-1 rounded-md px-2 py-1 font-mono font-bold text-[11px] text-primary backdrop-blur-lg bg-vinylBlack-darker/50 shadow-lg inline-flex w-auto hover:text-vinylBlack-dark hover:bg-gray-800/30",
+        "href": null,
+        "id": "",
+        "aria_label": "Play button with play count",
+        "is_displayed": true,
+        "location": {
+          "x": 224,
+          "y": 1077
+        }
+      },
+      {
+        "tag_name": "button",
+        "text": "31",
+        "class": "flex-row items-center gap-1 rounded-md px-2 py-1 font-mono font-bold text-[11px] text-primary backdrop-blur-lg bg-vinylBlack-darker/50 shadow-lg inline-flex w-auto hover:text-vinylBlack-dark hover:bg-gray-800/30",
+        "href": null,
+        "id": "",
+        "aria_label": "Like button with like count",
+        "is_displayed": true,
+        "location": {
+          "x": 293,
+          "y": 1077
+        }
+      },
+      {
+        "tag_name": "button",
+        "text": "",
+        "class": "chakra-button chakra-menu__menu-button css-o244em",
+        "href": null,
+        "id": "menu-button-:r3e:",
+        "aria_label": "More Actions",
+        "is_displayed": false,
+        "location": {
+          "x": 0,
+          "y": 0
+        }
+      },
+      {
+        "tag_name": "button",
+        "text": "",
+        "class": "",
+        "href": null,
+        "id": "radix-:r3h:",
+        "aria_label": null,
+        "is_displayed": true,
+        "location": {
+          "x": 344,
+          "y": 1174
+        }
+      },
+      {
+        "tag_name": "button",
+        "text": "",
+        "class": "flex items-center justify-center rounded-full p-4 w-14 h-14 backdrop-blur-lg bg-vinylBlack-darker/50 text-current border-none outline-none absolute top-1.5 end-1.5 transition[transform,opacity] duration-150 -translate-y-full opacity-0",
+        "href": null,
+        "id": "",
+        "aria_label": null,
+        "is_displayed": false,
+        "location": {
+          "x": 492,
+          "y": 820
+        }
+      },
+      {
+        "tag_name": "button",
+        "text": "210",
+        "class": "flex-row items-center gap-1 rounded-md px-2 py-1 font-mono font-bold text-[11px] text-primary backdrop-blur-lg bg-vinylBlack-darker/50 shadow-lg inline-flex w-auto hover:text-vinylBlack-dark hover:bg-gray-800/30",
+        "href": null,
+        "id": "",
+        "aria_label": "Play button with play count",
+        "is_displayed": true,
+        "location": {
+          "x": 402,
+          "y": 1077
+        }
+      },
+      {
+        "tag_name": "button",
+        "text": "7",
+        "class": "flex-row items-center gap-1 rounded-md px-2 py-1 font-mono font-bold text-[11px] text-primary backdrop-blur-lg bg-vinylBlack-darker/50 shadow-lg inline-flex w-auto hover:text-vinylBlack-dark hover:bg-gray-800/30",
+        "href": null,
+        "id": "",
+        "aria_label": "Like button with like count",
+        "is_displayed": true,
+        "location": {
+          "x": 466,
+          "y": 1077
+        }
+      },
+      {
+        "tag_name": "button",
+        "text": "",
+        "class": "chakra-button chakra-menu__menu-button css-o244em",
+        "href": null,
+        "id": "menu-button-:r3r:",
+        "aria_label": "More Actions",
+        "is_displayed": false,
+        "location": {
+          "x": 0,
+          "y": 0
+        }
+      },
+      {
+        "tag_name": "button",
+        "text": "",
+        "class": "",
+        "href": null,
+        "id": "radix-:r3u:",
+        "aria_label": null,
+        "is_displayed": true,
+        "location": {
+          "x": 522,
+          "y": 1174
+        }
+      },
+      {
+        "tag_name": "button",
+        "text": "",
+        "class": "flex items-center justify-center rounded-full p-4 w-14 h-14 backdrop-blur-lg bg-vinylBlack-darker/50 text-current border-none outline-none absolute top-1.5 end-1.5 transition[transform,opacity] duration-150 -translate-y-full opacity-0",
+        "href": null,
+        "id": "",
+        "aria_label": null,
+        "is_displayed": false,
+        "location": {
+          "x": 671,
+          "y": 820
+        }
+      },
+      {
+        "tag_name": "button",
+        "text": "140",
+        "class": "flex-row items-center gap-1 rounded-md px-2 py-1 font-mono font-bold text-[11px] text-primary backdrop-blur-lg bg-vinylBlack-darker/50 shadow-lg inline-flex w-auto hover:text-vinylBlack-dark hover:bg-gray-800/30",
+        "href": null,
+        "id": "",
+        "aria_label": "Play button with play count",
+        "is_displayed": true,
+        "location": {
+          "x": 581,
+          "y": 1077
+        }
+      },
+      {
+        "tag_name": "button",
+        "text": "8",
+        "class": "flex-row items-center gap-1 rounded-md px-2 py-1 font-mono font-bold text-[11px] text-primary backdrop-blur-lg bg-vinylBlack-darker/50 shadow-lg inline-flex w-auto hover:text-vinylBlack-dark hover:bg-gray-800/30",
+        "href": null,
+        "id": "",
+        "aria_label": "Like button with like count",
+        "is_displayed": true,
+        "location": {
+          "x": 644,
+          "y": 1077
+        }
+      },
+      {
+        "tag_name": "button",
+        "text": "",
+        "class": "chakra-button chakra-menu__menu-button css-o244em",
+        "href": null,
+        "id": "menu-button-:r48:",
+        "aria_label": "More Actions",
+        "is_displayed": false,
+        "location": {
+          "x": 0,
+          "y": 0
+        }
+      },
+      {
+        "tag_name": "button",
+        "text": "",
+        "class": "",
+        "href": null,
+        "id": "radix-:r4b:",
+        "aria_label": null,
+        "is_displayed": true,
+        "location": {
+          "x": 701,
+          "y": 1174
+        }
+      },
+      {
+        "tag_name": "button",
+        "text": "",
+        "class": "flex items-center justify-center rounded-full p-4 w-14 h-14 backdrop-blur-lg bg-vinylBlack-darker/50 text-current border-none outline-none absolute top-1.5 end-1.5 transition[transform,opacity] duration-150 -translate-y-full opacity-0",
+        "href": null,
+        "id": "",
+        "aria_label": null,
+        "is_displayed": false,
+        "location": {
+          "x": 850,
+          "y": 820
+        }
+      },
+      {
+        "tag_name": "button",
+        "text": "158",
+        "class": "flex-row items-center gap-1 rounded-md px-2 py-1 font-mono font-bold text-[11px] text-primary backdrop-blur-lg bg-vinylBlack-darker/50 shadow-lg inline-flex w-auto hover:text-vinylBlack-dark hover:bg-gray-800/30",
+        "href": null,
+        "id": "",
+        "aria_label": "Play button with play count",
+        "is_displayed": true,
+        "location": {
+          "x": 760,
+          "y": 1077
+        }
+      },
+      {
+        "tag_name": "button",
+        "text": "6",
+        "class": "flex-row items-center gap-1 rounded-md px-2 py-1 font-mono font-bold text-[11px] text-primary backdrop-blur-lg bg-vinylBlack-darker/50 shadow-lg inline-flex w-auto hover:text-vinylBlack-dark hover:bg-gray-800/30",
+        "href": null,
+        "id": "",
+        "aria_label": "Like button with like count",
+        "is_displayed": true,
+        "location": {
+          "x": 822,
+          "y": 1077
+        }
+      },
+      {
+        "tag_name": "button",
+        "text": "",
+        "class": "chakra-button chakra-menu__menu-button css-o244em",
+        "href": null,
+        "id": "menu-button-:r4l:",
+        "aria_label": "More Actions",
+        "is_displayed": false,
+        "location": {
+          "x": 0,
+          "y": 0
+        }
+      },
+      {
+        "tag_name": "button",
+        "text": "",
+        "class": "",
+        "href": null,
+        "id": "radix-:r4o:",
+        "aria_label": null,
+        "is_displayed": true,
+        "location": {
+          "x": 880,
+          "y": 1174
+        }
+      },
+      {
+        "tag_name": "button",
+        "text": "",
+        "class": "flex items-center justify-center rounded-full p-4 w-14 h-14 backdrop-blur-lg bg-vinylBlack-darker/50 text-current border-none outline-none absolute top-1.5 end-1.5 transition[transform,opacity] duration-150 -translate-y-full opacity-0",
+        "href": null,
+        "id": "",
+        "aria_label": null,
+        "is_displayed": false,
+        "location": {
+          "x": 1028,
+          "y": 820
+        }
+      },
+      {
+        "tag_name": "button",
+        "text": "8.1K",
+        "class": "flex-row items-center gap-1 rounded-md px-2 py-1 font-mono font-bold text-[11px] text-primary backdrop-blur-lg bg-vinylBlack-darker/50 shadow-lg inline-flex w-auto hover:text-vinylBlack-dark hover:bg-gray-800/30",
+        "href": null,
+        "id": "",
+        "aria_label": "Play button with play count",
+        "is_displayed": true,
+        "location": {
+          "x": 938,
+          "y": 1077
+        }
+      },
+      {
+        "tag_name": "button",
+        "text": "93",
+        "class": "flex-row items-center gap-1 rounded-md px-2 py-1 font-mono font-bold text-[11px] text-primary backdrop-blur-lg bg-vinylBlack-darker/50 shadow-lg inline-flex w-auto hover:text-vinylBlack-dark hover:bg-gray-800/30",
+        "href": null,
+        "id": "",
+        "aria_label": "Like button with like count",
+        "is_displayed": true,
+        "location": {
+          "x": 1007,
+          "y": 1077
+        }
+      },
+      {
+        "tag_name": "button",
+        "text": "",
+        "class": "chakra-button chakra-menu__menu-button css-o244em",
+        "href": null,
+        "id": "menu-button-:r52:",
+        "aria_label": "More Actions",
+        "is_displayed": false,
+        "location": {
+          "x": 0,
+          "y": 0
+        }
+      },
+      {
+        "tag_name": "button",
+        "text": "",
+        "class": "",
+        "href": null,
+        "id": "radix-:r55:",
+        "aria_label": null,
+        "is_displayed": true,
+        "location": {
+          "x": 1058,
+          "y": 1174
+        }
+      },
+      {
+        "tag_name": "button",
+        "text": "",
+        "class": "flex items-center justify-center rounded-full p-4 w-14 h-14 backdrop-blur-lg bg-vinylBlack-darker/50 text-current border-none outline-none absolute top-1.5 end-1.5 transition[transform,opacity] duration-150 -translate-y-full opacity-0",
+        "href": null,
+        "id": "",
+        "aria_label": null,
+        "is_displayed": false,
+        "location": {
+          "x": 1206,
+          "y": 820
+        }
+      },
+      {
+        "tag_name": "button",
+        "text": "103",
+        "class": "flex-row items-center gap-1 rounded-md px-2 py-1 font-mono font-bold text-[11px] text-primary backdrop-blur-lg bg-vinylBlack-darker/50 shadow-lg inline-flex w-auto hover:text-vinylBlack-dark hover:bg-gray-800/30",
+        "href": null,
+        "id": "",
+        "aria_label": "Play button with play count",
+        "is_displayed": true,
+        "location": {
+          "x": 1116,
+          "y": 1077
+        }
+      },
+      {
+        "tag_name": "button",
+        "text": "7",
+        "class": "flex-row items-center gap-1 rounded-md px-2 py-1 font-mono font-bold text-[11px] text-primary backdrop-blur-lg bg-vinylBlack-darker/50 shadow-lg inline-flex w-auto hover:text-vinylBlack-dark hover:bg-gray-800/30",
+        "href": null,
+        "id": "",
+        "aria_label": "Like button with like count",
+        "is_displayed": true,
+        "location": {
+          "x": 1180,
+          "y": 1077
+        }
+      },
+      {
+        "tag_name": "button",
+        "text": "",
+        "class": "chakra-button chakra-menu__menu-button css-o244em",
+        "href": null,
+        "id": "menu-button-:r5f:",
+        "aria_label": "More Actions",
+        "is_displayed": false,
+        "location": {
+          "x": 0,
+          "y": 0
+        }
+      },
+      {
+        "tag_name": "button",
+        "text": "",
+        "class": "",
+        "href": null,
+        "id": "radix-:r5i:",
+        "aria_label": null,
+        "is_displayed": true,
+        "location": {
+          "x": 1236,
+          "y": 1174
+        }
+      },
+      {
+        "tag_name": "button",
+        "text": "",
+        "class": "absolute top-0 right-0 bg-gradient-to-l from-vinylBlack-darker via-vinylBlack-darker/75 to-transparent w-16 h-full z-[2] hidden sm:flex items-center justify-center transition ease-linear opacity-100 pointer-events-auto",
+        "href": null,
+        "id": "",
+        "aria_label": "Scroll right",
+        "is_displayed": true,
+        "location": {
+          "x": 700,
+          "y": 870
+        }
+      },
+      {
+        "tag_name": "button",
+        "text": "",
+        "class": "absolute top-0 left-0 bg-gradient-to-r from-vinylBlack-darker via-vinylBlack-darker/75 to-transparent w-16 h-full z-[2] hidden sm:flex items-center justify-center transition ease-linear opacity-0 pointer-events-none",
+        "href": null,
+        "id": "",
+        "aria_label": "Scroll left",
+        "is_displayed": false,
+        "location": {
+          "x": 216,
+          "y": 1344
+        }
+      },
+      {
+        "tag_name": "button",
+        "text": "",
+        "class": "flex items-center justify-center rounded-full p-4 w-14 h-14 backdrop-blur-lg bg-vinylBlack-darker/50 text-current border-none outline-none absolute top-1.5 end-1.5 transition[transform,opacity] duration-150 -translate-y-full opacity-0",
+        "href": null,
+        "id": "",
+        "aria_label": null,
+        "is_displayed": false,
+        "location": {
+          "x": 314,
+          "y": 1294
+        }
+      },
+      {
+        "tag_name": "button",
+        "text": "4.1K",
+        "class": "flex-row items-center gap-1 rounded-md px-2 py-1 font-mono font-bold text-[11px] text-primary backdrop-blur-lg bg-vinylBlack-darker/50 shadow-lg inline-flex w-auto hover:text-vinylBlack-dark hover:bg-gray-800/30",
+        "href": null,
+        "id": "",
+        "aria_label": "Play button with play count",
+        "is_displayed": true,
+        "location": {
+          "x": 224,
+          "y": 1551
+        }
+      },
+      {
+        "tag_name": "button",
+        "text": "218",
+        "class": "flex-row items-center gap-1 rounded-md px-2 py-1 font-mono font-bold text-[11px] text-primary backdrop-blur-lg bg-vinylBlack-darker/50 shadow-lg inline-flex w-auto hover:text-vinylBlack-dark hover:bg-gray-800/30",
+        "href": null,
+        "id": "",
+        "aria_label": "Like button with like count",
+        "is_displayed": true,
+        "location": {
+          "x": 293,
+          "y": 1551
+        }
+      },
+      {
+        "tag_name": "button",
+        "text": "",
+        "class": "chakra-button chakra-menu__menu-button css-o244em",
+        "href": null,
+        "id": "menu-button-:r5s:",
+        "aria_label": "More Actions",
+        "is_displayed": false,
+        "location": {
+          "x": 0,
+          "y": 0
+        }
+      },
+      {
+        "tag_name": "button",
+        "text": "",
+        "class": "",
+        "href": null,
+        "id": "radix-:r5v:",
+        "aria_label": null,
+        "is_displayed": true,
+        "location": {
+          "x": 344,
+          "y": 1648
+        }
+      },
+      {
+        "tag_name": "button",
+        "text": "",
+        "class": "flex items-center justify-center rounded-full p-4 w-14 h-14 backdrop-blur-lg bg-vinylBlack-darker/50 text-current border-none outline-none absolute top-1.5 end-1.5 transition[transform,opacity] duration-150 -translate-y-full opacity-0",
+        "href": null,
+        "id": "",
+        "aria_label": null,
+        "is_displayed": false,
+        "location": {
+          "x": 492,
+          "y": 1294
+        }
+      },
+      {
+        "tag_name": "button",
+        "text": "918",
+        "class": "flex-row items-center gap-1 rounded-md px-2 py-1 font-mono font-bold text-[11px] text-primary backdrop-blur-lg bg-vinylBlack-darker/50 shadow-lg inline-flex w-auto hover:text-vinylBlack-dark hover:bg-gray-800/30",
+        "href": null,
+        "id": "",
+        "aria_label": "Play button with play count",
+        "is_displayed": true,
+        "location": {
+          "x": 402,
+          "y": 1551
+        }
+      },
+      {
+        "tag_name": "button",
+        "text": "99",
+        "class": "flex-row items-center gap-1 rounded-md px-2 py-1 font-mono font-bold text-[11px] text-primary backdrop-blur-lg bg-vinylBlack-darker/50 shadow-lg inline-flex w-auto hover:text-vinylBlack-dark hover:bg-gray-800/30",
+        "href": null,
+        "id": "",
+        "aria_label": "Like button with like count",
+        "is_displayed": true,
+        "location": {
+          "x": 466,
+          "y": 1551
+        }
+      },
+      {
+        "tag_name": "button",
+        "text": "",
+        "class": "chakra-button chakra-menu__menu-button css-o244em",
+        "href": null,
+        "id": "menu-button-:r69:",
+        "aria_label": "More Actions",
+        "is_displayed": false,
+        "location": {
+          "x": 0,
+          "y": 0
+        }
+      },
+      {
+        "tag_name": "button",
+        "text": "",
+        "class": "",
+        "href": null,
+        "id": "radix-:r6c:",
+        "aria_label": null,
+        "is_displayed": true,
+        "location": {
+          "x": 522,
+          "y": 1648
+        }
+      },
+      {
+        "tag_name": "button",
+        "text": "",
+        "class": "flex items-center justify-center rounded-full p-4 w-14 h-14 backdrop-blur-lg bg-vinylBlack-darker/50 text-current border-none outline-none absolute top-1.5 end-1.5 transition[transform,opacity] duration-150 -translate-y-full opacity-0",
+        "href": null,
+        "id": "",
+        "aria_label": null,
+        "is_displayed": false,
+        "location": {
+          "x": 671,
+          "y": 1294
+        }
+      },
+      {
+        "tag_name": "button",
+        "text": "1.2K",
+        "class": "flex-row items-center gap-1 rounded-md px-2 py-1 font-mono font-bold text-[11px] text-primary backdrop-blur-lg bg-vinylBlack-darker/50 shadow-lg inline-flex w-auto hover:text-vinylBlack-dark hover:bg-gray-800/30",
+        "href": null,
+        "id": "",
+        "aria_label": "Play button with play count",
+        "is_displayed": true,
+        "location": {
+          "x": 581,
+          "y": 1551
+        }
+      },
+      {
+        "tag_name": "button",
+        "text": "111",
+        "class": "flex-row items-center gap-1 rounded-md px-2 py-1 font-mono font-bold text-[11px] text-primary backdrop-blur-lg bg-vinylBlack-darker/50 shadow-lg inline-flex w-auto hover:text-vinylBlack-dark hover:bg-gray-800/30",
+        "href": null,
+        "id": "",
+        "aria_label": "Like button with like count",
+        "is_displayed": true,
+        "location": {
+          "x": 650,
+          "y": 1551
+        }
+      },
+      {
+        "tag_name": "button",
+        "text": "",
+        "class": "chakra-button chakra-menu__menu-button css-o244em",
+        "href": null,
+        "id": "menu-button-:r6m:",
+        "aria_label": "More Actions",
+        "is_displayed": false,
+        "location": {
+          "x": 0,
+          "y": 0
+        }
+      },
+      {
+        "tag_name": "button",
+        "text": "",
+        "class": "",
+        "href": null,
+        "id": "radix-:r6p:",
+        "aria_label": null,
+        "is_displayed": true,
+        "location": {
+          "x": 701,
+          "y": 1648
+        }
+      },
+      {
+        "tag_name": "button",
+        "text": "",
+        "class": "flex items-center justify-center rounded-full p-4 w-14 h-14 backdrop-blur-lg bg-vinylBlack-darker/50 text-current border-none outline-none absolute top-1.5 end-1.5 transition[transform,opacity] duration-150 -translate-y-full opacity-0",
+        "href": null,
+        "id": "",
+        "aria_label": null,
+        "is_displayed": false,
+        "location": {
+          "x": 850,
+          "y": 1294
+        }
+      },
+      {
+        "tag_name": "button",
+        "text": "18K",
+        "class": "flex-row items-center gap-1 rounded-md px-2 py-1 font-mono font-bold text-[11px] text-primary backdrop-blur-lg bg-vinylBlack-darker/50 shadow-lg inline-flex w-auto hover:text-vinylBlack-dark hover:bg-gray-800/30",
+        "href": null,
+        "id": "",
+        "aria_label": "Play button with play count",
+        "is_displayed": true,
+        "location": {
+          "x": 760,
+          "y": 1551
+        }
+      },
+      {
+        "tag_name": "button",
+        "text": "218",
+        "class": "flex-row items-center gap-1 rounded-md px-2 py-1 font-mono font-bold text-[11px] text-primary backdrop-blur-lg bg-vinylBlack-darker/50 shadow-lg inline-flex w-auto hover:text-vinylBlack-dark hover:bg-gray-800/30",
+        "href": null,
+        "id": "",
+        "aria_label": "Like button with like count",
+        "is_displayed": true,
+        "location": {
+          "x": 822,
+          "y": 1551
+        }
+      },
+      {
+        "tag_name": "button",
+        "text": "",
+        "class": "chakra-button chakra-menu__menu-button css-o244em",
+        "href": null,
+        "id": "menu-button-:r73:",
+        "aria_label": "More Actions",
+        "is_displayed": false,
+        "location": {
+          "x": 0,
+          "y": 0
+        }
+      },
+      {
+        "tag_name": "button",
+        "text": "",
+        "class": "",
+        "href": null,
+        "id": "radix-:r76:",
+        "aria_label": null,
+        "is_displayed": true,
+        "location": {
+          "x": 880,
+          "y": 1648
+        }
+      },
+      {
+        "tag_name": "button",
+        "text": "",
+        "class": "flex items-center justify-center rounded-full p-4 w-14 h-14 backdrop-blur-lg bg-vinylBlack-darker/50 text-current border-none outline-none absolute top-1.5 end-1.5 transition[transform,opacity] duration-150 -translate-y-full opacity-0",
+        "href": null,
+        "id": "",
+        "aria_label": null,
+        "is_displayed": false,
+        "location": {
+          "x": 1028,
+          "y": 1294
+        }
+      },
+      {
+        "tag_name": "button",
+        "text": "1.1K",
+        "class": "flex-row items-center gap-1 rounded-md px-2 py-1 font-mono font-bold text-[11px] text-primary backdrop-blur-lg bg-vinylBlack-darker/50 shadow-lg inline-flex w-auto hover:text-vinylBlack-dark hover:bg-gray-800/30",
+        "href": null,
+        "id": "",
+        "aria_label": "Play button with play count",
+        "is_displayed": true,
+        "location": {
+          "x": 938,
+          "y": 1551
+        }
+      },
+      {
+        "tag_name": "button",
+        "text": "117",
+        "class": "flex-row items-center gap-1 rounded-md px-2 py-1 font-mono font-bold text-[11px] text-primary backdrop-blur-lg bg-vinylBlack-darker/50 shadow-lg inline-flex w-auto hover:text-vinylBlack-dark hover:bg-gray-800/30",
+        "href": null,
+        "id": "",
+        "aria_label": "Like button with like count",
+        "is_displayed": true,
+        "location": {
+          "x": 1007,
+          "y": 1551
+        }
+      },
+      {
+        "tag_name": "button",
+        "text": "",
+        "class": "chakra-button chakra-menu__menu-button css-o244em",
+        "href": null,
+        "id": "menu-button-:r7g:",
+        "aria_label": "More Actions",
+        "is_displayed": false,
+        "location": {
+          "x": 0,
+          "y": 0
+        }
+      },
+      {
+        "tag_name": "button",
+        "text": "",
+        "class": "",
+        "href": null,
+        "id": "radix-:r7j:",
+        "aria_label": null,
+        "is_displayed": true,
+        "location": {
+          "x": 1058,
+          "y": 1648
+        }
+      },
+      {
+        "tag_name": "button",
+        "text": "",
+        "class": "flex items-center justify-center rounded-full p-4 w-14 h-14 backdrop-blur-lg bg-vinylBlack-darker/50 text-current border-none outline-none absolute top-1.5 end-1.5 transition[transform,opacity] duration-150 -translate-y-full opacity-0",
+        "href": null,
+        "id": "",
+        "aria_label": null,
+        "is_displayed": false,
+        "location": {
+          "x": 1206,
+          "y": 1294
+        }
+      },
+      {
+        "tag_name": "button",
+        "text": "3.5K",
+        "class": "flex-row items-center gap-1 rounded-md px-2 py-1 font-mono font-bold text-[11px] text-primary backdrop-blur-lg bg-vinylBlack-darker/50 shadow-lg inline-flex w-auto hover:text-vinylBlack-dark hover:bg-gray-800/30",
+        "href": null,
+        "id": "",
+        "aria_label": "Play button with play count",
+        "is_displayed": true,
+        "location": {
+          "x": 1116,
+          "y": 1551
+        }
+      },
+      {
+        "tag_name": "button",
+        "text": "171",
+        "class": "flex-row items-center gap-1 rounded-md px-2 py-1 font-mono font-bold text-[11px] text-primary backdrop-blur-lg bg-vinylBlack-darker/50 shadow-lg inline-flex w-auto hover:text-vinylBlack-dark hover:bg-gray-800/30",
+        "href": null,
+        "id": "",
+        "aria_label": "Like button with like count",
+        "is_displayed": true,
+        "location": {
+          "x": 1186,
+          "y": 1551
+        }
+      },
+      {
+        "tag_name": "button",
+        "text": "",
+        "class": "chakra-button chakra-menu__menu-button css-o244em",
+        "href": null,
+        "id": "menu-button-:r7t:",
+        "aria_label": "More Actions",
+        "is_displayed": false,
+        "location": {
+          "x": 0,
+          "y": 0
+        }
+      },
+      {
+        "tag_name": "button",
+        "text": "",
+        "class": "",
+        "href": null,
+        "id": "radix-:r80:",
+        "aria_label": null,
+        "is_displayed": true,
+        "location": {
+          "x": 1236,
+          "y": 1648
+        }
+      },
+      {
+        "tag_name": "button",
+        "text": "",
+        "class": "absolute top-0 right-0 bg-gradient-to-l from-vinylBlack-darker via-vinylBlack-darker/75 to-transparent w-16 h-full z-[2] hidden sm:flex items-center justify-center transition ease-linear opacity-100 pointer-events-auto",
+        "href": null,
+        "id": "",
+        "aria_label": "Scroll right",
+        "is_displayed": true,
+        "location": {
+          "x": 700,
+          "y": 1344
+        }
+      },
+      {
+        "tag_name": "button",
+        "text": "Show more",
+        "class": "font-sans text-lg cursor-pointer flex-row flex items-center gap-2 text-sm hover:underline",
+        "href": null,
+        "id": "",
+        "aria_label": "",
+        "is_displayed": true,
+        "location": {
+          "x": 714,
+          "y": 1760
+        }
+      },
+      {
+        "tag_name": "button",
+        "text": "",
+        "class": "absolute top-0 left-0 bg-gradient-to-r from-vinylBlack-darker via-vinylBlack-darker/75 to-transparent w-16 h-full z-[2] hidden sm:flex items-center justify-center transition ease-linear opacity-0 pointer-events-none",
+        "href": null,
+        "id": "",
+        "aria_label": "Scroll left",
+        "is_displayed": false,
+        "location": {
+          "x": 216,
+          "y": 1818
+        }
+      },
+      {
+        "tag_name": "button",
+        "text": "",
+        "class": "flex items-center justify-center rounded-full p-4 w-14 h-14 backdrop-blur-lg bg-vinylBlack-darker/50 text-current border-none outline-none absolute top-1.5 end-1.5 transition[transform,opacity] duration-150 -translate-y-full opacity-0",
+        "href": null,
+        "id": "",
+        "aria_label": null,
+        "is_displayed": false,
+        "location": {
+          "x": 314,
+          "y": 1768
+        }
+      },
+      {
+        "tag_name": "button",
+        "text": "389",
+        "class": "flex-row items-center gap-1 rounded-md px-2 py-1 font-mono font-bold text-[11px] text-primary backdrop-blur-lg bg-vinylBlack-darker/50 shadow-lg inline-flex w-auto hover:text-vinylBlack-dark hover:bg-gray-800/30",
+        "href": null,
+        "id": "",
+        "aria_label": "Play button with play count",
+        "is_displayed": true,
+        "location": {
+          "x": 224,
+          "y": 2025
+        }
+      },
+      {
+        "tag_name": "button",
+        "text": "30",
+        "class": "flex-row items-center gap-1 rounded-md px-2 py-1 font-mono font-bold text-[11px] text-primary backdrop-blur-lg bg-vinylBlack-darker/50 shadow-lg inline-flex w-auto hover:text-vinylBlack-dark hover:bg-gray-800/30",
+        "href": null,
+        "id": "",
+        "aria_label": "Like button with like count",
+        "is_displayed": true,
+        "location": {
+          "x": 287,
+          "y": 2025
+        }
+      },
+      {
+        "tag_name": "button",
+        "text": "",
+        "class": "chakra-button chakra-menu__menu-button css-o244em",
+        "href": null,
+        "id": "menu-button-:r8a:",
+        "aria_label": "More Actions",
+        "is_displayed": false,
+        "location": {
+          "x": 0,
+          "y": 0
+        }
+      },
+      {
+        "tag_name": "button",
+        "text": "",
+        "class": "",
+        "href": null,
+        "id": "radix-:r8d:",
+        "aria_label": null,
+        "is_displayed": true,
+        "location": {
+          "x": 344,
+          "y": 2122
+        }
+      },
+      {
+        "tag_name": "button",
+        "text": "",
+        "class": "flex items-center justify-center rounded-full p-4 w-14 h-14 backdrop-blur-lg bg-vinylBlack-darker/50 text-current border-none outline-none absolute top-1.5 end-1.5 transition[transform,opacity] duration-150 -translate-y-full opacity-0",
+        "href": null,
+        "id": "",
+        "aria_label": null,
+        "is_displayed": false,
+        "location": {
+          "x": 492,
+          "y": 1768
+        }
+      },
+      {
+        "tag_name": "button",
+        "text": "11K",
+        "class": "flex-row items-center gap-1 rounded-md px-2 py-1 font-mono font-bold text-[11px] text-primary backdrop-blur-lg bg-vinylBlack-darker/50 shadow-lg inline-flex w-auto hover:text-vinylBlack-dark hover:bg-gray-800/30",
+        "href": null,
+        "id": "",
+        "aria_label": "Play button with play count",
+        "is_displayed": true,
+        "location": {
+          "x": 402,
+          "y": 2025
+        }
+      },
+      {
+        "tag_name": "button",
+        "text": "211",
+        "class": "flex-row items-center gap-1 rounded-md px-2 py-1 font-mono font-bold text-[11px] text-primary backdrop-blur-lg bg-vinylBlack-darker/50 shadow-lg inline-flex w-auto hover:text-vinylBlack-dark hover:bg-gray-800/30",
+        "href": null,
+        "id": "",
+        "aria_label": "Like button with like count",
+        "is_displayed": true,
+        "location": {
+          "x": 464,
+          "y": 2025
+        }
+      },
+      {
+        "tag_name": "button",
+        "text": "",
+        "class": "chakra-button chakra-menu__menu-button css-o244em",
+        "href": null,
+        "id": "menu-button-:r8n:",
+        "aria_label": "More Actions",
+        "is_displayed": false,
+        "location": {
+          "x": 0,
+          "y": 0
+        }
+      },
+      {
+        "tag_name": "button",
+        "text": "",
+        "class": "",
+        "href": null,
+        "id": "radix-:r8q:",
+        "aria_label": null,
+        "is_displayed": true,
+        "location": {
+          "x": 522,
+          "y": 2122
+        }
+      },
+      {
+        "tag_name": "button",
+        "text": "",
+        "class": "flex items-center justify-center rounded-full p-4 w-14 h-14 backdrop-blur-lg bg-vinylBlack-darker/50 text-current border-none outline-none absolute top-1.5 end-1.5 transition[transform,opacity] duration-150 -translate-y-full opacity-0",
+        "href": null,
+        "id": "",
+        "aria_label": null,
+        "is_displayed": false,
+        "location": {
+          "x": 671,
+          "y": 1768
+        }
+      },
+      {
+        "tag_name": "button",
+        "text": "632",
+        "class": "flex-row items-center gap-1 rounded-md px-2 py-1 font-mono font-bold text-[11px] text-primary backdrop-blur-lg bg-vinylBlack-darker/50 shadow-lg inline-flex w-auto hover:text-vinylBlack-dark hover:bg-gray-800/30",
+        "href": null,
+        "id": "",
+        "aria_label": "Play button with play count",
+        "is_displayed": true,
+        "location": {
+          "x": 581,
+          "y": 2025
+        }
+      },
+      {
+        "tag_name": "button",
+        "text": "31",
+        "class": "flex-row items-center gap-1 rounded-md px-2 py-1 font-mono font-bold text-[11px] text-primary backdrop-blur-lg bg-vinylBlack-darker/50 shadow-lg inline-flex w-auto hover:text-vinylBlack-dark hover:bg-gray-800/30",
+        "href": null,
+        "id": "",
+        "aria_label": "Like button with like count",
+        "is_displayed": true,
+        "location": {
+          "x": 644,
+          "y": 2025
+        }
+      },
+      {
+        "tag_name": "button",
+        "text": "",
+        "class": "chakra-button chakra-menu__menu-button css-o244em",
+        "href": null,
+        "id": "menu-button-:r94:",
+        "aria_label": "More Actions",
+        "is_displayed": false,
+        "location": {
+          "x": 0,
+          "y": 0
+        }
+      },
+      {
+        "tag_name": "button",
+        "text": "",
+        "class": "",
+        "href": null,
+        "id": "radix-:r97:",
+        "aria_label": null,
+        "is_displayed": true,
+        "location": {
+          "x": 701,
+          "y": 2122
+        }
+      },
+      {
+        "tag_name": "button",
+        "text": "",
+        "class": "flex items-center justify-center rounded-full p-4 w-14 h-14 backdrop-blur-lg bg-vinylBlack-darker/50 text-current border-none outline-none absolute top-1.5 end-1.5 transition[transform,opacity] duration-150 -translate-y-full opacity-0",
+        "href": null,
+        "id": "",
+        "aria_label": null,
+        "is_displayed": false,
+        "location": {
+          "x": 850,
+          "y": 1768
+        }
+      },
+      {
+        "tag_name": "button",
+        "text": "565",
+        "class": "flex-row items-center gap-1 rounded-md px-2 py-1 font-mono font-bold text-[11px] text-primary backdrop-blur-lg bg-vinylBlack-darker/50 shadow-lg inline-flex w-auto hover:text-vinylBlack-dark hover:bg-gray-800/30",
+        "href": null,
+        "id": "",
+        "aria_label": "Play button with play count",
+        "is_displayed": true,
+        "location": {
+          "x": 760,
+          "y": 2025
+        }
+      },
+      {
+        "tag_name": "button",
+        "text": "36",
+        "class": "flex-row items-center gap-1 rounded-md px-2 py-1 font-mono font-bold text-[11px] text-primary backdrop-blur-lg bg-vinylBlack-darker/50 shadow-lg inline-flex w-auto hover:text-vinylBlack-dark hover:bg-gray-800/30",
+        "href": null,
+        "id": "",
+        "aria_label": "Like button with like count",
+        "is_displayed": true,
+        "location": {
+          "x": 822,
+          "y": 2025
+        }
+      },
+      {
+        "tag_name": "button",
+        "text": "",
+        "class": "chakra-button chakra-menu__menu-button css-o244em",
+        "href": null,
+        "id": "menu-button-:r9h:",
+        "aria_label": "More Actions",
+        "is_displayed": false,
+        "location": {
+          "x": 0,
+          "y": 0
+        }
+      },
+      {
+        "tag_name": "button",
+        "text": "",
+        "class": "",
+        "href": null,
+        "id": "radix-:r9k:",
+        "aria_label": null,
+        "is_displayed": true,
+        "location": {
+          "x": 880,
+          "y": 2122
+        }
+      },
+      {
+        "tag_name": "button",
+        "text": "",
+        "class": "flex items-center justify-center rounded-full p-4 w-14 h-14 backdrop-blur-lg bg-vinylBlack-darker/50 text-current border-none outline-none absolute top-1.5 end-1.5 transition[transform,opacity] duration-150 -translate-y-full opacity-0",
+        "href": null,
+        "id": "",
+        "aria_label": null,
+        "is_displayed": false,
+        "location": {
+          "x": 1028,
+          "y": 1768
+        }
+      },
+      {
+        "tag_name": "button",
+        "text": "803",
+        "class": "flex-row items-center gap-1 rounded-md px-2 py-1 font-mono font-bold text-[11px] text-primary backdrop-blur-lg bg-vinylBlack-darker/50 shadow-lg inline-flex w-auto hover:text-vinylBlack-dark hover:bg-gray-800/30",
+        "href": null,
+        "id": "",
+        "aria_label": "Play button with play count",
+        "is_displayed": true,
+        "location": {
+          "x": 938,
+          "y": 2025
+        }
+      },
+      {
+        "tag_name": "button",
+        "text": "42",
+        "class": "flex-row items-center gap-1 rounded-md px-2 py-1 font-mono font-bold text-[11px] text-primary backdrop-blur-lg bg-vinylBlack-darker/50 shadow-lg inline-flex w-auto hover:text-vinylBlack-dark hover:bg-gray-800/30",
+        "href": null,
+        "id": "",
+        "aria_label": "Like button with like count",
+        "is_displayed": true,
+        "location": {
+          "x": 1001,
+          "y": 2025
+        }
+      },
+      {
+        "tag_name": "button",
+        "text": "",
+        "class": "chakra-button chakra-menu__menu-button css-o244em",
+        "href": null,
+        "id": "menu-button-:r9u:",
+        "aria_label": "More Actions",
+        "is_displayed": false,
+        "location": {
+          "x": 0,
+          "y": 0
+        }
+      },
+      {
+        "tag_name": "button",
+        "text": "",
+        "class": "",
+        "href": null,
+        "id": "radix-:ra1:",
+        "aria_label": null,
+        "is_displayed": true,
+        "location": {
+          "x": 1058,
+          "y": 2122
+        }
+      },
+      {
+        "tag_name": "button",
+        "text": "",
+        "class": "flex items-center justify-center rounded-full p-4 w-14 h-14 backdrop-blur-lg bg-vinylBlack-darker/50 text-current border-none outline-none absolute top-1.5 end-1.5 transition[transform,opacity] duration-150 -translate-y-full opacity-0",
+        "href": null,
+        "id": "",
+        "aria_label": null,
+        "is_displayed": false,
+        "location": {
+          "x": 1206,
+          "y": 1768
+        }
+      },
+      {
+        "tag_name": "button",
+        "text": "1.5K",
+        "class": "flex-row items-center gap-1 rounded-md px-2 py-1 font-mono font-bold text-[11px] text-primary backdrop-blur-lg bg-vinylBlack-darker/50 shadow-lg inline-flex w-auto hover:text-vinylBlack-dark hover:bg-gray-800/30",
+        "href": null,
+        "id": "",
+        "aria_label": "Play button with play count",
+        "is_displayed": true,
+        "location": {
+          "x": 1116,
+          "y": 2025
+        }
+      },
+      {
+        "tag_name": "button",
+        "text": "57",
+        "class": "flex-row items-center gap-1 rounded-md px-2 py-1 font-mono font-bold text-[11px] text-primary backdrop-blur-lg bg-vinylBlack-darker/50 shadow-lg inline-flex w-auto hover:text-vinylBlack-dark hover:bg-gray-800/30",
+        "href": null,
+        "id": "",
+        "aria_label": "Like button with like count",
+        "is_displayed": true,
+        "location": {
+          "x": 1186,
+          "y": 2025
+        }
+      },
+      {
+        "tag_name": "button",
+        "text": "",
+        "class": "chakra-button chakra-menu__menu-button css-o244em",
+        "href": null,
+        "id": "menu-button-:rab:",
+        "aria_label": "More Actions",
+        "is_displayed": false,
+        "location": {
+          "x": 0,
+          "y": 0
+        }
+      },
+      {
+        "tag_name": "button",
+        "text": "",
+        "class": "",
+        "href": null,
+        "id": "radix-:rae:",
+        "aria_label": null,
+        "is_displayed": true,
+        "location": {
+          "x": 1236,
+          "y": 2122
+        }
+      },
+      {
+        "tag_name": "button",
+        "text": "",
+        "class": "absolute top-0 right-0 bg-gradient-to-l from-vinylBlack-darker via-vinylBlack-darker/75 to-transparent w-16 h-full z-[2] hidden sm:flex items-center justify-center transition ease-linear opacity-100 pointer-events-auto",
+        "href": null,
+        "id": "",
+        "aria_label": "Scroll right",
+        "is_displayed": true,
+        "location": {
+          "x": 700,
+          "y": 1818
+        }
+      },
+      {
+        "tag_name": "button",
+        "text": "Show more",
+        "class": "font-sans text-lg cursor-pointer flex-row flex items-center gap-2 text-sm hover:underline",
+        "href": null,
+        "id": "",
+        "aria_label": "",
+        "is_displayed": true,
+        "location": {
+          "x": 679,
+          "y": 2234
+        }
+      },
+      {
+        "tag_name": "button",
+        "text": "",
+        "class": "absolute top-0 left-0 bg-gradient-to-r from-vinylBlack-darker via-vinylBlack-darker/75 to-transparent w-16 h-full z-[2] hidden sm:flex items-center justify-center transition ease-linear opacity-0 pointer-events-none",
+        "href": null,
+        "id": "",
+        "aria_label": "Scroll left",
+        "is_displayed": false,
+        "location": {
+          "x": 216,
+          "y": 2292
+        }
+      },
+      {
+        "tag_name": "button",
+        "text": "",
+        "class": "flex items-center justify-center rounded-full p-4 w-14 h-14 backdrop-blur-lg bg-vinylBlack-darker/50 text-current border-none outline-none absolute top-1.5 end-1.5 transition[transform,opacity] duration-150 -translate-y-full opacity-0",
+        "href": null,
+        "id": "",
+        "aria_label": null,
+        "is_displayed": false,
+        "location": {
+          "x": 314,
+          "y": 2242
+        }
+      },
+      {
+        "tag_name": "button",
+        "text": "5",
+        "class": "flex-row items-center gap-1 rounded-md px-2 py-1 font-mono font-bold text-[11px] text-primary backdrop-blur-lg bg-vinylBlack-darker/50 shadow-lg inline-flex w-auto hover:text-vinylBlack-dark hover:bg-gray-800/30",
+        "href": null,
+        "id": "",
+        "aria_label": "Play button with play count",
+        "is_displayed": true,
+        "location": {
+          "x": 224,
+          "y": 2499
+        }
+      },
+      {
+        "tag_name": "button",
+        "text": "2",
+        "class": "flex-row items-center gap-1 rounded-md px-2 py-1 font-mono font-bold text-[11px] text-primary backdrop-blur-lg bg-vinylBlack-darker/50 shadow-lg inline-flex w-auto hover:text-vinylBlack-dark hover:bg-gray-800/30",
+        "href": null,
+        "id": "",
+        "aria_label": "Like button with like count",
+        "is_displayed": true,
+        "location": {
+          "x": 269,
+          "y": 2499
+        }
+      },
+      {
+        "tag_name": "button",
+        "text": "",
+        "class": "chakra-button chakra-menu__menu-button css-o244em",
+        "href": null,
+        "id": "menu-button-:rao:",
+        "aria_label": "More Actions",
+        "is_displayed": false,
+        "location": {
+          "x": 0,
+          "y": 0
+        }
+      },
+      {
+        "tag_name": "button",
+        "text": "",
+        "class": "",
+        "href": null,
+        "id": "radix-:rar:",
+        "aria_label": null,
+        "is_displayed": true,
+        "location": {
+          "x": 344,
+          "y": 2596
+        }
+      },
+      {
+        "tag_name": "button",
+        "text": "",
+        "class": "flex items-center justify-center rounded-full p-4 w-14 h-14 backdrop-blur-lg bg-vinylBlack-darker/50 text-current border-none outline-none absolute top-1.5 end-1.5 transition[transform,opacity] duration-150 -translate-y-full opacity-0",
+        "href": null,
+        "id": "",
+        "aria_label": null,
+        "is_displayed": false,
+        "location": {
+          "x": 492,
+          "y": 2242
+        }
+      },
+      {
+        "tag_name": "button",
+        "text": "2",
+        "class": "flex-row items-center gap-1 rounded-md px-2 py-1 font-mono font-bold text-[11px] text-primary backdrop-blur-lg bg-vinylBlack-darker/50 shadow-lg inline-flex w-auto hover:text-vinylBlack-dark hover:bg-gray-800/30",
+        "href": null,
+        "id": "",
+        "aria_label": "Play button with play count",
+        "is_displayed": true,
+        "location": {
+          "x": 402,
+          "y": 2499
+        }
+      },
+      {
+        "tag_name": "button",
+        "text": "1",
+        "class": "flex-row items-center gap-1 rounded-md px-2 py-1 font-mono font-bold text-[11px] text-primary backdrop-blur-lg bg-vinylBlack-darker/50 shadow-lg inline-flex w-auto hover:text-vinylBlack-dark hover:bg-gray-800/30",
+        "href": null,
+        "id": "",
+        "aria_label": "Like button with like count",
+        "is_displayed": true,
+        "location": {
+          "x": 448,
+          "y": 2499
+        }
+      },
+      {
+        "tag_name": "button",
+        "text": "",
+        "class": "chakra-button chakra-menu__menu-button css-o244em",
+        "href": null,
+        "id": "menu-button-:rb5:",
+        "aria_label": "More Actions",
+        "is_displayed": false,
+        "location": {
+          "x": 0,
+          "y": 0
+        }
+      },
+      {
+        "tag_name": "button",
+        "text": "",
+        "class": "",
+        "href": null,
+        "id": "radix-:rb8:",
+        "aria_label": null,
+        "is_displayed": true,
+        "location": {
+          "x": 522,
+          "y": 2596
+        }
+      },
+      {
+        "tag_name": "button",
+        "text": "",
+        "class": "flex items-center justify-center rounded-full p-4 w-14 h-14 backdrop-blur-lg bg-vinylBlack-darker/50 text-current border-none outline-none absolute top-1.5 end-1.5 transition[transform,opacity] duration-150 -translate-y-full opacity-0",
+        "href": null,
+        "id": "",
+        "aria_label": null,
+        "is_displayed": false,
+        "location": {
+          "x": 671,
+          "y": 2242
+        }
+      },
+      {
+        "tag_name": "button",
+        "text": "3",
+        "class": "flex-row items-center gap-1 rounded-md px-2 py-1 font-mono font-bold text-[11px] text-primary backdrop-blur-lg bg-vinylBlack-darker/50 shadow-lg inline-flex w-auto hover:text-vinylBlack-dark hover:bg-gray-800/30",
+        "href": null,
+        "id": "",
+        "aria_label": "Play button with play count",
+        "is_displayed": true,
+        "location": {
+          "x": 581,
+          "y": 2499
+        }
+      },
+      {
+        "tag_name": "button",
+        "text": "0",
+        "class": "flex-row items-center gap-1 rounded-md px-2 py-1 font-mono font-bold text-[11px] text-primary backdrop-blur-lg bg-vinylBlack-darker/50 shadow-lg inline-flex w-auto hover:text-vinylBlack-dark hover:bg-gray-800/30",
+        "href": null,
+        "id": "",
+        "aria_label": "Like button with like count",
+        "is_displayed": true,
+        "location": {
+          "x": 626,
+          "y": 2499
+        }
+      },
+      {
+        "tag_name": "button",
+        "text": "",
+        "class": "chakra-button chakra-menu__menu-button css-o244em",
+        "href": null,
+        "id": "menu-button-:rbi:",
+        "aria_label": "More Actions",
+        "is_displayed": false,
+        "location": {
+          "x": 0,
+          "y": 0
+        }
+      },
+      {
+        "tag_name": "button",
+        "text": "",
+        "class": "",
+        "href": null,
+        "id": "radix-:rbl:",
+        "aria_label": null,
+        "is_displayed": true,
+        "location": {
+          "x": 701,
+          "y": 2596
+        }
+      },
+      {
+        "tag_name": "button",
+        "text": "",
+        "class": "flex items-center justify-center rounded-full p-4 w-14 h-14 backdrop-blur-lg bg-vinylBlack-darker/50 text-current border-none outline-none absolute top-1.5 end-1.5 transition[transform,opacity] duration-150 -translate-y-full opacity-0",
+        "href": null,
+        "id": "",
+        "aria_label": null,
+        "is_displayed": false,
+        "location": {
+          "x": 850,
+          "y": 2242
+        }
+      },
+      {
+        "tag_name": "button",
+        "text": "4",
+        "class": "flex-row items-center gap-1 rounded-md px-2 py-1 font-mono font-bold text-[11px] text-primary backdrop-blur-lg bg-vinylBlack-darker/50 shadow-lg inline-flex w-auto hover:text-vinylBlack-dark hover:bg-gray-800/30",
+        "href": null,
+        "id": "",
+        "aria_label": "Play button with play count",
+        "is_displayed": true,
+        "location": {
+          "x": 760,
+          "y": 2499
+        }
+      },
+      {
+        "tag_name": "button",
+        "text": "0",
+        "class": "flex-row items-center gap-1 rounded-md px-2 py-1 font-mono font-bold text-[11px] text-primary backdrop-blur-lg bg-vinylBlack-darker/50 shadow-lg inline-flex w-auto hover:text-vinylBlack-dark hover:bg-gray-800/30",
+        "href": null,
+        "id": "",
+        "aria_label": "Like button with like count",
+        "is_displayed": true,
+        "location": {
+          "x": 804,
+          "y": 2499
+        }
+      },
+      {
+        "tag_name": "button",
+        "text": "",
+        "class": "chakra-button chakra-menu__menu-button css-o244em",
+        "href": null,
+        "id": "menu-button-:rbv:",
+        "aria_label": "More Actions",
+        "is_displayed": false,
+        "location": {
+          "x": 0,
+          "y": 0
+        }
+      },
+      {
+        "tag_name": "button",
+        "text": "",
+        "class": "",
+        "href": null,
+        "id": "radix-:rc2:",
+        "aria_label": null,
+        "is_displayed": true,
+        "location": {
+          "x": 880,
+          "y": 2596
+        }
+      },
+      {
+        "tag_name": "button",
+        "text": "",
+        "class": "flex items-center justify-center rounded-full p-4 w-14 h-14 backdrop-blur-lg bg-vinylBlack-darker/50 text-current border-none outline-none absolute top-1.5 end-1.5 transition[transform,opacity] duration-150 -translate-y-full opacity-0",
+        "href": null,
+        "id": "",
+        "aria_label": null,
+        "is_displayed": false,
+        "location": {
+          "x": 1028,
+          "y": 2242
+        }
+      },
+      {
+        "tag_name": "button",
+        "text": "3",
+        "class": "flex-row items-center gap-1 rounded-md px-2 py-1 font-mono font-bold text-[11px] text-primary backdrop-blur-lg bg-vinylBlack-darker/50 shadow-lg inline-flex w-auto hover:text-vinylBlack-dark hover:bg-gray-800/30",
+        "href": null,
+        "id": "",
+        "aria_label": "Play button with play count",
+        "is_displayed": true,
+        "location": {
+          "x": 938,
+          "y": 2499
+        }
+      },
+      {
+        "tag_name": "button",
+        "text": "0",
+        "class": "flex-row items-center gap-1 rounded-md px-2 py-1 font-mono font-bold text-[11px] text-primary backdrop-blur-lg bg-vinylBlack-darker/50 shadow-lg inline-flex w-auto hover:text-vinylBlack-dark hover:bg-gray-800/30",
+        "href": null,
+        "id": "",
+        "aria_label": "Like button with like count",
+        "is_displayed": true,
+        "location": {
+          "x": 983,
+          "y": 2499
+        }
+      },
+      {
+        "tag_name": "button",
+        "text": "",
+        "class": "chakra-button chakra-menu__menu-button css-o244em",
+        "href": null,
+        "id": "menu-button-:rcc:",
+        "aria_label": "More Actions",
+        "is_displayed": false,
+        "location": {
+          "x": 0,
+          "y": 0
+        }
+      },
+      {
+        "tag_name": "button",
+        "text": "",
+        "class": "",
+        "href": null,
+        "id": "radix-:rcf:",
+        "aria_label": null,
+        "is_displayed": true,
+        "location": {
+          "x": 1058,
+          "y": 2596
+        }
+      },
+      {
+        "tag_name": "button",
+        "text": "",
+        "class": "flex items-center justify-center rounded-full p-4 w-14 h-14 backdrop-blur-lg bg-vinylBlack-darker/50 text-current border-none outline-none absolute top-1.5 end-1.5 transition[transform,opacity] duration-150 -translate-y-full opacity-0",
+        "href": null,
+        "id": "",
+        "aria_label": null,
+        "is_displayed": false,
+        "location": {
+          "x": 1206,
+          "y": 2242
+        }
+      },
+      {
+        "tag_name": "button",
+        "text": "3",
+        "class": "flex-row items-center gap-1 rounded-md px-2 py-1 font-mono font-bold text-[11px] text-primary backdrop-blur-lg bg-vinylBlack-darker/50 shadow-lg inline-flex w-auto hover:text-vinylBlack-dark hover:bg-gray-800/30",
+        "href": null,
+        "id": "",
+        "aria_label": "Play button with play count",
+        "is_displayed": true,
+        "location": {
+          "x": 1116,
+          "y": 2499
+        }
+      },
+      {
+        "tag_name": "button",
+        "text": "0",
+        "class": "flex-row items-center gap-1 rounded-md px-2 py-1 font-mono font-bold text-[11px] text-primary backdrop-blur-lg bg-vinylBlack-darker/50 shadow-lg inline-flex w-auto hover:text-vinylBlack-dark hover:bg-gray-800/30",
+        "href": null,
+        "id": "",
+        "aria_label": "Like button with like count",
+        "is_displayed": true,
+        "location": {
+          "x": 1162,
+          "y": 2499
+        }
+      },
+      {
+        "tag_name": "button",
+        "text": "",
+        "class": "chakra-button chakra-menu__menu-button css-o244em",
+        "href": null,
+        "id": "menu-button-:rcp:",
+        "aria_label": "More Actions",
+        "is_displayed": false,
+        "location": {
+          "x": 0,
+          "y": 0
+        }
+      },
+      {
+        "tag_name": "button",
+        "text": "",
+        "class": "",
+        "href": null,
+        "id": "radix-:rcs:",
+        "aria_label": null,
+        "is_displayed": true,
+        "location": {
+          "x": 1236,
+          "y": 2596
+        }
+      },
+      {
+        "tag_name": "button",
+        "text": "",
+        "class": "absolute top-0 right-0 bg-gradient-to-l from-vinylBlack-darker via-vinylBlack-darker/75 to-transparent w-16 h-full z-[2] hidden sm:flex items-center justify-center transition ease-linear opacity-100 pointer-events-auto",
+        "href": null,
+        "id": "",
+        "aria_label": "Scroll right",
+        "is_displayed": true,
+        "location": {
+          "x": 700,
+          "y": 2292
+        }
+      },
+      {
+        "tag_name": "button",
+        "text": "",
+        "class": "absolute top-0 left-0 bg-gradient-to-r from-vinylBlack-darker via-vinylBlack-darker/75 to-transparent w-16 h-full z-[2] hidden sm:flex items-center justify-center transition ease-linear opacity-0 pointer-events-none",
+        "href": null,
+        "id": "",
+        "aria_label": "Scroll left",
+        "is_displayed": false,
+        "location": {
+          "x": 216,
+          "y": 2766
+        }
+      },
+      {
+        "tag_name": "button",
+        "text": "",
+        "class": "absolute top-0 right-0 bg-gradient-to-l from-vinylBlack-darker via-vinylBlack-darker/75 to-transparent w-16 h-full z-[2] hidden sm:flex items-center justify-center transition ease-linear opacity-100 pointer-events-auto",
+        "href": null,
+        "id": "",
+        "aria_label": "Scroll right",
+        "is_displayed": true,
+        "location": {
+          "x": 700,
+          "y": 2766
+        }
+      },
+      {
+        "tag_name": "button",
+        "text": "",
+        "class": "absolute top-0 left-0 bg-gradient-to-r from-vinylBlack-darker via-vinylBlack-darker/75 to-transparent w-16 h-full z-[2] hidden sm:flex items-center justify-center transition ease-linear opacity-0 pointer-events-none",
+        "href": null,
+        "id": "",
+        "aria_label": "Scroll left",
+        "is_displayed": false,
+        "location": {
+          "x": 216,
+          "y": 3048
+        }
+      },
+      {
+        "tag_name": "button",
+        "text": "82",
+        "class": "rounded-md backdrop-blur-lg flex flex-row text-[10px] bg-vinylBlack-darker/50 text-secondary gap-1 items-center px-2 py-1 font-mono font-bold shadow-lg hover:bg-gray-800/30 absolute bottom-2 left-2",
+        "href": null,
+        "id": "",
+        "aria_label": "Like playlist button",
+        "is_displayed": true,
+        "location": {
+          "x": 224,
+          "y": 3199
+        }
+      },
+      {
+        "tag_name": "button",
+        "text": "23",
+        "class": "rounded-md backdrop-blur-lg flex flex-row text-[10px] bg-vinylBlack-darker/50 text-secondary gap-1 items-center px-2 py-1 font-mono font-bold shadow-lg hover:bg-gray-800/30 absolute bottom-2 left-2",
+        "href": null,
+        "id": "",
+        "aria_label": "Like playlist button",
+        "is_displayed": true,
+        "location": {
+          "x": 402,
+          "y": 3199
+        }
+      },
+      {
+        "tag_name": "button",
+        "text": "20",
+        "class": "rounded-md backdrop-blur-lg flex flex-row text-[10px] bg-vinylBlack-darker/50 text-secondary gap-1 items-center px-2 py-1 font-mono font-bold shadow-lg hover:bg-gray-800/30 absolute bottom-2 left-2",
+        "href": null,
+        "id": "",
+        "aria_label": "Like playlist button",
+        "is_displayed": true,
+        "location": {
+          "x": 581,
+          "y": 3199
+        }
+      },
+      {
+        "tag_name": "button",
+        "text": "19",
+        "class": "rounded-md backdrop-blur-lg flex flex-row text-[10px] bg-vinylBlack-darker/50 text-secondary gap-1 items-center px-2 py-1 font-mono font-bold shadow-lg hover:bg-gray-800/30 absolute bottom-2 left-2",
+        "href": null,
+        "id": "",
+        "aria_label": "Like playlist button",
+        "is_displayed": true,
+        "location": {
+          "x": 760,
+          "y": 3199
+        }
+      },
+      {
+        "tag_name": "button",
+        "text": "20",
+        "class": "rounded-md backdrop-blur-lg flex flex-row text-[10px] bg-vinylBlack-darker/50 text-secondary gap-1 items-center px-2 py-1 font-mono font-bold shadow-lg hover:bg-gray-800/30 absolute bottom-2 left-2",
+        "href": null,
+        "id": "",
+        "aria_label": "Like playlist button",
+        "is_displayed": true,
+        "location": {
+          "x": 938,
+          "y": 3199
+        }
+      },
+      {
+        "tag_name": "button",
+        "text": "36",
+        "class": "rounded-md backdrop-blur-lg flex flex-row text-[10px] bg-vinylBlack-darker/50 text-secondary gap-1 items-center px-2 py-1 font-mono font-bold shadow-lg hover:bg-gray-800/30 absolute bottom-2 left-2",
+        "href": null,
+        "id": "",
+        "aria_label": "Like playlist button",
+        "is_displayed": true,
+        "location": {
+          "x": 1116,
+          "y": 3199
+        }
+      },
+      {
+        "tag_name": "button",
+        "text": "",
+        "class": "absolute top-0 right-0 bg-gradient-to-l from-vinylBlack-darker via-vinylBlack-darker/75 to-transparent w-16 h-full z-[2] hidden sm:flex items-center justify-center transition ease-linear opacity-100 pointer-events-auto",
+        "href": null,
+        "id": "",
+        "aria_label": "Scroll right",
+        "is_displayed": true,
+        "location": {
+          "x": 700,
+          "y": 3048
+        }
+      },
+      {
+        "tag_name": "button",
+        "text": "Show more",
+        "class": "font-sans text-lg cursor-pointer flex-row flex items-center gap-2 text-sm hover:underline",
+        "href": null,
+        "id": "",
+        "aria_label": "",
+        "is_displayed": true,
+        "location": {
+          "x": 679,
+          "y": 3400
+        }
+      },
+      {
+        "tag_name": "button",
+        "text": "",
+        "class": "absolute top-0 left-0 bg-gradient-to-r from-vinylBlack-darker via-vinylBlack-darker/75 to-transparent w-16 h-full z-[2] hidden sm:flex items-center justify-center transition ease-linear opacity-0 pointer-events-none",
+        "href": null,
+        "id": "",
+        "aria_label": "Scroll left",
+        "is_displayed": false,
+        "location": {
+          "x": 216,
+          "y": 3458
+        }
+      },
+      {
+        "tag_name": "button",
+        "text": "",
+        "class": "flex items-center justify-center rounded-full p-4 w-14 h-14 backdrop-blur-lg bg-vinylBlack-darker/50 text-current border-none outline-none absolute top-1.5 end-1.5 transition[transform,opacity] duration-150 -translate-y-full opacity-0",
+        "href": null,
+        "id": "",
+        "aria_label": null,
+        "is_displayed": false,
+        "location": {
+          "x": 314,
+          "y": 3408
+        }
+      },
+      {
+        "tag_name": "button",
+        "text": "4.1K",
+        "class": "flex-row items-center gap-1 rounded-md px-2 py-1 font-mono font-bold text-[11px] text-primary backdrop-blur-lg bg-vinylBlack-darker/50 shadow-lg inline-flex w-auto hover:text-vinylBlack-dark hover:bg-gray-800/30",
+        "href": null,
+        "id": "",
+        "aria_label": "Play button with play count",
+        "is_displayed": true,
+        "location": {
+          "x": 224,
+          "y": 3665
+        }
+      },
+      {
+        "tag_name": "button",
+        "text": "164",
+        "class": "flex-row items-center gap-1 rounded-md px-2 py-1 font-mono font-bold text-[11px] text-primary backdrop-blur-lg bg-vinylBlack-darker/50 shadow-lg inline-flex w-auto hover:text-vinylBlack-dark hover:bg-gray-800/30",
+        "href": null,
+        "id": "",
+        "aria_label": "Like button with like count",
+        "is_displayed": true,
+        "location": {
+          "x": 293,
+          "y": 3665
+        }
+      },
+      {
+        "tag_name": "button",
+        "text": "",
+        "class": "chakra-button chakra-menu__menu-button css-o244em",
+        "href": null,
+        "id": "menu-button-:rea:",
+        "aria_label": "More Actions",
+        "is_displayed": false,
+        "location": {
+          "x": 0,
+          "y": 0
+        }
+      },
+      {
+        "tag_name": "button",
+        "text": "",
+        "class": "",
+        "href": null,
+        "id": "radix-:red:",
+        "aria_label": null,
+        "is_displayed": true,
+        "location": {
+          "x": 344,
+          "y": 3762
+        }
+      },
+      {
+        "tag_name": "button",
+        "text": "",
+        "class": "flex items-center justify-center rounded-full p-4 w-14 h-14 backdrop-blur-lg bg-vinylBlack-darker/50 text-current border-none outline-none absolute top-1.5 end-1.5 transition[transform,opacity] duration-150 -translate-y-full opacity-0",
+        "href": null,
+        "id": "",
+        "aria_label": null,
+        "is_displayed": false,
+        "location": {
+          "x": 492,
+          "y": 3408
+        }
+      },
+      {
+        "tag_name": "button",
+        "text": "680K",
+        "class": "flex-row items-center gap-1 rounded-md px-2 py-1 font-mono font-bold text-[11px] text-primary backdrop-blur-lg bg-vinylBlack-darker/50 shadow-lg inline-flex w-auto hover:text-vinylBlack-dark hover:bg-gray-800/30",
+        "href": null,
+        "id": "",
+        "aria_label": "Play button with play count",
+        "is_displayed": true,
+        "location": {
+          "x": 402,
+          "y": 3665
+        }
+      },
+      {
+        "tag_name": "button",
+        "text": "8.9K",
+        "class": "flex-row items-center gap-1 rounded-md px-2 py-1 font-mono font-bold text-[11px] text-primary backdrop-blur-lg bg-vinylBlack-darker/50 shadow-lg inline-flex w-auto hover:text-vinylBlack-dark hover:bg-gray-800/30",
+        "href": null,
+        "id": "",
+        "aria_label": "Like button with like count",
+        "is_displayed": true,
+        "location": {
+          "x": 474,
+          "y": 3665
+        }
+      },
+      {
+        "tag_name": "button",
+        "text": "",
+        "class": "chakra-button chakra-menu__menu-button css-o244em",
+        "href": null,
+        "id": "menu-button-:ren:",
+        "aria_label": "More Actions",
+        "is_displayed": false,
+        "location": {
+          "x": 0,
+          "y": 0
+        }
+      },
+      {
+        "tag_name": "button",
+        "text": "",
+        "class": "",
+        "href": null,
+        "id": "radix-:req:",
+        "aria_label": null,
+        "is_displayed": true,
+        "location": {
+          "x": 522,
+          "y": 3762
+        }
+      },
+      {
+        "tag_name": "button",
+        "text": "",
+        "class": "flex items-center justify-center rounded-full p-4 w-14 h-14 backdrop-blur-lg bg-vinylBlack-darker/50 text-current border-none outline-none absolute top-1.5 end-1.5 transition[transform,opacity] duration-150 -translate-y-full opacity-0",
+        "href": null,
+        "id": "",
+        "aria_label": null,
+        "is_displayed": false,
+        "location": {
+          "x": 671,
+          "y": 3408
+        }
+      },
+      {
+        "tag_name": "button",
+        "text": "855K",
+        "class": "flex-row items-center gap-1 rounded-md px-2 py-1 font-mono font-bold text-[11px] text-primary backdrop-blur-lg bg-vinylBlack-darker/50 shadow-lg inline-flex w-auto hover:text-vinylBlack-dark hover:bg-gray-800/30",
+        "href": null,
+        "id": "",
+        "aria_label": "Play button with play count",
+        "is_displayed": true,
+        "location": {
+          "x": 581,
+          "y": 3665
+        }
+      },
+      {
+        "tag_name": "button",
+        "text": "8.1K",
+        "class": "flex-row items-center gap-1 rounded-md px-2 py-1 font-mono font-bold text-[11px] text-primary backdrop-blur-lg bg-vinylBlack-darker/50 shadow-lg inline-flex w-auto hover:text-vinylBlack-dark hover:bg-gray-800/30",
+        "href": null,
+        "id": "",
+        "aria_label": "Like button with like count",
+        "is_displayed": true,
+        "location": {
+          "x": 652,
+          "y": 3665
+        }
+      },
+      {
+        "tag_name": "button",
+        "text": "",
+        "class": "chakra-button chakra-menu__menu-button css-o244em",
+        "href": null,
+        "id": "menu-button-:rf4:",
+        "aria_label": "More Actions",
+        "is_displayed": false,
+        "location": {
+          "x": 0,
+          "y": 0
+        }
+      },
+      {
+        "tag_name": "button",
+        "text": "",
+        "class": "",
+        "href": null,
+        "id": "radix-:rf7:",
+        "aria_label": null,
+        "is_displayed": true,
+        "location": {
+          "x": 701,
+          "y": 3762
+        }
+      },
+      {
+        "tag_name": "button",
+        "text": "",
+        "class": "flex items-center justify-center rounded-full p-4 w-14 h-14 backdrop-blur-lg bg-vinylBlack-darker/50 text-current border-none outline-none absolute top-1.5 end-1.5 transition[transform,opacity] duration-150 -translate-y-full opacity-0",
+        "href": null,
+        "id": "",
+        "aria_label": null,
+        "is_displayed": false,
+        "location": {
+          "x": 850,
+          "y": 3408
+        }
+      },
+      {
+        "tag_name": "button",
+        "text": "1.4M",
+        "class": "flex-row items-center gap-1 rounded-md px-2 py-1 font-mono font-bold text-[11px] text-primary backdrop-blur-lg bg-vinylBlack-darker/50 shadow-lg inline-flex w-auto hover:text-vinylBlack-dark hover:bg-gray-800/30",
+        "href": null,
+        "id": "",
+        "aria_label": "Play button with play count",
+        "is_displayed": true,
+        "location": {
+          "x": 760,
+          "y": 3665
+        }
+      },
+      {
+        "tag_name": "button",
+        "text": "16K",
+        "class": "flex-row items-center gap-1 rounded-md px-2 py-1 font-mono font-bold text-[11px] text-primary backdrop-blur-lg bg-vinylBlack-darker/50 shadow-lg inline-flex w-auto hover:text-vinylBlack-dark hover:bg-gray-800/30",
+        "href": null,
+        "id": "",
+        "aria_label": "Like button with like count",
+        "is_displayed": true,
+        "location": {
+          "x": 830,
+          "y": 3665
+        }
+      },
+      {
+        "tag_name": "button",
+        "text": "",
+        "class": "chakra-button chakra-menu__menu-button css-o244em",
+        "href": null,
+        "id": "menu-button-:rfh:",
+        "aria_label": "More Actions",
+        "is_displayed": false,
+        "location": {
+          "x": 0,
+          "y": 0
+        }
+      },
+      {
+        "tag_name": "button",
+        "text": "",
+        "class": "",
+        "href": null,
+        "id": "radix-:rfk:",
+        "aria_label": null,
+        "is_displayed": true,
+        "location": {
+          "x": 880,
+          "y": 3762
+        }
+      },
+      {
+        "tag_name": "button",
+        "text": "",
+        "class": "flex items-center justify-center rounded-full p-4 w-14 h-14 backdrop-blur-lg bg-vinylBlack-darker/50 text-current border-none outline-none absolute top-1.5 end-1.5 transition[transform,opacity] duration-150 -translate-y-full opacity-0",
+        "href": null,
+        "id": "",
+        "aria_label": null,
+        "is_displayed": false,
+        "location": {
+          "x": 1028,
+          "y": 3408
+        }
+      },
+      {
+        "tag_name": "button",
+        "text": "740K",
+        "class": "flex-row items-center gap-1 rounded-md px-2 py-1 font-mono font-bold text-[11px] text-primary backdrop-blur-lg bg-vinylBlack-darker/50 shadow-lg inline-flex w-auto hover:text-vinylBlack-dark hover:bg-gray-800/30",
+        "href": null,
+        "id": "",
+        "aria_label": "Play button with play count",
+        "is_displayed": true,
+        "location": {
+          "x": 938,
+          "y": 3665
+        }
+      },
+      {
+        "tag_name": "button",
+        "text": "9.2K",
+        "class": "flex-row items-center gap-1 rounded-md px-2 py-1 font-mono font-bold text-[11px] text-primary backdrop-blur-lg bg-vinylBlack-darker/50 shadow-lg inline-flex w-auto hover:text-vinylBlack-dark hover:bg-gray-800/30",
+        "href": null,
+        "id": "",
+        "aria_label": "Like button with like count",
+        "is_displayed": true,
+        "location": {
+          "x": 1009,
+          "y": 3665
+        }
+      },
+      {
+        "tag_name": "button",
+        "text": "",
+        "class": "chakra-button chakra-menu__menu-button css-o244em",
+        "href": null,
+        "id": "menu-button-:rfu:",
+        "aria_label": "More Actions",
+        "is_displayed": false,
+        "location": {
+          "x": 0,
+          "y": 0
+        }
+      },
+      {
+        "tag_name": "button",
+        "text": "",
+        "class": "",
+        "href": null,
+        "id": "radix-:rg1:",
+        "aria_label": null,
+        "is_displayed": true,
+        "location": {
+          "x": 1058,
+          "y": 3762
+        }
+      },
+      {
+        "tag_name": "button",
+        "text": "",
+        "class": "flex items-center justify-center rounded-full p-4 w-14 h-14 backdrop-blur-lg bg-vinylBlack-darker/50 text-current border-none outline-none absolute top-1.5 end-1.5 transition[transform,opacity] duration-150 -translate-y-full opacity-0",
+        "href": null,
+        "id": "",
+        "aria_label": null,
+        "is_displayed": false,
+        "location": {
+          "x": 1206,
+          "y": 3408
+        }
+      },
+      {
+        "tag_name": "button",
+        "text": "350K",
+        "class": "flex-row items-center gap-1 rounded-md px-2 py-1 font-mono font-bold text-[11px] text-primary backdrop-blur-lg bg-vinylBlack-darker/50 shadow-lg inline-flex w-auto hover:text-vinylBlack-dark hover:bg-gray-800/30",
+        "href": null,
+        "id": "",
+        "aria_label": "Play button with play count",
+        "is_displayed": true,
+        "location": {
+          "x": 1116,
+          "y": 3665
+        }
+      },
+      {
+        "tag_name": "button",
+        "text": "4.7K",
+        "class": "flex-row items-center gap-1 rounded-md px-2 py-1 font-mono font-bold text-[11px] text-primary backdrop-blur-lg bg-vinylBlack-darker/50 shadow-lg inline-flex w-auto hover:text-vinylBlack-dark hover:bg-gray-800/30",
+        "href": null,
+        "id": "",
+        "aria_label": "Like button with like count",
+        "is_displayed": true,
+        "location": {
+          "x": 1188,
+          "y": 3665
+        }
+      },
+      {
+        "tag_name": "button",
+        "text": "",
+        "class": "chakra-button chakra-menu__menu-button css-o244em",
+        "href": null,
+        "id": "menu-button-:rgb:",
+        "aria_label": "More Actions",
+        "is_displayed": false,
+        "location": {
+          "x": 0,
+          "y": 0
+        }
+      },
+      {
+        "tag_name": "button",
+        "text": "",
+        "class": "",
+        "href": null,
+        "id": "radix-:rge:",
+        "aria_label": null,
+        "is_displayed": true,
+        "location": {
+          "x": 1236,
+          "y": 3762
+        }
+      },
+      {
+        "tag_name": "button",
+        "text": "",
+        "class": "absolute top-0 right-0 bg-gradient-to-l from-vinylBlack-darker via-vinylBlack-darker/75 to-transparent w-16 h-full z-[2] hidden sm:flex items-center justify-center transition ease-linear opacity-100 pointer-events-auto",
+        "href": null,
+        "id": "",
+        "aria_label": "Scroll right",
+        "is_displayed": true,
+        "location": {
+          "x": 700,
+          "y": 3458
+        }
+      },
+      {
+        "tag_name": "button",
+        "text": "",
+        "class": "absolute top-0 left-0 bg-gradient-to-r from-vinylBlack-darker via-vinylBlack-darker/75 to-transparent w-16 h-full z-[2] hidden sm:flex items-center justify-center transition ease-linear opacity-0 pointer-events-none",
+        "href": null,
+        "id": "",
+        "aria_label": "Scroll left",
+        "is_displayed": false,
+        "location": {
+          "x": 216,
+          "y": 3932
+        }
+      },
+      {
+        "tag_name": "button",
+        "text": "50",
+        "class": "rounded-md backdrop-blur-lg flex flex-row text-[10px] bg-vinylBlack-darker/50 text-secondary gap-1 items-center px-2 py-1 font-mono font-bold shadow-lg hover:bg-gray-800/30 absolute bottom-2 left-2",
+        "href": null,
+        "id": "",
+        "aria_label": "Like playlist button",
+        "is_displayed": true,
+        "location": {
+          "x": 224,
+          "y": 4083
+        }
+      },
+      {
+        "tag_name": "button",
+        "text": "56",
+        "class": "rounded-md backdrop-blur-lg flex flex-row text-[10px] bg-vinylBlack-darker/50 text-secondary gap-1 items-center px-2 py-1 font-mono font-bold shadow-lg hover:bg-gray-800/30 absolute bottom-2 left-2",
+        "href": null,
+        "id": "",
+        "aria_label": "Like playlist button",
+        "is_displayed": true,
+        "location": {
+          "x": 402,
+          "y": 4083
+        }
+      },
+      {
+        "tag_name": "button",
+        "text": "9",
+        "class": "rounded-md backdrop-blur-lg flex flex-row text-[10px] bg-vinylBlack-darker/50 text-secondary gap-1 items-center px-2 py-1 font-mono font-bold shadow-lg hover:bg-gray-800/30 absolute bottom-2 left-2",
+        "href": null,
+        "id": "",
+        "aria_label": "Like playlist button",
+        "is_displayed": true,
+        "location": {
+          "x": 581,
+          "y": 4083
+        }
+      },
+      {
+        "tag_name": "button",
+        "text": "23",
+        "class": "rounded-md backdrop-blur-lg flex flex-row text-[10px] bg-vinylBlack-darker/50 text-secondary gap-1 items-center px-2 py-1 font-mono font-bold shadow-lg hover:bg-gray-800/30 absolute bottom-2 left-2",
+        "href": null,
+        "id": "",
+        "aria_label": "Like playlist button",
+        "is_displayed": true,
+        "location": {
+          "x": 760,
+          "y": 4083
+        }
+      },
+      {
+        "tag_name": "button",
+        "text": "19",
+        "class": "rounded-md backdrop-blur-lg flex flex-row text-[10px] bg-vinylBlack-darker/50 text-secondary gap-1 items-center px-2 py-1 font-mono font-bold shadow-lg hover:bg-gray-800/30 absolute bottom-2 left-2",
+        "href": null,
+        "id": "",
+        "aria_label": "Like playlist button",
+        "is_displayed": true,
+        "location": {
+          "x": 938,
+          "y": 4083
+        }
+      },
+      {
+        "tag_name": "button",
+        "text": "52",
+        "class": "rounded-md backdrop-blur-lg flex flex-row text-[10px] bg-vinylBlack-darker/50 text-secondary gap-1 items-center px-2 py-1 font-mono font-bold shadow-lg hover:bg-gray-800/30 absolute bottom-2 left-2",
+        "href": null,
+        "id": "",
+        "aria_label": "Like playlist button",
+        "is_displayed": true,
+        "location": {
+          "x": 1116,
+          "y": 4083
+        }
+      },
+      {
+        "tag_name": "button",
+        "text": "",
+        "class": "absolute top-0 right-0 bg-gradient-to-l from-vinylBlack-darker via-vinylBlack-darker/75 to-transparent w-16 h-full z-[2] hidden sm:flex items-center justify-center transition ease-linear opacity-100 pointer-events-auto",
+        "href": null,
+        "id": "",
+        "aria_label": "Scroll right",
+        "is_displayed": true,
+        "location": {
+          "x": 700,
+          "y": 3932
+        }
+      },
+      {
+        "tag_name": "button",
+        "text": "Show more",
+        "class": "font-sans text-lg cursor-pointer flex-row flex items-center gap-2 text-sm hover:underline",
+        "href": null,
+        "id": "",
+        "aria_label": "",
+        "is_displayed": true,
+        "location": {
+          "x": 679,
+          "y": 4284
+        }
+      },
+      {
+        "tag_name": "button",
+        "text": "",
+        "class": "absolute top-0 left-0 bg-gradient-to-r from-vinylBlack-darker via-vinylBlack-darker/75 to-transparent w-16 h-full z-[2] hidden sm:flex items-center justify-center transition ease-linear opacity-0 pointer-events-none",
+        "href": null,
+        "id": "",
+        "aria_label": "Scroll left",
+        "is_displayed": false,
+        "location": {
+          "x": 216,
+          "y": 4342
+        }
+      },
+      {
+        "tag_name": "button",
+        "text": "",
+        "class": "flex items-center justify-center rounded-full p-4 w-14 h-14 backdrop-blur-lg bg-vinylBlack-darker/50 text-current border-none outline-none absolute top-1.5 end-1.5 transition[transform,opacity] duration-150 -translate-y-full opacity-0",
+        "href": null,
+        "id": "",
+        "aria_label": null,
+        "is_displayed": false,
+        "location": {
+          "x": 314,
+          "y": 4292
+        }
+      },
+      {
+        "tag_name": "button",
+        "text": "30K",
+        "class": "flex-row items-center gap-1 rounded-md px-2 py-1 font-mono font-bold text-[11px] text-primary backdrop-blur-lg bg-vinylBlack-darker/50 shadow-lg inline-flex w-auto hover:text-vinylBlack-dark hover:bg-gray-800/30",
+        "href": null,
+        "id": "",
+        "aria_label": "Play button with play count",
+        "is_displayed": true,
+        "location": {
+          "x": 224,
+          "y": 4549
+        }
+      },
+      {
+        "tag_name": "button",
+        "text": "565",
+        "class": "flex-row items-center gap-1 rounded-md px-2 py-1 font-mono font-bold text-[11px] text-primary backdrop-blur-lg bg-vinylBlack-darker/50 shadow-lg inline-flex w-auto hover:text-vinylBlack-dark hover:bg-gray-800/30",
+        "href": null,
+        "id": "",
+        "aria_label": "Like button with like count",
+        "is_displayed": true,
+        "location": {
+          "x": 286,
+          "y": 4549
+        }
+      },
+      {
+        "tag_name": "button",
+        "text": "",
+        "class": "chakra-button chakra-menu__menu-button css-o244em",
+        "href": null,
+        "id": "menu-button-:rhs:",
+        "aria_label": "More Actions",
+        "is_displayed": false,
+        "location": {
+          "x": 0,
+          "y": 0
+        }
+      },
+      {
+        "tag_name": "button",
+        "text": "",
+        "class": "",
+        "href": null,
+        "id": "radix-:rhv:",
+        "aria_label": null,
+        "is_displayed": true,
+        "location": {
+          "x": 344,
+          "y": 4646
+        }
+      },
+      {
+        "tag_name": "button",
+        "text": "",
+        "class": "flex items-center justify-center rounded-full p-4 w-14 h-14 backdrop-blur-lg bg-vinylBlack-darker/50 text-current border-none outline-none absolute top-1.5 end-1.5 transition[transform,opacity] duration-150 -translate-y-full opacity-0",
+        "href": null,
+        "id": "",
+        "aria_label": null,
+        "is_displayed": false,
+        "location": {
+          "x": 492,
+          "y": 4292
+        }
+      },
+      {
+        "tag_name": "button",
+        "text": "22K",
+        "class": "flex-row items-center gap-1 rounded-md px-2 py-1 font-mono font-bold text-[11px] text-primary backdrop-blur-lg bg-vinylBlack-darker/50 shadow-lg inline-flex w-auto hover:text-vinylBlack-dark hover:bg-gray-800/30",
+        "href": null,
+        "id": "",
+        "aria_label": "Play button with play count",
+        "is_displayed": true,
+        "location": {
+          "x": 402,
+          "y": 4549
+        }
+      },
+      {
+        "tag_name": "button",
+        "text": "483",
+        "class": "flex-row items-center gap-1 rounded-md px-2 py-1 font-mono font-bold text-[11px] text-primary backdrop-blur-lg bg-vinylBlack-darker/50 shadow-lg inline-flex w-auto hover:text-vinylBlack-dark hover:bg-gray-800/30",
+        "href": null,
+        "id": "",
+        "aria_label": "Like button with like count",
+        "is_displayed": true,
+        "location": {
+          "x": 464,
+          "y": 4549
+        }
+      },
+      {
+        "tag_name": "button",
+        "text": "",
+        "class": "chakra-button chakra-menu__menu-button css-o244em",
+        "href": null,
+        "id": "menu-button-:ri9:",
+        "aria_label": "More Actions",
+        "is_displayed": false,
+        "location": {
+          "x": 0,
+          "y": 0
+        }
+      },
+      {
+        "tag_name": "button",
+        "text": "",
+        "class": "",
+        "href": null,
+        "id": "radix-:ric:",
+        "aria_label": null,
+        "is_displayed": true,
+        "location": {
+          "x": 522,
+          "y": 4646
+        }
+      },
+      {
+        "tag_name": "button",
+        "text": "",
+        "class": "flex items-center justify-center rounded-full p-4 w-14 h-14 backdrop-blur-lg bg-vinylBlack-darker/50 text-current border-none outline-none absolute top-1.5 end-1.5 transition[transform,opacity] duration-150 -translate-y-full opacity-0",
+        "href": null,
+        "id": "",
+        "aria_label": null,
+        "is_displayed": false,
+        "location": {
+          "x": 671,
+          "y": 4292
+        }
+      },
+      {
+        "tag_name": "button",
+        "text": "2.4K",
+        "class": "flex-row items-center gap-1 rounded-md px-2 py-1 font-mono font-bold text-[11px] text-primary backdrop-blur-lg bg-vinylBlack-darker/50 shadow-lg inline-flex w-auto hover:text-vinylBlack-dark hover:bg-gray-800/30",
+        "href": null,
+        "id": "",
+        "aria_label": "Play button with play count",
+        "is_displayed": true,
+        "location": {
+          "x": 581,
+          "y": 4549
+        }
+      },
+      {
+        "tag_name": "button",
+        "text": "156",
+        "class": "flex-row items-center gap-1 rounded-md px-2 py-1 font-mono font-bold text-[11px] text-primary backdrop-blur-lg bg-vinylBlack-darker/50 shadow-lg inline-flex w-auto hover:text-vinylBlack-dark hover:bg-gray-800/30",
+        "href": null,
+        "id": "",
+        "aria_label": "Like button with like count",
+        "is_displayed": true,
+        "location": {
+          "x": 650,
+          "y": 4549
+        }
+      },
+      {
+        "tag_name": "button",
+        "text": "",
+        "class": "chakra-button chakra-menu__menu-button css-o244em",
+        "href": null,
+        "id": "menu-button-:rim:",
+        "aria_label": "More Actions",
+        "is_displayed": false,
+        "location": {
+          "x": 0,
+          "y": 0
+        }
+      },
+      {
+        "tag_name": "button",
+        "text": "",
+        "class": "",
+        "href": null,
+        "id": "radix-:rip:",
+        "aria_label": null,
+        "is_displayed": true,
+        "location": {
+          "x": 701,
+          "y": 4646
+        }
+      },
+      {
+        "tag_name": "button",
+        "text": "",
+        "class": "flex items-center justify-center rounded-full p-4 w-14 h-14 backdrop-blur-lg bg-vinylBlack-darker/50 text-current border-none outline-none absolute top-1.5 end-1.5 transition[transform,opacity] duration-150 -translate-y-full opacity-0",
+        "href": null,
+        "id": "",
+        "aria_label": null,
+        "is_displayed": false,
+        "location": {
+          "x": 850,
+          "y": 4292
+        }
+      },
+      {
+        "tag_name": "button",
+        "text": "3.3K",
+        "class": "flex-row items-center gap-1 rounded-md px-2 py-1 font-mono font-bold text-[11px] text-primary backdrop-blur-lg bg-vinylBlack-darker/50 shadow-lg inline-flex w-auto hover:text-vinylBlack-dark hover:bg-gray-800/30",
+        "href": null,
+        "id": "",
+        "aria_label": "Play button with play count",
+        "is_displayed": true,
+        "location": {
+          "x": 760,
+          "y": 4549
+        }
+      },
+      {
+        "tag_name": "button",
+        "text": "45",
+        "class": "flex-row items-center gap-1 rounded-md px-2 py-1 font-mono font-bold text-[11px] text-primary backdrop-blur-lg bg-vinylBlack-darker/50 shadow-lg inline-flex w-auto hover:text-vinylBlack-dark hover:bg-gray-800/30",
+        "href": null,
+        "id": "",
+        "aria_label": "Like button with like count",
+        "is_displayed": true,
+        "location": {
+          "x": 828,
+          "y": 4549
+        }
+      },
+      {
+        "tag_name": "button",
+        "text": "",
+        "class": "chakra-button chakra-menu__menu-button css-o244em",
+        "href": null,
+        "id": "menu-button-:rj3:",
+        "aria_label": "More Actions",
+        "is_displayed": false,
+        "location": {
+          "x": 0,
+          "y": 0
+        }
+      },
+      {
+        "tag_name": "button",
+        "text": "",
+        "class": "",
+        "href": null,
+        "id": "radix-:rj6:",
+        "aria_label": null,
+        "is_displayed": true,
+        "location": {
+          "x": 880,
+          "y": 4646
+        }
+      },
+      {
+        "tag_name": "button",
+        "text": "",
+        "class": "flex items-center justify-center rounded-full p-4 w-14 h-14 backdrop-blur-lg bg-vinylBlack-darker/50 text-current border-none outline-none absolute top-1.5 end-1.5 transition[transform,opacity] duration-150 -translate-y-full opacity-0",
+        "href": null,
+        "id": "",
+        "aria_label": null,
+        "is_displayed": false,
+        "location": {
+          "x": 1028,
+          "y": 4292
+        }
+      },
+      {
+        "tag_name": "button",
+        "text": "47K",
+        "class": "flex-row items-center gap-1 rounded-md px-2 py-1 font-mono font-bold text-[11px] text-primary backdrop-blur-lg bg-vinylBlack-darker/50 shadow-lg inline-flex w-auto hover:text-vinylBlack-dark hover:bg-gray-800/30",
+        "href": null,
+        "id": "",
+        "aria_label": "Play button with play count",
+        "is_displayed": true,
+        "location": {
+          "x": 938,
+          "y": 4549
+        }
+      },
+      {
+        "tag_name": "button",
+        "text": "553",
+        "class": "flex-row items-center gap-1 rounded-md px-2 py-1 font-mono font-bold text-[11px] text-primary backdrop-blur-lg bg-vinylBlack-darker/50 shadow-lg inline-flex w-auto hover:text-vinylBlack-dark hover:bg-gray-800/30",
+        "href": null,
+        "id": "",
+        "aria_label": "Like button with like count",
+        "is_displayed": true,
+        "location": {
+          "x": 1000,
+          "y": 4549
+        }
+      },
+      {
+        "tag_name": "button",
+        "text": "",
+        "class": "chakra-button chakra-menu__menu-button css-o244em",
+        "href": null,
+        "id": "menu-button-:rjg:",
+        "aria_label": "More Actions",
+        "is_displayed": false,
+        "location": {
+          "x": 0,
+          "y": 0
+        }
+      },
+      {
+        "tag_name": "button",
+        "text": "",
+        "class": "",
+        "href": null,
+        "id": "radix-:rjj:",
+        "aria_label": null,
+        "is_displayed": true,
+        "location": {
+          "x": 1058,
+          "y": 4646
+        }
+      },
+      {
+        "tag_name": "button",
+        "text": "",
+        "class": "flex items-center justify-center rounded-full p-4 w-14 h-14 backdrop-blur-lg bg-vinylBlack-darker/50 text-current border-none outline-none absolute top-1.5 end-1.5 transition[transform,opacity] duration-150 -translate-y-full opacity-0",
+        "href": null,
+        "id": "",
+        "aria_label": null,
+        "is_displayed": false,
+        "location": {
+          "x": 1206,
+          "y": 4292
+        }
+      },
+      {
+        "tag_name": "button",
+        "text": "40K",
+        "class": "flex-row items-center gap-1 rounded-md px-2 py-1 font-mono font-bold text-[11px] text-primary backdrop-blur-lg bg-vinylBlack-darker/50 shadow-lg inline-flex w-auto hover:text-vinylBlack-dark hover:bg-gray-800/30",
+        "href": null,
+        "id": "",
+        "aria_label": "Play button with play count",
+        "is_displayed": true,
+        "location": {
+          "x": 1116,
+          "y": 4549
+        }
+      },
+      {
+        "tag_name": "button",
+        "text": "1.1K",
+        "class": "flex-row items-center gap-1 rounded-md px-2 py-1 font-mono font-bold text-[11px] text-primary backdrop-blur-lg bg-vinylBlack-darker/50 shadow-lg inline-flex w-auto hover:text-vinylBlack-dark hover:bg-gray-800/30",
+        "href": null,
+        "id": "",
+        "aria_label": "Like button with like count",
+        "is_displayed": true,
+        "location": {
+          "x": 1178,
+          "y": 4549
+        }
+      },
+      {
+        "tag_name": "button",
+        "text": "",
+        "class": "chakra-button chakra-menu__menu-button css-o244em",
+        "href": null,
+        "id": "menu-button-:rjt:",
+        "aria_label": "More Actions",
+        "is_displayed": false,
+        "location": {
+          "x": 0,
+          "y": 0
+        }
+      },
+      {
+        "tag_name": "button",
+        "text": "",
+        "class": "",
+        "href": null,
+        "id": "radix-:rk0:",
+        "aria_label": null,
+        "is_displayed": true,
+        "location": {
+          "x": 1236,
+          "y": 4646
+        }
+      },
+      {
+        "tag_name": "button",
+        "text": "",
+        "class": "absolute top-0 right-0 bg-gradient-to-l from-vinylBlack-darker via-vinylBlack-darker/75 to-transparent w-16 h-full z-[2] hidden sm:flex items-center justify-center transition ease-linear opacity-100 pointer-events-auto",
+        "href": null,
+        "id": "",
+        "aria_label": "Scroll right",
+        "is_displayed": true,
+        "location": {
+          "x": 700,
+          "y": 4342
+        }
+      },
+      {
+        "tag_name": "button",
+        "text": "Show more",
+        "class": "font-sans text-lg cursor-pointer flex-row flex items-center gap-2 text-sm hover:underline",
+        "href": null,
+        "id": "",
+        "aria_label": "",
+        "is_displayed": true,
+        "location": {
+          "x": 679,
+          "y": 4758
+        }
+      },
+      {
+        "tag_name": "button",
+        "text": "",
+        "class": "absolute top-0 left-0 bg-gradient-to-r from-vinylBlack-darker via-vinylBlack-darker/75 to-transparent w-16 h-full z-[2] hidden sm:flex items-center justify-center transition ease-linear opacity-0 pointer-events-none",
+        "href": null,
+        "id": "",
+        "aria_label": "Scroll left",
+        "is_displayed": false,
+        "location": {
+          "x": 216,
+          "y": 4816
+        }
+      },
+      {
+        "tag_name": "button",
+        "text": "",
+        "class": "flex items-center justify-center rounded-full p-4 w-14 h-14 backdrop-blur-lg bg-vinylBlack-darker/50 text-current border-none outline-none absolute top-1.5 end-1.5 transition[transform,opacity] duration-150 -translate-y-full opacity-0",
+        "href": null,
+        "id": "",
+        "aria_label": null,
+        "is_displayed": false,
+        "location": {
+          "x": 314,
+          "y": 4766
+        }
+      },
+      {
+        "tag_name": "button",
+        "text": "1.1K",
+        "class": "flex-row items-center gap-1 rounded-md px-2 py-1 font-mono font-bold text-[11px] text-primary backdrop-blur-lg bg-vinylBlack-darker/50 shadow-lg inline-flex w-auto hover:text-vinylBlack-dark hover:bg-gray-800/30",
+        "href": null,
+        "id": "",
+        "aria_label": "Play button with play count",
+        "is_displayed": true,
+        "location": {
+          "x": 224,
+          "y": 5023
+        }
+      },
+      {
+        "tag_name": "button",
+        "text": "29",
+        "class": "flex-row items-center gap-1 rounded-md px-2 py-1 font-mono font-bold text-[11px] text-primary backdrop-blur-lg bg-vinylBlack-darker/50 shadow-lg inline-flex w-auto hover:text-vinylBlack-dark hover:bg-gray-800/30",
+        "href": null,
+        "id": "",
+        "aria_label": "Like button with like count",
+        "is_displayed": true,
+        "location": {
+          "x": 293,
+          "y": 5023
+        }
+      },
+      {
+        "tag_name": "button",
+        "text": "",
+        "class": "chakra-button chakra-menu__menu-button css-o244em",
+        "href": null,
+        "id": "menu-button-:rka:",
+        "aria_label": "More Actions",
+        "is_displayed": false,
+        "location": {
+          "x": 0,
+          "y": 0
+        }
+      },
+      {
+        "tag_name": "button",
+        "text": "",
+        "class": "",
+        "href": null,
+        "id": "radix-:rkd:",
+        "aria_label": null,
+        "is_displayed": true,
+        "location": {
+          "x": 344,
+          "y": 5120
+        }
+      },
+      {
+        "tag_name": "button",
+        "text": "",
+        "class": "flex items-center justify-center rounded-full p-4 w-14 h-14 backdrop-blur-lg bg-vinylBlack-darker/50 text-current border-none outline-none absolute top-1.5 end-1.5 transition[transform,opacity] duration-150 -translate-y-full opacity-0",
+        "href": null,
+        "id": "",
+        "aria_label": null,
+        "is_displayed": false,
+        "location": {
+          "x": 492,
+          "y": 4766
+        }
+      },
+      {
+        "tag_name": "button",
+        "text": "671",
+        "class": "flex-row items-center gap-1 rounded-md px-2 py-1 font-mono font-bold text-[11px] text-primary backdrop-blur-lg bg-vinylBlack-darker/50 shadow-lg inline-flex w-auto hover:text-vinylBlack-dark hover:bg-gray-800/30",
+        "href": null,
+        "id": "",
+        "aria_label": "Play button with play count",
+        "is_displayed": true,
+        "location": {
+          "x": 402,
+          "y": 5023
+        }
+      },
+      {
+        "tag_name": "button",
+        "text": "21",
+        "class": "flex-row items-center gap-1 rounded-md px-2 py-1 font-mono font-bold text-[11px] text-primary backdrop-blur-lg bg-vinylBlack-darker/50 shadow-lg inline-flex w-auto hover:text-vinylBlack-dark hover:bg-gray-800/30",
+        "href": null,
+        "id": "",
+        "aria_label": "Like button with like count",
+        "is_displayed": true,
+        "location": {
+          "x": 466,
+          "y": 5023
+        }
+      },
+      {
+        "tag_name": "button",
+        "text": "",
+        "class": "chakra-button chakra-menu__menu-button css-o244em",
+        "href": null,
+        "id": "menu-button-:rkn:",
+        "aria_label": "More Actions",
+        "is_displayed": false,
+        "location": {
+          "x": 0,
+          "y": 0
+        }
+      },
+      {
+        "tag_name": "button",
+        "text": "",
+        "class": "",
+        "href": null,
+        "id": "radix-:rkq:",
+        "aria_label": null,
+        "is_displayed": true,
+        "location": {
+          "x": 522,
+          "y": 5120
+        }
+      },
+      {
+        "tag_name": "button",
+        "text": "",
+        "class": "flex items-center justify-center rounded-full p-4 w-14 h-14 backdrop-blur-lg bg-vinylBlack-darker/50 text-current border-none outline-none absolute top-1.5 end-1.5 transition[transform,opacity] duration-150 -translate-y-full opacity-0",
+        "href": null,
+        "id": "",
+        "aria_label": null,
+        "is_displayed": false,
+        "location": {
+          "x": 671,
+          "y": 4766
+        }
+      },
+      {
+        "tag_name": "button",
+        "text": "1.4K",
+        "class": "flex-row items-center gap-1 rounded-md px-2 py-1 font-mono font-bold text-[11px] text-primary backdrop-blur-lg bg-vinylBlack-darker/50 shadow-lg inline-flex w-auto hover:text-vinylBlack-dark hover:bg-gray-800/30",
+        "href": null,
+        "id": "",
+        "aria_label": "Play button with play count",
+        "is_displayed": true,
+        "location": {
+          "x": 581,
+          "y": 5023
+        }
+      },
+      {
+        "tag_name": "button",
+        "text": "30",
+        "class": "flex-row items-center gap-1 rounded-md px-2 py-1 font-mono font-bold text-[11px] text-primary backdrop-blur-lg bg-vinylBlack-darker/50 shadow-lg inline-flex w-auto hover:text-vinylBlack-dark hover:bg-gray-800/30",
+        "href": null,
+        "id": "",
+        "aria_label": "Like button with like count",
+        "is_displayed": true,
+        "location": {
+          "x": 650,
+          "y": 5023
+        }
+      },
+      {
+        "tag_name": "button",
+        "text": "",
+        "class": "chakra-button chakra-menu__menu-button css-o244em",
+        "href": null,
+        "id": "menu-button-:rl4:",
+        "aria_label": "More Actions",
+        "is_displayed": false,
+        "location": {
+          "x": 0,
+          "y": 0
+        }
+      },
+      {
+        "tag_name": "button",
+        "text": "",
+        "class": "",
+        "href": null,
+        "id": "radix-:rl7:",
+        "aria_label": null,
+        "is_displayed": true,
+        "location": {
+          "x": 701,
+          "y": 5120
+        }
+      },
+      {
+        "tag_name": "button",
+        "text": "",
+        "class": "flex items-center justify-center rounded-full p-4 w-14 h-14 backdrop-blur-lg bg-vinylBlack-darker/50 text-current border-none outline-none absolute top-1.5 end-1.5 transition[transform,opacity] duration-150 -translate-y-full opacity-0",
+        "href": null,
+        "id": "",
+        "aria_label": null,
+        "is_displayed": false,
+        "location": {
+          "x": 850,
+          "y": 4766
+        }
+      },
+      {
+        "tag_name": "button",
+        "text": "2.6K",
+        "class": "flex-row items-center gap-1 rounded-md px-2 py-1 font-mono font-bold text-[11px] text-primary backdrop-blur-lg bg-vinylBlack-darker/50 shadow-lg inline-flex w-auto hover:text-vinylBlack-dark hover:bg-gray-800/30",
+        "href": null,
+        "id": "",
+        "aria_label": "Play button with play count",
+        "is_displayed": true,
+        "location": {
+          "x": 760,
+          "y": 5023
+        }
+      },
+      {
+        "tag_name": "button",
+        "text": "37",
+        "class": "flex-row items-center gap-1 rounded-md px-2 py-1 font-mono font-bold text-[11px] text-primary backdrop-blur-lg bg-vinylBlack-darker/50 shadow-lg inline-flex w-auto hover:text-vinylBlack-dark hover:bg-gray-800/30",
+        "href": null,
+        "id": "",
+        "aria_label": "Like button with like count",
+        "is_displayed": true,
+        "location": {
+          "x": 828,
+          "y": 5023
+        }
+      },
+      {
+        "tag_name": "button",
+        "text": "",
+        "class": "chakra-button chakra-menu__menu-button css-o244em",
+        "href": null,
+        "id": "menu-button-:rlh:",
+        "aria_label": "More Actions",
+        "is_displayed": false,
+        "location": {
+          "x": 0,
+          "y": 0
+        }
+      },
+      {
+        "tag_name": "button",
+        "text": "",
+        "class": "",
+        "href": null,
+        "id": "radix-:rlk:",
+        "aria_label": null,
+        "is_displayed": true,
+        "location": {
+          "x": 880,
+          "y": 5120
+        }
+      },
+      {
+        "tag_name": "button",
+        "text": "",
+        "class": "flex items-center justify-center rounded-full p-4 w-14 h-14 backdrop-blur-lg bg-vinylBlack-darker/50 text-current border-none outline-none absolute top-1.5 end-1.5 transition[transform,opacity] duration-150 -translate-y-full opacity-0",
+        "href": null,
+        "id": "",
+        "aria_label": null,
+        "is_displayed": false,
+        "location": {
+          "x": 1028,
+          "y": 4766
+        }
+      },
+      {
+        "tag_name": "button",
+        "text": "1.6K",
+        "class": "flex-row items-center gap-1 rounded-md px-2 py-1 font-mono font-bold text-[11px] text-primary backdrop-blur-lg bg-vinylBlack-darker/50 shadow-lg inline-flex w-auto hover:text-vinylBlack-dark hover:bg-gray-800/30",
+        "href": null,
+        "id": "",
+        "aria_label": "Play button with play count",
+        "is_displayed": true,
+        "location": {
+          "x": 938,
+          "y": 5023
+        }
+      },
+      {
+        "tag_name": "button",
+        "text": "38",
+        "class": "flex-row items-center gap-1 rounded-md px-2 py-1 font-mono font-bold text-[11px] text-primary backdrop-blur-lg bg-vinylBlack-darker/50 shadow-lg inline-flex w-auto hover:text-vinylBlack-dark hover:bg-gray-800/30",
+        "href": null,
+        "id": "",
+        "aria_label": "Like button with like count",
+        "is_displayed": true,
+        "location": {
+          "x": 1007,
+          "y": 5023
+        }
+      },
+      {
+        "tag_name": "button",
+        "text": "",
+        "class": "chakra-button chakra-menu__menu-button css-o244em",
+        "href": null,
+        "id": "menu-button-:rlu:",
+        "aria_label": "More Actions",
+        "is_displayed": false,
+        "location": {
+          "x": 0,
+          "y": 0
+        }
+      },
+      {
+        "tag_name": "button",
+        "text": "",
+        "class": "",
+        "href": null,
+        "id": "radix-:rm1:",
+        "aria_label": null,
+        "is_displayed": true,
+        "location": {
+          "x": 1058,
+          "y": 5120
+        }
+      },
+      {
+        "tag_name": "button",
+        "text": "",
+        "class": "flex items-center justify-center rounded-full p-4 w-14 h-14 backdrop-blur-lg bg-vinylBlack-darker/50 text-current border-none outline-none absolute top-1.5 end-1.5 transition[transform,opacity] duration-150 -translate-y-full opacity-0",
+        "href": null,
+        "id": "",
+        "aria_label": null,
+        "is_displayed": false,
+        "location": {
+          "x": 1206,
+          "y": 4766
+        }
+      },
+      {
+        "tag_name": "button",
+        "text": "1.6K",
+        "class": "flex-row items-center gap-1 rounded-md px-2 py-1 font-mono font-bold text-[11px] text-primary backdrop-blur-lg bg-vinylBlack-darker/50 shadow-lg inline-flex w-auto hover:text-vinylBlack-dark hover:bg-gray-800/30",
+        "href": null,
+        "id": "",
+        "aria_label": "Play button with play count",
+        "is_displayed": true,
+        "location": {
+          "x": 1116,
+          "y": 5023
+        }
+      },
+      {
+        "tag_name": "button",
+        "text": "55",
+        "class": "flex-row items-center gap-1 rounded-md px-2 py-1 font-mono font-bold text-[11px] text-primary backdrop-blur-lg bg-vinylBlack-darker/50 shadow-lg inline-flex w-auto hover:text-vinylBlack-dark hover:bg-gray-800/30",
+        "href": null,
+        "id": "",
+        "aria_label": "Like button with like count",
+        "is_displayed": true,
+        "location": {
+          "x": 1186,
+          "y": 5023
+        }
+      },
+      {
+        "tag_name": "button",
+        "text": "",
+        "class": "chakra-button chakra-menu__menu-button css-o244em",
+        "href": null,
+        "id": "menu-button-:rmb:",
+        "aria_label": "More Actions",
+        "is_displayed": false,
+        "location": {
+          "x": 0,
+          "y": 0
+        }
+      },
+      {
+        "tag_name": "button",
+        "text": "",
+        "class": "",
+        "href": null,
+        "id": "radix-:rme:",
+        "aria_label": null,
+        "is_displayed": true,
+        "location": {
+          "x": 1236,
+          "y": 5120
+        }
+      },
+      {
+        "tag_name": "button",
+        "text": "",
+        "class": "absolute top-0 right-0 bg-gradient-to-l from-vinylBlack-darker via-vinylBlack-darker/75 to-transparent w-16 h-full z-[2] hidden sm:flex items-center justify-center transition ease-linear opacity-100 pointer-events-auto",
+        "href": null,
+        "id": "",
+        "aria_label": "Scroll right",
+        "is_displayed": true,
+        "location": {
+          "x": 700,
+          "y": 4816
+        }
+      },
+      {
+        "tag_name": "button",
+        "text": "Show more",
+        "class": "font-sans text-lg cursor-pointer flex-row flex items-center gap-2 text-sm hover:underline",
+        "href": null,
+        "id": "",
+        "aria_label": "",
+        "is_displayed": true,
+        "location": {
+          "x": 679,
+          "y": 5232
+        }
+      },
+      {
+        "tag_name": "button",
+        "text": "",
+        "class": "absolute top-0 left-0 bg-gradient-to-r from-vinylBlack-darker via-vinylBlack-darker/75 to-transparent w-16 h-full z-[2] hidden sm:flex items-center justify-center transition ease-linear opacity-0 pointer-events-none",
+        "href": null,
+        "id": "",
+        "aria_label": "Scroll left",
+        "is_displayed": false,
+        "location": {
+          "x": 216,
+          "y": 5290
+        }
+      },
+      {
+        "tag_name": "button",
+        "text": "",
+        "class": "flex items-center justify-center rounded-full p-4 w-14 h-14 backdrop-blur-lg bg-vinylBlack-darker/50 text-current border-none outline-none absolute top-1.5 end-1.5 transition[transform,opacity] duration-150 -translate-y-full opacity-0",
+        "href": null,
+        "id": "",
+        "aria_label": null,
+        "is_displayed": false,
+        "location": {
+          "x": 314,
+          "y": 5240
+        }
+      },
+      {
+        "tag_name": "button",
+        "text": "29K",
+        "class": "flex-row items-center gap-1 rounded-md px-2 py-1 font-mono font-bold text-[11px] text-primary backdrop-blur-lg bg-vinylBlack-darker/50 shadow-lg inline-flex w-auto hover:text-vinylBlack-dark hover:bg-gray-800/30",
+        "href": null,
+        "id": "",
+        "aria_label": "Play button with play count",
+        "is_displayed": true,
+        "location": {
+          "x": 224,
+          "y": 5497
+        }
+      },
+      {
+        "tag_name": "button",
+        "text": "294",
+        "class": "flex-row items-center gap-1 rounded-md px-2 py-1 font-mono font-bold text-[11px] text-primary backdrop-blur-lg bg-vinylBlack-darker/50 shadow-lg inline-flex w-auto hover:text-vinylBlack-dark hover:bg-gray-800/30",
+        "href": null,
+        "id": "",
+        "aria_label": "Like button with like count",
+        "is_displayed": true,
+        "location": {
+          "x": 286,
+          "y": 5497
+        }
+      },
+      {
+        "tag_name": "button",
+        "text": "",
+        "class": "chakra-button chakra-menu__menu-button css-o244em",
+        "href": null,
+        "id": "menu-button-:rmo:",
+        "aria_label": "More Actions",
+        "is_displayed": false,
+        "location": {
+          "x": 0,
+          "y": 0
+        }
+      },
+      {
+        "tag_name": "button",
+        "text": "",
+        "class": "",
+        "href": null,
+        "id": "radix-:rmr:",
+        "aria_label": null,
+        "is_displayed": true,
+        "location": {
+          "x": 344,
+          "y": 5594
+        }
+      },
+      {
+        "tag_name": "button",
+        "text": "",
+        "class": "flex items-center justify-center rounded-full p-4 w-14 h-14 backdrop-blur-lg bg-vinylBlack-darker/50 text-current border-none outline-none absolute top-1.5 end-1.5 transition[transform,opacity] duration-150 -translate-y-full opacity-0",
+        "href": null,
+        "id": "",
+        "aria_label": null,
+        "is_displayed": false,
+        "location": {
+          "x": 492,
+          "y": 5240
+        }
+      },
+      {
+        "tag_name": "button",
+        "text": "8.3K",
+        "class": "flex-row items-center gap-1 rounded-md px-2 py-1 font-mono font-bold text-[11px] text-primary backdrop-blur-lg bg-vinylBlack-darker/50 shadow-lg inline-flex w-auto hover:text-vinylBlack-dark hover:bg-gray-800/30",
+        "href": null,
+        "id": "",
+        "aria_label": "Play button with play count",
+        "is_displayed": true,
+        "location": {
+          "x": 402,
+          "y": 5497
+        }
+      },
+      {
+        "tag_name": "button",
+        "text": "135",
+        "class": "flex-row items-center gap-1 rounded-md px-2 py-1 font-mono font-bold text-[11px] text-primary backdrop-blur-lg bg-vinylBlack-darker/50 shadow-lg inline-flex w-auto hover:text-vinylBlack-dark hover:bg-gray-800/30",
+        "href": null,
+        "id": "",
+        "aria_label": "Like button with like count",
+        "is_displayed": true,
+        "location": {
+          "x": 472,
+          "y": 5497
+        }
+      },
+      {
+        "tag_name": "button",
+        "text": "",
+        "class": "chakra-button chakra-menu__menu-button css-o244em",
+        "href": null,
+        "id": "menu-button-:rn5:",
+        "aria_label": "More Actions",
+        "is_displayed": false,
+        "location": {
+          "x": 0,
+          "y": 0
+        }
+      },
+      {
+        "tag_name": "button",
+        "text": "",
+        "class": "",
+        "href": null,
+        "id": "radix-:rn8:",
+        "aria_label": null,
+        "is_displayed": true,
+        "location": {
+          "x": 522,
+          "y": 5594
+        }
+      },
+      {
+        "tag_name": "button",
+        "text": "",
+        "class": "flex items-center justify-center rounded-full p-4 w-14 h-14 backdrop-blur-lg bg-vinylBlack-darker/50 text-current border-none outline-none absolute top-1.5 end-1.5 transition[transform,opacity] duration-150 -translate-y-full opacity-0",
+        "href": null,
+        "id": "",
+        "aria_label": null,
+        "is_displayed": false,
+        "location": {
+          "x": 671,
+          "y": 5240
+        }
+      },
+      {
+        "tag_name": "button",
+        "text": "2.1K",
+        "class": "flex-row items-center gap-1 rounded-md px-2 py-1 font-mono font-bold text-[11px] text-primary backdrop-blur-lg bg-vinylBlack-darker/50 shadow-lg inline-flex w-auto hover:text-vinylBlack-dark hover:bg-gray-800/30",
+        "href": null,
+        "id": "",
+        "aria_label": "Play button with play count",
+        "is_displayed": true,
+        "location": {
+          "x": 581,
+          "y": 5497
+        }
+      },
+      {
+        "tag_name": "button",
+        "text": "38",
+        "class": "flex-row items-center gap-1 rounded-md px-2 py-1 font-mono font-bold text-[11px] text-primary backdrop-blur-lg bg-vinylBlack-darker/50 shadow-lg inline-flex w-auto hover:text-vinylBlack-dark hover:bg-gray-800/30",
+        "href": null,
+        "id": "",
+        "aria_label": "Like button with like count",
+        "is_displayed": true,
+        "location": {
+          "x": 650,
+          "y": 5497
+        }
+      },
+      {
+        "tag_name": "button",
+        "text": "",
+        "class": "chakra-button chakra-menu__menu-button css-o244em",
+        "href": null,
+        "id": "menu-button-:rni:",
+        "aria_label": "More Actions",
+        "is_displayed": false,
+        "location": {
+          "x": 0,
+          "y": 0
+        }
+      },
+      {
+        "tag_name": "button",
+        "text": "",
+        "class": "",
+        "href": null,
+        "id": "radix-:rnl:",
+        "aria_label": null,
+        "is_displayed": true,
+        "location": {
+          "x": 701,
+          "y": 5594
+        }
+      },
+      {
+        "tag_name": "button",
+        "text": "",
+        "class": "flex items-center justify-center rounded-full p-4 w-14 h-14 backdrop-blur-lg bg-vinylBlack-darker/50 text-current border-none outline-none absolute top-1.5 end-1.5 transition[transform,opacity] duration-150 -translate-y-full opacity-0",
+        "href": null,
+        "id": "",
+        "aria_label": null,
+        "is_displayed": false,
+        "location": {
+          "x": 850,
+          "y": 5240
+        }
+      },
+      {
+        "tag_name": "button",
+        "text": "1.8K",
+        "class": "flex-row items-center gap-1 rounded-md px-2 py-1 font-mono font-bold text-[11px] text-primary backdrop-blur-lg bg-vinylBlack-darker/50 shadow-lg inline-flex w-auto hover:text-vinylBlack-dark hover:bg-gray-800/30",
+        "href": null,
+        "id": "",
+        "aria_label": "Play button with play count",
+        "is_displayed": true,
+        "location": {
+          "x": 760,
+          "y": 5497
+        }
+      },
+      {
+        "tag_name": "button",
+        "text": "58",
+        "class": "flex-row items-center gap-1 rounded-md px-2 py-1 font-mono font-bold text-[11px] text-primary backdrop-blur-lg bg-vinylBlack-darker/50 shadow-lg inline-flex w-auto hover:text-vinylBlack-dark hover:bg-gray-800/30",
+        "href": null,
+        "id": "",
+        "aria_label": "Like button with like count",
+        "is_displayed": true,
+        "location": {
+          "x": 828,
+          "y": 5497
+        }
+      },
+      {
+        "tag_name": "button",
+        "text": "",
+        "class": "chakra-button chakra-menu__menu-button css-o244em",
+        "href": null,
+        "id": "menu-button-:rnv:",
+        "aria_label": "More Actions",
+        "is_displayed": false,
+        "location": {
+          "x": 0,
+          "y": 0
+        }
+      },
+      {
+        "tag_name": "button",
+        "text": "",
+        "class": "",
+        "href": null,
+        "id": "radix-:ro2:",
+        "aria_label": null,
+        "is_displayed": true,
+        "location": {
+          "x": 880,
+          "y": 5594
+        }
+      },
+      {
+        "tag_name": "button",
+        "text": "",
+        "class": "flex items-center justify-center rounded-full p-4 w-14 h-14 backdrop-blur-lg bg-vinylBlack-darker/50 text-current border-none outline-none absolute top-1.5 end-1.5 transition[transform,opacity] duration-150 -translate-y-full opacity-0",
+        "href": null,
+        "id": "",
+        "aria_label": null,
+        "is_displayed": false,
+        "location": {
+          "x": 1028,
+          "y": 5240
+        }
+      },
+      {
+        "tag_name": "button",
+        "text": "757",
+        "class": "flex-row items-center gap-1 rounded-md px-2 py-1 font-mono font-bold text-[11px] text-primary backdrop-blur-lg bg-vinylBlack-darker/50 shadow-lg inline-flex w-auto hover:text-vinylBlack-dark hover:bg-gray-800/30",
+        "href": null,
+        "id": "",
+        "aria_label": "Play button with play count",
+        "is_displayed": true,
+        "location": {
+          "x": 938,
+          "y": 5497
+        }
+      },
+      {
+        "tag_name": "button",
+        "text": "65",
+        "class": "flex-row items-center gap-1 rounded-md px-2 py-1 font-mono font-bold text-[11px] text-primary backdrop-blur-lg bg-vinylBlack-darker/50 shadow-lg inline-flex w-auto hover:text-vinylBlack-dark hover:bg-gray-800/30",
+        "href": null,
+        "id": "",
+        "aria_label": "Like button with like count",
+        "is_displayed": true,
+        "location": {
+          "x": 1001,
+          "y": 5497
+        }
+      },
+      {
+        "tag_name": "button",
+        "text": "",
+        "class": "chakra-button chakra-menu__menu-button css-o244em",
+        "href": null,
+        "id": "menu-button-:roc:",
+        "aria_label": "More Actions",
+        "is_displayed": false,
+        "location": {
+          "x": 0,
+          "y": 0
+        }
+      },
+      {
+        "tag_name": "button",
+        "text": "",
+        "class": "",
+        "href": null,
+        "id": "radix-:rof:",
+        "aria_label": null,
+        "is_displayed": true,
+        "location": {
+          "x": 1058,
+          "y": 5594
+        }
+      },
+      {
+        "tag_name": "button",
+        "text": "",
+        "class": "flex items-center justify-center rounded-full p-4 w-14 h-14 backdrop-blur-lg bg-vinylBlack-darker/50 text-current border-none outline-none absolute top-1.5 end-1.5 transition[transform,opacity] duration-150 -translate-y-full opacity-0",
+        "href": null,
+        "id": "",
+        "aria_label": null,
+        "is_displayed": false,
+        "location": {
+          "x": 1206,
+          "y": 5240
+        }
+      },
+      {
+        "tag_name": "button",
+        "text": "1.8K",
+        "class": "flex-row items-center gap-1 rounded-md px-2 py-1 font-mono font-bold text-[11px] text-primary backdrop-blur-lg bg-vinylBlack-darker/50 shadow-lg inline-flex w-auto hover:text-vinylBlack-dark hover:bg-gray-800/30",
+        "href": null,
+        "id": "",
+        "aria_label": "Play button with play count",
+        "is_displayed": true,
+        "location": {
+          "x": 1116,
+          "y": 5497
+        }
+      },
+      {
+        "tag_name": "button",
+        "text": "78",
+        "class": "flex-row items-center gap-1 rounded-md px-2 py-1 font-mono font-bold text-[11px] text-primary backdrop-blur-lg bg-vinylBlack-darker/50 shadow-lg inline-flex w-auto hover:text-vinylBlack-dark hover:bg-gray-800/30",
+        "href": null,
+        "id": "",
+        "aria_label": "Like button with like count",
+        "is_displayed": true,
+        "location": {
+          "x": 1186,
+          "y": 5497
+        }
+      },
+      {
+        "tag_name": "button",
+        "text": "",
+        "class": "chakra-button chakra-menu__menu-button css-o244em",
+        "href": null,
+        "id": "menu-button-:rop:",
+        "aria_label": "More Actions",
+        "is_displayed": false,
+        "location": {
+          "x": 0,
+          "y": 0
+        }
+      },
+      {
+        "tag_name": "button",
+        "text": "",
+        "class": "",
+        "href": null,
+        "id": "radix-:ros:",
+        "aria_label": null,
+        "is_displayed": true,
+        "location": {
+          "x": 1236,
+          "y": 5594
+        }
+      },
+      {
+        "tag_name": "button",
+        "text": "",
+        "class": "absolute top-0 right-0 bg-gradient-to-l from-vinylBlack-darker via-vinylBlack-darker/75 to-transparent w-16 h-full z-[2] hidden sm:flex items-center justify-center transition ease-linear opacity-100 pointer-events-auto",
+        "href": null,
+        "id": "",
+        "aria_label": "Scroll right",
+        "is_displayed": true,
+        "location": {
+          "x": 700,
+          "y": 5290
+        }
+      },
+      {
+        "tag_name": "button",
+        "text": "",
+        "class": "block outline-none select-none p-1 rounded-md hover:bg-transparentWhite",
+        "href": null,
+        "id": "",
+        "aria_label": "Playbar: Toggle repeat button",
+        "is_displayed": false,
+        "location": {
+          "x": 0,
+          "y": 0
+        }
+      },
+      {
+        "tag_name": "button",
+        "text": "",
+        "class": "outline-none p-1 rounded-md",
+        "href": null,
+        "id": "",
+        "aria_label": "Playbar: Previous Song button",
+        "is_displayed": false,
+        "location": {
+          "x": 0,
+          "y": 0
+        }
+      },
+      {
+        "tag_name": "button",
+        "text": "",
+        "class": "w-[28px] h-[28px] flex justify-center outline-none px-[5px] pb-[5px] pt-1 rounded-md",
+        "href": null,
+        "id": "",
+        "aria_label": "Playbar: Play button",
+        "is_displayed": false,
+        "location": {
+          "x": 0,
+          "y": 0
+        }
+      },
+      {
+        "tag_name": "button",
+        "text": "",
+        "class": "outline-none rounded-md ",
+        "href": null,
+        "id": "",
+        "aria_label": "Playbar: Next Song button",
+        "is_displayed": false,
+        "location": {
+          "x": 0,
+          "y": 0
+        }
+      },
+      {
+        "tag_name": "button",
+        "text": "",
+        "class": "block select-none hover:bg-transparentWhite p-1 rounded-md",
+        "href": null,
+        "id": "",
+        "aria_label": "Playbar: Toggle autoplay button",
+        "is_displayed": false,
+        "location": {
+          "x": 0,
+          "y": 0
+        }
+      },
+      {
+        "tag_name": "button",
+        "text": "",
+        "class": "cursor-pointer hidden md:block hover:bg-transparentWhite rounded-md p-2",
+        "href": null,
+        "id": "",
+        "aria_label": "Playbar: Volume Slider",
+        "is_displayed": false,
+        "location": {
+          "x": 0,
+          "y": 0
+        }
+      },
+      {
+        "tag_name": "button",
+        "text": "",
+        "class": "block outline-none select-none p-1 rounded-md hover:bg-transparentWhite",
+        "href": null,
+        "id": "",
+        "aria_label": "Playbar: Toggle repeat button",
+        "is_displayed": false,
+        "location": {
+          "x": 0,
+          "y": 0
+        }
+      },
+      {
+        "tag_name": "button",
+        "text": "",
+        "class": "outline-none p-1 rounded-md",
+        "href": null,
+        "id": "",
+        "aria_label": "Playbar: Previous Song button",
+        "is_displayed": false,
+        "location": {
+          "x": 0,
+          "y": 0
+        }
+      },
+      {
+        "tag_name": "button",
+        "text": "",
+        "class": "w-[28px] h-[28px] flex justify-center outline-none px-[5px] pb-[5px] pt-1 rounded-md",
+        "href": null,
+        "id": "",
+        "aria_label": "Playbar: Play button",
+        "is_displayed": false,
+        "location": {
+          "x": 0,
+          "y": 0
+        }
+      },
+      {
+        "tag_name": "button",
+        "text": "",
+        "class": "outline-none rounded-md ",
+        "href": null,
+        "id": "",
+        "aria_label": "Playbar: Next Song button",
+        "is_displayed": false,
+        "location": {
+          "x": 0,
+          "y": 0
+        }
+      },
+      {
+        "tag_name": "button",
+        "text": "",
+        "class": "block select-none hover:bg-transparentWhite p-1 rounded-md",
+        "href": null,
+        "id": "",
+        "aria_label": "Playbar: Toggle autoplay button",
+        "is_displayed": false,
+        "location": {
+          "x": 0,
+          "y": 0
+        }
+      },
+      {
+        "tag_name": "button",
+        "text": "",
+        "class": "flex items-center justify-center rounded-full backdrop-blur-lg bg-vinylBlack-darker/50 border-none outline-none p-2 w-8 h-8 text-primary",
+        "href": null,
+        "id": "",
+        "aria_label": null,
+        "is_displayed": false,
+        "location": {
+          "x": 0,
+          "y": 0
+        }
+      },
+      {
+        "tag_name": "button",
+        "text": "",
+        "class": "rounded-full border font-sans font-medium text-center bg-transparent border-primary/30 hover:bg-primary/10 px-4 py-2 text-xs block w-max min-w-[calc(min(80%,120px))] mx-auto",
+        "href": null,
+        "id": "",
+        "aria_label": null,
+        "is_displayed": false,
+        "location": {
+          "x": 0,
+          "y": 0
+        }
+      },
+      {
+        "tag_name": "button",
+        "text": "",
+        "class": "text-primary p-3",
+        "href": null,
+        "id": "",
+        "aria_label": "More from Suno",
+        "is_displayed": false,
+        "location": {
+          "x": 0,
+          "y": 0
+        }
+      },
+      {
+        "tag_name": "button",
+        "text": "",
+        "class": "flex items-center justify-center rounded-full bg-quaternary hover:bg-secondary/20 transition-colors duration-300 p-2",
+        "href": null,
+        "id": "",
+        "aria_label": "Close",
+        "is_displayed": true,
+        "location": {
+          "x": 594,
+          "y": 83
+        }
+      }
+    ],
+    "divs": []
+  }
+}

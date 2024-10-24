@@ -1,1 +1,2054 @@
 2024-10-24 04:32:10,617 - ERROR - Failed to initialize Cloud Storage client: Expecting value: line 1 column 1 (char 0)
+2024-10-24 04:37:57,179 - ERROR - Failed to initialize Cloud Storage client: Expecting value: line 1 column 1 (char 0)
+2024-10-24 04:37:57,179 - ERROR - Error in main execution: Expecting value: line 1 column 1 (char 0)
+2024-10-24 04:37:57,489 - ERROR - Failed to initialize Cloud Storage client: Expecting value: line 1 column 1 (char 0)
+2024-10-24 04:37:57,490 - ERROR - Error in main execution: Expecting value: line 1 column 1 (char 0)
+2024-10-24 04:37:57,650 - ERROR - Failed to initialize Cloud Storage client: Expecting value: line 1 column 1 (char 0)
+2024-10-24 04:37:57,813 - ERROR - Failed to initialize Cloud Storage client: Expecting value: line 1 column 1 (char 0)
+2024-10-24 04:38:39,964 - ERROR - Failed to initialize Cloud Storage client: Expecting value: line 1 column 1 (char 0)
+2024-10-24 04:38:39,964 - ERROR - Error in main execution: Expecting value: line 1 column 1 (char 0)
+2024-10-24 04:38:40,191 - ERROR - Failed to initialize Cloud Storage client: Expecting value: line 1 column 1 (char 0)
+2024-10-24 04:39:20,605 - ERROR - Failed to initialize Cloud Storage client: Expecting value: line 1 column 1 (char 0)
+2024-10-24 04:39:20,605 - ERROR - Error in main execution: Expecting value: line 1 column 1 (char 0)
+2024-10-24 04:40:34,141 - INFO - Chrome WebDriver initialized successfully
+2024-10-24 04:40:34,142 - INFO - Navigating to Suno.ai login page...
+2024-10-24 04:41:38,495 - WARNING - Attempt 1 failed for selector: button[data-testid='login-button']
+2024-10-24 04:42:41,035 - WARNING - Attempt 2 failed for selector: button[data-testid='login-button']
+2024-10-24 04:43:43,651 - WARNING - Attempt 3 failed for selector: button[data-testid='login-button']
+2024-10-24 04:43:43,651 - ERROR - All 3 attempts failed for selector: button[data-testid='login-button']
+2024-10-24 04:44:13,935 - WARNING - Attempt 1 failed for selector: button:contains('Login')
+2024-10-24 04:44:46,265 - WARNING - Attempt 2 failed for selector: button:contains('Login')
+2024-10-24 04:45:19,452 - WARNING - Attempt 3 failed for selector: button:contains('Login')
+2024-10-24 04:45:19,452 - ERROR - All 3 attempts failed for selector: button:contains('Login')
+2024-10-24 04:46:19,747 - WARNING - Attempt 1 failed for selector: button[class*='login']
+2024-10-24 04:47:22,462 - WARNING - Attempt 2 failed for selector: button[class*='login']
+2024-10-24 04:48:25,074 - WARNING - Attempt 3 failed for selector: button[class*='login']
+2024-10-24 04:48:25,074 - ERROR - All 3 attempts failed for selector: button[class*='login']
+2024-10-24 04:49:25,401 - WARNING - Attempt 1 failed for selector: button[class*='sign-in']
+2024-10-24 04:50:28,417 - WARNING - Attempt 2 failed for selector: button[class*='sign-in']
+2024-10-24 04:51:31,136 - WARNING - Attempt 3 failed for selector: button[class*='sign-in']
+2024-10-24 04:51:31,136 - ERROR - All 3 attempts failed for selector: button[class*='sign-in']
+2024-10-24 04:52:31,446 - WARNING - Attempt 1 failed for selector: a[href*='login']
+2024-10-24 04:53:33,154 - WARNING - Attempt 2 failed for selector: a[href*='login']
+2024-10-24 04:54:36,555 - WARNING - Attempt 3 failed for selector: a[href*='login']
+2024-10-24 04:54:36,555 - ERROR - All 3 attempts failed for selector: a[href*='login']
+2024-10-24 04:54:55,900 - INFO - Chrome WebDriver initialized successfully
+2024-10-24 04:54:55,901 - INFO - Navigating to Suno.com...
+2024-10-24 04:54:57,559 - INFO - Chrome WebDriver initialized successfully
+2024-10-24 04:54:57,559 - INFO - Navigating to Suno.com...
+2024-10-24 04:54:57,838 - ERROR - Failed to initialize Cloud Storage client: Expecting value: line 1 column 1 (char 0)
+2024-10-24 04:54:58,143 - INFO - Chrome WebDriver initialized successfully
+2024-10-24 04:54:58,144 - INFO - Navigating to Suno.com...
+2024-10-24 04:54:58,369 - INFO - Chrome WebDriver initialized successfully
+2024-10-24 04:54:58,371 - INFO - Navigating to Suno.com...
+2024-10-24 04:55:05,033 - INFO - Chrome WebDriver initialized successfully
+2024-10-24 04:55:05,034 - INFO - Navigating to Suno.com...
+2024-10-24 04:55:32,173 - WARNING - Attempt 1 failed for selector: //a[text()='Sign In' and contains(@class, 'bottom')]
+2024-10-24 04:55:32,643 - WARNING - Attempt 1 failed for selector: //a[text()='Sign In' and contains(@class, 'bottom')]
+2024-10-24 04:55:38,736 - WARNING - Attempt 1 failed for selector: //a[text()='Sign In' and contains(@class, 'bottom')]
+2024-10-24 04:56:04,732 - WARNING - Attempt 2 failed for selector: //a[text()='Sign In' and contains(@class, 'bottom')]
+2024-10-24 04:56:05,625 - WARNING - Attempt 2 failed for selector: //a[text()='Sign In' and contains(@class, 'bottom')]
+2024-10-24 04:56:11,710 - WARNING - Attempt 2 failed for selector: //a[text()='Sign In' and contains(@class, 'bottom')]
+2024-10-24 04:56:24,290 - INFO - Chrome WebDriver initialized successfully
+2024-10-24 04:56:24,290 - INFO - Navigating to Suno.com...
+2024-10-24 04:56:37,293 - WARNING - Attempt 3 failed for selector: //a[text()='Sign In' and contains(@class, 'bottom')]
+2024-10-24 04:56:37,293 - ERROR - All 3 attempts failed for selector: //a[text()='Sign In' and contains(@class, 'bottom')]
+2024-10-24 04:56:37,642 - WARNING - Attempt 3 failed for selector: //a[text()='Sign In' and contains(@class, 'bottom')]
+2024-10-24 04:56:37,642 - ERROR - All 3 attempts failed for selector: //a[text()='Sign In' and contains(@class, 'bottom')]
+2024-10-24 05:01:18,362 - INFO - Chrome WebDriver initialized successfully
+2024-10-24 05:01:18,364 - INFO - Starting login process...
+2024-10-24 05:01:29,876 - INFO - Chrome WebDriver initialized successfully
+2024-10-24 05:01:29,876 - INFO - Starting login process...
+2024-10-24 05:01:39,927 - INFO - Chrome WebDriver initialized successfully
+2024-10-24 05:01:39,927 - INFO - Starting login process...
+2024-10-24 05:01:40,344 - INFO - Chrome WebDriver initialized successfully
+2024-10-24 05:01:40,344 - INFO - Starting login process...
+2024-10-24 05:01:40,432 - ERROR - Failed to initialize Cloud Storage client: Expecting value: line 1 column 1 (char 0)
+2024-10-24 05:01:40,822 - INFO - Chrome WebDriver initialized successfully
+2024-10-24 05:01:40,823 - INFO - Starting login process...
+2024-10-24 05:01:41,948 - INFO - Chrome WebDriver initialized successfully
+2024-10-24 05:01:41,948 - INFO - Starting login process...
+2024-10-24 05:01:42,952 - INFO - Chrome WebDriver initialized successfully
+2024-10-24 05:01:42,954 - INFO - Starting login process...
+2024-10-24 05:01:43,829 - INFO - Chrome WebDriver initialized successfully
+2024-10-24 05:01:43,832 - INFO - Starting login process...
+2024-10-24 05:01:43,942 - ERROR - Failed to initialize Cloud Storage client: Expecting value: line 1 column 1 (char 0)
+2024-10-24 05:01:44,220 - INFO - Chrome WebDriver initialized successfully
+2024-10-24 05:01:44,220 - INFO - Starting login process...
+2024-10-24 05:01:44,826 - INFO - Chrome WebDriver initialized successfully
+2024-10-24 05:01:44,826 - INFO - Starting login process...
+2024-10-24 05:03:45,582 - INFO - Chrome WebDriver initialized successfully
+2024-10-24 05:03:45,582 - INFO - Starting login process...
+2024-10-24 05:07:57,824 - INFO - Chrome WebDriver initialized successfully
+2024-10-24 05:07:57,825 - INFO - Starting login process...
+2024-10-24 05:07:58,446 - ERROR - Failed to initialize Cloud Storage client: Expecting value: line 1 column 1 (char 0)
+2024-10-24 05:07:58,836 - INFO - Chrome WebDriver initialized successfully
+2024-10-24 05:07:58,837 - INFO - Starting login process...
+2024-10-24 05:07:59,065 - INFO - Chrome WebDriver initialized successfully
+2024-10-24 05:07:59,066 - INFO - Starting login process...
+2024-10-24 05:08:00,438 - INFO - Chrome WebDriver initialized successfully
+2024-10-24 05:08:00,441 - INFO - Starting login process...
+2024-10-24 05:08:11,746 - INFO - Chrome WebDriver initialized successfully
+2024-10-24 05:08:11,749 - INFO - Starting login process...
+2024-10-24 05:08:12,132 - ERROR - Failed to initialize Cloud Storage client: Expecting value: line 1 column 1 (char 0)
+2024-10-24 05:08:12,433 - INFO - Chrome WebDriver initialized successfully
+2024-10-24 05:08:12,436 - INFO - Starting login process...
+2024-10-24 05:08:12,744 - INFO - Chrome WebDriver initialized successfully
+2024-10-24 05:08:12,744 - INFO - Starting login process...
+2024-10-24 05:08:13,453 - INFO - Chrome WebDriver initialized successfully
+2024-10-24 05:08:13,456 - INFO - Starting login process...
+2024-10-24 05:08:57,166 - INFO - patching driver executable /home/runner/.local/share/undetected_chromedriver/undetected_chromedriver
+2024-10-24 05:08:57,276 - ERROR - Failed to initialize WebDriver: Message: Service /home/runner/.local/share/undetected_chromedriver/undetected_chromedriver unexpectedly exited. Status code was: 127
+
+2024-10-24 05:08:57,276 - ERROR - Main execution failed: Message: Service /home/runner/.local/share/undetected_chromedriver/undetected_chromedriver unexpectedly exited. Status code was: 127
+
+2024-10-24 05:08:58,982 - INFO - patching driver executable /home/runner/.local/share/undetected_chromedriver/undetected_chromedriver
+2024-10-24 05:08:59,028 - ERROR - Failed to initialize WebDriver: Message: Service /home/runner/.local/share/undetected_chromedriver/undetected_chromedriver unexpectedly exited. Status code was: 127
+
+2024-10-24 05:08:59,028 - ERROR - Main execution failed: Message: Service /home/runner/.local/share/undetected_chromedriver/undetected_chromedriver unexpectedly exited. Status code was: 127
+
+2024-10-24 05:09:09,267 - INFO - patching driver executable /home/runner/.local/share/undetected_chromedriver/undetected_chromedriver
+2024-10-24 05:09:09,368 - ERROR - Failed to initialize WebDriver: Message: Service /home/runner/.local/share/undetected_chromedriver/undetected_chromedriver unexpectedly exited. Status code was: 127
+
+2024-10-24 05:09:09,368 - ERROR - Main execution failed: Message: Service /home/runner/.local/share/undetected_chromedriver/undetected_chromedriver unexpectedly exited. Status code was: 127
+
+2024-10-24 05:09:09,792 - INFO - patching driver executable /home/runner/.local/share/undetected_chromedriver/undetected_chromedriver
+2024-10-24 05:09:09,847 - ERROR - Failed to initialize WebDriver: Message: Service /home/runner/.local/share/undetected_chromedriver/undetected_chromedriver unexpectedly exited. Status code was: 127
+
+2024-10-24 05:09:09,847 - ERROR - Main execution failed: Message: Service /home/runner/.local/share/undetected_chromedriver/undetected_chromedriver unexpectedly exited. Status code was: 127
+
+2024-10-24 05:09:10,023 - ERROR - Failed to initialize Cloud Storage client: Expecting value: line 1 column 1 (char 0)
+2024-10-24 05:09:10,232 - INFO - patching driver executable /home/runner/.local/share/undetected_chromedriver/undetected_chromedriver
+2024-10-24 05:09:10,276 - ERROR - Failed to initialize WebDriver: Message: Service /home/runner/.local/share/undetected_chromedriver/undetected_chromedriver unexpectedly exited. Status code was: 127
+
+2024-10-24 05:09:10,559 - INFO - patching driver executable /home/runner/.local/share/undetected_chromedriver/undetected_chromedriver
+2024-10-24 05:09:10,621 - ERROR - Failed to initialize WebDriver: Message: Service /home/runner/.local/share/undetected_chromedriver/undetected_chromedriver unexpectedly exited. Status code was: 127
+
+2024-10-24 05:09:10,621 - ERROR - Main execution failed: Message: Service /home/runner/.local/share/undetected_chromedriver/undetected_chromedriver unexpectedly exited. Status code was: 127
+
+2024-10-24 05:10:10,830 - INFO - Chrome WebDriver initialized successfully
+2024-10-24 05:10:10,830 - INFO - Starting login process...
+2024-10-24 05:11:11,987 - INFO - Chrome WebDriver initialized successfully
+2024-10-24 05:11:11,987 - INFO - Starting login process...
+2024-10-24 05:11:22,739 - INFO - Chrome WebDriver initialized successfully
+2024-10-24 05:11:22,740 - INFO - Starting login process...
+2024-10-24 05:12:40,778 - INFO - Chrome WebDriver initialized successfully
+2024-10-24 05:12:40,778 - INFO - Starting login process (attempt 1/3)...
+2024-10-24 05:12:43,133 - INFO - Chrome WebDriver initialized successfully
+2024-10-24 05:12:43,133 - INFO - Starting login process (attempt 1/3)...
+2024-10-24 05:12:52,879 - INFO - Chrome WebDriver initialized successfully
+2024-10-24 05:12:52,879 - INFO - Starting login process (attempt 1/3)...
+2024-10-24 05:17:11,868 - INFO - Chrome WebDriver initialized successfully
+2024-10-24 05:17:11,868 - INFO - Starting login process (attempt 1/3)...
+2024-10-24 05:17:14,405 - INFO - Chrome WebDriver initialized successfully
+2024-10-24 05:17:14,405 - INFO - Starting login process (attempt 1/3)...
+2024-10-24 05:19:20,471 - INFO - Chrome WebDriver initialized successfully
+2024-10-24 05:19:20,471 - INFO - Starting login process (attempt 1/3)...
+2024-10-24 05:19:21,646 - INFO - Chrome WebDriver initialized successfully
+2024-10-24 05:19:21,646 - INFO - Starting login process (attempt 1/3)...
+2024-10-24 05:19:51,659 - ERROR - Login attempt 1 failed: Message: timeout: Timed out receiving message from renderer: -0.003
+  (Session info: chrome=125.0.6422.141)
+Stacktrace:
+#0 0x55b3d6b43e3a <unknown>
+#1 0x55b3d682d45c <unknown>
+#2 0x55b3d6814816 <unknown>
+#3 0x55b3d68143f5 <unknown>
+#4 0x55b3d6812336 <unknown>
+#5 0x55b3d68129af <unknown>
+#6 0x55b3d6823287 <unknown>
+#7 0x55b3d683955e <unknown>
+#8 0x55b3d683ec5b <unknown>
+#9 0x55b3d68130fa <unknown>
+#10 0x55b3d68392cf <unknown>
+#11 0x55b3d68bb195 <unknown>
+#12 0x55b3d689c253 <unknown>
+#13 0x55b3d686c1c7 <unknown>
+#14 0x55b3d686cb3e <unknown>
+#15 0x55b3d6b0a27b <unknown>
+#16 0x55b3d6b0e327 <unknown>
+#17 0x55b3d6af6dae <unknown>
+#18 0x55b3d6b0edf2 <unknown>
+#19 0x55b3d6adb74f <unknown>
+#20 0x55b3d6b33128 <unknown>
+#21 0x55b3d6b332fb <unknown>
+#22 0x55b3d6b42f6c <unknown>
+#23 0x7feb37404272 start_thread
+
+2024-10-24 05:19:51,746 - INFO - Screenshot saved to logs/login_failure_attempt_1.png
+2024-10-24 05:19:51,747 - INFO - Retrying login in 10 seconds...
+2024-10-24 05:21:09,427 - INFO - Chrome WebDriver initialized successfully
+2024-10-24 05:21:09,427 - INFO - Starting login process (attempt 1/3)...
+2024-10-24 05:21:17,147 - INFO - Chrome WebDriver initialized successfully
+2024-10-24 05:21:17,147 - INFO - Starting login process (attempt 1/3)...
+2024-10-24 05:21:29,354 - INFO - Chrome WebDriver initialized successfully
+2024-10-24 05:21:29,354 - INFO - Starting login process (attempt 1/3)...
+2024-10-24 05:21:29,737 - ERROR - Failed to initialize Cloud Storage client: Expecting value: line 1 column 1 (char 0)
+2024-10-24 05:21:30,168 - INFO - Chrome WebDriver initialized successfully
+2024-10-24 05:21:30,169 - INFO - Starting login process (attempt 1/3)...
+2024-10-24 05:21:30,834 - INFO - Chrome WebDriver initialized successfully
+2024-10-24 05:21:30,836 - INFO - Starting login process (attempt 1/3)...
+2024-10-24 05:21:36,227 - INFO - Chrome WebDriver initialized successfully
+2024-10-24 05:21:36,227 - INFO - Starting login process (attempt 1/3)...
+2024-10-24 05:21:47,048 - INFO - Chrome WebDriver initialized successfully
+2024-10-24 05:21:47,049 - INFO - Starting login process (attempt 1/3)...
+2024-10-24 05:21:47,228 - ERROR - Failed to initialize Cloud Storage client: Expecting value: line 1 column 1 (char 0)
+2024-10-24 05:21:47,545 - INFO - Chrome WebDriver initialized successfully
+2024-10-24 05:21:47,546 - INFO - Starting login process (attempt 1/3)...
+2024-10-24 05:21:47,944 - INFO - Chrome WebDriver initialized successfully
+2024-10-24 05:21:47,945 - INFO - Starting login process (attempt 1/3)...
+2024-10-24 05:21:48,424 - INFO - Chrome WebDriver initialized successfully
+2024-10-24 05:21:48,425 - INFO - Starting login process (attempt 1/3)...
+2024-10-24 05:22:17,064 - ERROR - Login attempt 1 failed: Message: timeout: Timed out receiving message from renderer: -0.003
+  (Session info: chrome=125.0.6422.141)
+Stacktrace:
+#0 0x5599634d2e3a <unknown>
+#1 0x5599631bc45c <unknown>
+#2 0x5599631a3816 <unknown>
+#3 0x5599631a33f5 <unknown>
+#4 0x5599631a1336 <unknown>
+#5 0x5599631a19af <unknown>
+#6 0x5599631b2287 <unknown>
+#7 0x5599631c855e <unknown>
+#8 0x5599631cdc5b <unknown>
+#9 0x5599631a20fa <unknown>
+#10 0x5599631c82cf <unknown>
+#11 0x55996324a195 <unknown>
+#12 0x55996322b253 <unknown>
+#13 0x5599631fb1c7 <unknown>
+#14 0x5599631fbb3e <unknown>
+#15 0x55996349927b <unknown>
+#16 0x55996349d327 <unknown>
+#17 0x559963485dae <unknown>
+#18 0x55996349ddf2 <unknown>
+#19 0x55996346a74f <unknown>
+#20 0x5599634c2128 <unknown>
+#21 0x5599634c22fb <unknown>
+#22 0x5599634d1f6c <unknown>
+#23 0x7ff174ecc272 start_thread
+
+2024-10-24 05:22:17,176 - INFO - Screenshot saved to logs/login_failure_attempt_1.png
+2024-10-24 05:22:17,177 - INFO - Retrying login in 10 seconds...
+2024-10-24 05:22:21,545 - ERROR - Failed to click element //button[contains(text(), 'Sign In')] after 30 seconds: Message: 
+Stacktrace:
+#0 0x55e8e5b67e3a <unknown>
+#1 0x55e8e585145c <unknown>
+#2 0x55e8e589d5b5 <unknown>
+#3 0x55e8e589d671 <unknown>
+#4 0x55e8e58e1f14 <unknown>
+#5 0x55e8e58c04dd <unknown>
+#6 0x55e8e58df2cc <unknown>
+#7 0x55e8e58c0253 <unknown>
+#8 0x55e8e58901c7 <unknown>
+#9 0x55e8e5890b3e <unknown>
+#10 0x55e8e5b2e27b <unknown>
+#11 0x55e8e5b32327 <unknown>
+#12 0x55e8e5b1adae <unknown>
+#13 0x55e8e5b32df2 <unknown>
+#14 0x55e8e5aff74f <unknown>
+#15 0x55e8e5b57128 <unknown>
+#16 0x55e8e5b572fb <unknown>
+#17 0x55e8e5b66f6c <unknown>
+#18 0x7f4744653272 start_thread
+
+2024-10-24 05:22:22,076 - ERROR - Failed to click element //button[contains(text(), 'Sign In')] after 30 seconds: Message: 
+Stacktrace:
+#0 0x55682046fe3a <unknown>
+#1 0x55682015945c <unknown>
+#2 0x5568201a55b5 <unknown>
+#3 0x5568201a5671 <unknown>
+#4 0x5568201e9f14 <unknown>
+#5 0x5568201c84dd <unknown>
+#6 0x5568201e72cc <unknown>
+#7 0x5568201c8253 <unknown>
+#8 0x5568201981c7 <unknown>
+#9 0x556820198b3e <unknown>
+#10 0x55682043627b <unknown>
+#11 0x55682043a327 <unknown>
+#12 0x556820422dae <unknown>
+#13 0x55682043adf2 <unknown>
+#14 0x55682040774f <unknown>
+#15 0x55682045f128 <unknown>
+#16 0x55682045f2fb <unknown>
+#17 0x55682046ef6c <unknown>
+#18 0x7f176b414272 start_thread
+
+2024-10-24 05:22:22,558 - ERROR - Failed to click element //button[contains(text(), 'Sign In')] after 30 seconds: Message: 
+Stacktrace:
+#0 0x5555a0d48e3a <unknown>
+#1 0x5555a0a3245c <unknown>
+#2 0x5555a0a7e5b5 <unknown>
+#3 0x5555a0a7e671 <unknown>
+#4 0x5555a0ac2f14 <unknown>
+#5 0x5555a0aa14dd <unknown>
+#6 0x5555a0ac02cc <unknown>
+#7 0x5555a0aa1253 <unknown>
+#8 0x5555a0a711c7 <unknown>
+#9 0x5555a0a71b3e <unknown>
+#10 0x5555a0d0f27b <unknown>
+#11 0x5555a0d13327 <unknown>
+#12 0x5555a0cfbdae <unknown>
+#13 0x5555a0d13df2 <unknown>
+#14 0x5555a0ce074f <unknown>
+#15 0x5555a0d38128 <unknown>
+#16 0x5555a0d382fb <unknown>
+#17 0x5555a0d47f6c <unknown>
+#18 0x7faea465a272 start_thread
+
+2024-10-24 05:22:27,177 - INFO - Starting login process (attempt 2/3)...
+2024-10-24 05:22:27,177 - INFO - Clearing cookies and cache before retry
+2024-10-24 05:22:27,192 - ERROR - Login attempt 2 failed: Message: javascript error: {"status":18,"value":"Failed to read the 'localStorage' property from 'Window': Storage is disabled inside 'data:' URLs."}
+  (Session info: chrome=125.0.6422.141)
+Stacktrace:
+#0 0x5599634d2e3a <unknown>
+#1 0x5599631bc45c <unknown>
+#2 0x5599631c1b69 <unknown>
+#3 0x5599631c3bdc <unknown>
+#4 0x55996324b289 <unknown>
+#5 0x55996322b4b2 <unknown>
+#6 0x55996324a2cc <unknown>
+#7 0x55996322b253 <unknown>
+#8 0x5599631fb1c7 <unknown>
+#9 0x5599631fbb3e <unknown>
+#10 0x55996349927b <unknown>
+#11 0x55996349d327 <unknown>
+#12 0x559963485dae <unknown>
+#13 0x55996349ddf2 <unknown>
+#14 0x55996346a74f <unknown>
+#15 0x5599634c2128 <unknown>
+#16 0x5599634c22fb <unknown>
+#17 0x5599634d1f6c <unknown>
+#18 0x7ff174ecc272 start_thread
+
+2024-10-24 05:22:27,275 - INFO - Screenshot saved to logs/login_failure_attempt_2.png
+2024-10-24 05:22:27,276 - INFO - Retrying login in 20 seconds...
+2024-10-24 05:22:47,276 - INFO - Starting login process (attempt 3/3)...
+2024-10-24 05:22:47,276 - INFO - Clearing cookies and cache before retry
+2024-10-24 05:22:47,287 - ERROR - Login attempt 3 failed: Message: javascript error: {"status":18,"value":"Failed to read the 'localStorage' property from 'Window': Storage is disabled inside 'data:' URLs."}
+  (Session info: chrome=125.0.6422.141)
+Stacktrace:
+#0 0x5599634d2e3a <unknown>
+#1 0x5599631bc45c <unknown>
+#2 0x5599631c1b69 <unknown>
+#3 0x5599631c3bdc <unknown>
+#4 0x55996324b289 <unknown>
+#5 0x55996322b4b2 <unknown>
+#6 0x55996324a2cc <unknown>
+#7 0x55996322b253 <unknown>
+#8 0x5599631fb1c7 <unknown>
+#9 0x5599631fbb3e <unknown>
+#10 0x55996349927b <unknown>
+#11 0x55996349d327 <unknown>
+#12 0x559963485dae <unknown>
+#13 0x55996349ddf2 <unknown>
+#14 0x55996346a74f <unknown>
+#15 0x5599634c2128 <unknown>
+#16 0x5599634c22fb <unknown>
+#17 0x5599634d1f6c <unknown>
+#18 0x7ff174ecc272 start_thread
+
+2024-10-24 05:22:47,375 - INFO - Screenshot saved to logs/login_failure_attempt_3.png
+2024-10-24 05:22:47,375 - ERROR - Main execution failed: Login failed after 3 attempts: Message: javascript error: {"status":18,"value":"Failed to read the 'localStorage' property from 'Window': Storage is disabled inside 'data:' URLs."}
+  (Session info: chrome=125.0.6422.141)
+Stacktrace:
+#0 0x5599634d2e3a <unknown>
+#1 0x5599631bc45c <unknown>
+#2 0x5599631c1b69 <unknown>
+#3 0x5599631c3bdc <unknown>
+#4 0x55996324b289 <unknown>
+#5 0x55996322b4b2 <unknown>
+#6 0x55996324a2cc <unknown>
+#7 0x55996322b253 <unknown>
+#8 0x5599631fb1c7 <unknown>
+#9 0x5599631fbb3e <unknown>
+#10 0x55996349927b <unknown>
+#11 0x55996349d327 <unknown>
+#12 0x559963485dae <unknown>
+#13 0x55996349ddf2 <unknown>
+#14 0x55996346a74f <unknown>
+#15 0x5599634c2128 <unknown>
+#16 0x5599634c22fb <unknown>
+#17 0x5599634d1f6c <unknown>
+#18 0x7ff174ecc272 start_thread
+
+2024-10-24 05:22:47,442 - INFO - WebDriver closed successfully
+2024-10-24 05:22:52,767 - ERROR - Failed to click element //button[contains(@class, 'signin')] after 30 seconds: Message: 
+Stacktrace:
+#0 0x55e8e5b67e3a <unknown>
+#1 0x55e8e585145c <unknown>
+#2 0x55e8e589d5b5 <unknown>
+#3 0x55e8e589d671 <unknown>
+#4 0x55e8e58e1f14 <unknown>
+#5 0x55e8e58c04dd <unknown>
+#6 0x55e8e58df2cc <unknown>
+#7 0x55e8e58c0253 <unknown>
+#8 0x55e8e58901c7 <unknown>
+#9 0x55e8e5890b3e <unknown>
+#10 0x55e8e5b2e27b <unknown>
+#11 0x55e8e5b32327 <unknown>
+#12 0x55e8e5b1adae <unknown>
+#13 0x55e8e5b32df2 <unknown>
+#14 0x55e8e5aff74f <unknown>
+#15 0x55e8e5b57128 <unknown>
+#16 0x55e8e5b572fb <unknown>
+#17 0x55e8e5b66f6c <unknown>
+#18 0x7f4744653272 start_thread
+
+2024-10-24 05:22:53,258 - ERROR - Failed to click element //button[contains(@class, 'signin')] after 30 seconds: Message: 
+Stacktrace:
+#0 0x55682046fe3a <unknown>
+#1 0x55682015945c <unknown>
+#2 0x5568201a55b5 <unknown>
+#3 0x5568201a5671 <unknown>
+#4 0x5568201e9f14 <unknown>
+#5 0x5568201c84dd <unknown>
+#6 0x5568201e72cc <unknown>
+#7 0x5568201c8253 <unknown>
+#8 0x5568201981c7 <unknown>
+#9 0x556820198b3e <unknown>
+#10 0x55682043627b <unknown>
+#11 0x55682043a327 <unknown>
+#12 0x556820422dae <unknown>
+#13 0x55682043adf2 <unknown>
+#14 0x55682040774f <unknown>
+#15 0x55682045f128 <unknown>
+#16 0x55682045f2fb <unknown>
+#17 0x55682046ef6c <unknown>
+#18 0x7f176b414272 start_thread
+
+2024-10-24 05:22:53,763 - ERROR - Failed to click element //button[contains(@class, 'signin')] after 30 seconds: Message: 
+Stacktrace:
+#0 0x5555a0d48e3a <unknown>
+#1 0x5555a0a3245c <unknown>
+#2 0x5555a0a7e5b5 <unknown>
+#3 0x5555a0a7e671 <unknown>
+#4 0x5555a0ac2f14 <unknown>
+#5 0x5555a0aa14dd <unknown>
+#6 0x5555a0ac02cc <unknown>
+#7 0x5555a0aa1253 <unknown>
+#8 0x5555a0a711c7 <unknown>
+#9 0x5555a0a71b3e <unknown>
+#10 0x5555a0d0f27b <unknown>
+#11 0x5555a0d13327 <unknown>
+#12 0x5555a0cfbdae <unknown>
+#13 0x5555a0d13df2 <unknown>
+#14 0x5555a0ce074f <unknown>
+#15 0x5555a0d38128 <unknown>
+#16 0x5555a0d382fb <unknown>
+#17 0x5555a0d47f6c <unknown>
+#18 0x7faea465a272 start_thread
+
+2024-10-24 05:23:23,975 - ERROR - Failed to click element //button[contains(@class, 'login')] after 30 seconds: Message: 
+Stacktrace:
+#0 0x55e8e5b67e3a <unknown>
+#1 0x55e8e585145c <unknown>
+#2 0x55e8e589d5b5 <unknown>
+#3 0x55e8e589d671 <unknown>
+#4 0x55e8e58e1f14 <unknown>
+#5 0x55e8e58c04dd <unknown>
+#6 0x55e8e58df2cc <unknown>
+#7 0x55e8e58c0253 <unknown>
+#8 0x55e8e58901c7 <unknown>
+#9 0x55e8e5890b3e <unknown>
+#10 0x55e8e5b2e27b <unknown>
+#11 0x55e8e5b32327 <unknown>
+#12 0x55e8e5b1adae <unknown>
+#13 0x55e8e5b32df2 <unknown>
+#14 0x55e8e5aff74f <unknown>
+#15 0x55e8e5b57128 <unknown>
+#16 0x55e8e5b572fb <unknown>
+#17 0x55e8e5b66f6c <unknown>
+#18 0x7f4744653272 start_thread
+
+2024-10-24 05:23:24,448 - ERROR - Failed to click element //button[contains(@class, 'login')] after 30 seconds: Message: 
+Stacktrace:
+#0 0x55682046fe3a <unknown>
+#1 0x55682015945c <unknown>
+#2 0x5568201a55b5 <unknown>
+#3 0x5568201a5671 <unknown>
+#4 0x5568201e9f14 <unknown>
+#5 0x5568201c84dd <unknown>
+#6 0x5568201e72cc <unknown>
+#7 0x5568201c8253 <unknown>
+#8 0x5568201981c7 <unknown>
+#9 0x556820198b3e <unknown>
+#10 0x55682043627b <unknown>
+#11 0x55682043a327 <unknown>
+#12 0x556820422dae <unknown>
+#13 0x55682043adf2 <unknown>
+#14 0x55682040774f <unknown>
+#15 0x55682045f128 <unknown>
+#16 0x55682045f2fb <unknown>
+#17 0x55682046ef6c <unknown>
+#18 0x7f176b414272 start_thread
+
+2024-10-24 05:23:24,975 - ERROR - Failed to click element //button[contains(@class, 'login')] after 30 seconds: Message: 
+Stacktrace:
+#0 0x5555a0d48e3a <unknown>
+#1 0x5555a0a3245c <unknown>
+#2 0x5555a0a7e5b5 <unknown>
+#3 0x5555a0a7e671 <unknown>
+#4 0x5555a0ac2f14 <unknown>
+#5 0x5555a0aa14dd <unknown>
+#6 0x5555a0ac02cc <unknown>
+#7 0x5555a0aa1253 <unknown>
+#8 0x5555a0a711c7 <unknown>
+#9 0x5555a0a71b3e <unknown>
+#10 0x5555a0d0f27b <unknown>
+#11 0x5555a0d13327 <unknown>
+#12 0x5555a0cfbdae <unknown>
+#13 0x5555a0d13df2 <unknown>
+#14 0x5555a0ce074f <unknown>
+#15 0x5555a0d38128 <unknown>
+#16 0x5555a0d382fb <unknown>
+#17 0x5555a0d47f6c <unknown>
+#18 0x7faea465a272 start_thread
+
+2024-10-24 05:23:51,127 - ERROR - Failed to initialize WebDriver: '--user-agent' is not in list
+2024-10-24 05:23:51,128 - ERROR - Main execution failed: '--user-agent' is not in list
+2024-10-24 05:23:55,351 - ERROR - Failed to click element //div[@role='button'][contains(., 'Sign In')] after 30 seconds: Message: 
+Stacktrace:
+#0 0x55e8e5b67e3a <unknown>
+#1 0x55e8e585145c <unknown>
+#2 0x55e8e589d5b5 <unknown>
+#3 0x55e8e589d671 <unknown>
+#4 0x55e8e58e1f14 <unknown>
+#5 0x55e8e58c04dd <unknown>
+#6 0x55e8e58df2cc <unknown>
+#7 0x55e8e58c0253 <unknown>
+#8 0x55e8e58901c7 <unknown>
+#9 0x55e8e5890b3e <unknown>
+#10 0x55e8e5b2e27b <unknown>
+#11 0x55e8e5b32327 <unknown>
+#12 0x55e8e5b1adae <unknown>
+#13 0x55e8e5b32df2 <unknown>
+#14 0x55e8e5aff74f <unknown>
+#15 0x55e8e5b57128 <unknown>
+#16 0x55e8e5b572fb <unknown>
+#17 0x55e8e5b66f6c <unknown>
+#18 0x7f4744653272 start_thread
+
+2024-10-24 05:23:56,226 - ERROR - Failed to click element //div[@role='button'][contains(., 'Sign In')] after 30 seconds: Message: 
+Stacktrace:
+#0 0x5555a0d48e3a <unknown>
+#1 0x5555a0a3245c <unknown>
+#2 0x5555a0a7e5b5 <unknown>
+#3 0x5555a0a7e671 <unknown>
+#4 0x5555a0ac2f14 <unknown>
+#5 0x5555a0aa14dd <unknown>
+#6 0x5555a0ac02cc <unknown>
+#7 0x5555a0aa1253 <unknown>
+#8 0x5555a0a711c7 <unknown>
+#9 0x5555a0a71b3e <unknown>
+#10 0x5555a0d0f27b <unknown>
+#11 0x5555a0d13327 <unknown>
+#12 0x5555a0cfbdae <unknown>
+#13 0x5555a0d13df2 <unknown>
+#14 0x5555a0ce074f <unknown>
+#15 0x5555a0d38128 <unknown>
+#16 0x5555a0d382fb <unknown>
+#17 0x5555a0d47f6c <unknown>
+#18 0x7faea465a272 start_thread
+
+2024-10-24 05:24:26,577 - ERROR - Failed to click element //a[contains(@href, 'sign-in')] after 30 seconds: Message: 
+Stacktrace:
+#0 0x55e8e5b67e3a <unknown>
+#1 0x55e8e585145c <unknown>
+#2 0x55e8e589d5b5 <unknown>
+#3 0x55e8e589d671 <unknown>
+#4 0x55e8e58e1f14 <unknown>
+#5 0x55e8e58c04dd <unknown>
+#6 0x55e8e58df2cc <unknown>
+#7 0x55e8e58c0253 <unknown>
+#8 0x55e8e58901c7 <unknown>
+#9 0x55e8e5890b3e <unknown>
+#10 0x55e8e5b2e27b <unknown>
+#11 0x55e8e5b32327 <unknown>
+#12 0x55e8e5b1adae <unknown>
+#13 0x55e8e5b32df2 <unknown>
+#14 0x55e8e5aff74f <unknown>
+#15 0x55e8e5b57128 <unknown>
+#16 0x55e8e5b572fb <unknown>
+#17 0x55e8e5b66f6c <unknown>
+#18 0x7f4744653272 start_thread
+
+2024-10-24 05:24:27,408 - ERROR - Failed to click element //a[contains(@href, 'sign-in')] after 30 seconds: Message: 
+Stacktrace:
+#0 0x5555a0d48e3a <unknown>
+#1 0x5555a0a3245c <unknown>
+#2 0x5555a0a7e5b5 <unknown>
+#3 0x5555a0a7e671 <unknown>
+#4 0x5555a0ac2f14 <unknown>
+#5 0x5555a0aa14dd <unknown>
+#6 0x5555a0ac02cc <unknown>
+#7 0x5555a0aa1253 <unknown>
+#8 0x5555a0a711c7 <unknown>
+#9 0x5555a0a71b3e <unknown>
+#10 0x5555a0d0f27b <unknown>
+#11 0x5555a0d13327 <unknown>
+#12 0x5555a0cfbdae <unknown>
+#13 0x5555a0d13df2 <unknown>
+#14 0x5555a0ce074f <unknown>
+#15 0x5555a0d38128 <unknown>
+#16 0x5555a0d382fb <unknown>
+#17 0x5555a0d47f6c <unknown>
+#18 0x7faea465a272 start_thread
+
+2024-10-24 05:24:57,774 - ERROR - Failed to click element //a[contains(@href, 'login')] after 30 seconds: Message: 
+Stacktrace:
+#0 0x55e8e5b67e3a <unknown>
+#1 0x55e8e585145c <unknown>
+#2 0x55e8e589d5b5 <unknown>
+#3 0x55e8e589d671 <unknown>
+#4 0x55e8e58e1f14 <unknown>
+#5 0x55e8e58c04dd <unknown>
+#6 0x55e8e58df2cc <unknown>
+#7 0x55e8e58c0253 <unknown>
+#8 0x55e8e58901c7 <unknown>
+#9 0x55e8e5890b3e <unknown>
+#10 0x55e8e5b2e27b <unknown>
+#11 0x55e8e5b32327 <unknown>
+#12 0x55e8e5b1adae <unknown>
+#13 0x55e8e5b32df2 <unknown>
+#14 0x55e8e5aff74f <unknown>
+#15 0x55e8e5b57128 <unknown>
+#16 0x55e8e5b572fb <unknown>
+#17 0x55e8e5b66f6c <unknown>
+#18 0x7f4744653272 start_thread
+
+2024-10-24 05:24:58,592 - ERROR - Failed to click element //a[contains(@href, 'login')] after 30 seconds: Message: 
+Stacktrace:
+#0 0x5555a0d48e3a <unknown>
+#1 0x5555a0a3245c <unknown>
+#2 0x5555a0a7e5b5 <unknown>
+#3 0x5555a0a7e671 <unknown>
+#4 0x5555a0ac2f14 <unknown>
+#5 0x5555a0aa14dd <unknown>
+#6 0x5555a0ac02cc <unknown>
+#7 0x5555a0aa1253 <unknown>
+#8 0x5555a0a711c7 <unknown>
+#9 0x5555a0a71b3e <unknown>
+#10 0x5555a0d0f27b <unknown>
+#11 0x5555a0d13327 <unknown>
+#12 0x5555a0cfbdae <unknown>
+#13 0x5555a0d13df2 <unknown>
+#14 0x5555a0ce074f <unknown>
+#15 0x5555a0d38128 <unknown>
+#16 0x5555a0d382fb <unknown>
+#17 0x5555a0d47f6c <unknown>
+#18 0x7faea465a272 start_thread
+
+2024-10-24 05:25:31,819 - ERROR - Failed to click element //button[contains(., 'Continue with Google')] after 30 seconds: Message: 
+Stacktrace:
+#0 0x55e8e5b67e3a <unknown>
+#1 0x55e8e585145c <unknown>
+#2 0x55e8e589d5b5 <unknown>
+#3 0x55e8e589d671 <unknown>
+#4 0x55e8e58e1f14 <unknown>
+#5 0x55e8e58c04dd <unknown>
+#6 0x55e8e58df2cc <unknown>
+#7 0x55e8e58c0253 <unknown>
+#8 0x55e8e58901c7 <unknown>
+#9 0x55e8e5890b3e <unknown>
+#10 0x55e8e5b2e27b <unknown>
+#11 0x55e8e5b32327 <unknown>
+#12 0x55e8e5b1adae <unknown>
+#13 0x55e8e5b32df2 <unknown>
+#14 0x55e8e5aff74f <unknown>
+#15 0x55e8e5b57128 <unknown>
+#16 0x55e8e5b572fb <unknown>
+#17 0x55e8e5b66f6c <unknown>
+#18 0x7f4744653272 start_thread
+
+2024-10-24 05:25:32,661 - ERROR - Failed to click element //button[contains(., 'Continue with Google')] after 30 seconds: Message: 
+Stacktrace:
+#0 0x5555a0d48e3a <unknown>
+#1 0x5555a0a3245c <unknown>
+#2 0x5555a0a7e5b5 <unknown>
+#3 0x5555a0a7e671 <unknown>
+#4 0x5555a0ac2f14 <unknown>
+#5 0x5555a0aa14dd <unknown>
+#6 0x5555a0ac02cc <unknown>
+#7 0x5555a0aa1253 <unknown>
+#8 0x5555a0a711c7 <unknown>
+#9 0x5555a0a71b3e <unknown>
+#10 0x5555a0d0f27b <unknown>
+#11 0x5555a0d13327 <unknown>
+#12 0x5555a0cfbdae <unknown>
+#13 0x5555a0d13df2 <unknown>
+#14 0x5555a0ce074f <unknown>
+#15 0x5555a0d38128 <unknown>
+#16 0x5555a0d382fb <unknown>
+#17 0x5555a0d47f6c <unknown>
+#18 0x7faea465a272 start_thread
+
+2024-10-24 05:25:33,547 - INFO - Chrome WebDriver initialized successfully
+2024-10-24 05:25:33,547 - INFO - Starting login process (attempt 1/3)...
+2024-10-24 05:26:03,108 - ERROR - Failed to click element //div[@role='button'][contains(., 'Continue with Google')] after 30 seconds: Message: 
+Stacktrace:
+#0 0x55e8e5b67e3a <unknown>
+#1 0x55e8e585145c <unknown>
+#2 0x55e8e589d5b5 <unknown>
+#3 0x55e8e589d671 <unknown>
+#4 0x55e8e58e1f14 <unknown>
+#5 0x55e8e58c04dd <unknown>
+#6 0x55e8e58df2cc <unknown>
+#7 0x55e8e58c0253 <unknown>
+#8 0x55e8e58901c7 <unknown>
+#9 0x55e8e5890b3e <unknown>
+#10 0x55e8e5b2e27b <unknown>
+#11 0x55e8e5b32327 <unknown>
+#12 0x55e8e5b1adae <unknown>
+#13 0x55e8e5b32df2 <unknown>
+#14 0x55e8e5aff74f <unknown>
+#15 0x55e8e5b57128 <unknown>
+#16 0x55e8e5b572fb <unknown>
+#17 0x55e8e5b66f6c <unknown>
+#18 0x7f4744653272 start_thread
+
+2024-10-24 05:26:03,946 - ERROR - Failed to click element //div[@role='button'][contains(., 'Continue with Google')] after 30 seconds: Message: 
+Stacktrace:
+#0 0x5555a0d48e3a <unknown>
+#1 0x5555a0a3245c <unknown>
+#2 0x5555a0a7e5b5 <unknown>
+#3 0x5555a0a7e671 <unknown>
+#4 0x5555a0ac2f14 <unknown>
+#5 0x5555a0aa14dd <unknown>
+#6 0x5555a0ac02cc <unknown>
+#7 0x5555a0aa1253 <unknown>
+#8 0x5555a0a711c7 <unknown>
+#9 0x5555a0a71b3e <unknown>
+#10 0x5555a0d0f27b <unknown>
+#11 0x5555a0d13327 <unknown>
+#12 0x5555a0cfbdae <unknown>
+#13 0x5555a0d13df2 <unknown>
+#14 0x5555a0ce074f <unknown>
+#15 0x5555a0d38128 <unknown>
+#16 0x5555a0d382fb <unknown>
+#17 0x5555a0d47f6c <unknown>
+#18 0x7faea465a272 start_thread
+
+2024-10-24 05:26:09,870 - ERROR - Failed to click element //button[contains(@class, 'signin')] after 30 seconds: Message: 
+Stacktrace:
+#0 0x5613e9018e3a <unknown>
+#1 0x5613e8d0245c <unknown>
+#2 0x5613e8d4e5b5 <unknown>
+#3 0x5613e8d4e671 <unknown>
+#4 0x5613e8d92f14 <unknown>
+#5 0x5613e8d714dd <unknown>
+#6 0x5613e8d902cc <unknown>
+#7 0x5613e8d71253 <unknown>
+#8 0x5613e8d411c7 <unknown>
+#9 0x5613e8d41b3e <unknown>
+#10 0x5613e8fdf27b <unknown>
+#11 0x5613e8fe3327 <unknown>
+#12 0x5613e8fcbdae <unknown>
+#13 0x5613e8fe3df2 <unknown>
+#14 0x5613e8fb074f <unknown>
+#15 0x5613e9008128 <unknown>
+#16 0x5613e90082fb <unknown>
+#17 0x5613e9017f6c <unknown>
+#18 0x7fdd1f2b9272 start_thread
+
+2024-10-24 05:26:26,147 - INFO - Chrome WebDriver initialized successfully
+2024-10-24 05:26:26,148 - INFO - Starting login attempt 1/3
+2024-10-24 05:26:34,342 - ERROR - Failed to click element //button[contains(., 'Google')] after 30 seconds: Message: 
+Stacktrace:
+#0 0x55e8e5b67e3a <unknown>
+#1 0x55e8e585145c <unknown>
+#2 0x55e8e589d5b5 <unknown>
+#3 0x55e8e589d671 <unknown>
+#4 0x55e8e58e1f14 <unknown>
+#5 0x55e8e58c04dd <unknown>
+#6 0x55e8e58df2cc <unknown>
+#7 0x55e8e58c0253 <unknown>
+#8 0x55e8e58901c7 <unknown>
+#9 0x55e8e5890b3e <unknown>
+#10 0x55e8e5b2e27b <unknown>
+#11 0x55e8e5b32327 <unknown>
+#12 0x55e8e5b1adae <unknown>
+#13 0x55e8e5b32df2 <unknown>
+#14 0x55e8e5aff74f <unknown>
+#15 0x55e8e5b57128 <unknown>
+#16 0x55e8e5b572fb <unknown>
+#17 0x55e8e5b66f6c <unknown>
+#18 0x7f4744653272 start_thread
+
+2024-10-24 05:26:35,185 - ERROR - Failed to click element //button[contains(., 'Google')] after 30 seconds: Message: 
+Stacktrace:
+#0 0x5555a0d48e3a <unknown>
+#1 0x5555a0a3245c <unknown>
+#2 0x5555a0a7e5b5 <unknown>
+#3 0x5555a0a7e671 <unknown>
+#4 0x5555a0ac2f14 <unknown>
+#5 0x5555a0aa14dd <unknown>
+#6 0x5555a0ac02cc <unknown>
+#7 0x5555a0aa1253 <unknown>
+#8 0x5555a0a711c7 <unknown>
+#9 0x5555a0a71b3e <unknown>
+#10 0x5555a0d0f27b <unknown>
+#11 0x5555a0d13327 <unknown>
+#12 0x5555a0cfbdae <unknown>
+#13 0x5555a0d13df2 <unknown>
+#14 0x5555a0ce074f <unknown>
+#15 0x5555a0d38128 <unknown>
+#16 0x5555a0d382fb <unknown>
+#17 0x5555a0d47f6c <unknown>
+#18 0x7faea465a272 start_thread
+
+2024-10-24 05:27:05,669 - ERROR - Failed to click element //div[contains(@class, 'google')]//button after 30 seconds: Message: 
+Stacktrace:
+#0 0x55e8e5b67e3a <unknown>
+#1 0x55e8e585145c <unknown>
+#2 0x55e8e589d5b5 <unknown>
+#3 0x55e8e589d671 <unknown>
+#4 0x55e8e58e1f14 <unknown>
+#5 0x55e8e58c04dd <unknown>
+#6 0x55e8e58df2cc <unknown>
+#7 0x55e8e58c0253 <unknown>
+#8 0x55e8e58901c7 <unknown>
+#9 0x55e8e5890b3e <unknown>
+#10 0x55e8e5b2e27b <unknown>
+#11 0x55e8e5b32327 <unknown>
+#12 0x55e8e5b1adae <unknown>
+#13 0x55e8e5b32df2 <unknown>
+#14 0x55e8e5aff74f <unknown>
+#15 0x55e8e5b57128 <unknown>
+#16 0x55e8e5b572fb <unknown>
+#17 0x55e8e5b66f6c <unknown>
+#18 0x7f4744653272 start_thread
+
+2024-10-24 05:27:06,502 - ERROR - Failed to click element //div[contains(@class, 'google')]//button after 30 seconds: Message: 
+Stacktrace:
+#0 0x5555a0d48e3a <unknown>
+#1 0x5555a0a3245c <unknown>
+#2 0x5555a0a7e5b5 <unknown>
+#3 0x5555a0a7e671 <unknown>
+#4 0x5555a0ac2f14 <unknown>
+#5 0x5555a0aa14dd <unknown>
+#6 0x5555a0ac02cc <unknown>
+#7 0x5555a0aa1253 <unknown>
+#8 0x5555a0a711c7 <unknown>
+#9 0x5555a0a71b3e <unknown>
+#10 0x5555a0d0f27b <unknown>
+#11 0x5555a0d13327 <unknown>
+#12 0x5555a0cfbdae <unknown>
+#13 0x5555a0d13df2 <unknown>
+#14 0x5555a0ce074f <unknown>
+#15 0x5555a0d38128 <unknown>
+#16 0x5555a0d382fb <unknown>
+#17 0x5555a0d47f6c <unknown>
+#18 0x7faea465a272 start_thread
+
+2024-10-24 05:27:17,301 - INFO - Chrome WebDriver initialized successfully
+2024-10-24 05:27:17,302 - INFO - Starting login attempt 1/3
+2024-10-24 05:27:36,880 - ERROR - Failed to click element //span[contains(text(), 'Google')]/.. after 30 seconds: Message: 
+Stacktrace:
+#0 0x55e8e5b67e3a <unknown>
+#1 0x55e8e585145c <unknown>
+#2 0x55e8e589d5b5 <unknown>
+#3 0x55e8e589d671 <unknown>
+#4 0x55e8e58e1f14 <unknown>
+#5 0x55e8e58c04dd <unknown>
+#6 0x55e8e58df2cc <unknown>
+#7 0x55e8e58c0253 <unknown>
+#8 0x55e8e58901c7 <unknown>
+#9 0x55e8e5890b3e <unknown>
+#10 0x55e8e5b2e27b <unknown>
+#11 0x55e8e5b32327 <unknown>
+#12 0x55e8e5b1adae <unknown>
+#13 0x55e8e5b32df2 <unknown>
+#14 0x55e8e5aff74f <unknown>
+#15 0x55e8e5b57128 <unknown>
+#16 0x55e8e5b572fb <unknown>
+#17 0x55e8e5b66f6c <unknown>
+#18 0x7f4744653272 start_thread
+
+2024-10-24 05:27:37,749 - ERROR - Failed to click element //span[contains(text(), 'Google')]/.. after 30 seconds: Message: 
+Stacktrace:
+#0 0x5555a0d48e3a <unknown>
+#1 0x5555a0a3245c <unknown>
+#2 0x5555a0a7e5b5 <unknown>
+#3 0x5555a0a7e671 <unknown>
+#4 0x5555a0ac2f14 <unknown>
+#5 0x5555a0aa14dd <unknown>
+#6 0x5555a0ac02cc <unknown>
+#7 0x5555a0aa1253 <unknown>
+#8 0x5555a0a711c7 <unknown>
+#9 0x5555a0a71b3e <unknown>
+#10 0x5555a0d0f27b <unknown>
+#11 0x5555a0d13327 <unknown>
+#12 0x5555a0cfbdae <unknown>
+#13 0x5555a0d13df2 <unknown>
+#14 0x5555a0ce074f <unknown>
+#15 0x5555a0d38128 <unknown>
+#16 0x5555a0d382fb <unknown>
+#17 0x5555a0d47f6c <unknown>
+#18 0x7faea465a272 start_thread
+
+2024-10-24 05:28:08,209 - ERROR - Failed to click element //div[contains(text(), 'Continue with Google')] after 30 seconds: Message: 
+Stacktrace:
+#0 0x55e8e5b67e3a <unknown>
+#1 0x55e8e585145c <unknown>
+#2 0x55e8e589d5b5 <unknown>
+#3 0x55e8e589d671 <unknown>
+#4 0x55e8e58e1f14 <unknown>
+#5 0x55e8e58c04dd <unknown>
+#6 0x55e8e58df2cc <unknown>
+#7 0x55e8e58c0253 <unknown>
+#8 0x55e8e58901c7 <unknown>
+#9 0x55e8e5890b3e <unknown>
+#10 0x55e8e5b2e27b <unknown>
+#11 0x55e8e5b32327 <unknown>
+#12 0x55e8e5b1adae <unknown>
+#13 0x55e8e5b32df2 <unknown>
+#14 0x55e8e5aff74f <unknown>
+#15 0x55e8e5b57128 <unknown>
+#16 0x55e8e5b572fb <unknown>
+#17 0x55e8e5b66f6c <unknown>
+#18 0x7f4744653272 start_thread
+
+2024-10-24 05:28:08,769 - INFO - Screenshot saved to logs/google_button_not_found_attempt_1.png
+2024-10-24 05:28:08,769 - ERROR - Login attempt 1 failed: Could not find Google login option
+2024-10-24 05:28:09,030 - ERROR - Failed to click element //div[contains(text(), 'Continue with Google')] after 30 seconds: Message: 
+Stacktrace:
+#0 0x5555a0d48e3a <unknown>
+#1 0x5555a0a3245c <unknown>
+#2 0x5555a0a7e5b5 <unknown>
+#3 0x5555a0a7e671 <unknown>
+#4 0x5555a0ac2f14 <unknown>
+#5 0x5555a0aa14dd <unknown>
+#6 0x5555a0ac02cc <unknown>
+#7 0x5555a0aa1253 <unknown>
+#8 0x5555a0a711c7 <unknown>
+#9 0x5555a0a71b3e <unknown>
+#10 0x5555a0d0f27b <unknown>
+#11 0x5555a0d13327 <unknown>
+#12 0x5555a0cfbdae <unknown>
+#13 0x5555a0d13df2 <unknown>
+#14 0x5555a0ce074f <unknown>
+#15 0x5555a0d38128 <unknown>
+#16 0x5555a0d382fb <unknown>
+#17 0x5555a0d47f6c <unknown>
+#18 0x7faea465a272 start_thread
+
+2024-10-24 05:28:09,071 - INFO - Screenshot saved to logs/login_failure_attempt_1.png
+2024-10-24 05:28:09,072 - INFO - Retrying login in 10 seconds...
+2024-10-24 05:28:10,017 - INFO - Screenshot saved to logs/google_button_not_found_attempt_1.png
+2024-10-24 05:28:10,017 - ERROR - Login attempt 1 failed: Could not find Google login option
+2024-10-24 05:28:10,316 - INFO - Screenshot saved to logs/login_failure_attempt_1.png
+2024-10-24 05:28:10,316 - INFO - Retrying login in 10 seconds...
+2024-10-24 05:28:19,072 - INFO - Starting login process (attempt 2/3)...
+2024-10-24 05:28:19,072 - INFO - Clearing cookies and cache before retry
+2024-10-24 05:28:20,317 - INFO - Starting login process (attempt 2/3)...
+2024-10-24 05:28:20,317 - INFO - Clearing cookies and cache before retry
+2024-10-24 05:28:23,723 - INFO - Chrome WebDriver initialized successfully
+2024-10-24 05:28:23,724 - INFO - Starting login attempt 1/3
+2024-10-24 05:28:54,778 - ERROR - Failed to click element //button[contains(text(), 'Sign In')] after 30 seconds: Message: 
+Stacktrace:
+#0 0x55e8e5b67e3a <unknown>
+#1 0x55e8e585145c <unknown>
+#2 0x55e8e589d5b5 <unknown>
+#3 0x55e8e589d671 <unknown>
+#4 0x55e8e58e1f14 <unknown>
+#5 0x55e8e58c04dd <unknown>
+#6 0x55e8e58df2cc <unknown>
+#7 0x55e8e58c0253 <unknown>
+#8 0x55e8e58901c7 <unknown>
+#9 0x55e8e5890b3e <unknown>
+#10 0x55e8e5b2e27b <unknown>
+#11 0x55e8e5b32327 <unknown>
+#12 0x55e8e5b1adae <unknown>
+#13 0x55e8e5b32df2 <unknown>
+#14 0x55e8e5aff74f <unknown>
+#15 0x55e8e5b57128 <unknown>
+#16 0x55e8e5b572fb <unknown>
+#17 0x55e8e5b66f6c <unknown>
+#18 0x7f4744653272 start_thread
+
+2024-10-24 05:28:55,737 - ERROR - Failed to click element //button[contains(text(), 'Sign In')] after 30 seconds: Message: 
+Stacktrace:
+#0 0x5555a0d48e3a <unknown>
+#1 0x5555a0a3245c <unknown>
+#2 0x5555a0a7e5b5 <unknown>
+#3 0x5555a0a7e671 <unknown>
+#4 0x5555a0ac2f14 <unknown>
+#5 0x5555a0aa14dd <unknown>
+#6 0x5555a0ac02cc <unknown>
+#7 0x5555a0aa1253 <unknown>
+#8 0x5555a0a711c7 <unknown>
+#9 0x5555a0a71b3e <unknown>
+#10 0x5555a0d0f27b <unknown>
+#11 0x5555a0d13327 <unknown>
+#12 0x5555a0cfbdae <unknown>
+#13 0x5555a0d13df2 <unknown>
+#14 0x5555a0ce074f <unknown>
+#15 0x5555a0d38128 <unknown>
+#16 0x5555a0d382fb <unknown>
+#17 0x5555a0d47f6c <unknown>
+#18 0x7faea465a272 start_thread
+
+2024-10-24 05:29:08,727 - INFO - Successfully clicked login button: //button[contains(., 'Sign')]
+2024-10-24 05:29:20,334 - INFO - Chrome WebDriver initialized successfully
+2024-10-24 05:29:20,335 - INFO - Starting login attempt 1/3
+2024-10-24 05:29:26,197 - ERROR - Failed to click element //button[contains(@class, 'signin')] after 30 seconds: Message: 
+Stacktrace:
+#0 0x55e8e5b67e3a <unknown>
+#1 0x55e8e585145c <unknown>
+#2 0x55e8e589d5b5 <unknown>
+#3 0x55e8e589d671 <unknown>
+#4 0x55e8e58e1f14 <unknown>
+#5 0x55e8e58c04dd <unknown>
+#6 0x55e8e58df2cc <unknown>
+#7 0x55e8e58c0253 <unknown>
+#8 0x55e8e58901c7 <unknown>
+#9 0x55e8e5890b3e <unknown>
+#10 0x55e8e5b2e27b <unknown>
+#11 0x55e8e5b32327 <unknown>
+#12 0x55e8e5b1adae <unknown>
+#13 0x55e8e5b32df2 <unknown>
+#14 0x55e8e5aff74f <unknown>
+#15 0x55e8e5b57128 <unknown>
+#16 0x55e8e5b572fb <unknown>
+#17 0x55e8e5b66f6c <unknown>
+#18 0x7f4744653272 start_thread
+
+2024-10-24 05:29:26,888 - ERROR - Failed to click element //button[contains(@class, 'signin')] after 30 seconds: Message: 
+Stacktrace:
+#0 0x5555a0d48e3a <unknown>
+#1 0x5555a0a3245c <unknown>
+#2 0x5555a0a7e5b5 <unknown>
+#3 0x5555a0a7e671 <unknown>
+#4 0x5555a0ac2f14 <unknown>
+#5 0x5555a0aa14dd <unknown>
+#6 0x5555a0ac02cc <unknown>
+#7 0x5555a0aa1253 <unknown>
+#8 0x5555a0a711c7 <unknown>
+#9 0x5555a0a71b3e <unknown>
+#10 0x5555a0d0f27b <unknown>
+#11 0x5555a0d13327 <unknown>
+#12 0x5555a0cfbdae <unknown>
+#13 0x5555a0d13df2 <unknown>
+#14 0x5555a0ce074f <unknown>
+#15 0x5555a0d38128 <unknown>
+#16 0x5555a0d382fb <unknown>
+#17 0x5555a0d47f6c <unknown>
+#18 0x7faea465a272 start_thread
+
+2024-10-24 05:29:57,458 - ERROR - Failed to click element //button[contains(@class, 'login')] after 30 seconds: Message: 
+Stacktrace:
+#0 0x55e8e5b67e3a <unknown>
+#1 0x55e8e585145c <unknown>
+#2 0x55e8e589d5b5 <unknown>
+#3 0x55e8e589d671 <unknown>
+#4 0x55e8e58e1f14 <unknown>
+#5 0x55e8e58c04dd <unknown>
+#6 0x55e8e58df2cc <unknown>
+#7 0x55e8e58c0253 <unknown>
+#8 0x55e8e58901c7 <unknown>
+#9 0x55e8e5890b3e <unknown>
+#10 0x55e8e5b2e27b <unknown>
+#11 0x55e8e5b32327 <unknown>
+#12 0x55e8e5b1adae <unknown>
+#13 0x55e8e5b32df2 <unknown>
+#14 0x55e8e5aff74f <unknown>
+#15 0x55e8e5b57128 <unknown>
+#16 0x55e8e5b572fb <unknown>
+#17 0x55e8e5b66f6c <unknown>
+#18 0x7f4744653272 start_thread
+
+2024-10-24 05:29:58,158 - ERROR - Failed to click element //button[contains(@class, 'login')] after 30 seconds: Message: 
+Stacktrace:
+#0 0x5555a0d48e3a <unknown>
+#1 0x5555a0a3245c <unknown>
+#2 0x5555a0a7e5b5 <unknown>
+#3 0x5555a0a7e671 <unknown>
+#4 0x5555a0ac2f14 <unknown>
+#5 0x5555a0aa14dd <unknown>
+#6 0x5555a0ac02cc <unknown>
+#7 0x5555a0aa1253 <unknown>
+#8 0x5555a0a711c7 <unknown>
+#9 0x5555a0a71b3e <unknown>
+#10 0x5555a0d0f27b <unknown>
+#11 0x5555a0d13327 <unknown>
+#12 0x5555a0cfbdae <unknown>
+#13 0x5555a0d13df2 <unknown>
+#14 0x5555a0ce074f <unknown>
+#15 0x5555a0d38128 <unknown>
+#16 0x5555a0d382fb <unknown>
+#17 0x5555a0d47f6c <unknown>
+#18 0x7faea465a272 start_thread
+
+2024-10-24 05:30:28,769 - ERROR - Failed to click element //div[@role='button'][contains(., 'Sign In')] after 30 seconds: Message: 
+Stacktrace:
+#0 0x55e8e5b67e3a <unknown>
+#1 0x55e8e585145c <unknown>
+#2 0x55e8e589d5b5 <unknown>
+#3 0x55e8e589d671 <unknown>
+#4 0x55e8e58e1f14 <unknown>
+#5 0x55e8e58c04dd <unknown>
+#6 0x55e8e58df2cc <unknown>
+#7 0x55e8e58c0253 <unknown>
+#8 0x55e8e58901c7 <unknown>
+#9 0x55e8e5890b3e <unknown>
+#10 0x55e8e5b2e27b <unknown>
+#11 0x55e8e5b32327 <unknown>
+#12 0x55e8e5b1adae <unknown>
+#13 0x55e8e5b32df2 <unknown>
+#14 0x55e8e5aff74f <unknown>
+#15 0x55e8e5b57128 <unknown>
+#16 0x55e8e5b572fb <unknown>
+#17 0x55e8e5b66f6c <unknown>
+#18 0x7f4744653272 start_thread
+
+2024-10-24 05:30:29,478 - ERROR - Failed to click element //div[@role='button'][contains(., 'Sign In')] after 30 seconds: Message: 
+Stacktrace:
+#0 0x5555a0d48e3a <unknown>
+#1 0x5555a0a3245c <unknown>
+#2 0x5555a0a7e5b5 <unknown>
+#3 0x5555a0a7e671 <unknown>
+#4 0x5555a0ac2f14 <unknown>
+#5 0x5555a0aa14dd <unknown>
+#6 0x5555a0ac02cc <unknown>
+#7 0x5555a0aa1253 <unknown>
+#8 0x5555a0a711c7 <unknown>
+#9 0x5555a0a71b3e <unknown>
+#10 0x5555a0d0f27b <unknown>
+#11 0x5555a0d13327 <unknown>
+#12 0x5555a0cfbdae <unknown>
+#13 0x5555a0d13df2 <unknown>
+#14 0x5555a0ce074f <unknown>
+#15 0x5555a0d38128 <unknown>
+#16 0x5555a0d382fb <unknown>
+#17 0x5555a0d47f6c <unknown>
+#18 0x7faea465a272 start_thread
+
+2024-10-24 05:31:00,033 - ERROR - Failed to click element //a[contains(@href, 'sign-in')] after 30 seconds: Message: 
+Stacktrace:
+#0 0x55e8e5b67e3a <unknown>
+#1 0x55e8e585145c <unknown>
+#2 0x55e8e589d5b5 <unknown>
+#3 0x55e8e589d671 <unknown>
+#4 0x55e8e58e1f14 <unknown>
+#5 0x55e8e58c04dd <unknown>
+#6 0x55e8e58df2cc <unknown>
+#7 0x55e8e58c0253 <unknown>
+#8 0x55e8e58901c7 <unknown>
+#9 0x55e8e5890b3e <unknown>
+#10 0x55e8e5b2e27b <unknown>
+#11 0x55e8e5b32327 <unknown>
+#12 0x55e8e5b1adae <unknown>
+#13 0x55e8e5b32df2 <unknown>
+#14 0x55e8e5aff74f <unknown>
+#15 0x55e8e5b57128 <unknown>
+#16 0x55e8e5b572fb <unknown>
+#17 0x55e8e5b66f6c <unknown>
+#18 0x7f4744653272 start_thread
+
+2024-10-24 05:31:00,733 - ERROR - Failed to click element //a[contains(@href, 'sign-in')] after 30 seconds: Message: 
+Stacktrace:
+#0 0x5555a0d48e3a <unknown>
+#1 0x5555a0a3245c <unknown>
+#2 0x5555a0a7e5b5 <unknown>
+#3 0x5555a0a7e671 <unknown>
+#4 0x5555a0ac2f14 <unknown>
+#5 0x5555a0aa14dd <unknown>
+#6 0x5555a0ac02cc <unknown>
+#7 0x5555a0aa1253 <unknown>
+#8 0x5555a0a711c7 <unknown>
+#9 0x5555a0a71b3e <unknown>
+#10 0x5555a0d0f27b <unknown>
+#11 0x5555a0d13327 <unknown>
+#12 0x5555a0cfbdae <unknown>
+#13 0x5555a0d13df2 <unknown>
+#14 0x5555a0ce074f <unknown>
+#15 0x5555a0d38128 <unknown>
+#16 0x5555a0d382fb <unknown>
+#17 0x5555a0d47f6c <unknown>
+#18 0x7faea465a272 start_thread
+
+2024-10-24 05:31:05,462 - ERROR - Login attempt 1 failed: Could not find login button
+2024-10-24 05:31:05,733 - INFO - Screenshot saved: logs/login_failure_1.png
+2024-10-24 05:31:10,834 - INFO - WebDriver closed successfully
+2024-10-24 05:31:11,456 - INFO - Chrome WebDriver initialized successfully
+2024-10-24 05:31:11,457 - INFO - Starting login attempt 2/3
+2024-10-24 05:31:31,296 - ERROR - Failed to click element //a[contains(@href, 'login')] after 30 seconds: Message: 
+Stacktrace:
+#0 0x55e8e5b67e3a <unknown>
+#1 0x55e8e585145c <unknown>
+#2 0x55e8e589d5b5 <unknown>
+#3 0x55e8e589d671 <unknown>
+#4 0x55e8e58e1f14 <unknown>
+#5 0x55e8e58c04dd <unknown>
+#6 0x55e8e58df2cc <unknown>
+#7 0x55e8e58c0253 <unknown>
+#8 0x55e8e58901c7 <unknown>
+#9 0x55e8e5890b3e <unknown>
+#10 0x55e8e5b2e27b <unknown>
+#11 0x55e8e5b32327 <unknown>
+#12 0x55e8e5b1adae <unknown>
+#13 0x55e8e5b32df2 <unknown>
+#14 0x55e8e5aff74f <unknown>
+#15 0x55e8e5b57128 <unknown>
+#16 0x55e8e5b572fb <unknown>
+#17 0x55e8e5b66f6c <unknown>
+#18 0x7f4744653272 start_thread
+
+2024-10-24 05:31:32,007 - ERROR - Failed to click element //a[contains(@href, 'login')] after 30 seconds: Message: 
+Stacktrace:
+#0 0x5555a0d48e3a <unknown>
+#1 0x5555a0a3245c <unknown>
+#2 0x5555a0a7e5b5 <unknown>
+#3 0x5555a0a7e671 <unknown>
+#4 0x5555a0ac2f14 <unknown>
+#5 0x5555a0aa14dd <unknown>
+#6 0x5555a0ac02cc <unknown>
+#7 0x5555a0aa1253 <unknown>
+#8 0x5555a0a711c7 <unknown>
+#9 0x5555a0a71b3e <unknown>
+#10 0x5555a0d0f27b <unknown>
+#11 0x5555a0d13327 <unknown>
+#12 0x5555a0cfbdae <unknown>
+#13 0x5555a0d13df2 <unknown>
+#14 0x5555a0ce074f <unknown>
+#15 0x5555a0d38128 <unknown>
+#16 0x5555a0d382fb <unknown>
+#17 0x5555a0d47f6c <unknown>
+#18 0x7faea465a272 start_thread
+
+2024-10-24 05:32:03,262 - ERROR - Login attempt 2 failed: Could not find login button
+2024-10-24 05:32:03,269 - ERROR - Failed to save screenshot: Message: disconnected: not connected to DevTools
+  (failed to check if window was closed: disconnected: not connected to DevTools)
+  (Session info: chrome=125.0.6422.141)
+Stacktrace:
+#0 0x55cd5e744e3a <unknown>
+#1 0x55cd5e42e45c <unknown>
+#2 0x55cd5e413f68 <unknown>
+#3 0x55cd5e413e43 <unknown>
+#4 0x55cd5e430862 <unknown>
+#5 0x55cd5e4bbc9c <unknown>
+#6 0x55cd5e49d253 <unknown>
+#7 0x55cd5e46d1c7 <unknown>
+#8 0x55cd5e46db3e <unknown>
+#9 0x55cd5e70b27b <unknown>
+#10 0x55cd5e70f327 <unknown>
+#11 0x55cd5e6f7dae <unknown>
+#12 0x55cd5e70fdf2 <unknown>
+#13 0x55cd5e6dc74f <unknown>
+#14 0x55cd5e734128 <unknown>
+#15 0x55cd5e7342fb <unknown>
+#16 0x55cd5e743f6c <unknown>
+#17 0x7f83cde7a272 start_thread
+
+2024-10-24 05:32:04,989 - ERROR - Failed to click element //button[contains(., 'Continue with Google')] after 30 seconds: Message: disconnected: not connected to DevTools
+  (failed to check if window was closed: disconnected: not connected to DevTools)
+  (Session info: chrome=125.0.6422.141)
+Stacktrace:
+#0 0x55e8e5b67e3a <unknown>
+#1 0x55e8e585145c <unknown>
+#2 0x55e8e5836f68 <unknown>
+#3 0x55e8e5836e43 <unknown>
+#4 0x55e8e5853862 <unknown>
+#5 0x55e8e58dec9c <unknown>
+#6 0x55e8e58c0253 <unknown>
+#7 0x55e8e58901c7 <unknown>
+#8 0x55e8e5890b3e <unknown>
+#9 0x55e8e5b2e27b <unknown>
+#10 0x55e8e5b32327 <unknown>
+#11 0x55e8e5b1adae <unknown>
+#12 0x55e8e5b32df2 <unknown>
+#13 0x55e8e5aff74f <unknown>
+#14 0x55e8e5b57128 <unknown>
+#15 0x55e8e5b572fb <unknown>
+#16 0x55e8e5b66f6c <unknown>
+#17 0x7f4744653272 start_thread
+
+2024-10-24 05:32:05,443 - ERROR - Failed to click element //button[contains(., 'Continue with Google')] after 30 seconds: Message: disconnected: not connected to DevTools
+  (failed to check if window was closed: disconnected: not connected to DevTools)
+  (Session info: chrome=125.0.6422.141)
+Stacktrace:
+#0 0x5555a0d48e3a <unknown>
+#1 0x5555a0a3245c <unknown>
+#2 0x5555a0a17f68 <unknown>
+#3 0x5555a0a17e43 <unknown>
+#4 0x5555a0a34862 <unknown>
+#5 0x5555a0abfc9c <unknown>
+#6 0x5555a0aa1253 <unknown>
+#7 0x5555a0a711c7 <unknown>
+#8 0x5555a0a71b3e <unknown>
+#9 0x5555a0d0f27b <unknown>
+#10 0x5555a0d13327 <unknown>
+#11 0x5555a0cfbdae <unknown>
+#12 0x5555a0d13df2 <unknown>
+#13 0x5555a0ce074f <unknown>
+#14 0x5555a0d38128 <unknown>
+#15 0x5555a0d382fb <unknown>
+#16 0x5555a0d47f6c <unknown>
+#17 0x7faea465a272 start_thread
+
+2024-10-24 05:32:08,298 - INFO - WebDriver closed successfully
+2024-10-24 05:32:08,427 - ERROR - Failed to initialize WebDriver: Message: unknown error: cannot create temp dir for user data dir
+Stacktrace:
+#0 0x55e27f055e3a <unknown>
+#1 0x55e27ed3f45c <unknown>
+#2 0x55e27ed72b38 <unknown>
+#3 0x55e27ed7063b <unknown>
+#4 0x55e27edbab19 <unknown>
+#5 0x55e27edae253 <unknown>
+#6 0x55e27ed7e1c7 <unknown>
+#7 0x55e27ed7eb3e <unknown>
+#8 0x55e27f01c27b <unknown>
+#9 0x55e27f020327 <unknown>
+#10 0x55e27f008dae <unknown>
+#11 0x55e27f020df2 <unknown>
+#12 0x55e27efed74f <unknown>
+#13 0x55e27f045128 <unknown>
+#14 0x55e27f0452fb <unknown>
+#15 0x55e27f054f6c <unknown>
+#16 0x7fe7145c5272 start_thread
+
+2024-10-24 05:32:08,428 - ERROR - Main execution failed: Message: unknown error: cannot create temp dir for user data dir
+Stacktrace:
+#0 0x55e27f055e3a <unknown>
+#1 0x55e27ed3f45c <unknown>
+#2 0x55e27ed72b38 <unknown>
+#3 0x55e27ed7063b <unknown>
+#4 0x55e27edbab19 <unknown>
+#5 0x55e27edae253 <unknown>
+#6 0x55e27ed7e1c7 <unknown>
+#7 0x55e27ed7eb3e <unknown>
+#8 0x55e27f01c27b <unknown>
+#9 0x55e27f020327 <unknown>
+#10 0x55e27f008dae <unknown>
+#11 0x55e27f020df2 <unknown>
+#12 0x55e27efed74f <unknown>
+#13 0x55e27f045128 <unknown>
+#14 0x55e27f0452fb <unknown>
+#15 0x55e27f054f6c <unknown>
+#16 0x7fe7145c5272 start_thread
+
+2024-10-24 05:32:08,429 - WARNING - Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f2db6a89290>: Failed to establish a new connection: [Errno 111] Connection refused')': /session/5e396ea6c498f911fdb7041f6abdc9f6
+2024-10-24 05:32:08,430 - WARNING - Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f2db6a917d0>: Failed to establish a new connection: [Errno 111] Connection refused')': /session/5e396ea6c498f911fdb7041f6abdc9f6
+2024-10-24 05:32:08,430 - WARNING - Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f2db6a90990>: Failed to establish a new connection: [Errno 111] Connection refused')': /session/5e396ea6c498f911fdb7041f6abdc9f6
+2024-10-24 05:32:08,431 - INFO - WebDriver closed successfully
+2024-10-24 05:32:35,206 - ERROR - Failed to click element //div[@role='button'][contains(., 'Continue with Google')] after 30 seconds: Message: disconnected: not connected to DevTools
+  (failed to check if window was closed: disconnected: not connected to DevTools)
+  (Session info: chrome=125.0.6422.141)
+Stacktrace:
+#0 0x55e8e5b67e3a <unknown>
+#1 0x55e8e585145c <unknown>
+#2 0x55e8e5836f68 <unknown>
+#3 0x55e8e5836e43 <unknown>
+#4 0x55e8e5853862 <unknown>
+#5 0x55e8e58dec9c <unknown>
+#6 0x55e8e58c0253 <unknown>
+#7 0x55e8e58901c7 <unknown>
+#8 0x55e8e5890b3e <unknown>
+#9 0x55e8e5b2e27b <unknown>
+#10 0x55e8e5b32327 <unknown>
+#11 0x55e8e5b1adae <unknown>
+#12 0x55e8e5b32df2 <unknown>
+#13 0x55e8e5aff74f <unknown>
+#14 0x55e8e5b57128 <unknown>
+#15 0x55e8e5b572fb <unknown>
+#16 0x55e8e5b66f6c <unknown>
+#17 0x7f4744653272 start_thread
+
+2024-10-24 05:32:35,656 - ERROR - Failed to click element //div[@role='button'][contains(., 'Continue with Google')] after 30 seconds: Message: disconnected: not connected to DevTools
+  (failed to check if window was closed: disconnected: not connected to DevTools)
+  (Session info: chrome=125.0.6422.141)
+Stacktrace:
+#0 0x5555a0d48e3a <unknown>
+#1 0x5555a0a3245c <unknown>
+#2 0x5555a0a17f68 <unknown>
+#3 0x5555a0a17e43 <unknown>
+#4 0x5555a0a34862 <unknown>
+#5 0x5555a0abfc9c <unknown>
+#6 0x5555a0aa1253 <unknown>
+#7 0x5555a0a711c7 <unknown>
+#8 0x5555a0a71b3e <unknown>
+#9 0x5555a0d0f27b <unknown>
+#10 0x5555a0d13327 <unknown>
+#11 0x5555a0cfbdae <unknown>
+#12 0x5555a0d13df2 <unknown>
+#13 0x5555a0ce074f <unknown>
+#14 0x5555a0d38128 <unknown>
+#15 0x5555a0d382fb <unknown>
+#16 0x5555a0d47f6c <unknown>
+#17 0x7faea465a272 start_thread
+
+2024-10-24 05:32:54,255 - INFO - Chrome WebDriver initialized successfully
+2024-10-24 05:32:54,256 - INFO - Starting login attempt 1/3
+2024-10-24 05:33:05,423 - ERROR - Failed to click element //button[contains(., 'Google')] after 30 seconds: Message: disconnected: not connected to DevTools
+  (failed to check if window was closed: disconnected: not connected to DevTools)
+  (Session info: chrome=125.0.6422.141)
+Stacktrace:
+#0 0x55e8e5b67e3a <unknown>
+#1 0x55e8e585145c <unknown>
+#2 0x55e8e5836f68 <unknown>
+#3 0x55e8e5836e43 <unknown>
+#4 0x55e8e5853862 <unknown>
+#5 0x55e8e58dec9c <unknown>
+#6 0x55e8e58c0253 <unknown>
+#7 0x55e8e58901c7 <unknown>
+#8 0x55e8e5890b3e <unknown>
+#9 0x55e8e5b2e27b <unknown>
+#10 0x55e8e5b32327 <unknown>
+#11 0x55e8e5b1adae <unknown>
+#12 0x55e8e5b32df2 <unknown>
+#13 0x55e8e5aff74f <unknown>
+#14 0x55e8e5b57128 <unknown>
+#15 0x55e8e5b572fb <unknown>
+#16 0x55e8e5b66f6c <unknown>
+#17 0x7f4744653272 start_thread
+
+2024-10-24 05:33:05,865 - ERROR - Failed to click element //button[contains(., 'Google')] after 30 seconds: Message: disconnected: not connected to DevTools
+  (failed to check if window was closed: disconnected: not connected to DevTools)
+  (Session info: chrome=125.0.6422.141)
+Stacktrace:
+#0 0x5555a0d48e3a <unknown>
+#1 0x5555a0a3245c <unknown>
+#2 0x5555a0a17f68 <unknown>
+#3 0x5555a0a17e43 <unknown>
+#4 0x5555a0a34862 <unknown>
+#5 0x5555a0abfc9c <unknown>
+#6 0x5555a0aa1253 <unknown>
+#7 0x5555a0a711c7 <unknown>
+#8 0x5555a0a71b3e <unknown>
+#9 0x5555a0d0f27b <unknown>
+#10 0x5555a0d13327 <unknown>
+#11 0x5555a0cfbdae <unknown>
+#12 0x5555a0d13df2 <unknown>
+#13 0x5555a0ce074f <unknown>
+#14 0x5555a0d38128 <unknown>
+#15 0x5555a0d382fb <unknown>
+#16 0x5555a0d47f6c <unknown>
+#17 0x7faea465a272 start_thread
+
+2024-10-24 05:33:17,545 - ERROR - Failed to click Sign in button: Message: 
+Stacktrace:
+#0 0x55c0c278fe3a <unknown>
+#1 0x55c0c247945c <unknown>
+#2 0x55c0c24c55b5 <unknown>
+#3 0x55c0c24c5671 <unknown>
+#4 0x55c0c2509f14 <unknown>
+#5 0x55c0c24e84dd <unknown>
+#6 0x55c0c25072cc <unknown>
+#7 0x55c0c24e8253 <unknown>
+#8 0x55c0c24b81c7 <unknown>
+#9 0x55c0c24b8b3e <unknown>
+#10 0x55c0c275627b <unknown>
+#11 0x55c0c275a327 <unknown>
+#12 0x55c0c2742dae <unknown>
+#13 0x55c0c275adf2 <unknown>
+#14 0x55c0c272774f <unknown>
+#15 0x55c0c277f128 <unknown>
+#16 0x55c0c277f2fb <unknown>
+#17 0x55c0c278ef6c <unknown>
+#18 0x7f1c9ed7b272 start_thread
+
+2024-10-24 05:33:17,546 - ERROR - Login attempt 1 failed: Could not find or click Sign in button
+2024-10-24 05:33:17,825 - INFO - Screenshot saved: logs/login_failure_1.png
+2024-10-24 05:33:22,899 - INFO - WebDriver closed successfully
+2024-10-24 05:33:23,327 - INFO - Chrome WebDriver initialized successfully
+2024-10-24 05:33:23,327 - INFO - Starting login attempt 2/3
+2024-10-24 05:33:35,640 - ERROR - Failed to click element //div[contains(@class, 'google')]//button after 30 seconds: Message: disconnected: not connected to DevTools
+  (failed to check if window was closed: disconnected: not connected to DevTools)
+  (Session info: chrome=125.0.6422.141)
+Stacktrace:
+#0 0x55e8e5b67e3a <unknown>
+#1 0x55e8e585145c <unknown>
+#2 0x55e8e5836f68 <unknown>
+#3 0x55e8e5836e43 <unknown>
+#4 0x55e8e5853862 <unknown>
+#5 0x55e8e58dec9c <unknown>
+#6 0x55e8e58c0253 <unknown>
+#7 0x55e8e58901c7 <unknown>
+#8 0x55e8e5890b3e <unknown>
+#9 0x55e8e5b2e27b <unknown>
+#10 0x55e8e5b32327 <unknown>
+#11 0x55e8e5b1adae <unknown>
+#12 0x55e8e5b32df2 <unknown>
+#13 0x55e8e5aff74f <unknown>
+#14 0x55e8e5b57128 <unknown>
+#15 0x55e8e5b572fb <unknown>
+#16 0x55e8e5b66f6c <unknown>
+#17 0x7f4744653272 start_thread
+
+2024-10-24 05:33:36,078 - ERROR - Failed to click element //div[contains(@class, 'google')]//button after 30 seconds: Message: disconnected: not connected to DevTools
+  (failed to check if window was closed: disconnected: not connected to DevTools)
+  (Session info: chrome=125.0.6422.141)
+Stacktrace:
+#0 0x5555a0d48e3a <unknown>
+#1 0x5555a0a3245c <unknown>
+#2 0x5555a0a17f68 <unknown>
+#3 0x5555a0a17e43 <unknown>
+#4 0x5555a0a34862 <unknown>
+#5 0x5555a0abfc9c <unknown>
+#6 0x5555a0aa1253 <unknown>
+#7 0x5555a0a711c7 <unknown>
+#8 0x5555a0a71b3e <unknown>
+#9 0x5555a0d0f27b <unknown>
+#10 0x5555a0d13327 <unknown>
+#11 0x5555a0cfbdae <unknown>
+#12 0x5555a0d13df2 <unknown>
+#13 0x5555a0ce074f <unknown>
+#14 0x5555a0d38128 <unknown>
+#15 0x5555a0d382fb <unknown>
+#16 0x5555a0d47f6c <unknown>
+#17 0x7faea465a272 start_thread
+
+2024-10-24 05:33:46,548 - ERROR - Failed to click Sign in button: Message: 
+Stacktrace:
+#0 0x55c1054b3e3a <unknown>
+#1 0x55c10519d45c <unknown>
+#2 0x55c1051e95b5 <unknown>
+#3 0x55c1051e9671 <unknown>
+#4 0x55c10522df14 <unknown>
+#5 0x55c10520c4dd <unknown>
+#6 0x55c10522b2cc <unknown>
+#7 0x55c10520c253 <unknown>
+#8 0x55c1051dc1c7 <unknown>
+#9 0x55c1051dcb3e <unknown>
+#10 0x55c10547a27b <unknown>
+#11 0x55c10547e327 <unknown>
+#12 0x55c105466dae <unknown>
+#13 0x55c10547edf2 <unknown>
+#14 0x55c10544b74f <unknown>
+#15 0x55c1054a3128 <unknown>
+#16 0x55c1054a32fb <unknown>
+#17 0x55c1054b2f6c <unknown>
+#18 0x7fd8f9f1b272 start_thread
+
+2024-10-24 05:33:46,548 - ERROR - Login attempt 2 failed: Could not find or click Sign in button
+2024-10-24 05:33:46,793 - INFO - Screenshot saved: logs/login_failure_2.png
+2024-10-24 05:33:51,866 - INFO - WebDriver closed successfully
+2024-10-24 05:33:52,296 - INFO - Chrome WebDriver initialized successfully
+2024-10-24 05:33:52,297 - INFO - Starting login attempt 3/3
+2024-10-24 05:34:05,866 - ERROR - Failed to click element //span[contains(text(), 'Google')]/.. after 30 seconds: Message: disconnected: not connected to DevTools
+  (failed to check if window was closed: disconnected: not connected to DevTools)
+  (Session info: chrome=125.0.6422.141)
+Stacktrace:
+#0 0x55e8e5b67e3a <unknown>
+#1 0x55e8e585145c <unknown>
+#2 0x55e8e5836f68 <unknown>
+#3 0x55e8e5836e43 <unknown>
+#4 0x55e8e5853862 <unknown>
+#5 0x55e8e58dec9c <unknown>
+#6 0x55e8e58c0253 <unknown>
+#7 0x55e8e58901c7 <unknown>
+#8 0x55e8e5890b3e <unknown>
+#9 0x55e8e5b2e27b <unknown>
+#10 0x55e8e5b32327 <unknown>
+#11 0x55e8e5b1adae <unknown>
+#12 0x55e8e5b32df2 <unknown>
+#13 0x55e8e5aff74f <unknown>
+#14 0x55e8e5b57128 <unknown>
+#15 0x55e8e5b572fb <unknown>
+#16 0x55e8e5b66f6c <unknown>
+#17 0x7f4744653272 start_thread
+
+2024-10-24 05:34:06,293 - ERROR - Failed to click element //span[contains(text(), 'Google')]/.. after 30 seconds: Message: disconnected: not connected to DevTools
+  (failed to check if window was closed: disconnected: not connected to DevTools)
+  (Session info: chrome=125.0.6422.141)
+Stacktrace:
+#0 0x5555a0d48e3a <unknown>
+#1 0x5555a0a3245c <unknown>
+#2 0x5555a0a17f68 <unknown>
+#3 0x5555a0a17e43 <unknown>
+#4 0x5555a0a34862 <unknown>
+#5 0x5555a0abfc9c <unknown>
+#6 0x5555a0aa1253 <unknown>
+#7 0x5555a0a711c7 <unknown>
+#8 0x5555a0a71b3e <unknown>
+#9 0x5555a0d0f27b <unknown>
+#10 0x5555a0d13327 <unknown>
+#11 0x5555a0cfbdae <unknown>
+#12 0x5555a0d13df2 <unknown>
+#13 0x5555a0ce074f <unknown>
+#14 0x5555a0d38128 <unknown>
+#15 0x5555a0d382fb <unknown>
+#16 0x5555a0d47f6c <unknown>
+#17 0x7faea465a272 start_thread
+
+2024-10-24 05:34:15,501 - ERROR - Failed to click Sign in button: Message: 
+Stacktrace:
+#0 0x556623641e3a <unknown>
+#1 0x55662332b45c <unknown>
+#2 0x5566233775b5 <unknown>
+#3 0x556623377671 <unknown>
+#4 0x5566233bbf14 <unknown>
+#5 0x55662339a4dd <unknown>
+#6 0x5566233b92cc <unknown>
+#7 0x55662339a253 <unknown>
+#8 0x55662336a1c7 <unknown>
+#9 0x55662336ab3e <unknown>
+#10 0x55662360827b <unknown>
+#11 0x55662360c327 <unknown>
+#12 0x5566235f4dae <unknown>
+#13 0x55662360cdf2 <unknown>
+#14 0x5566235d974f <unknown>
+#15 0x556623631128 <unknown>
+#16 0x5566236312fb <unknown>
+#17 0x556623640f6c <unknown>
+#18 0x7f7f7091c272 start_thread
+
+2024-10-24 05:34:15,501 - ERROR - Login attempt 3 failed: Could not find or click Sign in button
+2024-10-24 05:34:15,786 - INFO - Screenshot saved: logs/login_failure_3.png
+2024-10-24 05:34:15,786 - ERROR - Main execution failed: Login failed after 3 attempts
+2024-10-24 05:34:15,863 - INFO - WebDriver closed successfully
+2024-10-24 05:34:18,875 - INFO - Chrome WebDriver initialized successfully
+2024-10-24 05:34:18,875 - INFO - Starting login attempt 1/3
+2024-10-24 05:34:36,093 - ERROR - Failed to click element //div[contains(text(), 'Continue with Google')] after 30 seconds: Message: disconnected: not connected to DevTools
+  (failed to check if window was closed: disconnected: not connected to DevTools)
+  (Session info: chrome=125.0.6422.141)
+Stacktrace:
+#0 0x55e8e5b67e3a <unknown>
+#1 0x55e8e585145c <unknown>
+#2 0x55e8e5836f68 <unknown>
+#3 0x55e8e5836e43 <unknown>
+#4 0x55e8e5853862 <unknown>
+#5 0x55e8e58dec9c <unknown>
+#6 0x55e8e58c0253 <unknown>
+#7 0x55e8e58901c7 <unknown>
+#8 0x55e8e5890b3e <unknown>
+#9 0x55e8e5b2e27b <unknown>
+#10 0x55e8e5b32327 <unknown>
+#11 0x55e8e5b1adae <unknown>
+#12 0x55e8e5b32df2 <unknown>
+#13 0x55e8e5aff74f <unknown>
+#14 0x55e8e5b57128 <unknown>
+#15 0x55e8e5b572fb <unknown>
+#16 0x55e8e5b66f6c <unknown>
+#17 0x7f4744653272 start_thread
+
+2024-10-24 05:34:36,100 - ERROR - Failed to save screenshot: Message: disconnected: not connected to DevTools
+  (failed to check if window was closed: disconnected: not connected to DevTools)
+  (Session info: chrome=125.0.6422.141)
+Stacktrace:
+#0 0x55e8e5b67e3a <unknown>
+#1 0x55e8e585145c <unknown>
+#2 0x55e8e5836f68 <unknown>
+#3 0x55e8e5836e43 <unknown>
+#4 0x55e8e5853862 <unknown>
+#5 0x55e8e58dec9c <unknown>
+#6 0x55e8e58c0253 <unknown>
+#7 0x55e8e58901c7 <unknown>
+#8 0x55e8e5890b3e <unknown>
+#9 0x55e8e5b2e27b <unknown>
+#10 0x55e8e5b32327 <unknown>
+#11 0x55e8e5b1adae <unknown>
+#12 0x55e8e5b32df2 <unknown>
+#13 0x55e8e5aff74f <unknown>
+#14 0x55e8e5b57128 <unknown>
+#15 0x55e8e5b572fb <unknown>
+#16 0x55e8e5b66f6c <unknown>
+#17 0x7f4744653272 start_thread
+
+2024-10-24 05:34:36,100 - ERROR - Login attempt 2 failed: Could not find Google login option
+2024-10-24 05:34:36,108 - ERROR - Failed to save screenshot: Message: disconnected: not connected to DevTools
+  (failed to check if window was closed: disconnected: not connected to DevTools)
+  (Session info: chrome=125.0.6422.141)
+Stacktrace:
+#0 0x55e8e5b67e3a <unknown>
+#1 0x55e8e585145c <unknown>
+#2 0x55e8e5836f68 <unknown>
+#3 0x55e8e5836e43 <unknown>
+#4 0x55e8e5853862 <unknown>
+#5 0x55e8e58dec9c <unknown>
+#6 0x55e8e58c0253 <unknown>
+#7 0x55e8e58901c7 <unknown>
+#8 0x55e8e5890b3e <unknown>
+#9 0x55e8e5b2e27b <unknown>
+#10 0x55e8e5b32327 <unknown>
+#11 0x55e8e5b1adae <unknown>
+#12 0x55e8e5b32df2 <unknown>
+#13 0x55e8e5aff74f <unknown>
+#14 0x55e8e5b57128 <unknown>
+#15 0x55e8e5b572fb <unknown>
+#16 0x55e8e5b66f6c <unknown>
+#17 0x7f4744653272 start_thread
+
+2024-10-24 05:34:36,108 - INFO - Retrying login in 20 seconds...
+2024-10-24 05:34:36,523 - ERROR - Failed to click element //div[contains(text(), 'Continue with Google')] after 30 seconds: Message: disconnected: not connected to DevTools
+  (failed to check if window was closed: disconnected: not connected to DevTools)
+  (Session info: chrome=125.0.6422.141)
+Stacktrace:
+#0 0x5555a0d48e3a <unknown>
+#1 0x5555a0a3245c <unknown>
+#2 0x5555a0a17f68 <unknown>
+#3 0x5555a0a17e43 <unknown>
+#4 0x5555a0a34862 <unknown>
+#5 0x5555a0abfc9c <unknown>
+#6 0x5555a0aa1253 <unknown>
+#7 0x5555a0a711c7 <unknown>
+#8 0x5555a0a71b3e <unknown>
+#9 0x5555a0d0f27b <unknown>
+#10 0x5555a0d13327 <unknown>
+#11 0x5555a0cfbdae <unknown>
+#12 0x5555a0d13df2 <unknown>
+#13 0x5555a0ce074f <unknown>
+#14 0x5555a0d38128 <unknown>
+#15 0x5555a0d382fb <unknown>
+#16 0x5555a0d47f6c <unknown>
+#17 0x7faea465a272 start_thread
+
+2024-10-24 05:34:36,530 - ERROR - Failed to save screenshot: Message: disconnected: not connected to DevTools
+  (failed to check if window was closed: disconnected: not connected to DevTools)
+  (Session info: chrome=125.0.6422.141)
+Stacktrace:
+#0 0x5555a0d48e3a <unknown>
+#1 0x5555a0a3245c <unknown>
+#2 0x5555a0a17f68 <unknown>
+#3 0x5555a0a17e43 <unknown>
+#4 0x5555a0a34862 <unknown>
+#5 0x5555a0abfc9c <unknown>
+#6 0x5555a0aa1253 <unknown>
+#7 0x5555a0a711c7 <unknown>
+#8 0x5555a0a71b3e <unknown>
+#9 0x5555a0d0f27b <unknown>
+#10 0x5555a0d13327 <unknown>
+#11 0x5555a0cfbdae <unknown>
+#12 0x5555a0d13df2 <unknown>
+#13 0x5555a0ce074f <unknown>
+#14 0x5555a0d38128 <unknown>
+#15 0x5555a0d382fb <unknown>
+#16 0x5555a0d47f6c <unknown>
+#17 0x7faea465a272 start_thread
+
+2024-10-24 05:34:36,530 - ERROR - Login attempt 2 failed: Could not find Google login option
+2024-10-24 05:34:36,540 - ERROR - Failed to save screenshot: Message: disconnected: not connected to DevTools
+  (failed to check if window was closed: disconnected: not connected to DevTools)
+  (Session info: chrome=125.0.6422.141)
+Stacktrace:
+#0 0x5555a0d48e3a <unknown>
+#1 0x5555a0a3245c <unknown>
+#2 0x5555a0a17f68 <unknown>
+#3 0x5555a0a17e43 <unknown>
+#4 0x5555a0a34862 <unknown>
+#5 0x5555a0abfc9c <unknown>
+#6 0x5555a0aa1253 <unknown>
+#7 0x5555a0a711c7 <unknown>
+#8 0x5555a0a71b3e <unknown>
+#9 0x5555a0d0f27b <unknown>
+#10 0x5555a0d13327 <unknown>
+#11 0x5555a0cfbdae <unknown>
+#12 0x5555a0d13df2 <unknown>
+#13 0x5555a0ce074f <unknown>
+#14 0x5555a0d38128 <unknown>
+#15 0x5555a0d382fb <unknown>
+#16 0x5555a0d47f6c <unknown>
+#17 0x7faea465a272 start_thread
+
+2024-10-24 05:34:36,540 - INFO - Retrying login in 20 seconds...
+2024-10-24 05:34:39,629 - ERROR - Failed to find element //button[contains(text(), 'Sign in')] after 3 attempts: Message: 
+Stacktrace:
+#0 0x559c7ccbae3a <unknown>
+#1 0x559c7c9a445c <unknown>
+#2 0x559c7c9f05b5 <unknown>
+#3 0x559c7c9f0671 <unknown>
+#4 0x559c7ca34f14 <unknown>
+#5 0x559c7ca134dd <unknown>
+#6 0x559c7ca322cc <unknown>
+#7 0x559c7ca13253 <unknown>
+#8 0x559c7c9e31c7 <unknown>
+#9 0x559c7c9e3b3e <unknown>
+#10 0x559c7cc8127b <unknown>
+#11 0x559c7cc85327 <unknown>
+#12 0x559c7cc6ddae <unknown>
+#13 0x559c7cc85df2 <unknown>
+#14 0x559c7cc5274f <unknown>
+#15 0x559c7ccaa128 <unknown>
+#16 0x559c7ccaa2fb <unknown>
+#17 0x559c7ccb9f6c <unknown>
+#18 0x7efd129fe272 start_thread
+
+2024-10-24 05:34:56,108 - INFO - Starting login process (attempt 3/3)...
+2024-10-24 05:34:56,108 - INFO - Clearing cookies and cache before retry
+2024-10-24 05:34:56,116 - ERROR - Login attempt 3 failed: Message: disconnected: not connected to DevTools
+  (failed to check if window was closed: disconnected: not connected to DevTools)
+  (Session info: chrome=125.0.6422.141)
+Stacktrace:
+#0 0x55e8e5b67e3a <unknown>
+#1 0x55e8e585145c <unknown>
+#2 0x55e8e5836f68 <unknown>
+#3 0x55e8e5836e43 <unknown>
+#4 0x55e8e5853862 <unknown>
+#5 0x55e8e58dec9c <unknown>
+#6 0x55e8e58c0253 <unknown>
+#7 0x55e8e58901c7 <unknown>
+#8 0x55e8e5890b3e <unknown>
+#9 0x55e8e5b2e27b <unknown>
+#10 0x55e8e5b32327 <unknown>
+#11 0x55e8e5b1adae <unknown>
+#12 0x55e8e5b32df2 <unknown>
+#13 0x55e8e5aff74f <unknown>
+#14 0x55e8e5b57128 <unknown>
+#15 0x55e8e5b572fb <unknown>
+#16 0x55e8e5b66f6c <unknown>
+#17 0x7f4744653272 start_thread
+
+2024-10-24 05:34:56,123 - ERROR - Failed to save screenshot: Message: disconnected: not connected to DevTools
+  (failed to check if window was closed: disconnected: not connected to DevTools)
+  (Session info: chrome=125.0.6422.141)
+Stacktrace:
+#0 0x55e8e5b67e3a <unknown>
+#1 0x55e8e585145c <unknown>
+#2 0x55e8e5836f68 <unknown>
+#3 0x55e8e5836e43 <unknown>
+#4 0x55e8e5853862 <unknown>
+#5 0x55e8e58dec9c <unknown>
+#6 0x55e8e58c0253 <unknown>
+#7 0x55e8e58901c7 <unknown>
+#8 0x55e8e5890b3e <unknown>
+#9 0x55e8e5b2e27b <unknown>
+#10 0x55e8e5b32327 <unknown>
+#11 0x55e8e5b1adae <unknown>
+#12 0x55e8e5b32df2 <unknown>
+#13 0x55e8e5aff74f <unknown>
+#14 0x55e8e5b57128 <unknown>
+#15 0x55e8e5b572fb <unknown>
+#16 0x55e8e5b66f6c <unknown>
+#17 0x7f4744653272 start_thread
+
+2024-10-24 05:34:56,184 - INFO - WebDriver closed successfully
+2024-10-24 05:34:56,541 - INFO - Starting login process (attempt 3/3)...
+2024-10-24 05:34:56,541 - INFO - Clearing cookies and cache before retry
+2024-10-24 05:34:56,550 - ERROR - Login attempt 3 failed: Message: disconnected: not connected to DevTools
+  (failed to check if window was closed: disconnected: not connected to DevTools)
+  (Session info: chrome=125.0.6422.141)
+Stacktrace:
+#0 0x5555a0d48e3a <unknown>
+#1 0x5555a0a3245c <unknown>
+#2 0x5555a0a17f68 <unknown>
+#3 0x5555a0a17e43 <unknown>
+#4 0x5555a0a34862 <unknown>
+#5 0x5555a0abfc9c <unknown>
+#6 0x5555a0aa1253 <unknown>
+#7 0x5555a0a711c7 <unknown>
+#8 0x5555a0a71b3e <unknown>
+#9 0x5555a0d0f27b <unknown>
+#10 0x5555a0d13327 <unknown>
+#11 0x5555a0cfbdae <unknown>
+#12 0x5555a0d13df2 <unknown>
+#13 0x5555a0ce074f <unknown>
+#14 0x5555a0d38128 <unknown>
+#15 0x5555a0d382fb <unknown>
+#16 0x5555a0d47f6c <unknown>
+#17 0x7faea465a272 start_thread
+
+2024-10-24 05:34:56,557 - ERROR - Failed to save screenshot: Message: disconnected: not connected to DevTools
+  (failed to check if window was closed: disconnected: not connected to DevTools)
+  (Session info: chrome=125.0.6422.141)
+Stacktrace:
+#0 0x5555a0d48e3a <unknown>
+#1 0x5555a0a3245c <unknown>
+#2 0x5555a0a17f68 <unknown>
+#3 0x5555a0a17e43 <unknown>
+#4 0x5555a0a34862 <unknown>
+#5 0x5555a0abfc9c <unknown>
+#6 0x5555a0aa1253 <unknown>
+#7 0x5555a0a711c7 <unknown>
+#8 0x5555a0a71b3e <unknown>
+#9 0x5555a0d0f27b <unknown>
+#10 0x5555a0d13327 <unknown>
+#11 0x5555a0cfbdae <unknown>
+#12 0x5555a0d13df2 <unknown>
+#13 0x5555a0ce074f <unknown>
+#14 0x5555a0d38128 <unknown>
+#15 0x5555a0d382fb <unknown>
+#16 0x5555a0d47f6c <unknown>
+#17 0x7faea465a272 start_thread
+
+2024-10-24 05:34:56,557 - ERROR - Main execution failed: Login failed after 3 attempts: Message: disconnected: not connected to DevTools
+  (failed to check if window was closed: disconnected: not connected to DevTools)
+  (Session info: chrome=125.0.6422.141)
+Stacktrace:
+#0 0x5555a0d48e3a <unknown>
+#1 0x5555a0a3245c <unknown>
+#2 0x5555a0a17f68 <unknown>
+#3 0x5555a0a17e43 <unknown>
+#4 0x5555a0a34862 <unknown>
+#5 0x5555a0abfc9c <unknown>
+#6 0x5555a0aa1253 <unknown>
+#7 0x5555a0a711c7 <unknown>
+#8 0x5555a0a71b3e <unknown>
+#9 0x5555a0d0f27b <unknown>
+#10 0x5555a0d13327 <unknown>
+#11 0x5555a0cfbdae <unknown>
+#12 0x5555a0d13df2 <unknown>
+#13 0x5555a0ce074f <unknown>
+#14 0x5555a0d38128 <unknown>
+#15 0x5555a0d382fb <unknown>
+#16 0x5555a0d47f6c <unknown>
+#17 0x7faea465a272 start_thread
+
+2024-10-24 05:34:56,598 - INFO - WebDriver closed successfully
+2024-10-24 05:34:56,969 - ERROR - Failed to find element //button[contains(@class, 'sign-in')] after 3 attempts: Message: 
+Stacktrace:
+#0 0x559c7ccbae3a <unknown>
+#1 0x559c7c9a445c <unknown>
+#2 0x559c7c9f05b5 <unknown>
+#3 0x559c7c9f0671 <unknown>
+#4 0x559c7ca34f14 <unknown>
+#5 0x559c7ca134dd <unknown>
+#6 0x559c7ca322cc <unknown>
+#7 0x559c7ca13253 <unknown>
+#8 0x559c7c9e31c7 <unknown>
+#9 0x559c7c9e3b3e <unknown>
+#10 0x559c7cc8127b <unknown>
+#11 0x559c7cc85327 <unknown>
+#12 0x559c7cc6ddae <unknown>
+#13 0x559c7cc85df2 <unknown>
+#14 0x559c7cc5274f <unknown>
+#15 0x559c7ccaa128 <unknown>
+#16 0x559c7ccaa2fb <unknown>
+#17 0x559c7ccb9f6c <unknown>
+#18 0x7efd129fe272 start_thread
+
+2024-10-24 05:35:04,697 - INFO - Chrome WebDriver initialized successfully
+2024-10-24 05:35:04,698 - INFO - Starting login attempt 1/3
+2024-10-24 05:35:28,059 - ERROR - Failed to click Sign in button: Message: 
+Stacktrace:
+#0 0x562cef292e3a <unknown>
+#1 0x562ceef7c45c <unknown>
+#2 0x562ceefc85b5 <unknown>
+#3 0x562ceefc8671 <unknown>
+#4 0x562cef00cf14 <unknown>
+#5 0x562ceefeb4dd <unknown>
+#6 0x562cef00a2cc <unknown>
+#7 0x562ceefeb253 <unknown>
+#8 0x562ceefbb1c7 <unknown>
+#9 0x562ceefbbb3e <unknown>
+#10 0x562cef25927b <unknown>
+#11 0x562cef25d327 <unknown>
+#12 0x562cef245dae <unknown>
+#13 0x562cef25ddf2 <unknown>
+#14 0x562cef22a74f <unknown>
+#15 0x562cef282128 <unknown>
+#16 0x562cef2822fb <unknown>
+#17 0x562cef291f6c <unknown>
+#18 0x7f2344e53272 start_thread
+
+2024-10-24 05:35:28,059 - ERROR - Login attempt 1 failed: Could not find or click Sign in button
+2024-10-24 05:35:28,308 - INFO - Screenshot saved: logs/login_failure_1.png
+2024-10-24 05:35:33,382 - INFO - WebDriver closed successfully
+2024-10-24 05:35:33,761 - INFO - Chrome WebDriver initialized successfully
+2024-10-24 05:35:33,762 - INFO - Starting login attempt 2/3
+2024-10-24 05:35:57,529 - INFO - Chrome WebDriver initialized successfully
+2024-10-24 05:35:57,531 - INFO - Starting login attempt 1/3
+2024-10-24 05:36:07,828 - INFO - Chrome WebDriver initialized successfully
+2024-10-24 05:36:07,828 - INFO - Starting login attempt 1/3
+2024-10-24 05:36:08,223 - ERROR - Failed to initialize Cloud Storage client: Expecting value: line 1 column 1 (char 0)
+2024-10-24 05:36:08,848 - INFO - Chrome WebDriver initialized successfully
+2024-10-24 05:36:08,848 - INFO - Starting login attempt 1/3
+2024-10-24 05:36:09,330 - INFO - Chrome WebDriver initialized successfully
+2024-10-24 05:36:09,330 - INFO - Starting login attempt 1/3
+2024-10-24 05:36:09,935 - INFO - Chrome WebDriver initialized successfully
+2024-10-24 05:36:09,937 - INFO - Starting login attempt 1/3
+2024-10-24 05:36:42,695 - ERROR - Failed to click Sign in button: Message: 
+Stacktrace:
+#0 0x5634efc61e3a <unknown>
+#1 0x5634ef94b45c <unknown>
+#2 0x5634ef9975b5 <unknown>
+#3 0x5634ef997671 <unknown>
+#4 0x5634ef9dbf14 <unknown>
+#5 0x5634ef9ba4dd <unknown>
+#6 0x5634ef9d92cc <unknown>
+#7 0x5634ef9ba253 <unknown>
+#8 0x5634ef98a1c7 <unknown>
+#9 0x5634ef98ab3e <unknown>
+#10 0x5634efc2827b <unknown>
+#11 0x5634efc2c327 <unknown>
+#12 0x5634efc14dae <unknown>
+#13 0x5634efc2cdf2 <unknown>
+#14 0x5634efbf974f <unknown>
+#15 0x5634efc51128 <unknown>
+#16 0x5634efc512fb <unknown>
+#17 0x5634efc60f6c <unknown>
+#18 0x7f2f092ed272 start_thread
+
+2024-10-24 05:36:42,696 - ERROR - Login attempt 1 failed: Could not find or click Sign in button
+2024-10-24 05:36:43,767 - INFO - Screenshot saved: logs/login_failure_1.png
+2024-10-24 05:36:45,777 - ERROR - Failed to click Sign in button: Message: 
+Stacktrace:
+#0 0x558d7e869e3a <unknown>
+#1 0x558d7e55345c <unknown>
+#2 0x558d7e59f5b5 <unknown>
+#3 0x558d7e59f671 <unknown>
+#4 0x558d7e5e3f14 <unknown>
+#5 0x558d7e5c24dd <unknown>
+#6 0x558d7e5e12cc <unknown>
+#7 0x558d7e5c2253 <unknown>
+#8 0x558d7e5921c7 <unknown>
+#9 0x558d7e592b3e <unknown>
+#10 0x558d7e83027b <unknown>
+#11 0x558d7e834327 <unknown>
+#12 0x558d7e81cdae <unknown>
+#13 0x558d7e834df2 <unknown>
+#14 0x558d7e80174f <unknown>
+#15 0x558d7e859128 <unknown>
+#16 0x558d7e8592fb <unknown>
+#17 0x558d7e868f6c <unknown>
+#18 0x7f3643f22272 start_thread
+
+2024-10-24 05:36:45,777 - ERROR - Login attempt 1 failed: Could not find or click Sign in button
+2024-10-24 05:36:45,814 - ERROR - Failed to click Sign in button: Message: 
+Stacktrace:
+#0 0x5646f3d8ce3a <unknown>
+#1 0x5646f3a7645c <unknown>
+#2 0x5646f3ac25b5 <unknown>
+#3 0x5646f3ac2671 <unknown>
+#4 0x5646f3b06f14 <unknown>
+#5 0x5646f3ae54dd <unknown>
+#6 0x5646f3b042cc <unknown>
+#7 0x5646f3ae5253 <unknown>
+#8 0x5646f3ab51c7 <unknown>
+#9 0x5646f3ab5b3e <unknown>
+#10 0x5646f3d5327b <unknown>
+#11 0x5646f3d57327 <unknown>
+#12 0x5646f3d3fdae <unknown>
+#13 0x5646f3d57df2 <unknown>
+#14 0x5646f3d2474f <unknown>
+#15 0x5646f3d7c128 <unknown>
+#16 0x5646f3d7c2fb <unknown>
+#17 0x5646f3d8bf6c <unknown>
+#18 0x7fd75b024272 start_thread
+
+2024-10-24 05:36:45,815 - ERROR - Login attempt 1 failed: Could not find or click Sign in button
+2024-10-24 05:36:45,820 - ERROR - Failed to click Sign in button: Message: 
+Stacktrace:
+#0 0x561798b9ce3a <unknown>
+#1 0x56179888645c <unknown>
+#2 0x5617988d25b5 <unknown>
+#3 0x5617988d2671 <unknown>
+#4 0x561798916f14 <unknown>
+#5 0x5617988f54dd <unknown>
+#6 0x5617989142cc <unknown>
+#7 0x5617988f5253 <unknown>
+#8 0x5617988c51c7 <unknown>
+#9 0x5617988c5b3e <unknown>
+#10 0x561798b6327b <unknown>
+#11 0x561798b67327 <unknown>
+#12 0x561798b4fdae <unknown>
+#13 0x561798b67df2 <unknown>
+#14 0x561798b3474f <unknown>
+#15 0x561798b8c128 <unknown>
+#16 0x561798b8c2fb <unknown>
+#17 0x561798b9bf6c <unknown>
+#18 0x7f9417145272 start_thread
+
+2024-10-24 05:36:45,820 - ERROR - Login attempt 1 failed: Could not find or click Sign in button
+2024-10-24 05:36:46,536 - INFO - Screenshot saved: logs/login_failure_1.png
+2024-10-24 05:36:47,033 - INFO - Screenshot saved: logs/login_failure_1.png
+2024-10-24 05:36:48,851 - INFO - WebDriver closed successfully
+2024-10-24 05:36:49,253 - INFO - Chrome WebDriver initialized successfully
+2024-10-24 05:36:49,253 - INFO - Starting login attempt 2/3
+2024-10-24 05:36:51,625 - INFO - WebDriver closed successfully
+2024-10-24 05:36:52,039 - INFO - Chrome WebDriver initialized successfully
+2024-10-24 05:36:52,040 - INFO - Starting login attempt 2/3
+2024-10-24 05:36:52,158 - INFO - WebDriver closed successfully
+2024-10-24 05:36:52,743 - INFO - Chrome WebDriver initialized successfully
+2024-10-24 05:36:52,744 - INFO - Starting login attempt 2/3
+2024-10-24 05:36:58,325 - INFO - Chrome WebDriver initialized successfully
+2024-10-24 05:36:58,326 - INFO - Starting login attempt 1/3
+2024-10-24 05:37:06,836 - INFO - Screenshot saved: logs/login_failure_1.png
