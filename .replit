@@ -39,6 +39,10 @@ args = "LoginAnalyzer"
 task = "workflow.run"
 args = "LoginTest"
 
+[[workflows.workflow.tasks]]
+task = "workflow.run"
+args = "SiteAnalyzer"
+
 [[workflows.workflow]]
 name = "SunoBot"
 author = "agent"
@@ -115,6 +119,17 @@ agentRequireRestartOnSave = false
 [[workflows.workflow.tasks]]
 task = "shell.exec"
 args = "python main.py"
+
+[[workflows.workflow]]
+name = "SiteAnalyzer"
+author = "agent"
+
+[workflows.workflow.metadata]
+agentRequireRestartOnSave = false
+
+[[workflows.workflow.tasks]]
+task = "shell.exec"
+args = "python analyze_site.py && python analyze_login.py"
 
 [deployment]
 run = ["sh", "-c", "python main.py"]

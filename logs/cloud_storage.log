@@ -2052,3 +2052,3980 @@ Stacktrace:
 2024-10-24 05:36:58,325 - INFO - Chrome WebDriver initialized successfully
 2024-10-24 05:36:58,326 - INFO - Starting login attempt 1/3
 2024-10-24 05:37:06,836 - INFO - Screenshot saved: logs/login_failure_1.png
+2024-10-24 05:37:11,926 - INFO - WebDriver closed successfully
+2024-10-24 05:37:12,360 - INFO - Chrome WebDriver initialized successfully
+2024-10-24 05:37:12,361 - INFO - Starting login attempt 2/3
+2024-10-24 05:37:23,600 - ERROR - Failed to click Sign in button: Message: 
+Stacktrace:
+#0 0x564378c82e3a <unknown>
+#1 0x56437896c45c <unknown>
+#2 0x5643789b85b5 <unknown>
+#3 0x5643789b8671 <unknown>
+#4 0x5643789fcf14 <unknown>
+#5 0x5643789db4dd <unknown>
+#6 0x5643789fa2cc <unknown>
+#7 0x5643789db253 <unknown>
+#8 0x5643789ab1c7 <unknown>
+#9 0x5643789abb3e <unknown>
+#10 0x564378c4927b <unknown>
+#11 0x564378c4d327 <unknown>
+#12 0x564378c35dae <unknown>
+#13 0x564378c4ddf2 <unknown>
+#14 0x564378c1a74f <unknown>
+#15 0x564378c72128 <unknown>
+#16 0x564378c722fb <unknown>
+#17 0x564378c81f6c <unknown>
+#18 0x7fe8d074f272 start_thread
+
+2024-10-24 05:37:23,601 - ERROR - Login attempt 2 failed: Could not find or click Sign in button
+2024-10-24 05:37:24,063 - INFO - Screenshot saved: logs/login_failure_2.png
+2024-10-24 05:37:28,022 - ERROR - Failed to click Sign in button: Message: 
+Stacktrace:
+#0 0x563685424e3a <unknown>
+#1 0x56368510e45c <unknown>
+#2 0x56368515a5b5 <unknown>
+#3 0x56368515a671 <unknown>
+#4 0x56368519ef14 <unknown>
+#5 0x56368517d4dd <unknown>
+#6 0x56368519c2cc <unknown>
+#7 0x56368517d253 <unknown>
+#8 0x56368514d1c7 <unknown>
+#9 0x56368514db3e <unknown>
+#10 0x5636853eb27b <unknown>
+#11 0x5636853ef327 <unknown>
+#12 0x5636853d7dae <unknown>
+#13 0x5636853efdf2 <unknown>
+#14 0x5636853bc74f <unknown>
+#15 0x563685414128 <unknown>
+#16 0x5636854142fb <unknown>
+#17 0x563685423f6c <unknown>
+#18 0x7fc853681272 start_thread
+
+2024-10-24 05:37:28,023 - ERROR - Login attempt 2 failed: Could not find or click Sign in button
+2024-10-24 05:37:28,567 - INFO - Screenshot saved: logs/login_failure_2.png
+2024-10-24 05:37:29,145 - INFO - WebDriver closed successfully
+2024-10-24 05:37:29,638 - INFO - Chrome WebDriver initialized successfully
+2024-10-24 05:37:29,638 - INFO - Starting login attempt 3/3
+2024-10-24 05:37:33,643 - INFO - WebDriver closed successfully
+2024-10-24 05:37:34,172 - INFO - Chrome WebDriver initialized successfully
+2024-10-24 05:37:34,173 - INFO - Starting login attempt 3/3
+2024-10-24 05:37:46,521 - ERROR - Failed to click Sign in button: Message: 
+Stacktrace:
+#0 0x5615b7079e3a <unknown>
+#1 0x5615b6d6345c <unknown>
+#2 0x5615b6daf5b5 <unknown>
+#3 0x5615b6daf671 <unknown>
+#4 0x5615b6df3f14 <unknown>
+#5 0x5615b6dd24dd <unknown>
+#6 0x5615b6df12cc <unknown>
+#7 0x5615b6dd2253 <unknown>
+#8 0x5615b6da21c7 <unknown>
+#9 0x5615b6da2b3e <unknown>
+#10 0x5615b704027b <unknown>
+#11 0x5615b7044327 <unknown>
+#12 0x5615b702cdae <unknown>
+#13 0x5615b7044df2 <unknown>
+#14 0x5615b701174f <unknown>
+#15 0x5615b7069128 <unknown>
+#16 0x5615b70692fb <unknown>
+#17 0x5615b7078f6c <unknown>
+#18 0x7f0064ec1272 start_thread
+
+2024-10-24 05:37:46,521 - ERROR - Login attempt 2 failed: Could not find or click Sign in button
+2024-10-24 05:37:46,853 - INFO - Screenshot saved: logs/login_failure_2.png
+2024-10-24 05:37:47,854 - WARNING - Click attempt 1 failed, retrying...
+2024-10-24 05:37:51,939 - INFO - WebDriver closed successfully
+2024-10-24 05:37:52,309 - INFO - Chrome WebDriver initialized successfully
+2024-10-24 05:37:52,309 - INFO - Starting login attempt 3/3
+2024-10-24 05:38:04,086 - ERROR - Failed to click Sign in button: Message: 
+Stacktrace:
+#0 0x556694a58e3a <unknown>
+#1 0x55669474245c <unknown>
+#2 0x55669478e5b5 <unknown>
+#3 0x55669478e671 <unknown>
+#4 0x5566947d2f14 <unknown>
+#5 0x5566947b14dd <unknown>
+#6 0x5566947d02cc <unknown>
+#7 0x5566947b1253 <unknown>
+#8 0x5566947811c7 <unknown>
+#9 0x556694781b3e <unknown>
+#10 0x556694a1f27b <unknown>
+#11 0x556694a23327 <unknown>
+#12 0x556694a0bdae <unknown>
+#13 0x556694a23df2 <unknown>
+#14 0x5566949f074f <unknown>
+#15 0x556694a48128 <unknown>
+#16 0x556694a482fb <unknown>
+#17 0x556694a57f6c <unknown>
+#18 0x7ff8b3c63272 start_thread
+
+2024-10-24 05:38:04,087 - ERROR - Login attempt 3 failed: Could not find or click Sign in button
+2024-10-24 05:38:04,844 - INFO - Screenshot saved: logs/login_failure_3.png
+2024-10-24 05:38:04,845 - ERROR - Main execution failed: Login failed after 3 attempts
+2024-10-24 05:38:04,935 - INFO - WebDriver closed successfully
+2024-10-24 05:38:08,552 - ERROR - Failed to click Sign in button: Message: 
+Stacktrace:
+#0 0x55e77c7c2e3a <unknown>
+#1 0x55e77c4ac45c <unknown>
+#2 0x55e77c4f85b5 <unknown>
+#3 0x55e77c4f8671 <unknown>
+#4 0x55e77c53cf14 <unknown>
+#5 0x55e77c51b4dd <unknown>
+#6 0x55e77c53a2cc <unknown>
+#7 0x55e77c51b253 <unknown>
+#8 0x55e77c4eb1c7 <unknown>
+#9 0x55e77c4ebb3e <unknown>
+#10 0x55e77c78927b <unknown>
+#11 0x55e77c78d327 <unknown>
+#12 0x55e77c775dae <unknown>
+#13 0x55e77c78ddf2 <unknown>
+#14 0x55e77c75a74f <unknown>
+#15 0x55e77c7b2128 <unknown>
+#16 0x55e77c7b22fb <unknown>
+#17 0x55e77c7c1f6c <unknown>
+#18 0x7f1f33bb5272 start_thread
+
+2024-10-24 05:38:08,553 - ERROR - Login attempt 3 failed: Could not find or click Sign in button
+2024-10-24 05:38:08,873 - INFO - Screenshot saved: logs/login_failure_3.png
+2024-10-24 05:38:08,873 - ERROR - Main execution failed: Login failed after 3 attempts
+2024-10-24 05:38:08,967 - INFO - WebDriver closed successfully
+2024-10-24 05:38:26,475 - ERROR - Failed to click Sign in button: Message: 
+Stacktrace:
+#0 0x55eec2934e3a <unknown>
+#1 0x55eec261e45c <unknown>
+#2 0x55eec266a5b5 <unknown>
+#3 0x55eec266a671 <unknown>
+#4 0x55eec26aef14 <unknown>
+#5 0x55eec268d4dd <unknown>
+#6 0x55eec26ac2cc <unknown>
+#7 0x55eec268d253 <unknown>
+#8 0x55eec265d1c7 <unknown>
+#9 0x55eec265db3e <unknown>
+#10 0x55eec28fb27b <unknown>
+#11 0x55eec28ff327 <unknown>
+#12 0x55eec28e7dae <unknown>
+#13 0x55eec28ffdf2 <unknown>
+#14 0x55eec28cc74f <unknown>
+#15 0x55eec2924128 <unknown>
+#16 0x55eec29242fb <unknown>
+#17 0x55eec2933f6c <unknown>
+#18 0x7fc260954272 start_thread
+
+2024-10-24 05:38:26,475 - ERROR - Login attempt 3 failed: Could not find or click Sign in button
+2024-10-24 05:38:26,755 - INFO - Screenshot saved: logs/login_failure_3.png
+2024-10-24 05:38:26,852 - INFO - WebDriver closed successfully
+2024-10-24 05:38:35,190 - WARNING - Click attempt 2 failed, retrying...
+2024-10-24 05:39:22,680 - ERROR - Failed to click Sign in button after 3 attempts: Message: 
+Stacktrace:
+#0 0x5561f2f06e3a <unknown>
+#1 0x5561f2bf045c <unknown>
+#2 0x5561f2c3c5b5 <unknown>
+#3 0x5561f2c3c671 <unknown>
+#4 0x5561f2c80f14 <unknown>
+#5 0x5561f2c5f4dd <unknown>
+#6 0x5561f2c7e2cc <unknown>
+#7 0x5561f2c5f253 <unknown>
+#8 0x5561f2c2f1c7 <unknown>
+#9 0x5561f2c2fb3e <unknown>
+#10 0x5561f2ecd27b <unknown>
+#11 0x5561f2ed1327 <unknown>
+#12 0x5561f2eb9dae <unknown>
+#13 0x5561f2ed1df2 <unknown>
+#14 0x5561f2e9e74f <unknown>
+#15 0x5561f2ef6128 <unknown>
+#16 0x5561f2ef62fb <unknown>
+#17 0x5561f2f05f6c <unknown>
+#18 0x7f2b71415272 start_thread
+
+2024-10-24 05:39:22,680 - ERROR - Login attempt 1 failed: Could not find or click Sign in button
+2024-10-24 05:39:22,954 - INFO - Screenshot saved: logs/login_failure_1.png
+2024-10-24 05:39:28,034 - INFO - WebDriver closed successfully
+2024-10-24 05:39:28,432 - INFO - Chrome WebDriver initialized successfully
+2024-10-24 05:39:28,433 - INFO - Starting login attempt 2/3
+2024-10-24 05:40:18,011 - WARNING - Click attempt 1 failed, retrying...
+2024-10-24 05:41:05,487 - WARNING - Click attempt 2 failed, retrying...
+2024-10-24 05:41:52,976 - ERROR - Failed to click Sign in button after 3 attempts: Message: 
+Stacktrace:
+#0 0x558cfb9a2e3a <unknown>
+#1 0x558cfb68c45c <unknown>
+#2 0x558cfb6d85b5 <unknown>
+#3 0x558cfb6d8671 <unknown>
+#4 0x558cfb71cf14 <unknown>
+#5 0x558cfb6fb4dd <unknown>
+#6 0x558cfb71a2cc <unknown>
+#7 0x558cfb6fb253 <unknown>
+#8 0x558cfb6cb1c7 <unknown>
+#9 0x558cfb6cbb3e <unknown>
+#10 0x558cfb96927b <unknown>
+#11 0x558cfb96d327 <unknown>
+#12 0x558cfb955dae <unknown>
+#13 0x558cfb96ddf2 <unknown>
+#14 0x558cfb93a74f <unknown>
+#15 0x558cfb992128 <unknown>
+#16 0x558cfb9922fb <unknown>
+#17 0x558cfb9a1f6c <unknown>
+#18 0x7f2ac4a49272 start_thread
+
+2024-10-24 05:41:52,976 - ERROR - Login attempt 2 failed: Could not find or click Sign in button
+2024-10-24 05:41:53,247 - INFO - Screenshot saved: logs/login_failure_2.png
+2024-10-24 05:41:58,335 - INFO - WebDriver closed successfully
+2024-10-24 05:41:58,778 - INFO - Chrome WebDriver initialized successfully
+2024-10-24 05:41:58,778 - INFO - Starting login attempt 3/3
+2024-10-24 05:42:48,176 - WARNING - Click attempt 1 failed, retrying...
+2024-10-24 05:43:35,670 - WARNING - Click attempt 2 failed, retrying...
+2024-10-24 05:44:23,166 - ERROR - Failed to click Sign in button after 3 attempts: Message: 
+Stacktrace:
+#0 0x55846a955e3a <unknown>
+#1 0x55846a63f45c <unknown>
+#2 0x55846a68b5b5 <unknown>
+#3 0x55846a68b671 <unknown>
+#4 0x55846a6cff14 <unknown>
+#5 0x55846a6ae4dd <unknown>
+#6 0x55846a6cd2cc <unknown>
+#7 0x55846a6ae253 <unknown>
+#8 0x55846a67e1c7 <unknown>
+#9 0x55846a67eb3e <unknown>
+#10 0x55846a91c27b <unknown>
+#11 0x55846a920327 <unknown>
+#12 0x55846a908dae <unknown>
+#13 0x55846a920df2 <unknown>
+#14 0x55846a8ed74f <unknown>
+#15 0x55846a945128 <unknown>
+#16 0x55846a9452fb <unknown>
+#17 0x55846a954f6c <unknown>
+#18 0x7f5683a4c272 start_thread
+
+2024-10-24 05:44:23,166 - ERROR - Login attempt 3 failed: Could not find or click Sign in button
+2024-10-24 05:44:23,435 - INFO - Screenshot saved: logs/login_failure_3.png
+2024-10-24 05:44:23,436 - ERROR - Main execution failed: Login failed after 3 attempts
+2024-10-24 05:44:23,526 - INFO - WebDriver closed successfully
+2024-10-24 05:54:09,032 - INFO - Chrome WebDriver initialized successfully
+2024-10-24 05:54:09,032 - INFO - Starting login attempt 1/3
+2024-10-24 05:54:10,049 - ERROR - Login attempt 1 failed: 'SunoMusicBot' object has no attribute 'wait_for_page_load'
+2024-10-24 05:54:10,528 - INFO - Screenshot saved: logs/login_failure_1.png
+2024-10-24 05:54:15,603 - INFO - WebDriver closed successfully
+2024-10-24 05:54:15,975 - INFO - Chrome WebDriver initialized successfully
+2024-10-24 05:54:15,976 - INFO - Starting login attempt 2/3
+2024-10-24 05:54:16,918 - ERROR - Login attempt 2 failed: 'SunoMusicBot' object has no attribute 'wait_for_page_load'
+2024-10-24 05:54:17,404 - INFO - Screenshot saved: logs/login_failure_2.png
+2024-10-24 05:54:22,478 - INFO - WebDriver closed successfully
+2024-10-24 05:54:22,859 - INFO - Chrome WebDriver initialized successfully
+2024-10-24 05:54:22,860 - INFO - Starting login attempt 3/3
+2024-10-24 05:54:23,886 - ERROR - Login attempt 3 failed: 'SunoMusicBot' object has no attribute 'wait_for_page_load'
+2024-10-24 05:54:24,426 - INFO - Screenshot saved: logs/login_failure_3.png
+2024-10-24 05:54:24,427 - ERROR - Main execution failed: Login failed after 3 attempts
+2024-10-24 05:54:24,497 - INFO - WebDriver closed successfully
+2024-10-24 05:55:15,610 - INFO - Chrome WebDriver initialized successfully
+2024-10-24 05:55:15,610 - INFO - Starting login attempt 1/3
+2024-10-24 05:55:26,869 - INFO - Successfully clicked Sign in button using selector: //button[contains(@class, 'group') and contains(@class, 'font-medium') and .//span[text()='Sign In']]
+2024-10-24 05:55:37,052 - INFO - Successfully clicked Google login button using selector: //button[contains(@class, 'cl-socialButtonsIconButton__google')]
+2024-10-24 05:55:47,056 - INFO - Waiting for Google window (attempt 1)
+2024-10-24 05:55:52,058 - INFO - Waiting for Google window (attempt 2)
+2024-10-24 05:55:57,059 - ERROR - Google OAuth failed: Google login window not found
+2024-10-24 05:55:57,403 - INFO - Screenshot saved: logs/google_oauth_failure.png
+2024-10-24 05:55:57,470 - ERROR - Login attempt 1 failed: Google OAuth process failed
+2024-10-24 05:55:57,792 - INFO - Screenshot saved: logs/login_failure_1.png
+2024-10-24 05:56:02,867 - INFO - WebDriver closed successfully
+2024-10-24 05:56:03,237 - INFO - Chrome WebDriver initialized successfully
+2024-10-24 05:56:03,237 - INFO - Starting login attempt 2/3
+2024-10-24 05:56:22,068 - INFO - Chrome WebDriver initialized successfully
+2024-10-24 05:56:22,068 - INFO - Starting login attempt 1/3
+2024-10-24 05:57:21,645 - INFO - Chrome WebDriver initialized successfully
+2024-10-24 05:57:21,645 - INFO - Starting login attempt 1/3
+2024-10-24 05:58:11,120 - WARNING - Failed with selector //button[contains(@class, 'cl-userButtonTrigger')]: Message: 
+Stacktrace:
+#0 0x55637015ee3a <unknown>
+#1 0x55636fe4845c <unknown>
+#2 0x55636fe945b5 <unknown>
+#3 0x55636fe94671 <unknown>
+#4 0x55636fed8f14 <unknown>
+#5 0x55636feb74dd <unknown>
+#6 0x55636fed62cc <unknown>
+#7 0x55636feb7253 <unknown>
+#8 0x55636fe871c7 <unknown>
+#9 0x55636fe87b3e <unknown>
+#10 0x55637012527b <unknown>
+#11 0x556370129327 <unknown>
+#12 0x556370111dae <unknown>
+#13 0x556370129df2 <unknown>
+#14 0x5563700f674f <unknown>
+#15 0x55637014e128 <unknown>
+#16 0x55637014e2fb <unknown>
+#17 0x55637015df6c <unknown>
+#18 0x7f10e1e8d272 start_thread
+
+2024-10-24 05:58:13,295 - INFO - Successfully clicked Sign in button
+2024-10-24 05:58:18,440 - INFO - Successfully clicked Google login button
+2024-10-24 05:58:42,966 - INFO - Chrome WebDriver initialized successfully
+2024-10-24 05:58:42,966 - INFO - Starting login attempt 1/3
+2024-10-24 05:58:44,045 - INFO - Chrome WebDriver initialized successfully
+2024-10-24 05:58:44,045 - INFO - Starting login attempt 1/3
+2024-10-24 05:59:33,638 - WARNING - Failed with selector //button[contains(@class, 'cl-userButton')]: Message: 
+Stacktrace:
+#0 0x56223f7b0e3a <unknown>
+#1 0x56223f49a45c <unknown>
+#2 0x56223f4e65b5 <unknown>
+#3 0x56223f4e6671 <unknown>
+#4 0x56223f52af14 <unknown>
+#5 0x56223f5094dd <unknown>
+#6 0x56223f5282cc <unknown>
+#7 0x56223f509253 <unknown>
+#8 0x56223f4d91c7 <unknown>
+#9 0x56223f4d9b3e <unknown>
+#10 0x56223f77727b <unknown>
+#11 0x56223f77b327 <unknown>
+#12 0x56223f763dae <unknown>
+#13 0x56223f77bdf2 <unknown>
+#14 0x56223f74874f <unknown>
+#15 0x56223f7a0128 <unknown>
+#16 0x56223f7a02fb <unknown>
+#17 0x56223f7aff6c <unknown>
+#18 0x7fdbc9354272 start_thread
+
+2024-10-24 06:00:19,145 - WARNING - Failed with selector //button[contains(@class, 'cl-userButtonTrigger')]: Message: 
+Stacktrace:
+#0 0x56223f7b0e3a <unknown>
+#1 0x56223f49a45c <unknown>
+#2 0x56223f4e65b5 <unknown>
+#3 0x56223f4e6671 <unknown>
+#4 0x56223f52af14 <unknown>
+#5 0x56223f5094dd <unknown>
+#6 0x56223f5282cc <unknown>
+#7 0x56223f509253 <unknown>
+#8 0x56223f4d91c7 <unknown>
+#9 0x56223f4d9b3e <unknown>
+#10 0x56223f77727b <unknown>
+#11 0x56223f77b327 <unknown>
+#12 0x56223f763dae <unknown>
+#13 0x56223f77bdf2 <unknown>
+#14 0x56223f74874f <unknown>
+#15 0x56223f7a0128 <unknown>
+#16 0x56223f7a02fb <unknown>
+#17 0x56223f7aff6c <unknown>
+#18 0x7fdbc9354272 start_thread
+
+2024-10-24 06:00:23,229 - INFO - Chrome WebDriver initialized successfully
+2024-10-24 06:00:23,229 - INFO - Starting login attempt 1/3
+2024-10-24 06:01:12,467 - WARNING - Failed with selector //button[contains(@class, 'cl-userButtonTrigger')]: Message: 
+Stacktrace:
+#0 0x55fe00b09e3a <unknown>
+#1 0x55fe007f345c <unknown>
+#2 0x55fe0083f5b5 <unknown>
+#3 0x55fe0083f671 <unknown>
+#4 0x55fe00883f14 <unknown>
+#5 0x55fe008624dd <unknown>
+#6 0x55fe008812cc <unknown>
+#7 0x55fe00862253 <unknown>
+#8 0x55fe008321c7 <unknown>
+#9 0x55fe00832b3e <unknown>
+#10 0x55fe00ad027b <unknown>
+#11 0x55fe00ad4327 <unknown>
+#12 0x55fe00abcdae <unknown>
+#13 0x55fe00ad4df2 <unknown>
+#14 0x55fe00aa174f <unknown>
+#15 0x55fe00af9128 <unknown>
+#16 0x55fe00af92fb <unknown>
+#17 0x55fe00b08f6c <unknown>
+#18 0x7fad1d83e272 start_thread
+
+2024-10-24 06:01:32,554 - INFO - Chrome WebDriver initialized successfully
+2024-10-24 06:01:32,555 - INFO - Starting login attempt 1/3
+2024-10-24 06:01:43,714 - INFO - Chrome WebDriver initialized successfully
+2024-10-24 06:01:43,714 - INFO - Starting login attempt 1/3
+2024-10-24 06:02:35,147 - WARNING - Failed with selector //button[contains(@class, 'cl-userButtonTrigger')]: Message: 
+Stacktrace:
+#0 0x564963531e3a <unknown>
+#1 0x56496321b45c <unknown>
+#2 0x5649632675b5 <unknown>
+#3 0x564963267671 <unknown>
+#4 0x5649632abf14 <unknown>
+#5 0x56496328a4dd <unknown>
+#6 0x5649632a92cc <unknown>
+#7 0x56496328a253 <unknown>
+#8 0x56496325a1c7 <unknown>
+#9 0x56496325ab3e <unknown>
+#10 0x5649634f827b <unknown>
+#11 0x5649634fc327 <unknown>
+#12 0x5649634e4dae <unknown>
+#13 0x5649634fcdf2 <unknown>
+#14 0x5649634c974f <unknown>
+#15 0x564963521128 <unknown>
+#16 0x5649635212fb <unknown>
+#17 0x564963530f6c <unknown>
+#18 0x7fdc085d9272 start_thread
+
+2024-10-24 06:02:58,421 - INFO - Chrome WebDriver initialized successfully
+2024-10-24 06:02:58,422 - INFO - Starting login attempt 1/3
+2024-10-24 06:03:01,039 - INFO - Chrome WebDriver initialized successfully
+2024-10-24 06:03:01,039 - INFO - Starting login attempt 1/3
+2024-10-24 06:03:55,638 - WARNING - Failed with selector //button[contains(@class, 'cl-userButtonTrigger')]: Message: 
+Stacktrace:
+#0 0x55eb8b781e3a <unknown>
+#1 0x55eb8b46b45c <unknown>
+#2 0x55eb8b4b75b5 <unknown>
+#3 0x55eb8b4b7671 <unknown>
+#4 0x55eb8b4fbf14 <unknown>
+#5 0x55eb8b4da4dd <unknown>
+#6 0x55eb8b4f92cc <unknown>
+#7 0x55eb8b4da253 <unknown>
+#8 0x55eb8b4aa1c7 <unknown>
+#9 0x55eb8b4aab3e <unknown>
+#10 0x55eb8b74827b <unknown>
+#11 0x55eb8b74c327 <unknown>
+#12 0x55eb8b734dae <unknown>
+#13 0x55eb8b74cdf2 <unknown>
+#14 0x55eb8b71974f <unknown>
+#15 0x55eb8b771128 <unknown>
+#16 0x55eb8b7712fb <unknown>
+#17 0x55eb8b780f6c <unknown>
+#18 0x7f1d5b695272 start_thread
+
+2024-10-24 06:04:31,841 - INFO - Chrome WebDriver initialized successfully
+2024-10-24 06:04:31,841 - INFO - Starting login attempt 1/3
+2024-10-24 06:04:43,581 - INFO - Chrome WebDriver initialized successfully
+2024-10-24 06:04:43,582 - INFO - Starting login attempt 1/3
+2024-10-24 06:05:37,027 - WARNING - Failed with selector //button[contains(@class, 'cl-userButtonTrigger')]: Message: 
+Stacktrace:
+#0 0x55723d777e3a <unknown>
+#1 0x55723d46145c <unknown>
+#2 0x55723d4ad5b5 <unknown>
+#3 0x55723d4ad671 <unknown>
+#4 0x55723d4f1f14 <unknown>
+#5 0x55723d4d04dd <unknown>
+#6 0x55723d4ef2cc <unknown>
+#7 0x55723d4d0253 <unknown>
+#8 0x55723d4a01c7 <unknown>
+#9 0x55723d4a0b3e <unknown>
+#10 0x55723d73e27b <unknown>
+#11 0x55723d742327 <unknown>
+#12 0x55723d72adae <unknown>
+#13 0x55723d742df2 <unknown>
+#14 0x55723d70f74f <unknown>
+#15 0x55723d767128 <unknown>
+#16 0x55723d7672fb <unknown>
+#17 0x55723d776f6c <unknown>
+#18 0x7f62cc42f272 start_thread
+
+2024-10-24 06:06:22,537 - WARNING - Failed with selector //button[contains(@class, 'clerk-button')]: Message: 
+Stacktrace:
+#0 0x55723d777e3a <unknown>
+#1 0x55723d46145c <unknown>
+#2 0x55723d4ad5b5 <unknown>
+#3 0x55723d4ad671 <unknown>
+#4 0x55723d4f1f14 <unknown>
+#5 0x55723d4d04dd <unknown>
+#6 0x55723d4ef2cc <unknown>
+#7 0x55723d4d0253 <unknown>
+#8 0x55723d4a01c7 <unknown>
+#9 0x55723d4a0b3e <unknown>
+#10 0x55723d73e27b <unknown>
+#11 0x55723d742327 <unknown>
+#12 0x55723d72adae <unknown>
+#13 0x55723d742df2 <unknown>
+#14 0x55723d70f74f <unknown>
+#15 0x55723d767128 <unknown>
+#16 0x55723d7672fb <unknown>
+#17 0x55723d776f6c <unknown>
+#18 0x7f62cc42f272 start_thread
+
+2024-10-24 16:53:57,278 - ERROR - Failed to initialize Cloud Storage client: Expecting value: line 1 column 1 (char 0)
+2024-10-24 16:54:03,174 - INFO - Chrome WebDriver initialized successfully
+2024-10-24 16:54:03,175 - INFO - Chrome WebDriver initialized successfully
+2024-10-24 16:54:03,175 - INFO - Starting login attempt 1/3
+2024-10-24 16:54:03,176 - INFO - Starting login attempt 1/3
+2024-10-24 16:54:03,236 - INFO - Chrome WebDriver initialized successfully
+2024-10-24 16:54:03,239 - INFO - Starting login attempt 1/3
+2024-10-24 16:54:03,247 - INFO - Chrome WebDriver initialized successfully
+2024-10-24 16:54:03,250 - INFO - Starting login attempt 1/3
+2024-10-24 16:55:00,635 - WARNING - Failed with selector //button[contains(@class, 'cl-userButtonTrigger')]: Message: 
+Stacktrace:
+#0 0x55af08a8ae3a <unknown>
+#1 0x55af0877445c <unknown>
+#2 0x55af087c05b5 <unknown>
+#3 0x55af087c0671 <unknown>
+#4 0x55af08804f14 <unknown>
+#5 0x55af087e34dd <unknown>
+#6 0x55af088022cc <unknown>
+#7 0x55af087e3253 <unknown>
+#8 0x55af087b31c7 <unknown>
+#9 0x55af087b3b3e <unknown>
+#10 0x55af08a5127b <unknown>
+#11 0x55af08a55327 <unknown>
+#12 0x55af08a3ddae <unknown>
+#13 0x55af08a55df2 <unknown>
+#14 0x55af08a2274f <unknown>
+#15 0x55af08a7a128 <unknown>
+#16 0x55af08a7a2fb <unknown>
+#17 0x55af08a89f6c <unknown>
+#18 0x7faad17d1272 start_thread
+
+2024-10-24 16:55:00,842 - WARNING - Failed with selector //button[contains(@class, 'cl-userButtonTrigger')]: Message: 
+Stacktrace:
+#0 0x562952a01e3a <unknown>
+#1 0x5629526eb45c <unknown>
+#2 0x5629527375b5 <unknown>
+#3 0x562952737671 <unknown>
+#4 0x56295277bf14 <unknown>
+#5 0x56295275a4dd <unknown>
+#6 0x5629527792cc <unknown>
+#7 0x56295275a253 <unknown>
+#8 0x56295272a1c7 <unknown>
+#9 0x56295272ab3e <unknown>
+#10 0x5629529c827b <unknown>
+#11 0x5629529cc327 <unknown>
+#12 0x5629529b4dae <unknown>
+#13 0x5629529ccdf2 <unknown>
+#14 0x56295299974f <unknown>
+#15 0x5629529f1128 <unknown>
+#16 0x5629529f12fb <unknown>
+#17 0x562952a00f6c <unknown>
+#18 0x7f2c489fe272 start_thread
+
+2024-10-24 16:55:05,787 - WARNING - Failed with selector //button[contains(@class, 'cl-userButtonTrigger')]: Message: 
+Stacktrace:
+#0 0x55e13be51e3a <unknown>
+#1 0x55e13bb3b45c <unknown>
+#2 0x55e13bb875b5 <unknown>
+#3 0x55e13bb87671 <unknown>
+#4 0x55e13bbcbf14 <unknown>
+#5 0x55e13bbaa4dd <unknown>
+#6 0x55e13bbc92cc <unknown>
+#7 0x55e13bbaa253 <unknown>
+#8 0x55e13bb7a1c7 <unknown>
+#9 0x55e13bb7ab3e <unknown>
+#10 0x55e13be1827b <unknown>
+#11 0x55e13be1c327 <unknown>
+#12 0x55e13be04dae <unknown>
+#13 0x55e13be1cdf2 <unknown>
+#14 0x55e13bde974f <unknown>
+#15 0x55e13be41128 <unknown>
+#16 0x55e13be412fb <unknown>
+#17 0x55e13be50f6c <unknown>
+#18 0x7f640deb5272 start_thread
+
+2024-10-24 16:55:18,203 - WARNING - Failed with selector //button[contains(@class, 'cl-userButtonTrigger')]: Message: 
+Stacktrace:
+#0 0x55f3488b2e3a <unknown>
+#1 0x55f34859c45c <unknown>
+#2 0x55f3485e85b5 <unknown>
+#3 0x55f3485e8671 <unknown>
+#4 0x55f34862cf14 <unknown>
+#5 0x55f34860b4dd <unknown>
+#6 0x55f34862a2cc <unknown>
+#7 0x55f34860b253 <unknown>
+#8 0x55f3485db1c7 <unknown>
+#9 0x55f3485dbb3e <unknown>
+#10 0x55f34887927b <unknown>
+#11 0x55f34887d327 <unknown>
+#12 0x55f348865dae <unknown>
+#13 0x55f34887ddf2 <unknown>
+#14 0x55f34884a74f <unknown>
+#15 0x55f3488a2128 <unknown>
+#16 0x55f3488a22fb <unknown>
+#17 0x55f3488b1f6c <unknown>
+#18 0x7f6ff47e1272 start_thread
+
+2024-10-24 16:55:45,697 - WARNING - Failed with selector //button[contains(@class, 'clerk-button')]: Message: 
+Stacktrace:
+#0 0x55af08a8ae3a <unknown>
+#1 0x55af0877445c <unknown>
+#2 0x55af087c05b5 <unknown>
+#3 0x55af087c0671 <unknown>
+#4 0x55af08804f14 <unknown>
+#5 0x55af087e34dd <unknown>
+#6 0x55af088022cc <unknown>
+#7 0x55af087e3253 <unknown>
+#8 0x55af087b31c7 <unknown>
+#9 0x55af087b3b3e <unknown>
+#10 0x55af08a5127b <unknown>
+#11 0x55af08a55327 <unknown>
+#12 0x55af08a3ddae <unknown>
+#13 0x55af08a55df2 <unknown>
+#14 0x55af08a2274f <unknown>
+#15 0x55af08a7a128 <unknown>
+#16 0x55af08a7a2fb <unknown>
+#17 0x55af08a89f6c <unknown>
+#18 0x7faad17d1272 start_thread
+
+2024-10-24 16:55:45,872 - WARNING - Failed with selector //button[contains(@class, 'clerk-button')]: Message: 
+Stacktrace:
+#0 0x562952a01e3a <unknown>
+#1 0x5629526eb45c <unknown>
+#2 0x5629527375b5 <unknown>
+#3 0x562952737671 <unknown>
+#4 0x56295277bf14 <unknown>
+#5 0x56295275a4dd <unknown>
+#6 0x5629527792cc <unknown>
+#7 0x56295275a253 <unknown>
+#8 0x56295272a1c7 <unknown>
+#9 0x56295272ab3e <unknown>
+#10 0x5629529c827b <unknown>
+#11 0x5629529cc327 <unknown>
+#12 0x5629529b4dae <unknown>
+#13 0x5629529ccdf2 <unknown>
+#14 0x56295299974f <unknown>
+#15 0x5629529f1128 <unknown>
+#16 0x5629529f12fb <unknown>
+#17 0x562952a00f6c <unknown>
+#18 0x7f2c489fe272 start_thread
+
+2024-10-24 16:55:50,825 - WARNING - Failed with selector //button[contains(@class, 'clerk-button')]: Message: 
+Stacktrace:
+#0 0x55e13be51e3a <unknown>
+#1 0x55e13bb3b45c <unknown>
+#2 0x55e13bb875b5 <unknown>
+#3 0x55e13bb87671 <unknown>
+#4 0x55e13bbcbf14 <unknown>
+#5 0x55e13bbaa4dd <unknown>
+#6 0x55e13bbc92cc <unknown>
+#7 0x55e13bbaa253 <unknown>
+#8 0x55e13bb7a1c7 <unknown>
+#9 0x55e13bb7ab3e <unknown>
+#10 0x55e13be1827b <unknown>
+#11 0x55e13be1c327 <unknown>
+#12 0x55e13be04dae <unknown>
+#13 0x55e13be1cdf2 <unknown>
+#14 0x55e13bde974f <unknown>
+#15 0x55e13be41128 <unknown>
+#16 0x55e13be412fb <unknown>
+#17 0x55e13be50f6c <unknown>
+#18 0x7f640deb5272 start_thread
+
+2024-10-24 16:56:03,253 - ERROR - Failed to initialize Cloud Storage client: Expecting value: line 1 column 1 (char 0)
+2024-10-24 16:56:04,176 - INFO - Chrome WebDriver initialized successfully
+2024-10-24 16:56:04,176 - INFO - Starting login attempt 1/3
+2024-10-24 16:56:04,551 - INFO - Chrome WebDriver initialized successfully
+2024-10-24 16:56:04,553 - INFO - Starting login attempt 1/3
+2024-10-24 16:56:04,564 - INFO - Chrome WebDriver initialized successfully
+2024-10-24 16:56:04,567 - INFO - Starting login attempt 1/3
+2024-10-24 16:56:04,653 - INFO - Chrome WebDriver initialized successfully
+2024-10-24 16:56:04,658 - INFO - Starting login attempt 1/3
+2024-10-24 16:57:51,757 - ERROR - Failed to initialize Cloud Storage client: Expecting value: line 1 column 1 (char 0)
+2024-10-24 16:58:04,041 - INFO - Chrome WebDriver initialized successfully
+2024-10-24 16:58:04,041 - INFO - Starting login attempt 1/3
+2024-10-24 16:58:04,062 - INFO - Chrome WebDriver initialized successfully
+2024-10-24 16:58:04,066 - INFO - Starting login attempt 1/3
+2024-10-24 16:58:04,280 - INFO - Chrome WebDriver initialized successfully
+2024-10-24 16:58:04,281 - INFO - Starting login attempt 1/3
+2024-10-24 16:58:04,287 - INFO - Chrome WebDriver initialized successfully
+2024-10-24 16:58:04,287 - INFO - Starting login attempt 1/3
+2024-10-24 16:58:59,741 - WARNING - Failed with selector //button[contains(@class, 'cl-userButtonTrigger')]: Message: 
+Stacktrace:
+#0 0x562c6c71de3a <unknown>
+#1 0x562c6c40745c <unknown>
+#2 0x562c6c4535b5 <unknown>
+#3 0x562c6c453671 <unknown>
+#4 0x562c6c497f14 <unknown>
+#5 0x562c6c4764dd <unknown>
+#6 0x562c6c4952cc <unknown>
+#7 0x562c6c476253 <unknown>
+#8 0x562c6c4461c7 <unknown>
+#9 0x562c6c446b3e <unknown>
+#10 0x562c6c6e427b <unknown>
+#11 0x562c6c6e8327 <unknown>
+#12 0x562c6c6d0dae <unknown>
+#13 0x562c6c6e8df2 <unknown>
+#14 0x562c6c6b574f <unknown>
+#15 0x562c6c70d128 <unknown>
+#16 0x562c6c70d2fb <unknown>
+#17 0x562c6c71cf6c <unknown>
+#18 0x7fedbaedb272 start_thread
+
+2024-10-24 16:59:01,629 - WARNING - Failed with selector //button[contains(@class, 'cl-userButtonTrigger')]: Message: 
+Stacktrace:
+#0 0x55a03f5c1e3a <unknown>
+#1 0x55a03f2ab45c <unknown>
+#2 0x55a03f2f75b5 <unknown>
+#3 0x55a03f2f7671 <unknown>
+#4 0x55a03f33bf14 <unknown>
+#5 0x55a03f31a4dd <unknown>
+#6 0x55a03f3392cc <unknown>
+#7 0x55a03f31a253 <unknown>
+#8 0x55a03f2ea1c7 <unknown>
+#9 0x55a03f2eab3e <unknown>
+#10 0x55a03f58827b <unknown>
+#11 0x55a03f58c327 <unknown>
+#12 0x55a03f574dae <unknown>
+#13 0x55a03f58cdf2 <unknown>
+#14 0x55a03f55974f <unknown>
+#15 0x55a03f5b1128 <unknown>
+#16 0x55a03f5b12fb <unknown>
+#17 0x55a03f5c0f6c <unknown>
+#18 0x7f7815d96272 start_thread
+
+2024-10-24 16:59:02,649 - WARNING - Failed with selector //button[contains(@class, 'cl-userButtonTrigger')]: Message: 
+Stacktrace:
+#0 0x561b1e1cee3a <unknown>
+#1 0x561b1deb845c <unknown>
+#2 0x561b1df045b5 <unknown>
+#3 0x561b1df04671 <unknown>
+#4 0x561b1df48f14 <unknown>
+#5 0x561b1df274dd <unknown>
+#6 0x561b1df462cc <unknown>
+#7 0x561b1df27253 <unknown>
+#8 0x561b1def71c7 <unknown>
+#9 0x561b1def7b3e <unknown>
+#10 0x561b1e19527b <unknown>
+#11 0x561b1e199327 <unknown>
+#12 0x561b1e181dae <unknown>
+#13 0x561b1e199df2 <unknown>
+#14 0x561b1e16674f <unknown>
+#15 0x561b1e1be128 <unknown>
+#16 0x561b1e1be2fb <unknown>
+#17 0x561b1e1cdf6c <unknown>
+#18 0x7f67379b8272 start_thread
+
+2024-10-24 16:59:02,665 - WARNING - Failed with selector //button[contains(@class, 'cl-userButtonTrigger')]: Message: 
+Stacktrace:
+#0 0x5584f3c51e3a <unknown>
+#1 0x5584f393b45c <unknown>
+#2 0x5584f39875b5 <unknown>
+#3 0x5584f3987671 <unknown>
+#4 0x5584f39cbf14 <unknown>
+#5 0x5584f39aa4dd <unknown>
+#6 0x5584f39c92cc <unknown>
+#7 0x5584f39aa253 <unknown>
+#8 0x5584f397a1c7 <unknown>
+#9 0x5584f397ab3e <unknown>
+#10 0x5584f3c1827b <unknown>
+#11 0x5584f3c1c327 <unknown>
+#12 0x5584f3c04dae <unknown>
+#13 0x5584f3c1cdf2 <unknown>
+#14 0x5584f3be974f <unknown>
+#15 0x5584f3c41128 <unknown>
+#16 0x5584f3c412fb <unknown>
+#17 0x5584f3c50f6c <unknown>
+#18 0x7f1cd95ba272 start_thread
+
+2024-10-24 16:59:44,987 - WARNING - Failed with selector //button[contains(@class, 'clerk-button')]: Message: 
+Stacktrace:
+#0 0x562c6c71de3a <unknown>
+#1 0x562c6c40745c <unknown>
+#2 0x562c6c4535b5 <unknown>
+#3 0x562c6c453671 <unknown>
+#4 0x562c6c497f14 <unknown>
+#5 0x562c6c4764dd <unknown>
+#6 0x562c6c4952cc <unknown>
+#7 0x562c6c476253 <unknown>
+#8 0x562c6c4461c7 <unknown>
+#9 0x562c6c446b3e <unknown>
+#10 0x562c6c6e427b <unknown>
+#11 0x562c6c6e8327 <unknown>
+#12 0x562c6c6d0dae <unknown>
+#13 0x562c6c6e8df2 <unknown>
+#14 0x562c6c6b574f <unknown>
+#15 0x562c6c70d128 <unknown>
+#16 0x562c6c70d2fb <unknown>
+#17 0x562c6c71cf6c <unknown>
+#18 0x7fedbaedb272 start_thread
+
+2024-10-24 16:59:46,811 - WARNING - Failed with selector //button[contains(@class, 'clerk-button')]: Message: 
+Stacktrace:
+#0 0x55a03f5c1e3a <unknown>
+#1 0x55a03f2ab45c <unknown>
+#2 0x55a03f2f75b5 <unknown>
+#3 0x55a03f2f7671 <unknown>
+#4 0x55a03f33bf14 <unknown>
+#5 0x55a03f31a4dd <unknown>
+#6 0x55a03f3392cc <unknown>
+#7 0x55a03f31a253 <unknown>
+#8 0x55a03f2ea1c7 <unknown>
+#9 0x55a03f2eab3e <unknown>
+#10 0x55a03f58827b <unknown>
+#11 0x55a03f58c327 <unknown>
+#12 0x55a03f574dae <unknown>
+#13 0x55a03f58cdf2 <unknown>
+#14 0x55a03f55974f <unknown>
+#15 0x55a03f5b1128 <unknown>
+#16 0x55a03f5b12fb <unknown>
+#17 0x55a03f5c0f6c <unknown>
+#18 0x7f7815d96272 start_thread
+
+2024-10-24 16:59:47,842 - WARNING - Failed with selector //button[contains(@class, 'clerk-button')]: Message: 
+Stacktrace:
+#0 0x561b1e1cee3a <unknown>
+#1 0x561b1deb845c <unknown>
+#2 0x561b1df045b5 <unknown>
+#3 0x561b1df04671 <unknown>
+#4 0x561b1df48f14 <unknown>
+#5 0x561b1df274dd <unknown>
+#6 0x561b1df462cc <unknown>
+#7 0x561b1df27253 <unknown>
+#8 0x561b1def71c7 <unknown>
+#9 0x561b1def7b3e <unknown>
+#10 0x561b1e19527b <unknown>
+#11 0x561b1e199327 <unknown>
+#12 0x561b1e181dae <unknown>
+#13 0x561b1e199df2 <unknown>
+#14 0x561b1e16674f <unknown>
+#15 0x561b1e1be128 <unknown>
+#16 0x561b1e1be2fb <unknown>
+#17 0x561b1e1cdf6c <unknown>
+#18 0x7f67379b8272 start_thread
+
+2024-10-24 16:59:47,915 - WARNING - Failed with selector //button[contains(@class, 'clerk-button')]: Message: 
+Stacktrace:
+#0 0x5584f3c51e3a <unknown>
+#1 0x5584f393b45c <unknown>
+#2 0x5584f39875b5 <unknown>
+#3 0x5584f3987671 <unknown>
+#4 0x5584f39cbf14 <unknown>
+#5 0x5584f39aa4dd <unknown>
+#6 0x5584f39c92cc <unknown>
+#7 0x5584f39aa253 <unknown>
+#8 0x5584f397a1c7 <unknown>
+#9 0x5584f397ab3e <unknown>
+#10 0x5584f3c1827b <unknown>
+#11 0x5584f3c1c327 <unknown>
+#12 0x5584f3c04dae <unknown>
+#13 0x5584f3c1cdf2 <unknown>
+#14 0x5584f3be974f <unknown>
+#15 0x5584f3c41128 <unknown>
+#16 0x5584f3c412fb <unknown>
+#17 0x5584f3c50f6c <unknown>
+#18 0x7f1cd95ba272 start_thread
+
+2024-10-24 17:00:30,128 - WARNING - Failed with selector //button[contains(@class, 'sign-in')]: Message: 
+Stacktrace:
+#0 0x562c6c71de3a <unknown>
+#1 0x562c6c40745c <unknown>
+#2 0x562c6c4535b5 <unknown>
+#3 0x562c6c453671 <unknown>
+#4 0x562c6c497f14 <unknown>
+#5 0x562c6c4764dd <unknown>
+#6 0x562c6c4952cc <unknown>
+#7 0x562c6c476253 <unknown>
+#8 0x562c6c4461c7 <unknown>
+#9 0x562c6c446b3e <unknown>
+#10 0x562c6c6e427b <unknown>
+#11 0x562c6c6e8327 <unknown>
+#12 0x562c6c6d0dae <unknown>
+#13 0x562c6c6e8df2 <unknown>
+#14 0x562c6c6b574f <unknown>
+#15 0x562c6c70d128 <unknown>
+#16 0x562c6c70d2fb <unknown>
+#17 0x562c6c71cf6c <unknown>
+#18 0x7fedbaedb272 start_thread
+
+2024-10-24 17:00:31,960 - WARNING - Failed with selector //button[contains(@class, 'sign-in')]: Message: 
+Stacktrace:
+#0 0x55a03f5c1e3a <unknown>
+#1 0x55a03f2ab45c <unknown>
+#2 0x55a03f2f75b5 <unknown>
+#3 0x55a03f2f7671 <unknown>
+#4 0x55a03f33bf14 <unknown>
+#5 0x55a03f31a4dd <unknown>
+#6 0x55a03f3392cc <unknown>
+#7 0x55a03f31a253 <unknown>
+#8 0x55a03f2ea1c7 <unknown>
+#9 0x55a03f2eab3e <unknown>
+#10 0x55a03f58827b <unknown>
+#11 0x55a03f58c327 <unknown>
+#12 0x55a03f574dae <unknown>
+#13 0x55a03f58cdf2 <unknown>
+#14 0x55a03f55974f <unknown>
+#15 0x55a03f5b1128 <unknown>
+#16 0x55a03f5b12fb <unknown>
+#17 0x55a03f5c0f6c <unknown>
+#18 0x7f7815d96272 start_thread
+
+2024-10-24 17:00:33,022 - WARNING - Failed with selector //button[contains(@class, 'sign-in')]: Message: 
+Stacktrace:
+#0 0x561b1e1cee3a <unknown>
+#1 0x561b1deb845c <unknown>
+#2 0x561b1df045b5 <unknown>
+#3 0x561b1df04671 <unknown>
+#4 0x561b1df48f14 <unknown>
+#5 0x561b1df274dd <unknown>
+#6 0x561b1df462cc <unknown>
+#7 0x561b1df27253 <unknown>
+#8 0x561b1def71c7 <unknown>
+#9 0x561b1def7b3e <unknown>
+#10 0x561b1e19527b <unknown>
+#11 0x561b1e199327 <unknown>
+#12 0x561b1e181dae <unknown>
+#13 0x561b1e199df2 <unknown>
+#14 0x561b1e16674f <unknown>
+#15 0x561b1e1be128 <unknown>
+#16 0x561b1e1be2fb <unknown>
+#17 0x561b1e1cdf6c <unknown>
+#18 0x7f67379b8272 start_thread
+
+2024-10-24 17:00:33,080 - WARNING - Failed with selector //button[contains(@class, 'sign-in')]: Message: 
+Stacktrace:
+#0 0x5584f3c51e3a <unknown>
+#1 0x5584f393b45c <unknown>
+#2 0x5584f39875b5 <unknown>
+#3 0x5584f3987671 <unknown>
+#4 0x5584f39cbf14 <unknown>
+#5 0x5584f39aa4dd <unknown>
+#6 0x5584f39c92cc <unknown>
+#7 0x5584f39aa253 <unknown>
+#8 0x5584f397a1c7 <unknown>
+#9 0x5584f397ab3e <unknown>
+#10 0x5584f3c1827b <unknown>
+#11 0x5584f3c1c327 <unknown>
+#12 0x5584f3c04dae <unknown>
+#13 0x5584f3c1cdf2 <unknown>
+#14 0x5584f3be974f <unknown>
+#15 0x5584f3c41128 <unknown>
+#16 0x5584f3c412fb <unknown>
+#17 0x5584f3c50f6c <unknown>
+#18 0x7f1cd95ba272 start_thread
+
+2024-10-24 17:01:15,284 - WARNING - Failed with selector //button[contains(@class, 'login')]: Message: 
+Stacktrace:
+#0 0x562c6c71de3a <unknown>
+#1 0x562c6c40745c <unknown>
+#2 0x562c6c4535b5 <unknown>
+#3 0x562c6c453671 <unknown>
+#4 0x562c6c497f14 <unknown>
+#5 0x562c6c4764dd <unknown>
+#6 0x562c6c4952cc <unknown>
+#7 0x562c6c476253 <unknown>
+#8 0x562c6c4461c7 <unknown>
+#9 0x562c6c446b3e <unknown>
+#10 0x562c6c6e427b <unknown>
+#11 0x562c6c6e8327 <unknown>
+#12 0x562c6c6d0dae <unknown>
+#13 0x562c6c6e8df2 <unknown>
+#14 0x562c6c6b574f <unknown>
+#15 0x562c6c70d128 <unknown>
+#16 0x562c6c70d2fb <unknown>
+#17 0x562c6c71cf6c <unknown>
+#18 0x7fedbaedb272 start_thread
+
+2024-10-24 17:01:17,116 - WARNING - Failed with selector //button[contains(@class, 'login')]: Message: 
+Stacktrace:
+#0 0x55a03f5c1e3a <unknown>
+#1 0x55a03f2ab45c <unknown>
+#2 0x55a03f2f75b5 <unknown>
+#3 0x55a03f2f7671 <unknown>
+#4 0x55a03f33bf14 <unknown>
+#5 0x55a03f31a4dd <unknown>
+#6 0x55a03f3392cc <unknown>
+#7 0x55a03f31a253 <unknown>
+#8 0x55a03f2ea1c7 <unknown>
+#9 0x55a03f2eab3e <unknown>
+#10 0x55a03f58827b <unknown>
+#11 0x55a03f58c327 <unknown>
+#12 0x55a03f574dae <unknown>
+#13 0x55a03f58cdf2 <unknown>
+#14 0x55a03f55974f <unknown>
+#15 0x55a03f5b1128 <unknown>
+#16 0x55a03f5b12fb <unknown>
+#17 0x55a03f5c0f6c <unknown>
+#18 0x7f7815d96272 start_thread
+
+2024-10-24 17:01:18,177 - WARNING - Failed with selector //button[contains(@class, 'login')]: Message: 
+Stacktrace:
+#0 0x561b1e1cee3a <unknown>
+#1 0x561b1deb845c <unknown>
+#2 0x561b1df045b5 <unknown>
+#3 0x561b1df04671 <unknown>
+#4 0x561b1df48f14 <unknown>
+#5 0x561b1df274dd <unknown>
+#6 0x561b1df462cc <unknown>
+#7 0x561b1df27253 <unknown>
+#8 0x561b1def71c7 <unknown>
+#9 0x561b1def7b3e <unknown>
+#10 0x561b1e19527b <unknown>
+#11 0x561b1e199327 <unknown>
+#12 0x561b1e181dae <unknown>
+#13 0x561b1e199df2 <unknown>
+#14 0x561b1e16674f <unknown>
+#15 0x561b1e1be128 <unknown>
+#16 0x561b1e1be2fb <unknown>
+#17 0x561b1e1cdf6c <unknown>
+#18 0x7f67379b8272 start_thread
+
+2024-10-24 17:01:18,239 - WARNING - Failed with selector //button[contains(@class, 'login')]: Message: 
+Stacktrace:
+#0 0x5584f3c51e3a <unknown>
+#1 0x5584f393b45c <unknown>
+#2 0x5584f39875b5 <unknown>
+#3 0x5584f3987671 <unknown>
+#4 0x5584f39cbf14 <unknown>
+#5 0x5584f39aa4dd <unknown>
+#6 0x5584f39c92cc <unknown>
+#7 0x5584f39aa253 <unknown>
+#8 0x5584f397a1c7 <unknown>
+#9 0x5584f397ab3e <unknown>
+#10 0x5584f3c1827b <unknown>
+#11 0x5584f3c1c327 <unknown>
+#12 0x5584f3c04dae <unknown>
+#13 0x5584f3c1cdf2 <unknown>
+#14 0x5584f3be974f <unknown>
+#15 0x5584f3c41128 <unknown>
+#16 0x5584f3c412fb <unknown>
+#17 0x5584f3c50f6c <unknown>
+#18 0x7f1cd95ba272 start_thread
+
+2024-10-24 17:02:00,652 - WARNING - Failed with selector //div[contains(@class, 'cl-userButtonTrigger')]: Message: 
+Stacktrace:
+#0 0x562c6c71de3a <unknown>
+#1 0x562c6c40745c <unknown>
+#2 0x562c6c4535b5 <unknown>
+#3 0x562c6c453671 <unknown>
+#4 0x562c6c497f14 <unknown>
+#5 0x562c6c4764dd <unknown>
+#6 0x562c6c4952cc <unknown>
+#7 0x562c6c476253 <unknown>
+#8 0x562c6c4461c7 <unknown>
+#9 0x562c6c446b3e <unknown>
+#10 0x562c6c6e427b <unknown>
+#11 0x562c6c6e8327 <unknown>
+#12 0x562c6c6d0dae <unknown>
+#13 0x562c6c6e8df2 <unknown>
+#14 0x562c6c6b574f <unknown>
+#15 0x562c6c70d128 <unknown>
+#16 0x562c6c70d2fb <unknown>
+#17 0x562c6c71cf6c <unknown>
+#18 0x7fedbaedb272 start_thread
+
+2024-10-24 17:02:02,438 - WARNING - Failed with selector //div[contains(@class, 'cl-userButtonTrigger')]: Message: 
+Stacktrace:
+#0 0x55a03f5c1e3a <unknown>
+#1 0x55a03f2ab45c <unknown>
+#2 0x55a03f2f75b5 <unknown>
+#3 0x55a03f2f7671 <unknown>
+#4 0x55a03f33bf14 <unknown>
+#5 0x55a03f31a4dd <unknown>
+#6 0x55a03f3392cc <unknown>
+#7 0x55a03f31a253 <unknown>
+#8 0x55a03f2ea1c7 <unknown>
+#9 0x55a03f2eab3e <unknown>
+#10 0x55a03f58827b <unknown>
+#11 0x55a03f58c327 <unknown>
+#12 0x55a03f574dae <unknown>
+#13 0x55a03f58cdf2 <unknown>
+#14 0x55a03f55974f <unknown>
+#15 0x55a03f5b1128 <unknown>
+#16 0x55a03f5b12fb <unknown>
+#17 0x55a03f5c0f6c <unknown>
+#18 0x7f7815d96272 start_thread
+
+2024-10-24 17:02:03,589 - WARNING - Failed with selector //div[contains(@class, 'cl-userButtonTrigger')]: Message: 
+Stacktrace:
+#0 0x561b1e1cee3a <unknown>
+#1 0x561b1deb845c <unknown>
+#2 0x561b1df045b5 <unknown>
+#3 0x561b1df04671 <unknown>
+#4 0x561b1df48f14 <unknown>
+#5 0x561b1df274dd <unknown>
+#6 0x561b1df462cc <unknown>
+#7 0x561b1df27253 <unknown>
+#8 0x561b1def71c7 <unknown>
+#9 0x561b1def7b3e <unknown>
+#10 0x561b1e19527b <unknown>
+#11 0x561b1e199327 <unknown>
+#12 0x561b1e181dae <unknown>
+#13 0x561b1e199df2 <unknown>
+#14 0x561b1e16674f <unknown>
+#15 0x561b1e1be128 <unknown>
+#16 0x561b1e1be2fb <unknown>
+#17 0x561b1e1cdf6c <unknown>
+#18 0x7f67379b8272 start_thread
+
+2024-10-24 17:02:03,700 - WARNING - Failed with selector //div[contains(@class, 'cl-userButtonTrigger')]: Message: 
+Stacktrace:
+#0 0x5584f3c51e3a <unknown>
+#1 0x5584f393b45c <unknown>
+#2 0x5584f39875b5 <unknown>
+#3 0x5584f3987671 <unknown>
+#4 0x5584f39cbf14 <unknown>
+#5 0x5584f39aa4dd <unknown>
+#6 0x5584f39c92cc <unknown>
+#7 0x5584f39aa253 <unknown>
+#8 0x5584f397a1c7 <unknown>
+#9 0x5584f397ab3e <unknown>
+#10 0x5584f3c1827b <unknown>
+#11 0x5584f3c1c327 <unknown>
+#12 0x5584f3c04dae <unknown>
+#13 0x5584f3c1cdf2 <unknown>
+#14 0x5584f3be974f <unknown>
+#15 0x5584f3c41128 <unknown>
+#16 0x5584f3c412fb <unknown>
+#17 0x5584f3c50f6c <unknown>
+#18 0x7f1cd95ba272 start_thread
+
+2024-10-24 17:02:46,076 - WARNING - Failed with selector //div[contains(@class, 'sign-in')][@role='button']: Message: 
+Stacktrace:
+#0 0x562c6c71de3a <unknown>
+#1 0x562c6c40745c <unknown>
+#2 0x562c6c4535b5 <unknown>
+#3 0x562c6c453671 <unknown>
+#4 0x562c6c497f14 <unknown>
+#5 0x562c6c4764dd <unknown>
+#6 0x562c6c4952cc <unknown>
+#7 0x562c6c476253 <unknown>
+#8 0x562c6c4461c7 <unknown>
+#9 0x562c6c446b3e <unknown>
+#10 0x562c6c6e427b <unknown>
+#11 0x562c6c6e8327 <unknown>
+#12 0x562c6c6d0dae <unknown>
+#13 0x562c6c6e8df2 <unknown>
+#14 0x562c6c6b574f <unknown>
+#15 0x562c6c70d128 <unknown>
+#16 0x562c6c70d2fb <unknown>
+#17 0x562c6c71cf6c <unknown>
+#18 0x7fedbaedb272 start_thread
+
+2024-10-24 17:02:47,442 - WARNING - Failed with selector //div[contains(@class, 'sign-in')][@role='button']: Message: 
+Stacktrace:
+#0 0x55a03f5c1e3a <unknown>
+#1 0x55a03f2ab45c <unknown>
+#2 0x55a03f2f75b5 <unknown>
+#3 0x55a03f2f7671 <unknown>
+#4 0x55a03f33bf14 <unknown>
+#5 0x55a03f31a4dd <unknown>
+#6 0x55a03f3392cc <unknown>
+#7 0x55a03f31a253 <unknown>
+#8 0x55a03f2ea1c7 <unknown>
+#9 0x55a03f2eab3e <unknown>
+#10 0x55a03f58827b <unknown>
+#11 0x55a03f58c327 <unknown>
+#12 0x55a03f574dae <unknown>
+#13 0x55a03f58cdf2 <unknown>
+#14 0x55a03f55974f <unknown>
+#15 0x55a03f5b1128 <unknown>
+#16 0x55a03f5b12fb <unknown>
+#17 0x55a03f5c0f6c <unknown>
+#18 0x7f7815d96272 start_thread
+
+2024-10-24 17:02:49,062 - WARNING - Failed with selector //div[contains(@class, 'sign-in')][@role='button']: Message: 
+Stacktrace:
+#0 0x561b1e1cee3a <unknown>
+#1 0x561b1deb845c <unknown>
+#2 0x561b1df045b5 <unknown>
+#3 0x561b1df04671 <unknown>
+#4 0x561b1df48f14 <unknown>
+#5 0x561b1df274dd <unknown>
+#6 0x561b1df462cc <unknown>
+#7 0x561b1df27253 <unknown>
+#8 0x561b1def71c7 <unknown>
+#9 0x561b1def7b3e <unknown>
+#10 0x561b1e19527b <unknown>
+#11 0x561b1e199327 <unknown>
+#12 0x561b1e181dae <unknown>
+#13 0x561b1e199df2 <unknown>
+#14 0x561b1e16674f <unknown>
+#15 0x561b1e1be128 <unknown>
+#16 0x561b1e1be2fb <unknown>
+#17 0x561b1e1cdf6c <unknown>
+#18 0x7f67379b8272 start_thread
+
+2024-10-24 17:02:49,202 - WARNING - Failed with selector //div[contains(@class, 'sign-in')][@role='button']: Message: 
+Stacktrace:
+#0 0x5584f3c51e3a <unknown>
+#1 0x5584f393b45c <unknown>
+#2 0x5584f39875b5 <unknown>
+#3 0x5584f3987671 <unknown>
+#4 0x5584f39cbf14 <unknown>
+#5 0x5584f39aa4dd <unknown>
+#6 0x5584f39c92cc <unknown>
+#7 0x5584f39aa253 <unknown>
+#8 0x5584f397a1c7 <unknown>
+#9 0x5584f397ab3e <unknown>
+#10 0x5584f3c1827b <unknown>
+#11 0x5584f3c1c327 <unknown>
+#12 0x5584f3c04dae <unknown>
+#13 0x5584f3c1cdf2 <unknown>
+#14 0x5584f3be974f <unknown>
+#15 0x5584f3c41128 <unknown>
+#16 0x5584f3c412fb <unknown>
+#17 0x5584f3c50f6c <unknown>
+#18 0x7f1cd95ba272 start_thread
+
+2024-10-24 17:03:31,225 - WARNING - Failed with selector //button[contains(@class, 'auth-button')]: Message: 
+Stacktrace:
+#0 0x562c6c71de3a <unknown>
+#1 0x562c6c40745c <unknown>
+#2 0x562c6c4535b5 <unknown>
+#3 0x562c6c453671 <unknown>
+#4 0x562c6c497f14 <unknown>
+#5 0x562c6c4764dd <unknown>
+#6 0x562c6c4952cc <unknown>
+#7 0x562c6c476253 <unknown>
+#8 0x562c6c4461c7 <unknown>
+#9 0x562c6c446b3e <unknown>
+#10 0x562c6c6e427b <unknown>
+#11 0x562c6c6e8327 <unknown>
+#12 0x562c6c6d0dae <unknown>
+#13 0x562c6c6e8df2 <unknown>
+#14 0x562c6c6b574f <unknown>
+#15 0x562c6c70d128 <unknown>
+#16 0x562c6c70d2fb <unknown>
+#17 0x562c6c71cf6c <unknown>
+#18 0x7fedbaedb272 start_thread
+
+2024-10-24 17:03:32,623 - WARNING - Failed with selector //button[contains(@class, 'auth-button')]: Message: 
+Stacktrace:
+#0 0x55a03f5c1e3a <unknown>
+#1 0x55a03f2ab45c <unknown>
+#2 0x55a03f2f75b5 <unknown>
+#3 0x55a03f2f7671 <unknown>
+#4 0x55a03f33bf14 <unknown>
+#5 0x55a03f31a4dd <unknown>
+#6 0x55a03f3392cc <unknown>
+#7 0x55a03f31a253 <unknown>
+#8 0x55a03f2ea1c7 <unknown>
+#9 0x55a03f2eab3e <unknown>
+#10 0x55a03f58827b <unknown>
+#11 0x55a03f58c327 <unknown>
+#12 0x55a03f574dae <unknown>
+#13 0x55a03f58cdf2 <unknown>
+#14 0x55a03f55974f <unknown>
+#15 0x55a03f5b1128 <unknown>
+#16 0x55a03f5b12fb <unknown>
+#17 0x55a03f5c0f6c <unknown>
+#18 0x7f7815d96272 start_thread
+
+2024-10-24 17:03:34,281 - WARNING - Failed with selector //button[contains(@class, 'auth-button')]: Message: 
+Stacktrace:
+#0 0x561b1e1cee3a <unknown>
+#1 0x561b1deb845c <unknown>
+#2 0x561b1df045b5 <unknown>
+#3 0x561b1df04671 <unknown>
+#4 0x561b1df48f14 <unknown>
+#5 0x561b1df274dd <unknown>
+#6 0x561b1df462cc <unknown>
+#7 0x561b1df27253 <unknown>
+#8 0x561b1def71c7 <unknown>
+#9 0x561b1def7b3e <unknown>
+#10 0x561b1e19527b <unknown>
+#11 0x561b1e199327 <unknown>
+#12 0x561b1e181dae <unknown>
+#13 0x561b1e199df2 <unknown>
+#14 0x561b1e16674f <unknown>
+#15 0x561b1e1be128 <unknown>
+#16 0x561b1e1be2fb <unknown>
+#17 0x561b1e1cdf6c <unknown>
+#18 0x7f67379b8272 start_thread
+
+2024-10-24 17:03:34,417 - WARNING - Failed with selector //button[contains(@class, 'auth-button')]: Message: 
+Stacktrace:
+#0 0x5584f3c51e3a <unknown>
+#1 0x5584f393b45c <unknown>
+#2 0x5584f39875b5 <unknown>
+#3 0x5584f3987671 <unknown>
+#4 0x5584f39cbf14 <unknown>
+#5 0x5584f39aa4dd <unknown>
+#6 0x5584f39c92cc <unknown>
+#7 0x5584f39aa253 <unknown>
+#8 0x5584f397a1c7 <unknown>
+#9 0x5584f397ab3e <unknown>
+#10 0x5584f3c1827b <unknown>
+#11 0x5584f3c1c327 <unknown>
+#12 0x5584f3c04dae <unknown>
+#13 0x5584f3c1cdf2 <unknown>
+#14 0x5584f3be974f <unknown>
+#15 0x5584f3c41128 <unknown>
+#16 0x5584f3c412fb <unknown>
+#17 0x5584f3c50f6c <unknown>
+#18 0x7f1cd95ba272 start_thread
+
+2024-10-24 17:04:16,378 - WARNING - Failed with selector //button[contains(@class, 'cl-auth')]: Message: 
+Stacktrace:
+#0 0x562c6c71de3a <unknown>
+#1 0x562c6c40745c <unknown>
+#2 0x562c6c4535b5 <unknown>
+#3 0x562c6c453671 <unknown>
+#4 0x562c6c497f14 <unknown>
+#5 0x562c6c4764dd <unknown>
+#6 0x562c6c4952cc <unknown>
+#7 0x562c6c476253 <unknown>
+#8 0x562c6c4461c7 <unknown>
+#9 0x562c6c446b3e <unknown>
+#10 0x562c6c6e427b <unknown>
+#11 0x562c6c6e8327 <unknown>
+#12 0x562c6c6d0dae <unknown>
+#13 0x562c6c6e8df2 <unknown>
+#14 0x562c6c6b574f <unknown>
+#15 0x562c6c70d128 <unknown>
+#16 0x562c6c70d2fb <unknown>
+#17 0x562c6c71cf6c <unknown>
+#18 0x7fedbaedb272 start_thread
+
+2024-10-24 17:04:17,763 - WARNING - Failed with selector //button[contains(@class, 'cl-auth')]: Message: 
+Stacktrace:
+#0 0x55a03f5c1e3a <unknown>
+#1 0x55a03f2ab45c <unknown>
+#2 0x55a03f2f75b5 <unknown>
+#3 0x55a03f2f7671 <unknown>
+#4 0x55a03f33bf14 <unknown>
+#5 0x55a03f31a4dd <unknown>
+#6 0x55a03f3392cc <unknown>
+#7 0x55a03f31a253 <unknown>
+#8 0x55a03f2ea1c7 <unknown>
+#9 0x55a03f2eab3e <unknown>
+#10 0x55a03f58827b <unknown>
+#11 0x55a03f58c327 <unknown>
+#12 0x55a03f574dae <unknown>
+#13 0x55a03f58cdf2 <unknown>
+#14 0x55a03f55974f <unknown>
+#15 0x55a03f5b1128 <unknown>
+#16 0x55a03f5b12fb <unknown>
+#17 0x55a03f5c0f6c <unknown>
+#18 0x7f7815d96272 start_thread
+
+2024-10-24 17:04:18,759 - INFO - Successfully clicked Sign in button
+2024-10-24 17:04:19,423 - WARNING - Failed with selector //button[contains(@class, 'cl-auth')]: Message: 
+Stacktrace:
+#0 0x561b1e1cee3a <unknown>
+#1 0x561b1deb845c <unknown>
+#2 0x561b1df045b5 <unknown>
+#3 0x561b1df04671 <unknown>
+#4 0x561b1df48f14 <unknown>
+#5 0x561b1df274dd <unknown>
+#6 0x561b1df462cc <unknown>
+#7 0x561b1df27253 <unknown>
+#8 0x561b1def71c7 <unknown>
+#9 0x561b1def7b3e <unknown>
+#10 0x561b1e19527b <unknown>
+#11 0x561b1e199327 <unknown>
+#12 0x561b1e181dae <unknown>
+#13 0x561b1e199df2 <unknown>
+#14 0x561b1e16674f <unknown>
+#15 0x561b1e1be128 <unknown>
+#16 0x561b1e1be2fb <unknown>
+#17 0x561b1e1cdf6c <unknown>
+#18 0x7f67379b8272 start_thread
+
+2024-10-24 17:04:19,608 - WARNING - Failed with selector //button[contains(@class, 'cl-auth')]: Message: 
+Stacktrace:
+#0 0x5584f3c51e3a <unknown>
+#1 0x5584f393b45c <unknown>
+#2 0x5584f39875b5 <unknown>
+#3 0x5584f3987671 <unknown>
+#4 0x5584f39cbf14 <unknown>
+#5 0x5584f39aa4dd <unknown>
+#6 0x5584f39c92cc <unknown>
+#7 0x5584f39aa253 <unknown>
+#8 0x5584f397a1c7 <unknown>
+#9 0x5584f397ab3e <unknown>
+#10 0x5584f3c1827b <unknown>
+#11 0x5584f3c1c327 <unknown>
+#12 0x5584f3c04dae <unknown>
+#13 0x5584f3c1cdf2 <unknown>
+#14 0x5584f3be974f <unknown>
+#15 0x5584f3c41128 <unknown>
+#16 0x5584f3c412fb <unknown>
+#17 0x5584f3c50f6c <unknown>
+#18 0x7f1cd95ba272 start_thread
+
+2024-10-24 17:04:20,145 - INFO - Successfully clicked Sign in button
+2024-10-24 17:04:21,895 - INFO - Successfully clicked Sign in button
+2024-10-24 17:04:22,098 - INFO - Successfully clicked Sign in button
+2024-10-24 17:04:25,925 - INFO - Successfully clicked Google login button
+2024-10-24 17:04:58,972 - ERROR - Google OAuth failed: Google login window not found
+2024-10-24 17:04:59,283 - INFO - Screenshot saved: logs/google_oauth_failure.png
+2024-10-24 17:04:59,283 - ERROR - Login attempt 1 failed: Google OAuth process failed
+2024-10-24 17:04:59,593 - INFO - Screenshot saved: logs/login_failure_1.png
+2024-10-24 17:05:04,716 - INFO - WebDriver closed successfully
+2024-10-24 17:05:05,816 - INFO - Successfully clicked Google login button
+2024-10-24 17:05:06,332 - INFO - Successfully clicked Google login button
+2024-10-24 17:05:07,446 - INFO - Chrome WebDriver initialized successfully
+2024-10-24 17:05:07,446 - INFO - Starting login attempt 2/3
+2024-10-24 17:05:38,879 - ERROR - Google OAuth failed: Google login window not found
+2024-10-24 17:05:39,379 - ERROR - Google OAuth failed: Google login window not found
+2024-10-24 17:05:39,477 - INFO - Screenshot saved: logs/google_oauth_failure.png
+2024-10-24 17:05:39,477 - ERROR - Login attempt 1 failed: Google OAuth process failed
+2024-10-24 17:05:39,839 - INFO - Screenshot saved: logs/login_failure_1.png
+2024-10-24 17:05:39,963 - INFO - Screenshot saved: logs/google_oauth_failure.png
+2024-10-24 17:05:39,963 - ERROR - Login attempt 1 failed: Google OAuth process failed
+2024-10-24 17:05:40,308 - INFO - Screenshot saved: logs/login_failure_1.png
+2024-10-24 17:05:44,934 - INFO - WebDriver closed successfully
+2024-10-24 17:05:45,367 - INFO - Chrome WebDriver initialized successfully
+2024-10-24 17:05:45,367 - INFO - Starting login attempt 2/3
+2024-10-24 17:05:45,437 - INFO - WebDriver closed successfully
+2024-10-24 17:05:45,856 - INFO - Chrome WebDriver initialized successfully
+2024-10-24 17:05:45,857 - INFO - Starting login attempt 2/3
+2024-10-24 17:06:01,460 - WARNING - Failed with selector //button[contains(@class, 'cl-userButtonTrigger')]: Message: 
+Stacktrace:
+#0 0x560ac6ca4e3a <unknown>
+#1 0x560ac698e45c <unknown>
+#2 0x560ac69da5b5 <unknown>
+#3 0x560ac69da671 <unknown>
+#4 0x560ac6a1ef14 <unknown>
+#5 0x560ac69fd4dd <unknown>
+#6 0x560ac6a1c2cc <unknown>
+#7 0x560ac69fd253 <unknown>
+#8 0x560ac69cd1c7 <unknown>
+#9 0x560ac69cdb3e <unknown>
+#10 0x560ac6c6b27b <unknown>
+#11 0x560ac6c6f327 <unknown>
+#12 0x560ac6c57dae <unknown>
+#13 0x560ac6c6fdf2 <unknown>
+#14 0x560ac6c3c74f <unknown>
+#15 0x560ac6c94128 <unknown>
+#16 0x560ac6c942fb <unknown>
+#17 0x560ac6ca3f6c <unknown>
+#18 0x7f69d408f272 start_thread
+
+2024-10-24 17:06:39,075 - WARNING - Failed with selector //button[contains(@class, 'cl-userButtonTrigger')]: Message: 
+Stacktrace:
+#0 0x559e5c7ece3a <unknown>
+#1 0x559e5c4d645c <unknown>
+#2 0x559e5c5225b5 <unknown>
+#3 0x559e5c522671 <unknown>
+#4 0x559e5c566f14 <unknown>
+#5 0x559e5c5454dd <unknown>
+#6 0x559e5c5642cc <unknown>
+#7 0x559e5c545253 <unknown>
+#8 0x559e5c5151c7 <unknown>
+#9 0x559e5c515b3e <unknown>
+#10 0x559e5c7b327b <unknown>
+#11 0x559e5c7b7327 <unknown>
+#12 0x559e5c79fdae <unknown>
+#13 0x559e5c7b7df2 <unknown>
+#14 0x559e5c78474f <unknown>
+#15 0x559e5c7dc128 <unknown>
+#16 0x559e5c7dc2fb <unknown>
+#17 0x559e5c7ebf6c <unknown>
+#18 0x7f921f870272 start_thread
+
+2024-10-24 17:06:41,022 - WARNING - Failed with selector //button[contains(@class, 'cl-userButtonTrigger')]: Message: 
+Stacktrace:
+#0 0x5616beca0e3a <unknown>
+#1 0x5616be98a45c <unknown>
+#2 0x5616be9d65b5 <unknown>
+#3 0x5616be9d6671 <unknown>
+#4 0x5616bea1af14 <unknown>
+#5 0x5616be9f94dd <unknown>
+#6 0x5616bea182cc <unknown>
+#7 0x5616be9f9253 <unknown>
+#8 0x5616be9c91c7 <unknown>
+#9 0x5616be9c9b3e <unknown>
+#10 0x5616bec6727b <unknown>
+#11 0x5616bec6b327 <unknown>
+#12 0x5616bec53dae <unknown>
+#13 0x5616bec6bdf2 <unknown>
+#14 0x5616bec3874f <unknown>
+#15 0x5616bec90128 <unknown>
+#16 0x5616bec902fb <unknown>
+#17 0x5616bec9ff6c <unknown>
+#18 0x7fbc7bc1a272 start_thread
+
+2024-10-24 17:06:46,519 - WARNING - Failed with selector //button[contains(@class, 'clerk-button')]: Message: 
+Stacktrace:
+#0 0x560ac6ca4e3a <unknown>
+#1 0x560ac698e45c <unknown>
+#2 0x560ac69da5b5 <unknown>
+#3 0x560ac69da671 <unknown>
+#4 0x560ac6a1ef14 <unknown>
+#5 0x560ac69fd4dd <unknown>
+#6 0x560ac6a1c2cc <unknown>
+#7 0x560ac69fd253 <unknown>
+#8 0x560ac69cd1c7 <unknown>
+#9 0x560ac69cdb3e <unknown>
+#10 0x560ac6c6b27b <unknown>
+#11 0x560ac6c6f327 <unknown>
+#12 0x560ac6c57dae <unknown>
+#13 0x560ac6c6fdf2 <unknown>
+#14 0x560ac6c3c74f <unknown>
+#15 0x560ac6c94128 <unknown>
+#16 0x560ac6c942fb <unknown>
+#17 0x560ac6ca3f6c <unknown>
+#18 0x7f69d408f272 start_thread
+
+2024-10-24 17:06:48,273 - INFO - Successfully clicked Google login button
+2024-10-24 17:07:21,315 - ERROR - Google OAuth failed: Google login window not found
+2024-10-24 17:07:22,201 - INFO - Screenshot saved: logs/google_oauth_failure.png
+2024-10-24 17:07:22,201 - ERROR - Login attempt 1 failed: Google OAuth process failed
+2024-10-24 17:07:22,471 - INFO - Screenshot saved: logs/login_failure_1.png
+2024-10-24 17:07:24,154 - WARNING - Failed with selector //button[contains(@class, 'clerk-button')]: Message: 
+Stacktrace:
+#0 0x559e5c7ece3a <unknown>
+#1 0x559e5c4d645c <unknown>
+#2 0x559e5c5225b5 <unknown>
+#3 0x559e5c522671 <unknown>
+#4 0x559e5c566f14 <unknown>
+#5 0x559e5c5454dd <unknown>
+#6 0x559e5c5642cc <unknown>
+#7 0x559e5c545253 <unknown>
+#8 0x559e5c5151c7 <unknown>
+#9 0x559e5c515b3e <unknown>
+#10 0x559e5c7b327b <unknown>
+#11 0x559e5c7b7327 <unknown>
+#12 0x559e5c79fdae <unknown>
+#13 0x559e5c7b7df2 <unknown>
+#14 0x559e5c78474f <unknown>
+#15 0x559e5c7dc128 <unknown>
+#16 0x559e5c7dc2fb <unknown>
+#17 0x559e5c7ebf6c <unknown>
+#18 0x7f921f870272 start_thread
+
+2024-10-24 17:07:26,137 - WARNING - Failed with selector //button[contains(@class, 'clerk-button')]: Message: 
+Stacktrace:
+#0 0x5616beca0e3a <unknown>
+#1 0x5616be98a45c <unknown>
+#2 0x5616be9d65b5 <unknown>
+#3 0x5616be9d6671 <unknown>
+#4 0x5616bea1af14 <unknown>
+#5 0x5616be9f94dd <unknown>
+#6 0x5616bea182cc <unknown>
+#7 0x5616be9f9253 <unknown>
+#8 0x5616be9c91c7 <unknown>
+#9 0x5616be9c9b3e <unknown>
+#10 0x5616bec6727b <unknown>
+#11 0x5616bec6b327 <unknown>
+#12 0x5616bec53dae <unknown>
+#13 0x5616bec6bdf2 <unknown>
+#14 0x5616bec3874f <unknown>
+#15 0x5616bec90128 <unknown>
+#16 0x5616bec902fb <unknown>
+#17 0x5616bec9ff6c <unknown>
+#18 0x7fbc7bc1a272 start_thread
+
+2024-10-24 17:07:27,570 - INFO - WebDriver closed successfully
+2024-10-24 17:07:28,049 - INFO - Chrome WebDriver initialized successfully
+2024-10-24 17:07:28,049 - INFO - Starting login attempt 2/3
+2024-10-24 17:07:31,568 - WARNING - Failed with selector //button[contains(@class, 'sign-in')]: Message: 
+Stacktrace:
+#0 0x560ac6ca4e3a <unknown>
+#1 0x560ac698e45c <unknown>
+#2 0x560ac69da5b5 <unknown>
+#3 0x560ac69da671 <unknown>
+#4 0x560ac6a1ef14 <unknown>
+#5 0x560ac69fd4dd <unknown>
+#6 0x560ac6a1c2cc <unknown>
+#7 0x560ac69fd253 <unknown>
+#8 0x560ac69cd1c7 <unknown>
+#9 0x560ac69cdb3e <unknown>
+#10 0x560ac6c6b27b <unknown>
+#11 0x560ac6c6f327 <unknown>
+#12 0x560ac6c57dae <unknown>
+#13 0x560ac6c6fdf2 <unknown>
+#14 0x560ac6c3c74f <unknown>
+#15 0x560ac6c94128 <unknown>
+#16 0x560ac6c942fb <unknown>
+#17 0x560ac6ca3f6c <unknown>
+#18 0x7f69d408f272 start_thread
+
+2024-10-24 17:08:09,494 - WARNING - Failed with selector //button[contains(@class, 'sign-in')]: Message: 
+Stacktrace:
+#0 0x559e5c7ece3a <unknown>
+#1 0x559e5c4d645c <unknown>
+#2 0x559e5c5225b5 <unknown>
+#3 0x559e5c522671 <unknown>
+#4 0x559e5c566f14 <unknown>
+#5 0x559e5c5454dd <unknown>
+#6 0x559e5c5642cc <unknown>
+#7 0x559e5c545253 <unknown>
+#8 0x559e5c5151c7 <unknown>
+#9 0x559e5c515b3e <unknown>
+#10 0x559e5c7b327b <unknown>
+#11 0x559e5c7b7327 <unknown>
+#12 0x559e5c79fdae <unknown>
+#13 0x559e5c7b7df2 <unknown>
+#14 0x559e5c78474f <unknown>
+#15 0x559e5c7dc128 <unknown>
+#16 0x559e5c7dc2fb <unknown>
+#17 0x559e5c7ebf6c <unknown>
+#18 0x7f921f870272 start_thread
+
+2024-10-24 17:08:11,288 - WARNING - Failed with selector //button[contains(@class, 'sign-in')]: Message: 
+Stacktrace:
+#0 0x5616beca0e3a <unknown>
+#1 0x5616be98a45c <unknown>
+#2 0x5616be9d65b5 <unknown>
+#3 0x5616be9d6671 <unknown>
+#4 0x5616bea1af14 <unknown>
+#5 0x5616be9f94dd <unknown>
+#6 0x5616bea182cc <unknown>
+#7 0x5616be9f9253 <unknown>
+#8 0x5616be9c91c7 <unknown>
+#9 0x5616be9c9b3e <unknown>
+#10 0x5616bec6727b <unknown>
+#11 0x5616bec6b327 <unknown>
+#12 0x5616bec53dae <unknown>
+#13 0x5616bec6bdf2 <unknown>
+#14 0x5616bec3874f <unknown>
+#15 0x5616bec90128 <unknown>
+#16 0x5616bec902fb <unknown>
+#17 0x5616bec9ff6c <unknown>
+#18 0x7fbc7bc1a272 start_thread
+
+2024-10-24 17:08:16,629 - WARNING - Failed with selector //button[contains(@class, 'login')]: Message: 
+Stacktrace:
+#0 0x560ac6ca4e3a <unknown>
+#1 0x560ac698e45c <unknown>
+#2 0x560ac69da5b5 <unknown>
+#3 0x560ac69da671 <unknown>
+#4 0x560ac6a1ef14 <unknown>
+#5 0x560ac69fd4dd <unknown>
+#6 0x560ac6a1c2cc <unknown>
+#7 0x560ac69fd253 <unknown>
+#8 0x560ac69cd1c7 <unknown>
+#9 0x560ac69cdb3e <unknown>
+#10 0x560ac6c6b27b <unknown>
+#11 0x560ac6c6f327 <unknown>
+#12 0x560ac6c57dae <unknown>
+#13 0x560ac6c6fdf2 <unknown>
+#14 0x560ac6c3c74f <unknown>
+#15 0x560ac6c94128 <unknown>
+#16 0x560ac6c942fb <unknown>
+#17 0x560ac6ca3f6c <unknown>
+#18 0x7f69d408f272 start_thread
+
+2024-10-24 17:08:21,673 - WARNING - Failed with selector //button[contains(@class, 'cl-userButtonTrigger')]: Message: 
+Stacktrace:
+#0 0x5578a14d6e3a <unknown>
+#1 0x5578a11c045c <unknown>
+#2 0x5578a120c5b5 <unknown>
+#3 0x5578a120c671 <unknown>
+#4 0x5578a1250f14 <unknown>
+#5 0x5578a122f4dd <unknown>
+#6 0x5578a124e2cc <unknown>
+#7 0x5578a122f253 <unknown>
+#8 0x5578a11ff1c7 <unknown>
+#9 0x5578a11ffb3e <unknown>
+#10 0x5578a149d27b <unknown>
+#11 0x5578a14a1327 <unknown>
+#12 0x5578a1489dae <unknown>
+#13 0x5578a14a1df2 <unknown>
+#14 0x5578a146e74f <unknown>
+#15 0x5578a14c6128 <unknown>
+#16 0x5578a14c62fb <unknown>
+#17 0x5578a14d5f6c <unknown>
+#18 0x7f903e54c272 start_thread
+
+2024-10-24 17:08:54,602 - WARNING - Failed with selector //button[contains(@class, 'login')]: Message: 
+Stacktrace:
+#0 0x559e5c7ece3a <unknown>
+#1 0x559e5c4d645c <unknown>
+#2 0x559e5c5225b5 <unknown>
+#3 0x559e5c522671 <unknown>
+#4 0x559e5c566f14 <unknown>
+#5 0x559e5c5454dd <unknown>
+#6 0x559e5c5642cc <unknown>
+#7 0x559e5c545253 <unknown>
+#8 0x559e5c5151c7 <unknown>
+#9 0x559e5c515b3e <unknown>
+#10 0x559e5c7b327b <unknown>
+#11 0x559e5c7b7327 <unknown>
+#12 0x559e5c79fdae <unknown>
+#13 0x559e5c7b7df2 <unknown>
+#14 0x559e5c78474f <unknown>
+#15 0x559e5c7dc128 <unknown>
+#16 0x559e5c7dc2fb <unknown>
+#17 0x559e5c7ebf6c <unknown>
+#18 0x7f921f870272 start_thread
+
+2024-10-24 17:08:56,317 - WARNING - Failed with selector //button[contains(@class, 'login')]: Message: 
+Stacktrace:
+#0 0x5616beca0e3a <unknown>
+#1 0x5616be98a45c <unknown>
+#2 0x5616be9d65b5 <unknown>
+#3 0x5616be9d6671 <unknown>
+#4 0x5616bea1af14 <unknown>
+#5 0x5616be9f94dd <unknown>
+#6 0x5616bea182cc <unknown>
+#7 0x5616be9f9253 <unknown>
+#8 0x5616be9c91c7 <unknown>
+#9 0x5616be9c9b3e <unknown>
+#10 0x5616bec6727b <unknown>
+#11 0x5616bec6b327 <unknown>
+#12 0x5616bec53dae <unknown>
+#13 0x5616bec6bdf2 <unknown>
+#14 0x5616bec3874f <unknown>
+#15 0x5616bec90128 <unknown>
+#16 0x5616bec902fb <unknown>
+#17 0x5616bec9ff6c <unknown>
+#18 0x7fbc7bc1a272 start_thread
+
+2024-10-24 17:09:01,838 - WARNING - Failed with selector //div[contains(@class, 'cl-userButtonTrigger')]: Message: 
+Stacktrace:
+#0 0x560ac6ca4e3a <unknown>
+#1 0x560ac698e45c <unknown>
+#2 0x560ac69da5b5 <unknown>
+#3 0x560ac69da671 <unknown>
+#4 0x560ac6a1ef14 <unknown>
+#5 0x560ac69fd4dd <unknown>
+#6 0x560ac6a1c2cc <unknown>
+#7 0x560ac69fd253 <unknown>
+#8 0x560ac69cd1c7 <unknown>
+#9 0x560ac69cdb3e <unknown>
+#10 0x560ac6c6b27b <unknown>
+#11 0x560ac6c6f327 <unknown>
+#12 0x560ac6c57dae <unknown>
+#13 0x560ac6c6fdf2 <unknown>
+#14 0x560ac6c3c74f <unknown>
+#15 0x560ac6c94128 <unknown>
+#16 0x560ac6c942fb <unknown>
+#17 0x560ac6ca3f6c <unknown>
+#18 0x7f69d408f272 start_thread
+
+2024-10-24 17:09:06,756 - WARNING - Failed with selector //button[contains(@class, 'clerk-button')]: Message: 
+Stacktrace:
+#0 0x5578a14d6e3a <unknown>
+#1 0x5578a11c045c <unknown>
+#2 0x5578a120c5b5 <unknown>
+#3 0x5578a120c671 <unknown>
+#4 0x5578a1250f14 <unknown>
+#5 0x5578a122f4dd <unknown>
+#6 0x5578a124e2cc <unknown>
+#7 0x5578a122f253 <unknown>
+#8 0x5578a11ff1c7 <unknown>
+#9 0x5578a11ffb3e <unknown>
+#10 0x5578a149d27b <unknown>
+#11 0x5578a14a1327 <unknown>
+#12 0x5578a1489dae <unknown>
+#13 0x5578a14a1df2 <unknown>
+#14 0x5578a146e74f <unknown>
+#15 0x5578a14c6128 <unknown>
+#16 0x5578a14c62fb <unknown>
+#17 0x5578a14d5f6c <unknown>
+#18 0x7f903e54c272 start_thread
+
+2024-10-24 17:09:39,139 - ERROR - Failed to initialize Cloud Storage client: Expecting value: line 1 column 1 (char 0)
+2024-10-24 17:10:01,683 - INFO - Chrome WebDriver initialized successfully
+2024-10-24 17:10:01,685 - INFO - Starting login attempt 1/3
+2024-10-24 17:10:01,737 - INFO - Chrome WebDriver initialized successfully
+2024-10-24 17:10:01,738 - INFO - Starting login attempt 1/3
+2024-10-24 17:10:01,740 - INFO - Chrome WebDriver initialized successfully
+2024-10-24 17:10:01,743 - INFO - Starting login attempt 1/3
+2024-10-24 17:10:01,745 - INFO - Chrome WebDriver initialized successfully
+2024-10-24 17:10:01,746 - INFO - Starting login attempt 1/3
+2024-10-24 17:10:56,935 - WARNING - Failed with selector //button[contains(@class, 'cl-userButtonTrigger')]: Message: 
+Stacktrace:
+#0 0x55731c217e3a <unknown>
+#1 0x55731bf0145c <unknown>
+#2 0x55731bf4d5b5 <unknown>
+#3 0x55731bf4d671 <unknown>
+#4 0x55731bf91f14 <unknown>
+#5 0x55731bf704dd <unknown>
+#6 0x55731bf8f2cc <unknown>
+#7 0x55731bf70253 <unknown>
+#8 0x55731bf401c7 <unknown>
+#9 0x55731bf40b3e <unknown>
+#10 0x55731c1de27b <unknown>
+#11 0x55731c1e2327 <unknown>
+#12 0x55731c1cadae <unknown>
+#13 0x55731c1e2df2 <unknown>
+#14 0x55731c1af74f <unknown>
+#15 0x55731c207128 <unknown>
+#16 0x55731c2072fb <unknown>
+#17 0x55731c216f6c <unknown>
+#18 0x7f3ad68e3272 start_thread
+
+2024-10-24 17:10:57,808 - WARNING - Failed with selector //button[contains(@class, 'cl-userButtonTrigger')]: Message: 
+Stacktrace:
+#0 0x55739290ee3a <unknown>
+#1 0x5573925f845c <unknown>
+#2 0x5573926445b5 <unknown>
+#3 0x557392644671 <unknown>
+#4 0x557392688f14 <unknown>
+#5 0x5573926674dd <unknown>
+#6 0x5573926862cc <unknown>
+#7 0x557392667253 <unknown>
+#8 0x5573926371c7 <unknown>
+#9 0x557392637b3e <unknown>
+#10 0x5573928d527b <unknown>
+#11 0x5573928d9327 <unknown>
+#12 0x5573928c1dae <unknown>
+#13 0x5573928d9df2 <unknown>
+#14 0x5573928a674f <unknown>
+#15 0x5573928fe128 <unknown>
+#16 0x5573928fe2fb <unknown>
+#17 0x55739290df6c <unknown>
+#18 0x7f39db617272 start_thread
+
+2024-10-24 17:11:02,516 - WARNING - Failed with selector //button[contains(@class, 'cl-userButtonTrigger')]: Message: 
+Stacktrace:
+#0 0x561fc594fe3a <unknown>
+#1 0x561fc563945c <unknown>
+#2 0x561fc56855b5 <unknown>
+#3 0x561fc5685671 <unknown>
+#4 0x561fc56c9f14 <unknown>
+#5 0x561fc56a84dd <unknown>
+#6 0x561fc56c72cc <unknown>
+#7 0x561fc56a8253 <unknown>
+#8 0x561fc56781c7 <unknown>
+#9 0x561fc5678b3e <unknown>
+#10 0x561fc591627b <unknown>
+#11 0x561fc591a327 <unknown>
+#12 0x561fc5902dae <unknown>
+#13 0x561fc591adf2 <unknown>
+#14 0x561fc58e774f <unknown>
+#15 0x561fc593f128 <unknown>
+#16 0x561fc593f2fb <unknown>
+#17 0x561fc594ef6c <unknown>
+#18 0x7f1138e1e272 start_thread
+
+2024-10-24 17:11:03,242 - WARNING - Failed with selector //button[contains(@class, 'cl-userButtonTrigger')]: Message: 
+Stacktrace:
+#0 0x55899e5d5e3a <unknown>
+#1 0x55899e2bf45c <unknown>
+#2 0x55899e30b5b5 <unknown>
+#3 0x55899e30b671 <unknown>
+#4 0x55899e34ff14 <unknown>
+#5 0x55899e32e4dd <unknown>
+#6 0x55899e34d2cc <unknown>
+#7 0x55899e32e253 <unknown>
+#8 0x55899e2fe1c7 <unknown>
+#9 0x55899e2feb3e <unknown>
+#10 0x55899e59c27b <unknown>
+#11 0x55899e5a0327 <unknown>
+#12 0x55899e588dae <unknown>
+#13 0x55899e5a0df2 <unknown>
+#14 0x55899e56d74f <unknown>
+#15 0x55899e5c5128 <unknown>
+#16 0x55899e5c52fb <unknown>
+#17 0x55899e5d4f6c <unknown>
+#18 0x7efe9e32f272 start_thread
+
+2024-10-24 17:11:42,028 - WARNING - Failed with selector //button[contains(@class, 'clerk-button')]: Message: 
+Stacktrace:
+#0 0x55731c217e3a <unknown>
+#1 0x55731bf0145c <unknown>
+#2 0x55731bf4d5b5 <unknown>
+#3 0x55731bf4d671 <unknown>
+#4 0x55731bf91f14 <unknown>
+#5 0x55731bf704dd <unknown>
+#6 0x55731bf8f2cc <unknown>
+#7 0x55731bf70253 <unknown>
+#8 0x55731bf401c7 <unknown>
+#9 0x55731bf40b3e <unknown>
+#10 0x55731c1de27b <unknown>
+#11 0x55731c1e2327 <unknown>
+#12 0x55731c1cadae <unknown>
+#13 0x55731c1e2df2 <unknown>
+#14 0x55731c1af74f <unknown>
+#15 0x55731c207128 <unknown>
+#16 0x55731c2072fb <unknown>
+#17 0x55731c216f6c <unknown>
+#18 0x7f3ad68e3272 start_thread
+
+2024-10-24 17:11:42,907 - WARNING - Failed with selector //button[contains(@class, 'clerk-button')]: Message: 
+Stacktrace:
+#0 0x55739290ee3a <unknown>
+#1 0x5573925f845c <unknown>
+#2 0x5573926445b5 <unknown>
+#3 0x557392644671 <unknown>
+#4 0x557392688f14 <unknown>
+#5 0x5573926674dd <unknown>
+#6 0x5573926862cc <unknown>
+#7 0x557392667253 <unknown>
+#8 0x5573926371c7 <unknown>
+#9 0x557392637b3e <unknown>
+#10 0x5573928d527b <unknown>
+#11 0x5573928d9327 <unknown>
+#12 0x5573928c1dae <unknown>
+#13 0x5573928d9df2 <unknown>
+#14 0x5573928a674f <unknown>
+#15 0x5573928fe128 <unknown>
+#16 0x5573928fe2fb <unknown>
+#17 0x55739290df6c <unknown>
+#18 0x7f39db617272 start_thread
+
+2024-10-24 17:11:47,620 - WARNING - Failed with selector //button[contains(@class, 'clerk-button')]: Message: 
+Stacktrace:
+#0 0x561fc594fe3a <unknown>
+#1 0x561fc563945c <unknown>
+#2 0x561fc56855b5 <unknown>
+#3 0x561fc5685671 <unknown>
+#4 0x561fc56c9f14 <unknown>
+#5 0x561fc56a84dd <unknown>
+#6 0x561fc56c72cc <unknown>
+#7 0x561fc56a8253 <unknown>
+#8 0x561fc56781c7 <unknown>
+#9 0x561fc5678b3e <unknown>
+#10 0x561fc591627b <unknown>
+#11 0x561fc591a327 <unknown>
+#12 0x561fc5902dae <unknown>
+#13 0x561fc591adf2 <unknown>
+#14 0x561fc58e774f <unknown>
+#15 0x561fc593f128 <unknown>
+#16 0x561fc593f2fb <unknown>
+#17 0x561fc594ef6c <unknown>
+#18 0x7f1138e1e272 start_thread
+
+2024-10-24 17:11:48,312 - WARNING - Failed with selector //button[contains(@class, 'clerk-button')]: Message: 
+Stacktrace:
+#0 0x55899e5d5e3a <unknown>
+#1 0x55899e2bf45c <unknown>
+#2 0x55899e30b5b5 <unknown>
+#3 0x55899e30b671 <unknown>
+#4 0x55899e34ff14 <unknown>
+#5 0x55899e32e4dd <unknown>
+#6 0x55899e34d2cc <unknown>
+#7 0x55899e32e253 <unknown>
+#8 0x55899e2fe1c7 <unknown>
+#9 0x55899e2feb3e <unknown>
+#10 0x55899e59c27b <unknown>
+#11 0x55899e5a0327 <unknown>
+#12 0x55899e588dae <unknown>
+#13 0x55899e5a0df2 <unknown>
+#14 0x55899e56d74f <unknown>
+#15 0x55899e5c5128 <unknown>
+#16 0x55899e5c52fb <unknown>
+#17 0x55899e5d4f6c <unknown>
+#18 0x7efe9e32f272 start_thread
+
+2024-10-24 17:12:27,114 - WARNING - Failed with selector //button[contains(@class, 'sign-in')]: Message: 
+Stacktrace:
+#0 0x55731c217e3a <unknown>
+#1 0x55731bf0145c <unknown>
+#2 0x55731bf4d5b5 <unknown>
+#3 0x55731bf4d671 <unknown>
+#4 0x55731bf91f14 <unknown>
+#5 0x55731bf704dd <unknown>
+#6 0x55731bf8f2cc <unknown>
+#7 0x55731bf70253 <unknown>
+#8 0x55731bf401c7 <unknown>
+#9 0x55731bf40b3e <unknown>
+#10 0x55731c1de27b <unknown>
+#11 0x55731c1e2327 <unknown>
+#12 0x55731c1cadae <unknown>
+#13 0x55731c1e2df2 <unknown>
+#14 0x55731c1af74f <unknown>
+#15 0x55731c207128 <unknown>
+#16 0x55731c2072fb <unknown>
+#17 0x55731c216f6c <unknown>
+#18 0x7f3ad68e3272 start_thread
+
+2024-10-24 17:12:28,014 - WARNING - Failed with selector //button[contains(@class, 'sign-in')]: Message: 
+Stacktrace:
+#0 0x55739290ee3a <unknown>
+#1 0x5573925f845c <unknown>
+#2 0x5573926445b5 <unknown>
+#3 0x557392644671 <unknown>
+#4 0x557392688f14 <unknown>
+#5 0x5573926674dd <unknown>
+#6 0x5573926862cc <unknown>
+#7 0x557392667253 <unknown>
+#8 0x5573926371c7 <unknown>
+#9 0x557392637b3e <unknown>
+#10 0x5573928d527b <unknown>
+#11 0x5573928d9327 <unknown>
+#12 0x5573928c1dae <unknown>
+#13 0x5573928d9df2 <unknown>
+#14 0x5573928a674f <unknown>
+#15 0x5573928fe128 <unknown>
+#16 0x5573928fe2fb <unknown>
+#17 0x55739290df6c <unknown>
+#18 0x7f39db617272 start_thread
+
+2024-10-24 17:12:32,705 - WARNING - Failed with selector //button[contains(@class, 'sign-in')]: Message: 
+Stacktrace:
+#0 0x561fc594fe3a <unknown>
+#1 0x561fc563945c <unknown>
+#2 0x561fc56855b5 <unknown>
+#3 0x561fc5685671 <unknown>
+#4 0x561fc56c9f14 <unknown>
+#5 0x561fc56a84dd <unknown>
+#6 0x561fc56c72cc <unknown>
+#7 0x561fc56a8253 <unknown>
+#8 0x561fc56781c7 <unknown>
+#9 0x561fc5678b3e <unknown>
+#10 0x561fc591627b <unknown>
+#11 0x561fc591a327 <unknown>
+#12 0x561fc5902dae <unknown>
+#13 0x561fc591adf2 <unknown>
+#14 0x561fc58e774f <unknown>
+#15 0x561fc593f128 <unknown>
+#16 0x561fc593f2fb <unknown>
+#17 0x561fc594ef6c <unknown>
+#18 0x7f1138e1e272 start_thread
+
+2024-10-24 17:12:33,407 - WARNING - Failed with selector //button[contains(@class, 'sign-in')]: Message: 
+Stacktrace:
+#0 0x55899e5d5e3a <unknown>
+#1 0x55899e2bf45c <unknown>
+#2 0x55899e30b5b5 <unknown>
+#3 0x55899e30b671 <unknown>
+#4 0x55899e34ff14 <unknown>
+#5 0x55899e32e4dd <unknown>
+#6 0x55899e34d2cc <unknown>
+#7 0x55899e32e253 <unknown>
+#8 0x55899e2fe1c7 <unknown>
+#9 0x55899e2feb3e <unknown>
+#10 0x55899e59c27b <unknown>
+#11 0x55899e5a0327 <unknown>
+#12 0x55899e588dae <unknown>
+#13 0x55899e5a0df2 <unknown>
+#14 0x55899e56d74f <unknown>
+#15 0x55899e5c5128 <unknown>
+#16 0x55899e5c52fb <unknown>
+#17 0x55899e5d4f6c <unknown>
+#18 0x7efe9e32f272 start_thread
+
+2024-10-24 17:13:12,231 - WARNING - Failed with selector //button[contains(@class, 'login')]: Message: 
+Stacktrace:
+#0 0x55731c217e3a <unknown>
+#1 0x55731bf0145c <unknown>
+#2 0x55731bf4d5b5 <unknown>
+#3 0x55731bf4d671 <unknown>
+#4 0x55731bf91f14 <unknown>
+#5 0x55731bf704dd <unknown>
+#6 0x55731bf8f2cc <unknown>
+#7 0x55731bf70253 <unknown>
+#8 0x55731bf401c7 <unknown>
+#9 0x55731bf40b3e <unknown>
+#10 0x55731c1de27b <unknown>
+#11 0x55731c1e2327 <unknown>
+#12 0x55731c1cadae <unknown>
+#13 0x55731c1e2df2 <unknown>
+#14 0x55731c1af74f <unknown>
+#15 0x55731c207128 <unknown>
+#16 0x55731c2072fb <unknown>
+#17 0x55731c216f6c <unknown>
+#18 0x7f3ad68e3272 start_thread
+
+2024-10-24 17:13:13,118 - WARNING - Failed with selector //button[contains(@class, 'login')]: Message: 
+Stacktrace:
+#0 0x55739290ee3a <unknown>
+#1 0x5573925f845c <unknown>
+#2 0x5573926445b5 <unknown>
+#3 0x557392644671 <unknown>
+#4 0x557392688f14 <unknown>
+#5 0x5573926674dd <unknown>
+#6 0x5573926862cc <unknown>
+#7 0x557392667253 <unknown>
+#8 0x5573926371c7 <unknown>
+#9 0x557392637b3e <unknown>
+#10 0x5573928d527b <unknown>
+#11 0x5573928d9327 <unknown>
+#12 0x5573928c1dae <unknown>
+#13 0x5573928d9df2 <unknown>
+#14 0x5573928a674f <unknown>
+#15 0x5573928fe128 <unknown>
+#16 0x5573928fe2fb <unknown>
+#17 0x55739290df6c <unknown>
+#18 0x7f39db617272 start_thread
+
+2024-10-24 17:13:17,819 - WARNING - Failed with selector //button[contains(@class, 'login')]: Message: 
+Stacktrace:
+#0 0x561fc594fe3a <unknown>
+#1 0x561fc563945c <unknown>
+#2 0x561fc56855b5 <unknown>
+#3 0x561fc5685671 <unknown>
+#4 0x561fc56c9f14 <unknown>
+#5 0x561fc56a84dd <unknown>
+#6 0x561fc56c72cc <unknown>
+#7 0x561fc56a8253 <unknown>
+#8 0x561fc56781c7 <unknown>
+#9 0x561fc5678b3e <unknown>
+#10 0x561fc591627b <unknown>
+#11 0x561fc591a327 <unknown>
+#12 0x561fc5902dae <unknown>
+#13 0x561fc591adf2 <unknown>
+#14 0x561fc58e774f <unknown>
+#15 0x561fc593f128 <unknown>
+#16 0x561fc593f2fb <unknown>
+#17 0x561fc594ef6c <unknown>
+#18 0x7f1138e1e272 start_thread
+
+2024-10-24 17:13:18,471 - WARNING - Failed with selector //button[contains(@class, 'login')]: Message: 
+Stacktrace:
+#0 0x55899e5d5e3a <unknown>
+#1 0x55899e2bf45c <unknown>
+#2 0x55899e30b5b5 <unknown>
+#3 0x55899e30b671 <unknown>
+#4 0x55899e34ff14 <unknown>
+#5 0x55899e32e4dd <unknown>
+#6 0x55899e34d2cc <unknown>
+#7 0x55899e32e253 <unknown>
+#8 0x55899e2fe1c7 <unknown>
+#9 0x55899e2feb3e <unknown>
+#10 0x55899e59c27b <unknown>
+#11 0x55899e5a0327 <unknown>
+#12 0x55899e588dae <unknown>
+#13 0x55899e5a0df2 <unknown>
+#14 0x55899e56d74f <unknown>
+#15 0x55899e5c5128 <unknown>
+#16 0x55899e5c52fb <unknown>
+#17 0x55899e5d4f6c <unknown>
+#18 0x7efe9e32f272 start_thread
+
+2024-10-24 17:13:57,509 - WARNING - Failed with selector //div[contains(@class, 'cl-userButtonTrigger')]: Message: 
+Stacktrace:
+#0 0x55731c217e3a <unknown>
+#1 0x55731bf0145c <unknown>
+#2 0x55731bf4d5b5 <unknown>
+#3 0x55731bf4d671 <unknown>
+#4 0x55731bf91f14 <unknown>
+#5 0x55731bf704dd <unknown>
+#6 0x55731bf8f2cc <unknown>
+#7 0x55731bf70253 <unknown>
+#8 0x55731bf401c7 <unknown>
+#9 0x55731bf40b3e <unknown>
+#10 0x55731c1de27b <unknown>
+#11 0x55731c1e2327 <unknown>
+#12 0x55731c1cadae <unknown>
+#13 0x55731c1e2df2 <unknown>
+#14 0x55731c1af74f <unknown>
+#15 0x55731c207128 <unknown>
+#16 0x55731c2072fb <unknown>
+#17 0x55731c216f6c <unknown>
+#18 0x7f3ad68e3272 start_thread
+
+2024-10-24 17:13:58,411 - WARNING - Failed with selector //div[contains(@class, 'cl-userButtonTrigger')]: Message: 
+Stacktrace:
+#0 0x55739290ee3a <unknown>
+#1 0x5573925f845c <unknown>
+#2 0x5573926445b5 <unknown>
+#3 0x557392644671 <unknown>
+#4 0x557392688f14 <unknown>
+#5 0x5573926674dd <unknown>
+#6 0x5573926862cc <unknown>
+#7 0x557392667253 <unknown>
+#8 0x5573926371c7 <unknown>
+#9 0x557392637b3e <unknown>
+#10 0x5573928d527b <unknown>
+#11 0x5573928d9327 <unknown>
+#12 0x5573928c1dae <unknown>
+#13 0x5573928d9df2 <unknown>
+#14 0x5573928a674f <unknown>
+#15 0x5573928fe128 <unknown>
+#16 0x5573928fe2fb <unknown>
+#17 0x55739290df6c <unknown>
+#18 0x7f39db617272 start_thread
+
+2024-10-24 17:14:03,099 - WARNING - Failed with selector //div[contains(@class, 'cl-userButtonTrigger')]: Message: 
+Stacktrace:
+#0 0x561fc594fe3a <unknown>
+#1 0x561fc563945c <unknown>
+#2 0x561fc56855b5 <unknown>
+#3 0x561fc5685671 <unknown>
+#4 0x561fc56c9f14 <unknown>
+#5 0x561fc56a84dd <unknown>
+#6 0x561fc56c72cc <unknown>
+#7 0x561fc56a8253 <unknown>
+#8 0x561fc56781c7 <unknown>
+#9 0x561fc5678b3e <unknown>
+#10 0x561fc591627b <unknown>
+#11 0x561fc591a327 <unknown>
+#12 0x561fc5902dae <unknown>
+#13 0x561fc591adf2 <unknown>
+#14 0x561fc58e774f <unknown>
+#15 0x561fc593f128 <unknown>
+#16 0x561fc593f2fb <unknown>
+#17 0x561fc594ef6c <unknown>
+#18 0x7f1138e1e272 start_thread
+
+2024-10-24 17:14:03,712 - WARNING - Failed with selector //div[contains(@class, 'cl-userButtonTrigger')]: Message: 
+Stacktrace:
+#0 0x55899e5d5e3a <unknown>
+#1 0x55899e2bf45c <unknown>
+#2 0x55899e30b5b5 <unknown>
+#3 0x55899e30b671 <unknown>
+#4 0x55899e34ff14 <unknown>
+#5 0x55899e32e4dd <unknown>
+#6 0x55899e34d2cc <unknown>
+#7 0x55899e32e253 <unknown>
+#8 0x55899e2fe1c7 <unknown>
+#9 0x55899e2feb3e <unknown>
+#10 0x55899e59c27b <unknown>
+#11 0x55899e5a0327 <unknown>
+#12 0x55899e588dae <unknown>
+#13 0x55899e5a0df2 <unknown>
+#14 0x55899e56d74f <unknown>
+#15 0x55899e5c5128 <unknown>
+#16 0x55899e5c52fb <unknown>
+#17 0x55899e5d4f6c <unknown>
+#18 0x7efe9e32f272 start_thread
+
+2024-10-24 17:14:42,784 - WARNING - Failed with selector //div[contains(@class, 'sign-in')][@role='button']: Message: 
+Stacktrace:
+#0 0x55731c217e3a <unknown>
+#1 0x55731bf0145c <unknown>
+#2 0x55731bf4d5b5 <unknown>
+#3 0x55731bf4d671 <unknown>
+#4 0x55731bf91f14 <unknown>
+#5 0x55731bf704dd <unknown>
+#6 0x55731bf8f2cc <unknown>
+#7 0x55731bf70253 <unknown>
+#8 0x55731bf401c7 <unknown>
+#9 0x55731bf40b3e <unknown>
+#10 0x55731c1de27b <unknown>
+#11 0x55731c1e2327 <unknown>
+#12 0x55731c1cadae <unknown>
+#13 0x55731c1e2df2 <unknown>
+#14 0x55731c1af74f <unknown>
+#15 0x55731c207128 <unknown>
+#16 0x55731c2072fb <unknown>
+#17 0x55731c216f6c <unknown>
+#18 0x7f3ad68e3272 start_thread
+
+2024-10-24 17:14:43,665 - WARNING - Failed with selector //div[contains(@class, 'sign-in')][@role='button']: Message: 
+Stacktrace:
+#0 0x55739290ee3a <unknown>
+#1 0x5573925f845c <unknown>
+#2 0x5573926445b5 <unknown>
+#3 0x557392644671 <unknown>
+#4 0x557392688f14 <unknown>
+#5 0x5573926674dd <unknown>
+#6 0x5573926862cc <unknown>
+#7 0x557392667253 <unknown>
+#8 0x5573926371c7 <unknown>
+#9 0x557392637b3e <unknown>
+#10 0x5573928d527b <unknown>
+#11 0x5573928d9327 <unknown>
+#12 0x5573928c1dae <unknown>
+#13 0x5573928d9df2 <unknown>
+#14 0x5573928a674f <unknown>
+#15 0x5573928fe128 <unknown>
+#16 0x5573928fe2fb <unknown>
+#17 0x55739290df6c <unknown>
+#18 0x7f39db617272 start_thread
+
+2024-10-24 17:14:48,345 - WARNING - Failed with selector //div[contains(@class, 'sign-in')][@role='button']: Message: 
+Stacktrace:
+#0 0x561fc594fe3a <unknown>
+#1 0x561fc563945c <unknown>
+#2 0x561fc56855b5 <unknown>
+#3 0x561fc5685671 <unknown>
+#4 0x561fc56c9f14 <unknown>
+#5 0x561fc56a84dd <unknown>
+#6 0x561fc56c72cc <unknown>
+#7 0x561fc56a8253 <unknown>
+#8 0x561fc56781c7 <unknown>
+#9 0x561fc5678b3e <unknown>
+#10 0x561fc591627b <unknown>
+#11 0x561fc591a327 <unknown>
+#12 0x561fc5902dae <unknown>
+#13 0x561fc591adf2 <unknown>
+#14 0x561fc58e774f <unknown>
+#15 0x561fc593f128 <unknown>
+#16 0x561fc593f2fb <unknown>
+#17 0x561fc594ef6c <unknown>
+#18 0x7f1138e1e272 start_thread
+
+2024-10-24 17:14:48,923 - WARNING - Failed with selector //div[contains(@class, 'sign-in')][@role='button']: Message: 
+Stacktrace:
+#0 0x55899e5d5e3a <unknown>
+#1 0x55899e2bf45c <unknown>
+#2 0x55899e30b5b5 <unknown>
+#3 0x55899e30b671 <unknown>
+#4 0x55899e34ff14 <unknown>
+#5 0x55899e32e4dd <unknown>
+#6 0x55899e34d2cc <unknown>
+#7 0x55899e32e253 <unknown>
+#8 0x55899e2fe1c7 <unknown>
+#9 0x55899e2feb3e <unknown>
+#10 0x55899e59c27b <unknown>
+#11 0x55899e5a0327 <unknown>
+#12 0x55899e588dae <unknown>
+#13 0x55899e5a0df2 <unknown>
+#14 0x55899e56d74f <unknown>
+#15 0x55899e5c5128 <unknown>
+#16 0x55899e5c52fb <unknown>
+#17 0x55899e5d4f6c <unknown>
+#18 0x7efe9e32f272 start_thread
+
+2024-10-24 17:15:27,893 - WARNING - Failed with selector //button[contains(@class, 'auth-button')]: Message: 
+Stacktrace:
+#0 0x55731c217e3a <unknown>
+#1 0x55731bf0145c <unknown>
+#2 0x55731bf4d5b5 <unknown>
+#3 0x55731bf4d671 <unknown>
+#4 0x55731bf91f14 <unknown>
+#5 0x55731bf704dd <unknown>
+#6 0x55731bf8f2cc <unknown>
+#7 0x55731bf70253 <unknown>
+#8 0x55731bf401c7 <unknown>
+#9 0x55731bf40b3e <unknown>
+#10 0x55731c1de27b <unknown>
+#11 0x55731c1e2327 <unknown>
+#12 0x55731c1cadae <unknown>
+#13 0x55731c1e2df2 <unknown>
+#14 0x55731c1af74f <unknown>
+#15 0x55731c207128 <unknown>
+#16 0x55731c2072fb <unknown>
+#17 0x55731c216f6c <unknown>
+#18 0x7f3ad68e3272 start_thread
+
+2024-10-24 17:15:28,825 - WARNING - Failed with selector //button[contains(@class, 'auth-button')]: Message: 
+Stacktrace:
+#0 0x55739290ee3a <unknown>
+#1 0x5573925f845c <unknown>
+#2 0x5573926445b5 <unknown>
+#3 0x557392644671 <unknown>
+#4 0x557392688f14 <unknown>
+#5 0x5573926674dd <unknown>
+#6 0x5573926862cc <unknown>
+#7 0x557392667253 <unknown>
+#8 0x5573926371c7 <unknown>
+#9 0x557392637b3e <unknown>
+#10 0x5573928d527b <unknown>
+#11 0x5573928d9327 <unknown>
+#12 0x5573928c1dae <unknown>
+#13 0x5573928d9df2 <unknown>
+#14 0x5573928a674f <unknown>
+#15 0x5573928fe128 <unknown>
+#16 0x5573928fe2fb <unknown>
+#17 0x55739290df6c <unknown>
+#18 0x7f39db617272 start_thread
+
+2024-10-24 17:15:33,448 - WARNING - Failed with selector //button[contains(@class, 'auth-button')]: Message: 
+Stacktrace:
+#0 0x561fc594fe3a <unknown>
+#1 0x561fc563945c <unknown>
+#2 0x561fc56855b5 <unknown>
+#3 0x561fc5685671 <unknown>
+#4 0x561fc56c9f14 <unknown>
+#5 0x561fc56a84dd <unknown>
+#6 0x561fc56c72cc <unknown>
+#7 0x561fc56a8253 <unknown>
+#8 0x561fc56781c7 <unknown>
+#9 0x561fc5678b3e <unknown>
+#10 0x561fc591627b <unknown>
+#11 0x561fc591a327 <unknown>
+#12 0x561fc5902dae <unknown>
+#13 0x561fc591adf2 <unknown>
+#14 0x561fc58e774f <unknown>
+#15 0x561fc593f128 <unknown>
+#16 0x561fc593f2fb <unknown>
+#17 0x561fc594ef6c <unknown>
+#18 0x7f1138e1e272 start_thread
+
+2024-10-24 17:15:34,014 - WARNING - Failed with selector //button[contains(@class, 'auth-button')]: Message: 
+Stacktrace:
+#0 0x55899e5d5e3a <unknown>
+#1 0x55899e2bf45c <unknown>
+#2 0x55899e30b5b5 <unknown>
+#3 0x55899e30b671 <unknown>
+#4 0x55899e34ff14 <unknown>
+#5 0x55899e32e4dd <unknown>
+#6 0x55899e34d2cc <unknown>
+#7 0x55899e32e253 <unknown>
+#8 0x55899e2fe1c7 <unknown>
+#9 0x55899e2feb3e <unknown>
+#10 0x55899e59c27b <unknown>
+#11 0x55899e5a0327 <unknown>
+#12 0x55899e588dae <unknown>
+#13 0x55899e5a0df2 <unknown>
+#14 0x55899e56d74f <unknown>
+#15 0x55899e5c5128 <unknown>
+#16 0x55899e5c52fb <unknown>
+#17 0x55899e5d4f6c <unknown>
+#18 0x7efe9e32f272 start_thread
+
+2024-10-24 17:16:13,041 - WARNING - Failed with selector //button[contains(@class, 'cl-auth')]: Message: 
+Stacktrace:
+#0 0x55731c217e3a <unknown>
+#1 0x55731bf0145c <unknown>
+#2 0x55731bf4d5b5 <unknown>
+#3 0x55731bf4d671 <unknown>
+#4 0x55731bf91f14 <unknown>
+#5 0x55731bf704dd <unknown>
+#6 0x55731bf8f2cc <unknown>
+#7 0x55731bf70253 <unknown>
+#8 0x55731bf401c7 <unknown>
+#9 0x55731bf40b3e <unknown>
+#10 0x55731c1de27b <unknown>
+#11 0x55731c1e2327 <unknown>
+#12 0x55731c1cadae <unknown>
+#13 0x55731c1e2df2 <unknown>
+#14 0x55731c1af74f <unknown>
+#15 0x55731c207128 <unknown>
+#16 0x55731c2072fb <unknown>
+#17 0x55731c216f6c <unknown>
+#18 0x7f3ad68e3272 start_thread
+
+2024-10-24 17:16:13,932 - WARNING - Failed with selector //button[contains(@class, 'cl-auth')]: Message: 
+Stacktrace:
+#0 0x55739290ee3a <unknown>
+#1 0x5573925f845c <unknown>
+#2 0x5573926445b5 <unknown>
+#3 0x557392644671 <unknown>
+#4 0x557392688f14 <unknown>
+#5 0x5573926674dd <unknown>
+#6 0x5573926862cc <unknown>
+#7 0x557392667253 <unknown>
+#8 0x5573926371c7 <unknown>
+#9 0x557392637b3e <unknown>
+#10 0x5573928d527b <unknown>
+#11 0x5573928d9327 <unknown>
+#12 0x5573928c1dae <unknown>
+#13 0x5573928d9df2 <unknown>
+#14 0x5573928a674f <unknown>
+#15 0x5573928fe128 <unknown>
+#16 0x5573928fe2fb <unknown>
+#17 0x55739290df6c <unknown>
+#18 0x7f39db617272 start_thread
+
+2024-10-24 17:16:15,411 - INFO - Successfully clicked Sign in button
+2024-10-24 17:16:16,307 - INFO - Successfully clicked Sign in button
+2024-10-24 17:16:18,591 - WARNING - Failed with selector //button[contains(@class, 'cl-auth')]: Message: 
+Stacktrace:
+#0 0x561fc594fe3a <unknown>
+#1 0x561fc563945c <unknown>
+#2 0x561fc56855b5 <unknown>
+#3 0x561fc5685671 <unknown>
+#4 0x561fc56c9f14 <unknown>
+#5 0x561fc56a84dd <unknown>
+#6 0x561fc56c72cc <unknown>
+#7 0x561fc56a8253 <unknown>
+#8 0x561fc56781c7 <unknown>
+#9 0x561fc5678b3e <unknown>
+#10 0x561fc591627b <unknown>
+#11 0x561fc591a327 <unknown>
+#12 0x561fc5902dae <unknown>
+#13 0x561fc591adf2 <unknown>
+#14 0x561fc58e774f <unknown>
+#15 0x561fc593f128 <unknown>
+#16 0x561fc593f2fb <unknown>
+#17 0x561fc594ef6c <unknown>
+#18 0x7f1138e1e272 start_thread
+
+2024-10-24 17:16:19,153 - WARNING - Failed with selector //button[contains(@class, 'cl-auth')]: Message: 
+Stacktrace:
+#0 0x55899e5d5e3a <unknown>
+#1 0x55899e2bf45c <unknown>
+#2 0x55899e30b5b5 <unknown>
+#3 0x55899e30b671 <unknown>
+#4 0x55899e34ff14 <unknown>
+#5 0x55899e32e4dd <unknown>
+#6 0x55899e34d2cc <unknown>
+#7 0x55899e32e253 <unknown>
+#8 0x55899e2fe1c7 <unknown>
+#9 0x55899e2feb3e <unknown>
+#10 0x55899e59c27b <unknown>
+#11 0x55899e5a0327 <unknown>
+#12 0x55899e588dae <unknown>
+#13 0x55899e5a0df2 <unknown>
+#14 0x55899e56d74f <unknown>
+#15 0x55899e5c5128 <unknown>
+#16 0x55899e5c52fb <unknown>
+#17 0x55899e5d4f6c <unknown>
+#18 0x7efe9e32f272 start_thread
+
+2024-10-24 17:16:20,931 - INFO - Successfully clicked Sign in button
+2024-10-24 17:16:21,515 - INFO - Successfully clicked Sign in button
+2024-10-24 17:16:28,683 - INFO - Successfully clicked Google login button
+2024-10-24 17:17:01,729 - ERROR - Google OAuth failed: Google login window not found
+2024-10-24 17:17:02,067 - INFO - Screenshot saved: logs/google_oauth_failure.png
+2024-10-24 17:17:02,070 - ERROR - Login attempt 1 failed: Google OAuth process failed
+2024-10-24 17:17:02,418 - INFO - Screenshot saved: logs/login_failure_1.png
+2024-10-24 17:17:07,841 - INFO - WebDriver closed successfully
+2024-10-24 17:17:08,234 - INFO - Chrome WebDriver initialized successfully
+2024-10-24 17:17:08,236 - INFO - Starting login attempt 2/3
+2024-10-24 17:17:08,946 - INFO - Successfully clicked Google login button
+2024-10-24 17:17:41,991 - ERROR - Google OAuth failed: Google login window not found
+2024-10-24 17:17:42,520 - INFO - Screenshot saved: logs/google_oauth_failure.png
+2024-10-24 17:17:42,520 - ERROR - Login attempt 1 failed: Google OAuth process failed
+2024-10-24 17:17:42,830 - INFO - Screenshot saved: logs/login_failure_1.png
+2024-10-24 17:17:47,929 - INFO - WebDriver closed successfully
+2024-10-24 17:17:48,346 - INFO - Chrome WebDriver initialized successfully
+2024-10-24 17:17:48,346 - INFO - Starting login attempt 2/3
+2024-10-24 17:18:02,797 - WARNING - Failed with selector //button[contains(@class, 'cl-userButtonTrigger')]: Message: 
+Stacktrace:
+#0 0x5621abaf8e3a <unknown>
+#1 0x5621ab7e245c <unknown>
+#2 0x5621ab82e5b5 <unknown>
+#3 0x5621ab82e671 <unknown>
+#4 0x5621ab872f14 <unknown>
+#5 0x5621ab8514dd <unknown>
+#6 0x5621ab8702cc <unknown>
+#7 0x5621ab851253 <unknown>
+#8 0x5621ab8211c7 <unknown>
+#9 0x5621ab821b3e <unknown>
+#10 0x5621ababf27b <unknown>
+#11 0x5621abac3327 <unknown>
+#12 0x5621abaabdae <unknown>
+#13 0x5621abac3df2 <unknown>
+#14 0x5621aba9074f <unknown>
+#15 0x5621abae8128 <unknown>
+#16 0x5621abae82fb <unknown>
+#17 0x5621abaf7f6c <unknown>
+#18 0x7f5bc8fbe272 start_thread
+
+2024-10-24 17:18:41,915 - INFO - Successfully clicked Google login button
+2024-10-24 17:18:42,327 - WARNING - Failed with selector //button[contains(@class, 'cl-userButtonTrigger')]: Message: 
+Stacktrace:
+#0 0x5556db257e3a <unknown>
+#1 0x5556daf4145c <unknown>
+#2 0x5556daf8d5b5 <unknown>
+#3 0x5556daf8d671 <unknown>
+#4 0x5556dafd1f14 <unknown>
+#5 0x5556dafb04dd <unknown>
+#6 0x5556dafcf2cc <unknown>
+#7 0x5556dafb0253 <unknown>
+#8 0x5556daf801c7 <unknown>
+#9 0x5556daf80b3e <unknown>
+#10 0x5556db21e27b <unknown>
+#11 0x5556db222327 <unknown>
+#12 0x5556db20adae <unknown>
+#13 0x5556db222df2 <unknown>
+#14 0x5556db1ef74f <unknown>
+#15 0x5556db247128 <unknown>
+#16 0x5556db2472fb <unknown>
+#17 0x5556db256f6c <unknown>
+#18 0x7f50c2cd0272 start_thread
+
+2024-10-24 17:18:47,074 - INFO - Successfully clicked Google login button
+2024-10-24 17:18:48,091 - WARNING - Failed with selector //button[contains(@class, 'clerk-button')]: Message: 
+Stacktrace:
+#0 0x5621abaf8e3a <unknown>
+#1 0x5621ab7e245c <unknown>
+#2 0x5621ab82e5b5 <unknown>
+#3 0x5621ab82e671 <unknown>
+#4 0x5621ab872f14 <unknown>
+#5 0x5621ab8514dd <unknown>
+#6 0x5621ab8702cc <unknown>
+#7 0x5621ab851253 <unknown>
+#8 0x5621ab8211c7 <unknown>
+#9 0x5621ab821b3e <unknown>
+#10 0x5621ababf27b <unknown>
+#11 0x5621abac3327 <unknown>
+#12 0x5621abaabdae <unknown>
+#13 0x5621abac3df2 <unknown>
+#14 0x5621aba9074f <unknown>
+#15 0x5621abae8128 <unknown>
+#16 0x5621abae82fb <unknown>
+#17 0x5621abaf7f6c <unknown>
+#18 0x7f5bc8fbe272 start_thread
+
+2024-10-24 17:19:14,960 - ERROR - Google OAuth failed: Google login window not found
+2024-10-24 17:19:15,920 - INFO - Screenshot saved: logs/google_oauth_failure.png
+2024-10-24 17:19:15,920 - ERROR - Login attempt 1 failed: Google OAuth process failed
+2024-10-24 17:19:16,256 - INFO - Screenshot saved: logs/login_failure_1.png
+2024-10-24 17:19:20,120 - ERROR - Google OAuth failed: Google login window not found
+2024-10-24 17:19:21,130 - INFO - Screenshot saved: logs/google_oauth_failure.png
+2024-10-24 17:19:21,130 - ERROR - Login attempt 1 failed: Google OAuth process failed
+2024-10-24 17:19:21,373 - INFO - WebDriver closed successfully
+2024-10-24 17:19:21,479 - INFO - Screenshot saved: logs/login_failure_1.png
+2024-10-24 17:19:21,967 - INFO - Chrome WebDriver initialized successfully
+2024-10-24 17:19:21,967 - INFO - Starting login attempt 2/3
+2024-10-24 17:19:28,387 - WARNING - Failed with selector //button[contains(@class, 'clerk-button')]: Message: 
+Stacktrace:
+#0 0x5556db257e3a <unknown>
+#1 0x5556daf4145c <unknown>
+#2 0x5556daf8d5b5 <unknown>
+#3 0x5556daf8d671 <unknown>
+#4 0x5556dafd1f14 <unknown>
+#5 0x5556dafb04dd <unknown>
+#6 0x5556dafcf2cc <unknown>
+#7 0x5556dafb0253 <unknown>
+#8 0x5556daf801c7 <unknown>
+#9 0x5556daf80b3e <unknown>
+#10 0x5556db21e27b <unknown>
+#11 0x5556db222327 <unknown>
+#12 0x5556db20adae <unknown>
+#13 0x5556db222df2 <unknown>
+#14 0x5556db1ef74f <unknown>
+#15 0x5556db247128 <unknown>
+#16 0x5556db2472fb <unknown>
+#17 0x5556db256f6c <unknown>
+#18 0x7f50c2cd0272 start_thread
+
+2024-10-24 17:19:30,552 - INFO - WebDriver closed successfully
+2024-10-24 17:19:30,982 - INFO - Chrome WebDriver initialized successfully
+2024-10-24 17:19:30,984 - INFO - Starting login attempt 2/3
+2024-10-24 17:19:33,590 - WARNING - Failed with selector //button[contains(@class, 'sign-in')]: Message: 
+Stacktrace:
+#0 0x5621abaf8e3a <unknown>
+#1 0x5621ab7e245c <unknown>
+#2 0x5621ab82e5b5 <unknown>
+#3 0x5621ab82e671 <unknown>
+#4 0x5621ab872f14 <unknown>
+#5 0x5621ab8514dd <unknown>
+#6 0x5621ab8702cc <unknown>
+#7 0x5621ab851253 <unknown>
+#8 0x5621ab8211c7 <unknown>
+#9 0x5621ab821b3e <unknown>
+#10 0x5621ababf27b <unknown>
+#11 0x5621abac3327 <unknown>
+#12 0x5621abaabdae <unknown>
+#13 0x5621abac3df2 <unknown>
+#14 0x5621aba9074f <unknown>
+#15 0x5621abae8128 <unknown>
+#16 0x5621abae82fb <unknown>
+#17 0x5621abaf7f6c <unknown>
+#18 0x7f5bc8fbe272 start_thread
+
+2024-10-24 17:20:13,589 - WARNING - Failed with selector //button[contains(@class, 'sign-in')]: Message: 
+Stacktrace:
+#0 0x5556db257e3a <unknown>
+#1 0x5556daf4145c <unknown>
+#2 0x5556daf8d5b5 <unknown>
+#3 0x5556daf8d671 <unknown>
+#4 0x5556dafd1f14 <unknown>
+#5 0x5556dafb04dd <unknown>
+#6 0x5556dafcf2cc <unknown>
+#7 0x5556dafb0253 <unknown>
+#8 0x5556daf801c7 <unknown>
+#9 0x5556daf80b3e <unknown>
+#10 0x5556db21e27b <unknown>
+#11 0x5556db222327 <unknown>
+#12 0x5556db20adae <unknown>
+#13 0x5556db222df2 <unknown>
+#14 0x5556db1ef74f <unknown>
+#15 0x5556db247128 <unknown>
+#16 0x5556db2472fb <unknown>
+#17 0x5556db256f6c <unknown>
+#18 0x7f50c2cd0272 start_thread
+
+2024-10-24 17:20:16,122 - WARNING - Failed with selector //button[contains(@class, 'cl-userButtonTrigger')]: Message: 
+Stacktrace:
+#0 0x5601946e3e3a <unknown>
+#1 0x5601943cd45c <unknown>
+#2 0x5601944195b5 <unknown>
+#3 0x560194419671 <unknown>
+#4 0x56019445df14 <unknown>
+#5 0x56019443c4dd <unknown>
+#6 0x56019445b2cc <unknown>
+#7 0x56019443c253 <unknown>
+#8 0x56019440c1c7 <unknown>
+#9 0x56019440cb3e <unknown>
+#10 0x5601946aa27b <unknown>
+#11 0x5601946ae327 <unknown>
+#12 0x560194696dae <unknown>
+#13 0x5601946aedf2 <unknown>
+#14 0x56019467b74f <unknown>
+#15 0x5601946d3128 <unknown>
+#16 0x5601946d32fb <unknown>
+#17 0x5601946e2f6c <unknown>
+#18 0x7f94af038272 start_thread
+
+2024-10-24 17:20:18,743 - WARNING - Failed with selector //button[contains(@class, 'login')]: Message: 
+Stacktrace:
+#0 0x5621abaf8e3a <unknown>
+#1 0x5621ab7e245c <unknown>
+#2 0x5621ab82e5b5 <unknown>
+#3 0x5621ab82e671 <unknown>
+#4 0x5621ab872f14 <unknown>
+#5 0x5621ab8514dd <unknown>
+#6 0x5621ab8702cc <unknown>
+#7 0x5621ab851253 <unknown>
+#8 0x5621ab8211c7 <unknown>
+#9 0x5621ab821b3e <unknown>
+#10 0x5621ababf27b <unknown>
+#11 0x5621abac3327 <unknown>
+#12 0x5621abaabdae <unknown>
+#13 0x5621abac3df2 <unknown>
+#14 0x5621aba9074f <unknown>
+#15 0x5621abae8128 <unknown>
+#16 0x5621abae82fb <unknown>
+#17 0x5621abaf7f6c <unknown>
+#18 0x7f5bc8fbe272 start_thread
+
+2024-10-24 17:20:24,758 - WARNING - Failed with selector //button[contains(@class, 'cl-userButtonTrigger')]: Message: 
+Stacktrace:
+#0 0x561708db0e3a <unknown>
+#1 0x561708a9a45c <unknown>
+#2 0x561708ae65b5 <unknown>
+#3 0x561708ae6671 <unknown>
+#4 0x561708b2af14 <unknown>
+#5 0x561708b094dd <unknown>
+#6 0x561708b282cc <unknown>
+#7 0x561708b09253 <unknown>
+#8 0x561708ad91c7 <unknown>
+#9 0x561708ad9b3e <unknown>
+#10 0x561708d7727b <unknown>
+#11 0x561708d7b327 <unknown>
+#12 0x561708d63dae <unknown>
+#13 0x561708d7bdf2 <unknown>
+#14 0x561708d4874f <unknown>
+#15 0x561708da0128 <unknown>
+#16 0x561708da02fb <unknown>
+#17 0x561708daff6c <unknown>
+#18 0x7fd4f2a83272 start_thread
+
+2024-10-24 17:20:58,671 - WARNING - Failed with selector //button[contains(@class, 'login')]: Message: 
+Stacktrace:
+#0 0x5556db257e3a <unknown>
+#1 0x5556daf4145c <unknown>
+#2 0x5556daf8d5b5 <unknown>
+#3 0x5556daf8d671 <unknown>
+#4 0x5556dafd1f14 <unknown>
+#5 0x5556dafb04dd <unknown>
+#6 0x5556dafcf2cc <unknown>
+#7 0x5556dafb0253 <unknown>
+#8 0x5556daf801c7 <unknown>
+#9 0x5556daf80b3e <unknown>
+#10 0x5556db21e27b <unknown>
+#11 0x5556db222327 <unknown>
+#12 0x5556db20adae <unknown>
+#13 0x5556db222df2 <unknown>
+#14 0x5556db1ef74f <unknown>
+#15 0x5556db247128 <unknown>
+#16 0x5556db2472fb <unknown>
+#17 0x5556db256f6c <unknown>
+#18 0x7f50c2cd0272 start_thread
+
+2024-10-24 17:21:01,234 - WARNING - Failed with selector //button[contains(@class, 'clerk-button')]: Message: 
+Stacktrace:
+#0 0x5601946e3e3a <unknown>
+#1 0x5601943cd45c <unknown>
+#2 0x5601944195b5 <unknown>
+#3 0x560194419671 <unknown>
+#4 0x56019445df14 <unknown>
+#5 0x56019443c4dd <unknown>
+#6 0x56019445b2cc <unknown>
+#7 0x56019443c253 <unknown>
+#8 0x56019440c1c7 <unknown>
+#9 0x56019440cb3e <unknown>
+#10 0x5601946aa27b <unknown>
+#11 0x5601946ae327 <unknown>
+#12 0x560194696dae <unknown>
+#13 0x5601946aedf2 <unknown>
+#14 0x56019467b74f <unknown>
+#15 0x5601946d3128 <unknown>
+#16 0x5601946d32fb <unknown>
+#17 0x5601946e2f6c <unknown>
+#18 0x7f94af038272 start_thread
+
+2024-10-24 17:21:03,990 - WARNING - Failed with selector //div[contains(@class, 'cl-userButtonTrigger')]: Message: 
+Stacktrace:
+#0 0x5621abaf8e3a <unknown>
+#1 0x5621ab7e245c <unknown>
+#2 0x5621ab82e5b5 <unknown>
+#3 0x5621ab82e671 <unknown>
+#4 0x5621ab872f14 <unknown>
+#5 0x5621ab8514dd <unknown>
+#6 0x5621ab8702cc <unknown>
+#7 0x5621ab851253 <unknown>
+#8 0x5621ab8211c7 <unknown>
+#9 0x5621ab821b3e <unknown>
+#10 0x5621ababf27b <unknown>
+#11 0x5621abac3327 <unknown>
+#12 0x5621abaabdae <unknown>
+#13 0x5621abac3df2 <unknown>
+#14 0x5621aba9074f <unknown>
+#15 0x5621abae8128 <unknown>
+#16 0x5621abae82fb <unknown>
+#17 0x5621abaf7f6c <unknown>
+#18 0x7f5bc8fbe272 start_thread
+
+2024-10-24 17:21:09,830 - WARNING - Failed with selector //button[contains(@class, 'clerk-button')]: Message: 
+Stacktrace:
+#0 0x561708db0e3a <unknown>
+#1 0x561708a9a45c <unknown>
+#2 0x561708ae65b5 <unknown>
+#3 0x561708ae6671 <unknown>
+#4 0x561708b2af14 <unknown>
+#5 0x561708b094dd <unknown>
+#6 0x561708b282cc <unknown>
+#7 0x561708b09253 <unknown>
+#8 0x561708ad91c7 <unknown>
+#9 0x561708ad9b3e <unknown>
+#10 0x561708d7727b <unknown>
+#11 0x561708d7b327 <unknown>
+#12 0x561708d63dae <unknown>
+#13 0x561708d7bdf2 <unknown>
+#14 0x561708d4874f <unknown>
+#15 0x561708da0128 <unknown>
+#16 0x561708da02fb <unknown>
+#17 0x561708daff6c <unknown>
+#18 0x7fd4f2a83272 start_thread
+
+2024-10-24 17:21:43,918 - WARNING - Failed with selector //div[contains(@class, 'cl-userButtonTrigger')]: Message: 
+Stacktrace:
+#0 0x5556db257e3a <unknown>
+#1 0x5556daf4145c <unknown>
+#2 0x5556daf8d5b5 <unknown>
+#3 0x5556daf8d671 <unknown>
+#4 0x5556dafd1f14 <unknown>
+#5 0x5556dafb04dd <unknown>
+#6 0x5556dafcf2cc <unknown>
+#7 0x5556dafb0253 <unknown>
+#8 0x5556daf801c7 <unknown>
+#9 0x5556daf80b3e <unknown>
+#10 0x5556db21e27b <unknown>
+#11 0x5556db222327 <unknown>
+#12 0x5556db20adae <unknown>
+#13 0x5556db222df2 <unknown>
+#14 0x5556db1ef74f <unknown>
+#15 0x5556db247128 <unknown>
+#16 0x5556db2472fb <unknown>
+#17 0x5556db256f6c <unknown>
+#18 0x7f50c2cd0272 start_thread
+
+2024-10-24 17:21:46,350 - WARNING - Failed with selector //button[contains(@class, 'sign-in')]: Message: 
+Stacktrace:
+#0 0x5601946e3e3a <unknown>
+#1 0x5601943cd45c <unknown>
+#2 0x5601944195b5 <unknown>
+#3 0x560194419671 <unknown>
+#4 0x56019445df14 <unknown>
+#5 0x56019443c4dd <unknown>
+#6 0x56019445b2cc <unknown>
+#7 0x56019443c253 <unknown>
+#8 0x56019440c1c7 <unknown>
+#9 0x56019440cb3e <unknown>
+#10 0x5601946aa27b <unknown>
+#11 0x5601946ae327 <unknown>
+#12 0x560194696dae <unknown>
+#13 0x5601946aedf2 <unknown>
+#14 0x56019467b74f <unknown>
+#15 0x5601946d3128 <unknown>
+#16 0x5601946d32fb <unknown>
+#17 0x5601946e2f6c <unknown>
+#18 0x7f94af038272 start_thread
+
+2024-10-24 17:21:49,260 - WARNING - Failed with selector //div[contains(@class, 'sign-in')][@role='button']: Message: 
+Stacktrace:
+#0 0x5621abaf8e3a <unknown>
+#1 0x5621ab7e245c <unknown>
+#2 0x5621ab82e5b5 <unknown>
+#3 0x5621ab82e671 <unknown>
+#4 0x5621ab872f14 <unknown>
+#5 0x5621ab8514dd <unknown>
+#6 0x5621ab8702cc <unknown>
+#7 0x5621ab851253 <unknown>
+#8 0x5621ab8211c7 <unknown>
+#9 0x5621ab821b3e <unknown>
+#10 0x5621ababf27b <unknown>
+#11 0x5621abac3327 <unknown>
+#12 0x5621abaabdae <unknown>
+#13 0x5621abac3df2 <unknown>
+#14 0x5621aba9074f <unknown>
+#15 0x5621abae8128 <unknown>
+#16 0x5621abae82fb <unknown>
+#17 0x5621abaf7f6c <unknown>
+#18 0x7f5bc8fbe272 start_thread
+
+2024-10-24 17:21:54,908 - WARNING - Failed with selector //button[contains(@class, 'sign-in')]: Message: 
+Stacktrace:
+#0 0x561708db0e3a <unknown>
+#1 0x561708a9a45c <unknown>
+#2 0x561708ae65b5 <unknown>
+#3 0x561708ae6671 <unknown>
+#4 0x561708b2af14 <unknown>
+#5 0x561708b094dd <unknown>
+#6 0x561708b282cc <unknown>
+#7 0x561708b09253 <unknown>
+#8 0x561708ad91c7 <unknown>
+#9 0x561708ad9b3e <unknown>
+#10 0x561708d7727b <unknown>
+#11 0x561708d7b327 <unknown>
+#12 0x561708d63dae <unknown>
+#13 0x561708d7bdf2 <unknown>
+#14 0x561708d4874f <unknown>
+#15 0x561708da0128 <unknown>
+#16 0x561708da02fb <unknown>
+#17 0x561708daff6c <unknown>
+#18 0x7fd4f2a83272 start_thread
+
+2024-10-24 17:22:29,289 - WARNING - Failed with selector //div[contains(@class, 'sign-in')][@role='button']: Message: 
+Stacktrace:
+#0 0x5556db257e3a <unknown>
+#1 0x5556daf4145c <unknown>
+#2 0x5556daf8d5b5 <unknown>
+#3 0x5556daf8d671 <unknown>
+#4 0x5556dafd1f14 <unknown>
+#5 0x5556dafb04dd <unknown>
+#6 0x5556dafcf2cc <unknown>
+#7 0x5556dafb0253 <unknown>
+#8 0x5556daf801c7 <unknown>
+#9 0x5556daf80b3e <unknown>
+#10 0x5556db21e27b <unknown>
+#11 0x5556db222327 <unknown>
+#12 0x5556db20adae <unknown>
+#13 0x5556db222df2 <unknown>
+#14 0x5556db1ef74f <unknown>
+#15 0x5556db247128 <unknown>
+#16 0x5556db2472fb <unknown>
+#17 0x5556db256f6c <unknown>
+#18 0x7f50c2cd0272 start_thread
+
+2024-10-24 17:22:31,445 - WARNING - Failed with selector //button[contains(@class, 'login')]: Message: 
+Stacktrace:
+#0 0x5601946e3e3a <unknown>
+#1 0x5601943cd45c <unknown>
+#2 0x5601944195b5 <unknown>
+#3 0x560194419671 <unknown>
+#4 0x56019445df14 <unknown>
+#5 0x56019443c4dd <unknown>
+#6 0x56019445b2cc <unknown>
+#7 0x56019443c253 <unknown>
+#8 0x56019440c1c7 <unknown>
+#9 0x56019440cb3e <unknown>
+#10 0x5601946aa27b <unknown>
+#11 0x5601946ae327 <unknown>
+#12 0x560194696dae <unknown>
+#13 0x5601946aedf2 <unknown>
+#14 0x56019467b74f <unknown>
+#15 0x5601946d3128 <unknown>
+#16 0x5601946d32fb <unknown>
+#17 0x5601946e2f6c <unknown>
+#18 0x7f94af038272 start_thread
+
+2024-10-24 17:22:34,365 - WARNING - Failed with selector //button[contains(@class, 'auth-button')]: Message: 
+Stacktrace:
+#0 0x5621abaf8e3a <unknown>
+#1 0x5621ab7e245c <unknown>
+#2 0x5621ab82e5b5 <unknown>
+#3 0x5621ab82e671 <unknown>
+#4 0x5621ab872f14 <unknown>
+#5 0x5621ab8514dd <unknown>
+#6 0x5621ab8702cc <unknown>
+#7 0x5621ab851253 <unknown>
+#8 0x5621ab8211c7 <unknown>
+#9 0x5621ab821b3e <unknown>
+#10 0x5621ababf27b <unknown>
+#11 0x5621abac3327 <unknown>
+#12 0x5621abaabdae <unknown>
+#13 0x5621abac3df2 <unknown>
+#14 0x5621aba9074f <unknown>
+#15 0x5621abae8128 <unknown>
+#16 0x5621abae82fb <unknown>
+#17 0x5621abaf7f6c <unknown>
+#18 0x7f5bc8fbe272 start_thread
+
+2024-10-24 17:22:40,038 - WARNING - Failed with selector //button[contains(@class, 'login')]: Message: 
+Stacktrace:
+#0 0x561708db0e3a <unknown>
+#1 0x561708a9a45c <unknown>
+#2 0x561708ae65b5 <unknown>
+#3 0x561708ae6671 <unknown>
+#4 0x561708b2af14 <unknown>
+#5 0x561708b094dd <unknown>
+#6 0x561708b282cc <unknown>
+#7 0x561708b09253 <unknown>
+#8 0x561708ad91c7 <unknown>
+#9 0x561708ad9b3e <unknown>
+#10 0x561708d7727b <unknown>
+#11 0x561708d7b327 <unknown>
+#12 0x561708d63dae <unknown>
+#13 0x561708d7bdf2 <unknown>
+#14 0x561708d4874f <unknown>
+#15 0x561708da0128 <unknown>
+#16 0x561708da02fb <unknown>
+#17 0x561708daff6c <unknown>
+#18 0x7fd4f2a83272 start_thread
+
+2024-10-24 17:23:14,374 - WARNING - Failed with selector //button[contains(@class, 'auth-button')]: Message: 
+Stacktrace:
+#0 0x5556db257e3a <unknown>
+#1 0x5556daf4145c <unknown>
+#2 0x5556daf8d5b5 <unknown>
+#3 0x5556daf8d671 <unknown>
+#4 0x5556dafd1f14 <unknown>
+#5 0x5556dafb04dd <unknown>
+#6 0x5556dafcf2cc <unknown>
+#7 0x5556dafb0253 <unknown>
+#8 0x5556daf801c7 <unknown>
+#9 0x5556daf80b3e <unknown>
+#10 0x5556db21e27b <unknown>
+#11 0x5556db222327 <unknown>
+#12 0x5556db20adae <unknown>
+#13 0x5556db222df2 <unknown>
+#14 0x5556db1ef74f <unknown>
+#15 0x5556db247128 <unknown>
+#16 0x5556db2472fb <unknown>
+#17 0x5556db256f6c <unknown>
+#18 0x7f50c2cd0272 start_thread
+
+2024-10-24 17:23:16,699 - WARNING - Failed with selector //div[contains(@class, 'cl-userButtonTrigger')]: Message: 
+Stacktrace:
+#0 0x5601946e3e3a <unknown>
+#1 0x5601943cd45c <unknown>
+#2 0x5601944195b5 <unknown>
+#3 0x560194419671 <unknown>
+#4 0x56019445df14 <unknown>
+#5 0x56019443c4dd <unknown>
+#6 0x56019445b2cc <unknown>
+#7 0x56019443c253 <unknown>
+#8 0x56019440c1c7 <unknown>
+#9 0x56019440cb3e <unknown>
+#10 0x5601946aa27b <unknown>
+#11 0x5601946ae327 <unknown>
+#12 0x560194696dae <unknown>
+#13 0x5601946aedf2 <unknown>
+#14 0x56019467b74f <unknown>
+#15 0x5601946d3128 <unknown>
+#16 0x5601946d32fb <unknown>
+#17 0x5601946e2f6c <unknown>
+#18 0x7f94af038272 start_thread
+
+2024-10-24 17:23:19,454 - WARNING - Failed with selector //button[contains(@class, 'cl-auth')]: Message: 
+Stacktrace:
+#0 0x5621abaf8e3a <unknown>
+#1 0x5621ab7e245c <unknown>
+#2 0x5621ab82e5b5 <unknown>
+#3 0x5621ab82e671 <unknown>
+#4 0x5621ab872f14 <unknown>
+#5 0x5621ab8514dd <unknown>
+#6 0x5621ab8702cc <unknown>
+#7 0x5621ab851253 <unknown>
+#8 0x5621ab8211c7 <unknown>
+#9 0x5621ab821b3e <unknown>
+#10 0x5621ababf27b <unknown>
+#11 0x5621abac3327 <unknown>
+#12 0x5621abaabdae <unknown>
+#13 0x5621abac3df2 <unknown>
+#14 0x5621aba9074f <unknown>
+#15 0x5621abae8128 <unknown>
+#16 0x5621abae82fb <unknown>
+#17 0x5621abaf7f6c <unknown>
+#18 0x7f5bc8fbe272 start_thread
+
+2024-10-24 17:23:21,819 - INFO - Successfully clicked Sign in button
+2024-10-24 17:23:25,272 - WARNING - Failed with selector //div[contains(@class, 'cl-userButtonTrigger')]: Message: 
+Stacktrace:
+#0 0x561708db0e3a <unknown>
+#1 0x561708a9a45c <unknown>
+#2 0x561708ae65b5 <unknown>
+#3 0x561708ae6671 <unknown>
+#4 0x561708b2af14 <unknown>
+#5 0x561708b094dd <unknown>
+#6 0x561708b282cc <unknown>
+#7 0x561708b09253 <unknown>
+#8 0x561708ad91c7 <unknown>
+#9 0x561708ad9b3e <unknown>
+#10 0x561708d7727b <unknown>
+#11 0x561708d7b327 <unknown>
+#12 0x561708d63dae <unknown>
+#13 0x561708d7bdf2 <unknown>
+#14 0x561708d4874f <unknown>
+#15 0x561708da0128 <unknown>
+#16 0x561708da02fb <unknown>
+#17 0x561708daff6c <unknown>
+#18 0x7fd4f2a83272 start_thread
+
+2024-10-24 17:23:59,464 - WARNING - Failed with selector //button[contains(@class, 'cl-auth')]: Message: 
+Stacktrace:
+#0 0x5556db257e3a <unknown>
+#1 0x5556daf4145c <unknown>
+#2 0x5556daf8d5b5 <unknown>
+#3 0x5556daf8d671 <unknown>
+#4 0x5556dafd1f14 <unknown>
+#5 0x5556dafb04dd <unknown>
+#6 0x5556dafcf2cc <unknown>
+#7 0x5556dafb0253 <unknown>
+#8 0x5556daf801c7 <unknown>
+#9 0x5556daf80b3e <unknown>
+#10 0x5556db21e27b <unknown>
+#11 0x5556db222327 <unknown>
+#12 0x5556db20adae <unknown>
+#13 0x5556db222df2 <unknown>
+#14 0x5556db1ef74f <unknown>
+#15 0x5556db247128 <unknown>
+#16 0x5556db2472fb <unknown>
+#17 0x5556db256f6c <unknown>
+#18 0x7f50c2cd0272 start_thread
+
+2024-10-24 17:24:01,797 - INFO - Successfully clicked Sign in button
+2024-10-24 17:24:01,991 - WARNING - Failed with selector //div[contains(@class, 'sign-in')][@role='button']: Message: 
+Stacktrace:
+#0 0x5601946e3e3a <unknown>
+#1 0x5601943cd45c <unknown>
+#2 0x5601944195b5 <unknown>
+#3 0x560194419671 <unknown>
+#4 0x56019445df14 <unknown>
+#5 0x56019443c4dd <unknown>
+#6 0x56019445b2cc <unknown>
+#7 0x56019443c253 <unknown>
+#8 0x56019440c1c7 <unknown>
+#9 0x56019440cb3e <unknown>
+#10 0x5601946aa27b <unknown>
+#11 0x5601946ae327 <unknown>
+#12 0x560194696dae <unknown>
+#13 0x5601946aedf2 <unknown>
+#14 0x56019467b74f <unknown>
+#15 0x5601946d3128 <unknown>
+#16 0x5601946d32fb <unknown>
+#17 0x5601946e2f6c <unknown>
+#18 0x7f94af038272 start_thread
+
+2024-10-24 17:24:10,545 - WARNING - Failed with selector //div[contains(@class, 'sign-in')][@role='button']: Message: 
+Stacktrace:
+#0 0x561708db0e3a <unknown>
+#1 0x561708a9a45c <unknown>
+#2 0x561708ae65b5 <unknown>
+#3 0x561708ae6671 <unknown>
+#4 0x561708b2af14 <unknown>
+#5 0x561708b094dd <unknown>
+#6 0x561708b282cc <unknown>
+#7 0x561708b09253 <unknown>
+#8 0x561708ad91c7 <unknown>
+#9 0x561708ad9b3e <unknown>
+#10 0x561708d7727b <unknown>
+#11 0x561708d7b327 <unknown>
+#12 0x561708d63dae <unknown>
+#13 0x561708d7bdf2 <unknown>
+#14 0x561708d4874f <unknown>
+#15 0x561708da0128 <unknown>
+#16 0x561708da02fb <unknown>
+#17 0x561708daff6c <unknown>
+#18 0x7fd4f2a83272 start_thread
+
+2024-10-24 17:24:47,088 - WARNING - Failed with selector //button[contains(@class, 'auth-button')]: Message: 
+Stacktrace:
+#0 0x5601946e3e3a <unknown>
+#1 0x5601943cd45c <unknown>
+#2 0x5601944195b5 <unknown>
+#3 0x560194419671 <unknown>
+#4 0x56019445df14 <unknown>
+#5 0x56019443c4dd <unknown>
+#6 0x56019445b2cc <unknown>
+#7 0x56019443c253 <unknown>
+#8 0x56019440c1c7 <unknown>
+#9 0x56019440cb3e <unknown>
+#10 0x5601946aa27b <unknown>
+#11 0x5601946ae327 <unknown>
+#12 0x560194696dae <unknown>
+#13 0x5601946aedf2 <unknown>
+#14 0x56019467b74f <unknown>
+#15 0x5601946d3128 <unknown>
+#16 0x5601946d32fb <unknown>
+#17 0x5601946e2f6c <unknown>
+#18 0x7f94af038272 start_thread
+
+2024-10-24 17:24:55,648 - WARNING - Failed with selector //button[contains(@class, 'auth-button')]: Message: 
+Stacktrace:
+#0 0x561708db0e3a <unknown>
+#1 0x561708a9a45c <unknown>
+#2 0x561708ae65b5 <unknown>
+#3 0x561708ae6671 <unknown>
+#4 0x561708b2af14 <unknown>
+#5 0x561708b094dd <unknown>
+#6 0x561708b282cc <unknown>
+#7 0x561708b09253 <unknown>
+#8 0x561708ad91c7 <unknown>
+#9 0x561708ad9b3e <unknown>
+#10 0x561708d7727b <unknown>
+#11 0x561708d7b327 <unknown>
+#12 0x561708d63dae <unknown>
+#13 0x561708d7bdf2 <unknown>
+#14 0x561708d4874f <unknown>
+#15 0x561708da0128 <unknown>
+#16 0x561708da02fb <unknown>
+#17 0x561708daff6c <unknown>
+#18 0x7fd4f2a83272 start_thread
+
+2024-10-24 17:25:32,222 - WARNING - Failed with selector //button[contains(@class, 'cl-auth')]: Message: 
+Stacktrace:
+#0 0x5601946e3e3a <unknown>
+#1 0x5601943cd45c <unknown>
+#2 0x5601944195b5 <unknown>
+#3 0x560194419671 <unknown>
+#4 0x56019445df14 <unknown>
+#5 0x56019443c4dd <unknown>
+#6 0x56019445b2cc <unknown>
+#7 0x56019443c253 <unknown>
+#8 0x56019440c1c7 <unknown>
+#9 0x56019440cb3e <unknown>
+#10 0x5601946aa27b <unknown>
+#11 0x5601946ae327 <unknown>
+#12 0x560194696dae <unknown>
+#13 0x5601946aedf2 <unknown>
+#14 0x56019467b74f <unknown>
+#15 0x5601946d3128 <unknown>
+#16 0x5601946d32fb <unknown>
+#17 0x5601946e2f6c <unknown>
+#18 0x7f94af038272 start_thread
+
+2024-10-24 17:25:34,633 - INFO - Successfully clicked Sign in button
+2024-10-24 17:25:40,778 - WARNING - Failed with selector //button[contains(@class, 'cl-auth')]: Message: 
+Stacktrace:
+#0 0x561708db0e3a <unknown>
+#1 0x561708a9a45c <unknown>
+#2 0x561708ae65b5 <unknown>
+#3 0x561708ae6671 <unknown>
+#4 0x561708b2af14 <unknown>
+#5 0x561708b094dd <unknown>
+#6 0x561708b282cc <unknown>
+#7 0x561708b09253 <unknown>
+#8 0x561708ad91c7 <unknown>
+#9 0x561708ad9b3e <unknown>
+#10 0x561708d7727b <unknown>
+#11 0x561708d7b327 <unknown>
+#12 0x561708d63dae <unknown>
+#13 0x561708d7bdf2 <unknown>
+#14 0x561708d4874f <unknown>
+#15 0x561708da0128 <unknown>
+#16 0x561708da02fb <unknown>
+#17 0x561708daff6c <unknown>
+#18 0x7fd4f2a83272 start_thread
+
+2024-10-24 17:25:43,077 - INFO - Successfully clicked Sign in button
+2024-10-24 17:25:48,091 - INFO - Successfully clicked Google login button
+2024-10-24 17:25:50,241 - INFO - Successfully clicked Google login button
+2024-10-24 17:26:21,135 - ERROR - Google OAuth failed: Google login window not found
+2024-10-24 17:26:21,619 - INFO - Screenshot saved: logs/google_oauth_failure.png
+2024-10-24 17:26:21,619 - ERROR - Login attempt 2 failed: Google OAuth process failed
+2024-10-24 17:26:21,920 - INFO - Screenshot saved: logs/login_failure_2.png
+2024-10-24 17:26:23,285 - ERROR - Google OAuth failed: Google login window not found
+2024-10-24 17:26:23,779 - INFO - Screenshot saved: logs/google_oauth_failure.png
+2024-10-24 17:26:23,779 - ERROR - Login attempt 2 failed: Google OAuth process failed
+2024-10-24 17:26:24,397 - INFO - Screenshot saved: logs/login_failure_2.png
+2024-10-24 17:26:27,011 - INFO - WebDriver closed successfully
+2024-10-24 17:26:27,385 - INFO - Chrome WebDriver initialized successfully
+2024-10-24 17:26:27,385 - INFO - Starting login attempt 3/3
+2024-10-24 17:26:28,046 - INFO - Successfully clicked Google login button
+2024-10-24 17:26:29,541 - INFO - WebDriver closed successfully
+2024-10-24 17:26:30,189 - INFO - Chrome WebDriver initialized successfully
+2024-10-24 17:26:30,189 - INFO - Starting login attempt 3/3
+2024-10-24 17:27:01,089 - ERROR - Google OAuth failed: Google login window not found
+2024-10-24 17:27:01,618 - INFO - Screenshot saved: logs/google_oauth_failure.png
+2024-10-24 17:27:01,619 - ERROR - Login attempt 2 failed: Google OAuth process failed
+2024-10-24 17:27:01,979 - INFO - Screenshot saved: logs/login_failure_2.png
+2024-10-24 17:27:07,091 - INFO - WebDriver closed successfully
+2024-10-24 17:27:07,506 - INFO - Chrome WebDriver initialized successfully
+2024-10-24 17:27:07,507 - INFO - Starting login attempt 3/3
+2024-10-24 17:27:21,047 - WARNING - Failed with selector //button[contains(@class, 'cl-userButtonTrigger')]: Message: 
+Stacktrace:
+#0 0x55c28967de3a <unknown>
+#1 0x55c28936745c <unknown>
+#2 0x55c2893b35b5 <unknown>
+#3 0x55c2893b3671 <unknown>
+#4 0x55c2893f7f14 <unknown>
+#5 0x55c2893d64dd <unknown>
+#6 0x55c2893f52cc <unknown>
+#7 0x55c2893d6253 <unknown>
+#8 0x55c2893a61c7 <unknown>
+#9 0x55c2893a6b3e <unknown>
+#10 0x55c28964427b <unknown>
+#11 0x55c289648327 <unknown>
+#12 0x55c289630dae <unknown>
+#13 0x55c289648df2 <unknown>
+#14 0x55c28961574f <unknown>
+#15 0x55c28966d128 <unknown>
+#16 0x55c28966d2fb <unknown>
+#17 0x55c28967cf6c <unknown>
+#18 0x7fd095f37272 start_thread
+
+2024-10-24 17:27:24,541 - WARNING - Failed with selector //button[contains(@class, 'cl-userButtonTrigger')]: Message: 
+Stacktrace:
+#0 0x556f4bf8be3a <unknown>
+#1 0x556f4bc7545c <unknown>
+#2 0x556f4bcc15b5 <unknown>
+#3 0x556f4bcc1671 <unknown>
+#4 0x556f4bd05f14 <unknown>
+#5 0x556f4bce44dd <unknown>
+#6 0x556f4bd032cc <unknown>
+#7 0x556f4bce4253 <unknown>
+#8 0x556f4bcb41c7 <unknown>
+#9 0x556f4bcb4b3e <unknown>
+#10 0x556f4bf5227b <unknown>
+#11 0x556f4bf56327 <unknown>
+#12 0x556f4bf3edae <unknown>
+#13 0x556f4bf56df2 <unknown>
+#14 0x556f4bf2374f <unknown>
+#15 0x556f4bf7b128 <unknown>
+#16 0x556f4bf7b2fb <unknown>
+#17 0x556f4bf8af6c <unknown>
+#18 0x7f6a0fdf8272 start_thread
+
+2024-10-24 17:28:00,817 - INFO - Successfully clicked Google login button
+2024-10-24 17:28:01,218 - WARNING - Failed with selector //button[contains(@class, 'cl-userButtonTrigger')]: Message: 
+Stacktrace:
+#0 0x55f29466ee3a <unknown>
+#1 0x55f29435845c <unknown>
+#2 0x55f2943a45b5 <unknown>
+#3 0x55f2943a4671 <unknown>
+#4 0x55f2943e8f14 <unknown>
+#5 0x55f2943c74dd <unknown>
+#6 0x55f2943e62cc <unknown>
+#7 0x55f2943c7253 <unknown>
+#8 0x55f2943971c7 <unknown>
+#9 0x55f294397b3e <unknown>
+#10 0x55f29463527b <unknown>
+#11 0x55f294639327 <unknown>
+#12 0x55f294621dae <unknown>
+#13 0x55f294639df2 <unknown>
+#14 0x55f29460674f <unknown>
+#15 0x55f29465e128 <unknown>
+#16 0x55f29465e2fb <unknown>
+#17 0x55f29466df6c <unknown>
+#18 0x7f29f4144272 start_thread
+
+2024-10-24 17:28:06,116 - WARNING - Failed with selector //button[contains(@class, 'clerk-button')]: Message: 
+Stacktrace:
+#0 0x55c28967de3a <unknown>
+#1 0x55c28936745c <unknown>
+#2 0x55c2893b35b5 <unknown>
+#3 0x55c2893b3671 <unknown>
+#4 0x55c2893f7f14 <unknown>
+#5 0x55c2893d64dd <unknown>
+#6 0x55c2893f52cc <unknown>
+#7 0x55c2893d6253 <unknown>
+#8 0x55c2893a61c7 <unknown>
+#9 0x55c2893a6b3e <unknown>
+#10 0x55c28964427b <unknown>
+#11 0x55c289648327 <unknown>
+#12 0x55c289630dae <unknown>
+#13 0x55c289648df2 <unknown>
+#14 0x55c28961574f <unknown>
+#15 0x55c28966d128 <unknown>
+#16 0x55c28966d2fb <unknown>
+#17 0x55c28967cf6c <unknown>
+#18 0x7fd095f37272 start_thread
+
+2024-10-24 17:28:09,638 - WARNING - Failed with selector //button[contains(@class, 'clerk-button')]: Message: 
+Stacktrace:
+#0 0x556f4bf8be3a <unknown>
+#1 0x556f4bc7545c <unknown>
+#2 0x556f4bcc15b5 <unknown>
+#3 0x556f4bcc1671 <unknown>
+#4 0x556f4bd05f14 <unknown>
+#5 0x556f4bce44dd <unknown>
+#6 0x556f4bd032cc <unknown>
+#7 0x556f4bce4253 <unknown>
+#8 0x556f4bcb41c7 <unknown>
+#9 0x556f4bcb4b3e <unknown>
+#10 0x556f4bf5227b <unknown>
+#11 0x556f4bf56327 <unknown>
+#12 0x556f4bf3edae <unknown>
+#13 0x556f4bf56df2 <unknown>
+#14 0x556f4bf2374f <unknown>
+#15 0x556f4bf7b128 <unknown>
+#16 0x556f4bf7b2fb <unknown>
+#17 0x556f4bf8af6c <unknown>
+#18 0x7f6a0fdf8272 start_thread
+
+2024-10-24 17:28:33,868 - ERROR - Google OAuth failed: Google login window not found
+2024-10-24 17:28:34,505 - INFO - Screenshot saved: logs/google_oauth_failure.png
+2024-10-24 17:28:34,505 - ERROR - Login attempt 2 failed: Google OAuth process failed
+2024-10-24 17:28:34,818 - INFO - Screenshot saved: logs/login_failure_2.png
+2024-10-24 17:28:39,957 - INFO - WebDriver closed successfully
+2024-10-24 17:28:40,346 - INFO - Chrome WebDriver initialized successfully
+2024-10-24 17:28:40,346 - INFO - Starting login attempt 3/3
+2024-10-24 17:28:46,325 - WARNING - Failed with selector //button[contains(@class, 'clerk-button')]: Message: 
+Stacktrace:
+#0 0x55f29466ee3a <unknown>
+#1 0x55f29435845c <unknown>
+#2 0x55f2943a45b5 <unknown>
+#3 0x55f2943a4671 <unknown>
+#4 0x55f2943e8f14 <unknown>
+#5 0x55f2943c74dd <unknown>
+#6 0x55f2943e62cc <unknown>
+#7 0x55f2943c7253 <unknown>
+#8 0x55f2943971c7 <unknown>
+#9 0x55f294397b3e <unknown>
+#10 0x55f29463527b <unknown>
+#11 0x55f294639327 <unknown>
+#12 0x55f294621dae <unknown>
+#13 0x55f294639df2 <unknown>
+#14 0x55f29460674f <unknown>
+#15 0x55f29465e128 <unknown>
+#16 0x55f29465e2fb <unknown>
+#17 0x55f29466df6c <unknown>
+#18 0x7f29f4144272 start_thread
+
+2024-10-24 17:28:51,190 - WARNING - Failed with selector //button[contains(@class, 'sign-in')]: Message: 
+Stacktrace:
+#0 0x55c28967de3a <unknown>
+#1 0x55c28936745c <unknown>
+#2 0x55c2893b35b5 <unknown>
+#3 0x55c2893b3671 <unknown>
+#4 0x55c2893f7f14 <unknown>
+#5 0x55c2893d64dd <unknown>
+#6 0x55c2893f52cc <unknown>
+#7 0x55c2893d6253 <unknown>
+#8 0x55c2893a61c7 <unknown>
+#9 0x55c2893a6b3e <unknown>
+#10 0x55c28964427b <unknown>
+#11 0x55c289648327 <unknown>
+#12 0x55c289630dae <unknown>
+#13 0x55c289648df2 <unknown>
+#14 0x55c28961574f <unknown>
+#15 0x55c28966d128 <unknown>
+#16 0x55c28966d2fb <unknown>
+#17 0x55c28967cf6c <unknown>
+#18 0x7fd095f37272 start_thread
+
+2024-10-24 17:28:54,765 - WARNING - Failed with selector //button[contains(@class, 'sign-in')]: Message: 
+Stacktrace:
+#0 0x556f4bf8be3a <unknown>
+#1 0x556f4bc7545c <unknown>
+#2 0x556f4bcc15b5 <unknown>
+#3 0x556f4bcc1671 <unknown>
+#4 0x556f4bd05f14 <unknown>
+#5 0x556f4bce44dd <unknown>
+#6 0x556f4bd032cc <unknown>
+#7 0x556f4bce4253 <unknown>
+#8 0x556f4bcb41c7 <unknown>
+#9 0x556f4bcb4b3e <unknown>
+#10 0x556f4bf5227b <unknown>
+#11 0x556f4bf56327 <unknown>
+#12 0x556f4bf3edae <unknown>
+#13 0x556f4bf56df2 <unknown>
+#14 0x556f4bf2374f <unknown>
+#15 0x556f4bf7b128 <unknown>
+#16 0x556f4bf7b2fb <unknown>
+#17 0x556f4bf8af6c <unknown>
+#18 0x7f6a0fdf8272 start_thread
+
+2024-10-24 17:29:31,500 - WARNING - Failed with selector //button[contains(@class, 'sign-in')]: Message: 
+Stacktrace:
+#0 0x55f29466ee3a <unknown>
+#1 0x55f29435845c <unknown>
+#2 0x55f2943a45b5 <unknown>
+#3 0x55f2943a4671 <unknown>
+#4 0x55f2943e8f14 <unknown>
+#5 0x55f2943c74dd <unknown>
+#6 0x55f2943e62cc <unknown>
+#7 0x55f2943c7253 <unknown>
+#8 0x55f2943971c7 <unknown>
+#9 0x55f294397b3e <unknown>
+#10 0x55f29463527b <unknown>
+#11 0x55f294639327 <unknown>
+#12 0x55f294621dae <unknown>
+#13 0x55f294639df2 <unknown>
+#14 0x55f29460674f <unknown>
+#15 0x55f29465e128 <unknown>
+#16 0x55f29465e2fb <unknown>
+#17 0x55f29466df6c <unknown>
+#18 0x7f29f4144272 start_thread
+
+2024-10-24 17:29:33,925 - WARNING - Failed with selector //button[contains(@class, 'cl-userButtonTrigger')]: Message: 
+Stacktrace:
+#0 0x55cb5b280e3a <unknown>
+#1 0x55cb5af6a45c <unknown>
+#2 0x55cb5afb65b5 <unknown>
+#3 0x55cb5afb6671 <unknown>
+#4 0x55cb5affaf14 <unknown>
+#5 0x55cb5afd94dd <unknown>
+#6 0x55cb5aff82cc <unknown>
+#7 0x55cb5afd9253 <unknown>
+#8 0x55cb5afa91c7 <unknown>
+#9 0x55cb5afa9b3e <unknown>
+#10 0x55cb5b24727b <unknown>
+#11 0x55cb5b24b327 <unknown>
+#12 0x55cb5b233dae <unknown>
+#13 0x55cb5b24bdf2 <unknown>
+#14 0x55cb5b21874f <unknown>
+#15 0x55cb5b270128 <unknown>
+#16 0x55cb5b2702fb <unknown>
+#17 0x55cb5b27ff6c <unknown>
+#18 0x7f0bd181e272 start_thread
+
+2024-10-24 17:29:36,256 - WARNING - Failed with selector //button[contains(@class, 'login')]: Message: 
+Stacktrace:
+#0 0x55c28967de3a <unknown>
+#1 0x55c28936745c <unknown>
+#2 0x55c2893b35b5 <unknown>
+#3 0x55c2893b3671 <unknown>
+#4 0x55c2893f7f14 <unknown>
+#5 0x55c2893d64dd <unknown>
+#6 0x55c2893f52cc <unknown>
+#7 0x55c2893d6253 <unknown>
+#8 0x55c2893a61c7 <unknown>
+#9 0x55c2893a6b3e <unknown>
+#10 0x55c28964427b <unknown>
+#11 0x55c289648327 <unknown>
+#12 0x55c289630dae <unknown>
+#13 0x55c289648df2 <unknown>
+#14 0x55c28961574f <unknown>
+#15 0x55c28966d128 <unknown>
+#16 0x55c28966d2fb <unknown>
+#17 0x55c28967cf6c <unknown>
+#18 0x7fd095f37272 start_thread
+
+2024-10-24 17:29:39,848 - WARNING - Failed with selector //button[contains(@class, 'login')]: Message: 
+Stacktrace:
+#0 0x556f4bf8be3a <unknown>
+#1 0x556f4bc7545c <unknown>
+#2 0x556f4bcc15b5 <unknown>
+#3 0x556f4bcc1671 <unknown>
+#4 0x556f4bd05f14 <unknown>
+#5 0x556f4bce44dd <unknown>
+#6 0x556f4bd032cc <unknown>
+#7 0x556f4bce4253 <unknown>
+#8 0x556f4bcb41c7 <unknown>
+#9 0x556f4bcb4b3e <unknown>
+#10 0x556f4bf5227b <unknown>
+#11 0x556f4bf56327 <unknown>
+#12 0x556f4bf3edae <unknown>
+#13 0x556f4bf56df2 <unknown>
+#14 0x556f4bf2374f <unknown>
+#15 0x556f4bf7b128 <unknown>
+#16 0x556f4bf7b2fb <unknown>
+#17 0x556f4bf8af6c <unknown>
+#18 0x7f6a0fdf8272 start_thread
+
+2024-10-24 17:30:16,555 - WARNING - Failed with selector //button[contains(@class, 'login')]: Message: 
+Stacktrace:
+#0 0x55f29466ee3a <unknown>
+#1 0x55f29435845c <unknown>
+#2 0x55f2943a45b5 <unknown>
+#3 0x55f2943a4671 <unknown>
+#4 0x55f2943e8f14 <unknown>
+#5 0x55f2943c74dd <unknown>
+#6 0x55f2943e62cc <unknown>
+#7 0x55f2943c7253 <unknown>
+#8 0x55f2943971c7 <unknown>
+#9 0x55f294397b3e <unknown>
+#10 0x55f29463527b <unknown>
+#11 0x55f294639327 <unknown>
+#12 0x55f294621dae <unknown>
+#13 0x55f294639df2 <unknown>
+#14 0x55f29460674f <unknown>
+#15 0x55f29465e128 <unknown>
+#16 0x55f29465e2fb <unknown>
+#17 0x55f29466df6c <unknown>
+#18 0x7f29f4144272 start_thread
+
+2024-10-24 17:30:18,990 - WARNING - Failed with selector //button[contains(@class, 'clerk-button')]: Message: 
+Stacktrace:
+#0 0x55cb5b280e3a <unknown>
+#1 0x55cb5af6a45c <unknown>
+#2 0x55cb5afb65b5 <unknown>
+#3 0x55cb5afb6671 <unknown>
+#4 0x55cb5affaf14 <unknown>
+#5 0x55cb5afd94dd <unknown>
+#6 0x55cb5aff82cc <unknown>
+#7 0x55cb5afd9253 <unknown>
+#8 0x55cb5afa91c7 <unknown>
+#9 0x55cb5afa9b3e <unknown>
+#10 0x55cb5b24727b <unknown>
+#11 0x55cb5b24b327 <unknown>
+#12 0x55cb5b233dae <unknown>
+#13 0x55cb5b24bdf2 <unknown>
+#14 0x55cb5b21874f <unknown>
+#15 0x55cb5b270128 <unknown>
+#16 0x55cb5b2702fb <unknown>
+#17 0x55cb5b27ff6c <unknown>
+#18 0x7f0bd181e272 start_thread
+
+2024-10-24 17:30:21,492 - WARNING - Failed with selector //div[contains(@class, 'cl-userButtonTrigger')]: Message: 
+Stacktrace:
+#0 0x55c28967de3a <unknown>
+#1 0x55c28936745c <unknown>
+#2 0x55c2893b35b5 <unknown>
+#3 0x55c2893b3671 <unknown>
+#4 0x55c2893f7f14 <unknown>
+#5 0x55c2893d64dd <unknown>
+#6 0x55c2893f52cc <unknown>
+#7 0x55c2893d6253 <unknown>
+#8 0x55c2893a61c7 <unknown>
+#9 0x55c2893a6b3e <unknown>
+#10 0x55c28964427b <unknown>
+#11 0x55c289648327 <unknown>
+#12 0x55c289630dae <unknown>
+#13 0x55c289648df2 <unknown>
+#14 0x55c28961574f <unknown>
+#15 0x55c28966d128 <unknown>
+#16 0x55c28966d2fb <unknown>
+#17 0x55c28967cf6c <unknown>
+#18 0x7fd095f37272 start_thread
+
+2024-10-24 17:30:25,059 - WARNING - Failed with selector //div[contains(@class, 'cl-userButtonTrigger')]: Message: 
+Stacktrace:
+#0 0x556f4bf8be3a <unknown>
+#1 0x556f4bc7545c <unknown>
+#2 0x556f4bcc15b5 <unknown>
+#3 0x556f4bcc1671 <unknown>
+#4 0x556f4bd05f14 <unknown>
+#5 0x556f4bce44dd <unknown>
+#6 0x556f4bd032cc <unknown>
+#7 0x556f4bce4253 <unknown>
+#8 0x556f4bcb41c7 <unknown>
+#9 0x556f4bcb4b3e <unknown>
+#10 0x556f4bf5227b <unknown>
+#11 0x556f4bf56327 <unknown>
+#12 0x556f4bf3edae <unknown>
+#13 0x556f4bf56df2 <unknown>
+#14 0x556f4bf2374f <unknown>
+#15 0x556f4bf7b128 <unknown>
+#16 0x556f4bf7b2fb <unknown>
+#17 0x556f4bf8af6c <unknown>
+#18 0x7f6a0fdf8272 start_thread
+
+2024-10-24 17:31:01,775 - WARNING - Failed with selector //div[contains(@class, 'cl-userButtonTrigger')]: Message: 
+Stacktrace:
+#0 0x55f29466ee3a <unknown>
+#1 0x55f29435845c <unknown>
+#2 0x55f2943a45b5 <unknown>
+#3 0x55f2943a4671 <unknown>
+#4 0x55f2943e8f14 <unknown>
+#5 0x55f2943c74dd <unknown>
+#6 0x55f2943e62cc <unknown>
+#7 0x55f2943c7253 <unknown>
+#8 0x55f2943971c7 <unknown>
+#9 0x55f294397b3e <unknown>
+#10 0x55f29463527b <unknown>
+#11 0x55f294639327 <unknown>
+#12 0x55f294621dae <unknown>
+#13 0x55f294639df2 <unknown>
+#14 0x55f29460674f <unknown>
+#15 0x55f29465e128 <unknown>
+#16 0x55f29465e2fb <unknown>
+#17 0x55f29466df6c <unknown>
+#18 0x7f29f4144272 start_thread
+
+2024-10-24 17:31:04,107 - WARNING - Failed with selector //button[contains(@class, 'sign-in')]: Message: 
+Stacktrace:
+#0 0x55cb5b280e3a <unknown>
+#1 0x55cb5af6a45c <unknown>
+#2 0x55cb5afb65b5 <unknown>
+#3 0x55cb5afb6671 <unknown>
+#4 0x55cb5affaf14 <unknown>
+#5 0x55cb5afd94dd <unknown>
+#6 0x55cb5aff82cc <unknown>
+#7 0x55cb5afd9253 <unknown>
+#8 0x55cb5afa91c7 <unknown>
+#9 0x55cb5afa9b3e <unknown>
+#10 0x55cb5b24727b <unknown>
+#11 0x55cb5b24b327 <unknown>
+#12 0x55cb5b233dae <unknown>
+#13 0x55cb5b24bdf2 <unknown>
+#14 0x55cb5b21874f <unknown>
+#15 0x55cb5b270128 <unknown>
+#16 0x55cb5b2702fb <unknown>
+#17 0x55cb5b27ff6c <unknown>
+#18 0x7f0bd181e272 start_thread
+
+2024-10-24 17:31:06,760 - WARNING - Failed with selector //div[contains(@class, 'sign-in')][@role='button']: Message: 
+Stacktrace:
+#0 0x55c28967de3a <unknown>
+#1 0x55c28936745c <unknown>
+#2 0x55c2893b35b5 <unknown>
+#3 0x55c2893b3671 <unknown>
+#4 0x55c2893f7f14 <unknown>
+#5 0x55c2893d64dd <unknown>
+#6 0x55c2893f52cc <unknown>
+#7 0x55c2893d6253 <unknown>
+#8 0x55c2893a61c7 <unknown>
+#9 0x55c2893a6b3e <unknown>
+#10 0x55c28964427b <unknown>
+#11 0x55c289648327 <unknown>
+#12 0x55c289630dae <unknown>
+#13 0x55c289648df2 <unknown>
+#14 0x55c28961574f <unknown>
+#15 0x55c28966d128 <unknown>
+#16 0x55c28966d2fb <unknown>
+#17 0x55c28967cf6c <unknown>
+#18 0x7fd095f37272 start_thread
+
+2024-10-24 17:31:10,407 - WARNING - Failed with selector //div[contains(@class, 'sign-in')][@role='button']: Message: 
+Stacktrace:
+#0 0x556f4bf8be3a <unknown>
+#1 0x556f4bc7545c <unknown>
+#2 0x556f4bcc15b5 <unknown>
+#3 0x556f4bcc1671 <unknown>
+#4 0x556f4bd05f14 <unknown>
+#5 0x556f4bce44dd <unknown>
+#6 0x556f4bd032cc <unknown>
+#7 0x556f4bce4253 <unknown>
+#8 0x556f4bcb41c7 <unknown>
+#9 0x556f4bcb4b3e <unknown>
+#10 0x556f4bf5227b <unknown>
+#11 0x556f4bf56327 <unknown>
+#12 0x556f4bf3edae <unknown>
+#13 0x556f4bf56df2 <unknown>
+#14 0x556f4bf2374f <unknown>
+#15 0x556f4bf7b128 <unknown>
+#16 0x556f4bf7b2fb <unknown>
+#17 0x556f4bf8af6c <unknown>
+#18 0x7f6a0fdf8272 start_thread
+
+2024-10-24 17:31:47,014 - WARNING - Failed with selector //div[contains(@class, 'sign-in')][@role='button']: Message: 
+Stacktrace:
+#0 0x55f29466ee3a <unknown>
+#1 0x55f29435845c <unknown>
+#2 0x55f2943a45b5 <unknown>
+#3 0x55f2943a4671 <unknown>
+#4 0x55f2943e8f14 <unknown>
+#5 0x55f2943c74dd <unknown>
+#6 0x55f2943e62cc <unknown>
+#7 0x55f2943c7253 <unknown>
+#8 0x55f2943971c7 <unknown>
+#9 0x55f294397b3e <unknown>
+#10 0x55f29463527b <unknown>
+#11 0x55f294639327 <unknown>
+#12 0x55f294621dae <unknown>
+#13 0x55f294639df2 <unknown>
+#14 0x55f29460674f <unknown>
+#15 0x55f29465e128 <unknown>
+#16 0x55f29465e2fb <unknown>
+#17 0x55f29466df6c <unknown>
+#18 0x7f29f4144272 start_thread
+
+2024-10-24 17:31:49,270 - WARNING - Failed with selector //button[contains(@class, 'login')]: Message: 
+Stacktrace:
+#0 0x55cb5b280e3a <unknown>
+#1 0x55cb5af6a45c <unknown>
+#2 0x55cb5afb65b5 <unknown>
+#3 0x55cb5afb6671 <unknown>
+#4 0x55cb5affaf14 <unknown>
+#5 0x55cb5afd94dd <unknown>
+#6 0x55cb5aff82cc <unknown>
+#7 0x55cb5afd9253 <unknown>
+#8 0x55cb5afa91c7 <unknown>
+#9 0x55cb5afa9b3e <unknown>
+#10 0x55cb5b24727b <unknown>
+#11 0x55cb5b24b327 <unknown>
+#12 0x55cb5b233dae <unknown>
+#13 0x55cb5b24bdf2 <unknown>
+#14 0x55cb5b21874f <unknown>
+#15 0x55cb5b270128 <unknown>
+#16 0x55cb5b2702fb <unknown>
+#17 0x55cb5b27ff6c <unknown>
+#18 0x7f0bd181e272 start_thread
+
+2024-10-24 17:31:51,872 - WARNING - Failed with selector //button[contains(@class, 'auth-button')]: Message: 
+Stacktrace:
+#0 0x55c28967de3a <unknown>
+#1 0x55c28936745c <unknown>
+#2 0x55c2893b35b5 <unknown>
+#3 0x55c2893b3671 <unknown>
+#4 0x55c2893f7f14 <unknown>
+#5 0x55c2893d64dd <unknown>
+#6 0x55c2893f52cc <unknown>
+#7 0x55c2893d6253 <unknown>
+#8 0x55c2893a61c7 <unknown>
+#9 0x55c2893a6b3e <unknown>
+#10 0x55c28964427b <unknown>
+#11 0x55c289648327 <unknown>
+#12 0x55c289630dae <unknown>
+#13 0x55c289648df2 <unknown>
+#14 0x55c28961574f <unknown>
+#15 0x55c28966d128 <unknown>
+#16 0x55c28966d2fb <unknown>
+#17 0x55c28967cf6c <unknown>
+#18 0x7fd095f37272 start_thread
+
+2024-10-24 17:31:55,531 - WARNING - Failed with selector //button[contains(@class, 'auth-button')]: Message: 
+Stacktrace:
+#0 0x556f4bf8be3a <unknown>
+#1 0x556f4bc7545c <unknown>
+#2 0x556f4bcc15b5 <unknown>
+#3 0x556f4bcc1671 <unknown>
+#4 0x556f4bd05f14 <unknown>
+#5 0x556f4bce44dd <unknown>
+#6 0x556f4bd032cc <unknown>
+#7 0x556f4bce4253 <unknown>
+#8 0x556f4bcb41c7 <unknown>
+#9 0x556f4bcb4b3e <unknown>
+#10 0x556f4bf5227b <unknown>
+#11 0x556f4bf56327 <unknown>
+#12 0x556f4bf3edae <unknown>
+#13 0x556f4bf56df2 <unknown>
+#14 0x556f4bf2374f <unknown>
+#15 0x556f4bf7b128 <unknown>
+#16 0x556f4bf7b2fb <unknown>
+#17 0x556f4bf8af6c <unknown>
+#18 0x7f6a0fdf8272 start_thread
+
+2024-10-24 17:32:32,084 - WARNING - Failed with selector //button[contains(@class, 'auth-button')]: Message: 
+Stacktrace:
+#0 0x55f29466ee3a <unknown>
+#1 0x55f29435845c <unknown>
+#2 0x55f2943a45b5 <unknown>
+#3 0x55f2943a4671 <unknown>
+#4 0x55f2943e8f14 <unknown>
+#5 0x55f2943c74dd <unknown>
+#6 0x55f2943e62cc <unknown>
+#7 0x55f2943c7253 <unknown>
+#8 0x55f2943971c7 <unknown>
+#9 0x55f294397b3e <unknown>
+#10 0x55f29463527b <unknown>
+#11 0x55f294639327 <unknown>
+#12 0x55f294621dae <unknown>
+#13 0x55f294639df2 <unknown>
+#14 0x55f29460674f <unknown>
+#15 0x55f29465e128 <unknown>
+#16 0x55f29465e2fb <unknown>
+#17 0x55f29466df6c <unknown>
+#18 0x7f29f4144272 start_thread
+
+2024-10-24 17:32:34,436 - WARNING - Failed with selector //div[contains(@class, 'cl-userButtonTrigger')]: Message: 
+Stacktrace:
+#0 0x55cb5b280e3a <unknown>
+#1 0x55cb5af6a45c <unknown>
+#2 0x55cb5afb65b5 <unknown>
+#3 0x55cb5afb6671 <unknown>
+#4 0x55cb5affaf14 <unknown>
+#5 0x55cb5afd94dd <unknown>
+#6 0x55cb5aff82cc <unknown>
+#7 0x55cb5afd9253 <unknown>
+#8 0x55cb5afa91c7 <unknown>
+#9 0x55cb5afa9b3e <unknown>
+#10 0x55cb5b24727b <unknown>
+#11 0x55cb5b24b327 <unknown>
+#12 0x55cb5b233dae <unknown>
+#13 0x55cb5b24bdf2 <unknown>
+#14 0x55cb5b21874f <unknown>
+#15 0x55cb5b270128 <unknown>
+#16 0x55cb5b2702fb <unknown>
+#17 0x55cb5b27ff6c <unknown>
+#18 0x7f0bd181e272 start_thread
+
+2024-10-24 17:32:36,991 - WARNING - Failed with selector //button[contains(@class, 'cl-auth')]: Message: 
+Stacktrace:
+#0 0x55c28967de3a <unknown>
+#1 0x55c28936745c <unknown>
+#2 0x55c2893b35b5 <unknown>
+#3 0x55c2893b3671 <unknown>
+#4 0x55c2893f7f14 <unknown>
+#5 0x55c2893d64dd <unknown>
+#6 0x55c2893f52cc <unknown>
+#7 0x55c2893d6253 <unknown>
+#8 0x55c2893a61c7 <unknown>
+#9 0x55c2893a6b3e <unknown>
+#10 0x55c28964427b <unknown>
+#11 0x55c289648327 <unknown>
+#12 0x55c289630dae <unknown>
+#13 0x55c289648df2 <unknown>
+#14 0x55c28961574f <unknown>
+#15 0x55c28966d128 <unknown>
+#16 0x55c28966d2fb <unknown>
+#17 0x55c28967cf6c <unknown>
+#18 0x7fd095f37272 start_thread
+
+2024-10-24 17:32:39,325 - INFO - Successfully clicked Sign in button
+2024-10-24 17:32:40,591 - WARNING - Failed with selector //button[contains(@class, 'cl-auth')]: Message: 
+Stacktrace:
+#0 0x556f4bf8be3a <unknown>
+#1 0x556f4bc7545c <unknown>
+#2 0x556f4bcc15b5 <unknown>
+#3 0x556f4bcc1671 <unknown>
+#4 0x556f4bd05f14 <unknown>
+#5 0x556f4bce44dd <unknown>
+#6 0x556f4bd032cc <unknown>
+#7 0x556f4bce4253 <unknown>
+#8 0x556f4bcb41c7 <unknown>
+#9 0x556f4bcb4b3e <unknown>
+#10 0x556f4bf5227b <unknown>
+#11 0x556f4bf56327 <unknown>
+#12 0x556f4bf3edae <unknown>
+#13 0x556f4bf56df2 <unknown>
+#14 0x556f4bf2374f <unknown>
+#15 0x556f4bf7b128 <unknown>
+#16 0x556f4bf7b2fb <unknown>
+#17 0x556f4bf8af6c <unknown>
+#18 0x7f6a0fdf8272 start_thread
+
+2024-10-24 17:32:42,918 - INFO - Successfully clicked Sign in button
+2024-10-24 17:33:17,204 - WARNING - Failed with selector //button[contains(@class, 'cl-auth')]: Message: 
+Stacktrace:
+#0 0x55f29466ee3a <unknown>
+#1 0x55f29435845c <unknown>
+#2 0x55f2943a45b5 <unknown>
+#3 0x55f2943a4671 <unknown>
+#4 0x55f2943e8f14 <unknown>
+#5 0x55f2943c74dd <unknown>
+#6 0x55f2943e62cc <unknown>
+#7 0x55f2943c7253 <unknown>
+#8 0x55f2943971c7 <unknown>
+#9 0x55f294397b3e <unknown>
+#10 0x55f29463527b <unknown>
+#11 0x55f294639327 <unknown>
+#12 0x55f294621dae <unknown>
+#13 0x55f294639df2 <unknown>
+#14 0x55f29460674f <unknown>
+#15 0x55f29465e128 <unknown>
+#16 0x55f29465e2fb <unknown>
+#17 0x55f29466df6c <unknown>
+#18 0x7f29f4144272 start_thread
+
+2024-10-24 17:33:19,532 - INFO - Successfully clicked Sign in button
+2024-10-24 17:33:19,664 - WARNING - Failed with selector //div[contains(@class, 'sign-in')][@role='button']: Message: 
+Stacktrace:
+#0 0x55cb5b280e3a <unknown>
+#1 0x55cb5af6a45c <unknown>
+#2 0x55cb5afb65b5 <unknown>
+#3 0x55cb5afb6671 <unknown>
+#4 0x55cb5affaf14 <unknown>
+#5 0x55cb5afd94dd <unknown>
+#6 0x55cb5aff82cc <unknown>
+#7 0x55cb5afd9253 <unknown>
+#8 0x55cb5afa91c7 <unknown>
+#9 0x55cb5afa9b3e <unknown>
+#10 0x55cb5b24727b <unknown>
+#11 0x55cb5b24b327 <unknown>
+#12 0x55cb5b233dae <unknown>
+#13 0x55cb5b24bdf2 <unknown>
+#14 0x55cb5b21874f <unknown>
+#15 0x55cb5b270128 <unknown>
+#16 0x55cb5b2702fb <unknown>
+#17 0x55cb5b27ff6c <unknown>
+#18 0x7f0bd181e272 start_thread
+
+2024-10-24 17:34:04,814 - WARNING - Failed with selector //button[contains(@class, 'auth-button')]: Message: 
+Stacktrace:
+#0 0x55cb5b280e3a <unknown>
+#1 0x55cb5af6a45c <unknown>
+#2 0x55cb5afb65b5 <unknown>
+#3 0x55cb5afb6671 <unknown>
+#4 0x55cb5affaf14 <unknown>
+#5 0x55cb5afd94dd <unknown>
+#6 0x55cb5aff82cc <unknown>
+#7 0x55cb5afd9253 <unknown>
+#8 0x55cb5afa91c7 <unknown>
+#9 0x55cb5afa9b3e <unknown>
+#10 0x55cb5b24727b <unknown>
+#11 0x55cb5b24b327 <unknown>
+#12 0x55cb5b233dae <unknown>
+#13 0x55cb5b24bdf2 <unknown>
+#14 0x55cb5b21874f <unknown>
+#15 0x55cb5b270128 <unknown>
+#16 0x55cb5b2702fb <unknown>
+#17 0x55cb5b27ff6c <unknown>
+#18 0x7f0bd181e272 start_thread
+
+2024-10-24 17:34:49,968 - WARNING - Failed with selector //button[contains(@class, 'cl-auth')]: Message: 
+Stacktrace:
+#0 0x55cb5b280e3a <unknown>
+#1 0x55cb5af6a45c <unknown>
+#2 0x55cb5afb65b5 <unknown>
+#3 0x55cb5afb6671 <unknown>
+#4 0x55cb5affaf14 <unknown>
+#5 0x55cb5afd94dd <unknown>
+#6 0x55cb5aff82cc <unknown>
+#7 0x55cb5afd9253 <unknown>
+#8 0x55cb5afa91c7 <unknown>
+#9 0x55cb5afa9b3e <unknown>
+#10 0x55cb5b24727b <unknown>
+#11 0x55cb5b24b327 <unknown>
+#12 0x55cb5b233dae <unknown>
+#13 0x55cb5b24bdf2 <unknown>
+#14 0x55cb5b21874f <unknown>
+#15 0x55cb5b270128 <unknown>
+#16 0x55cb5b2702fb <unknown>
+#17 0x55cb5b27ff6c <unknown>
+#18 0x7f0bd181e272 start_thread
+
+2024-10-24 17:34:52,387 - INFO - Successfully clicked Sign in button
+2024-10-24 17:34:59,558 - INFO - Successfully clicked Google login button
+2024-10-24 17:35:05,697 - INFO - Successfully clicked Google login button
+2024-10-24 17:35:09,381 - INFO - Successfully clicked Google login button
+2024-10-24 17:35:32,616 - ERROR - Google OAuth failed: Google login window not found
+2024-10-24 17:35:32,936 - INFO - Screenshot saved: logs/google_oauth_failure.png
+2024-10-24 17:35:32,936 - ERROR - Login attempt 3 failed: Google OAuth process failed
+2024-10-24 17:35:33,257 - INFO - Screenshot saved: logs/login_failure_3.png
+2024-10-24 17:35:33,258 - ERROR - Error in main execution: Login failed after 3 attempts
+2024-10-24 17:35:33,351 - INFO - WebDriver closed successfully
+2024-10-24 17:35:33,693 - INFO - Successfully clicked Google login button
+2024-10-24 17:35:38,741 - ERROR - Google OAuth failed: Google login window not found
+2024-10-24 17:35:39,365 - INFO - Screenshot saved: logs/google_oauth_failure.png
+2024-10-24 17:35:39,365 - ERROR - Login attempt 3 failed: Google OAuth process failed
+2024-10-24 17:35:39,631 - INFO - Screenshot saved: logs/login_failure_3.png
+2024-10-24 17:35:39,632 - ERROR - Error in main execution: Login failed after 3 attempts
+2024-10-24 17:35:39,746 - INFO - WebDriver closed successfully
+2024-10-24 17:35:42,427 - ERROR - Google OAuth failed: Google login window not found
+2024-10-24 17:35:42,938 - INFO - Screenshot saved: logs/google_oauth_failure.png
+2024-10-24 17:35:42,938 - ERROR - Login attempt 3 failed: Google OAuth process failed
+2024-10-24 17:35:43,263 - INFO - Screenshot saved: logs/login_failure_3.png
+2024-10-24 17:35:43,263 - ERROR - Error in main execution: Login failed after 3 attempts
+2024-10-24 17:35:44,368 - INFO - WebDriver closed successfully
+2024-10-24 17:36:06,768 - ERROR - Google OAuth failed: Google login window not found
+2024-10-24 17:36:07,094 - INFO - Screenshot saved: logs/google_oauth_failure.png
+2024-10-24 17:36:07,094 - ERROR - Login attempt 3 failed: Google OAuth process failed
+2024-10-24 17:36:07,389 - INFO - Screenshot saved: logs/login_failure_3.png
+2024-10-24 17:36:07,477 - INFO - WebDriver closed successfully
+2024-10-24 20:40:12,661 - INFO - Chrome WebDriver initialized successfully
+2024-10-24 20:40:12,663 - INFO - Starting login attempt 1/3
+2024-10-24 20:40:28,220 - ERROR - Login attempt 1 failed: 'UdioMusicBot' object has no attribute 'wait_and_click'
+2024-10-24 20:40:28,441 - INFO - Screenshot saved: logs/login_failure_1.png
+2024-10-24 20:40:33,512 - INFO - WebDriver closed successfully
+2024-10-24 20:40:33,939 - INFO - Chrome WebDriver initialized successfully
+2024-10-24 20:40:33,940 - INFO - Starting login attempt 2/3
+2024-10-24 20:40:49,481 - ERROR - Login attempt 2 failed: 'UdioMusicBot' object has no attribute 'wait_and_click'
+2024-10-24 20:40:49,707 - INFO - Screenshot saved: logs/login_failure_2.png
+2024-10-24 20:40:54,779 - INFO - WebDriver closed successfully
+2024-10-24 20:40:55,142 - INFO - Chrome WebDriver initialized successfully
+2024-10-24 20:40:55,143 - INFO - Starting login attempt 3/3
+2024-10-24 20:41:10,627 - ERROR - Login attempt 3 failed: 'UdioMusicBot' object has no attribute 'wait_and_click'
+2024-10-24 20:41:10,862 - INFO - Screenshot saved: logs/login_failure_3.png
+2024-10-24 20:41:10,863 - ERROR - Error in main execution: Login failed after 3 attempts
+2024-10-24 20:41:10,947 - INFO - WebDriver closed successfully
+2024-10-24 20:42:31,878 - INFO - Chrome WebDriver initialized successfully
+2024-10-24 20:42:31,879 - INFO - Starting login attempt 1/3
+2024-10-24 20:43:25,834 - WARNING - Failed with selector //button[contains(@class, 'inline-flex') and contains(@class, 'items-center') and contains(@class, 'justify-center') and contains(@class, 'whitespace-nowrap')]: Message: 
+
+2024-10-24 20:43:26,048 - INFO - Screenshot saved: logs/click_failure_Sign in button.png
+2024-10-24 20:43:27,294 - INFO - Successfully clicked Sign in button
+2024-10-24 20:43:45,856 - INFO - Chrome WebDriver initialized successfully
+2024-10-24 20:43:45,857 - INFO - Starting login attempt 1/3
+2024-10-24 20:45:51,205 - INFO - Chrome WebDriver initialized successfully
+2024-10-24 20:45:51,206 - INFO - Starting login attempt 1/3

@@ -1,9 +1,9 @@
-# Suno Music Bot
+# Udio Music Bot
 
-A Python-based automation bot for generating and saving music from suno.com with themed prompt variations.
+A Python-based automation bot for generating and saving music from udio.com with themed prompt variations.
 
 ## Features
-- Automated music generation using Suno.ai
+- Automated music generation using Udio
 - Theme-based prompt generation
 - Simple CLI interface for easy control
 - Download management

@@ -10,6 +10,7 @@ from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
 from selenium.common.exceptions import TimeoutException, WebDriverException, StaleElementReferenceException
 from selenium.webdriver.common.keys import Keys
+from selenium.webdriver.common.action_chains import ActionChains
 from prompt_generator import PromptGenerator
 from cloud_storage import CloudStorageManager
 
@@ -18,7 +19,7 @@ logging.basicConfig(
     level=logging.DEBUG,
     format='%(asctime)s - %(levelname)s - %(message)s',
     handlers=[
-        logging.FileHandler('logs/suno_bot.log'),
+        logging.FileHandler('logs/udio_bot.log'),
         logging.StreamHandler()
     ]
 )
@@ -28,7 +29,7 @@ class LoginError(Exception):
     """Custom exception for login failures"""
     pass
 
-class SunoMusicBot:
+class UdioMusicBot:
     def __init__(self, use_cloud_storage: bool = False, headless: bool = False, max_retries: int = 3):
         self.downloads_dir = Path("downloads")
         self.logs_dir = Path("logs")
@@ -37,39 +38,294 @@ class SunoMusicBot:
         
         self.prompt_generator = PromptGenerator()
         self.cloud_storage = CloudStorageManager() if use_cloud_storage else None
-        self.headless = False  # Force non-headless mode for stability
+        self.headless = headless
         self.max_retries = max_retries
         
+        # Validate credentials with strict checking
         self.email = str(os.getenv("GOOGLE_EMAIL", "")).strip()
         self.password = str(os.getenv("GOOGLE_PASSWORD", "")).strip()
         
         if not self.email or not self.password:
-            raise ValueError("Google credentials not found in environment variables")
+            raise ValueError("Google credentials not found or empty in environment variables")
         
         self.setup_driver()
-    
+
+    def wait_for_page_load(self, timeout=90):
+        """Wait for page to fully load with dynamic content handling."""
+        try:
+            start_time = time.time()
+            while time.time() - start_time < timeout:
+                state = self.driver.execute_script('return document.readyState')
+                if state == 'complete':
+                    # Check for dynamic content loading
+                    try:
+                        self.driver.execute_script(
+                            'return window.performance.timing.loadEventEnd > 0'
+                        )
+                        time.sleep(2)  # Extra wait for dynamic content
+                        return True
+                    except:
+                        time.sleep(1)
+                        continue
+                time.sleep(1)
+            return False
+        except Exception as e:
+            logger.warning(f"Error waiting for page load: {str(e)}")
+            return False
+
+    def wait_and_click(self, selectors, element_name="element", timeout=45):
+        """Enhanced element clicking with improved reliability and logging."""
+        if isinstance(selectors, str):
+            selectors = [selectors]
+
+        for selector in selectors:
+            try:
+                logger.debug(f"Attempting to click {element_name} with selector: {selector}")
+                
+                # Wait for element with extended timeout
+                element = WebDriverWait(self.driver, timeout).until(
+                    EC.element_to_be_clickable((By.XPATH, selector))
+                )
+                
+                # Log element state for debugging
+                logger.debug(f"Element found: {element.tag_name}, "
+                           f"Text: {element.text}, "
+                           f"Classes: {element.get_attribute('class')}")
+                
+                # Ensure element is in viewport
+                self.driver.execute_script(
+                    "arguments[0].scrollIntoView({behavior: 'smooth', block: 'center'});"
+                    "window.scrollBy(0, -window.innerHeight / 4);",
+                    element
+                )
+                time.sleep(2)  # Extended wait after scroll
+                
+                # Verify element is still valid
+                if not element.is_displayed() or not element.is_enabled():
+                    logger.warning(f"Element not interactable after scroll")
+                    continue
+                
+                # Try multiple click methods with validation
+                click_successful = False
+                for click_method in [
+                    lambda: element.click(),
+                    lambda: self.driver.execute_script("arguments[0].click();", element),
+                    lambda: element.send_keys(Keys.RETURN),
+                    lambda: ActionChains(self.driver).move_to_element(element).click().perform()
+                ]:
+                    try:
+                        click_method()
+                        click_successful = True
+                        break
+                    except:
+                        continue
+                
+                if click_successful:
+                    logger.info(f"Successfully clicked {element_name}")
+                    return True
+                    
+            except Exception as e:
+                logger.warning(f"Failed with selector {selector}: {e}")
+                self.save_screenshot(f"click_failure_{element_name}.png")
+                continue
+        
+        logger.error(f"All selectors failed for {element_name}")
+        return False
+
+    def handle_google_oauth(self):
+        """Enhanced Google OAuth process with improved window handling and retries."""
+        try:
+            # Store initial window handle
+            main_window = self.driver.current_window_handle
+            logger.debug(f"Main window handle: {main_window}")
+            
+            # Wait longer after clicking Google button
+            time.sleep(10)
+            
+            # Extended wait for Google login window with retries
+            start_time = time.time()
+            timeout = 60  # Extended timeout
+            google_window = None
+            retry_count = 0
+            max_retries = 3
+            
+            while time.time() - start_time < timeout and retry_count < max_retries:
+                try:
+                    windows = self.driver.window_handles
+                    logger.debug(f"Current window handles: {windows}")
+                    
+                    if len(windows) > 1:
+                        # Try each window until we find the Google login
+                        for window in windows:
+                            if window != main_window:
+                                try:
+                                    self.driver.switch_to.window(window)
+                                    current_url = self.driver.current_url
+                                    logger.debug(f"Window {window} URL: {current_url}")
+                                    
+                                    # Check multiple Google OAuth URL patterns
+                                    if any(domain in current_url.lower() for domain in [
+                                        'accounts.google.com',
+                                        'myaccount.google.com',
+                                        'google.com/signin',
+                                        'gds.google.com'
+                                    ]):
+                                        google_window = window
+                                        logger.info(f"Found Google login window: {current_url}")
+                                        break
+                                except Exception as e:
+                                    logger.warning(f"Error checking window {window}: {e}")
+                                    continue
+                        
+                        if google_window:
+                            break
+                        
+                        # If window not found, try clicking the Google button again
+                        if retry_count < max_retries - 1:
+                            logger.info("Google window not found, retrying...")
+                            self.driver.switch_to.window(main_window)
+                            google_selectors = [
+                                "//button[contains(., 'Continue with Google')]",
+                                "//button[contains(., 'Sign in with Google')]",
+                                "//button[contains(@class, 'google')]"
+                            ]
+                            if self.wait_and_click(google_selectors, "Google login button retry"):
+                                time.sleep(5)
+                            retry_count += 1
+                        
+                except Exception as e:
+                    logger.warning(f"Error handling windows: {e}")
+                
+                time.sleep(2)
+                logger.debug("Waiting for Google window...")
+            
+            if not google_window:
+                logger.error("Google login window not found after retries")
+                self.save_screenshot("google_window_not_found.png")
+                return False
+            
+            # Switch to Google window and handle login
+            self.driver.switch_to.window(google_window)
+            
+            # Handle email input with retry
+            for _ in range(3):
+                try:
+                    email_selectors = [
+                        "//input[@type='email']",
+                        "//input[@name='identifier']",
+                        "//input[contains(@aria-label, 'mail')]"
+                    ]
+                    
+                    for selector in email_selectors:
+                        try:
+                            email_field = WebDriverWait(self.driver, 10).until(
+                                EC.presence_of_element_located((By.XPATH, selector))
+                            )
+                            email_field.clear()
+                            time.sleep(1)
+                            email_field.send_keys(self.email)
+                            time.sleep(1)
+                            email_field.send_keys(Keys.RETURN)
+                            logger.info("Email entered successfully")
+                            break
+                        except:
+                            continue
+                    break
+                except Exception as e:
+                    logger.warning(f"Email input attempt failed: {e}")
+                    time.sleep(2)
+            else:
+                logger.error("Failed to enter email after 3 attempts")
+                self.save_screenshot("email_input_failure.png")
+                return False
+            
+            # Handle password input with retry
+            time.sleep(5)  # Extended wait for password field
+            for _ in range(3):
+                try:
+                    password_selectors = [
+                        "//input[@type='password']",
+                        "//input[@name='password']",
+                        "//input[contains(@aria-label, 'assword')]"
+                    ]
+                    
+                    for selector in password_selectors:
+                        try:
+                            password_field = WebDriverWait(self.driver, 10).until(
+                                EC.presence_of_element_located((By.XPATH, selector))
+                            )
+                            password_field.clear()
+                            time.sleep(1)
+                            password_field.send_keys(self.password)
+                            time.sleep(1)
+                            password_field.send_keys(Keys.RETURN)
+                            logger.info("Password entered successfully")
+                            break
+                        except:
+                            continue
+                    break
+                except Exception as e:
+                    logger.warning(f"Password input attempt failed: {e}")
+                    time.sleep(2)
+            else:
+                logger.error("Failed to enter password after 3 attempts")
+                self.save_screenshot("password_input_failure.png")
+                return False
+            
+            # Enhanced OAuth completion check
+            logger.info("Waiting for OAuth completion...")
+            oauth_complete = False
+            start_time = time.time()
+            while time.time() - start_time < 45:  # Extended timeout
+                try:
+                    current_handles = self.driver.window_handles
+                    if len(current_handles) == 1:
+                        self.driver.switch_to.window(current_handles[0])
+                        oauth_complete = True
+                        logger.info("OAuth process completed successfully")
+                        break
+                    time.sleep(1)
+                except Exception as e:
+                    logger.warning(f"Error checking window handles: {e}")
+                    time.sleep(1)
+            
+            if not oauth_complete:
+                logger.error("OAuth process timed out")
+                return False
+            
+            return True
+            
+        except Exception as e:
+            logger.error(f"Google OAuth failed: {str(e)}")
+            self.save_screenshot("google_oauth_failure.png")
+            return False
+
     def setup_driver(self):
         """Set up Chrome WebDriver with maximum stability settings."""
         try:
             chrome_options = Options()
             
-            # Essential stability settings
+            # Essential settings
             chrome_options.add_argument('--no-sandbox')
             chrome_options.add_argument('--disable-dev-shm-usage')
             chrome_options.add_argument('--disable-gpu')
             chrome_options.add_argument('--window-size=1920,1080')
             chrome_options.add_argument('--start-maximized')
             
-            # Prevent detection
+            # Enhanced stability settings
             chrome_options.add_argument('--disable-blink-features=AutomationControlled')
+            chrome_options.add_argument('--disable-extensions')
+            chrome_options.add_argument('--disable-notifications')
+            chrome_options.add_argument('--disable-popup-blocking')
+            chrome_options.add_argument('--enable-automation')
+            chrome_options.add_argument('--disable-infobars')
+            chrome_options.add_argument('--disable-browser-side-navigation')
+            chrome_options.add_argument('--disable-features=IsolateOrigins,site-per-process')
             chrome_options.add_experimental_option('excludeSwitches', ['enable-automation'])
             chrome_options.add_experimental_option('useAutomationExtension', False)
             
-            # Additional stability settings
-            chrome_options.add_argument('--disable-web-security')
-            chrome_options.add_argument('--allow-running-insecure-content')
-            chrome_options.add_argument('--ignore-certificate-errors')
-            chrome_options.add_argument('--remote-debugging-port=9222')  # Enable DevTools Protocol
+            if self.headless:
+                chrome_options.add_argument('--headless=new')
             
             # Download preferences
             prefs = {
@@ -82,15 +338,11 @@ class SunoMusicBot:
             }
             chrome_options.add_experimental_option("prefs", prefs)
             
-            # Initialize WebDriver with longer timeouts
+            # Initialize WebDriver with increased timeouts
             service = Service()
             self.driver = webdriver.Chrome(service=service, options=chrome_options)
             self.driver.set_page_load_timeout(90)
             self.wait = WebDriverWait(self.driver, 45)
-            
-            # Set window size explicitly
-            self.driver.set_window_size(1920, 1080)
-            self.driver.set_window_position(0, 0)
             
             logger.info("Chrome WebDriver initialized successfully")
             
@@ -98,176 +350,88 @@ class SunoMusicBot:
             logger.error(f"Failed to initialize WebDriver: {str(e)}")
             raise
 
-    def wait_for_page_load(self, timeout=90):
-        """Wait for page to fully load with improved timeout."""
-        try:
-            return self.wait.until(
-                lambda driver: driver.execute_script('return document.readyState') == 'complete'
-            )
-        except Exception as e:
-            logger.warning(f"Error waiting for page load: {str(e)}")
-            return False
-
-    def wait_and_click(self, selector, description="element", timeout=45):
-        """Wait for element with improved stability and multiple click attempts."""
-        max_attempts = 3
-        for attempt in range(max_attempts):
-            try:
-                # Wait for element presence
-                element = self.wait.until(
-                    EC.presence_of_element_located((By.XPATH, selector))
-                )
-                
-                # Ensure element is in viewport
-                self.driver.execute_script(
-                    "arguments[0].scrollIntoView({behavior: 'smooth', block: 'center'});",
-                    element
-                )
-                time.sleep(2)  # Wait for scroll and animations
-                
-                # Wait for clickability
-                element = self.wait.until(
-                    EC.element_to_be_clickable((By.XPATH, selector))
-                )
-                
-                # Try multiple click methods
-                try:
-                    element.click()
-                except:
-                    try:
-                        self.driver.execute_script("arguments[0].click();", element)
-                    except:
-                        # Final attempt: send Enter key
-                        element.send_keys(Keys.RETURN)
-                
-                logger.info(f"Successfully clicked {description} (attempt {attempt + 1})")
-                return True
-                
-            except Exception as e:
-                if attempt == max_attempts - 1:
-                    logger.error(f"Failed to click {description} after {max_attempts} attempts: {str(e)}")
-                    return False
-                logger.warning(f"Click attempt {attempt + 1} failed, retrying...")
-                time.sleep(2)
-        return False
-
-    def handle_google_oauth(self):
-        """Handle Google OAuth with improved stability and window management."""
-        try:
-            # Wait for window handles with retry
-            max_retries = 3
-            for attempt in range(max_retries):
-                time.sleep(3)
-                windows = self.driver.window_handles
-                
-                if len(windows) > 1:
-                    # Try to find Google login window
-                    for window in windows:
-                        self.driver.switch_to.window(window)
-                        if "accounts.google.com" in self.driver.current_url:
-                            logger.info("Found Google login window")
-                            break
-                    else:
-                        # If not found, use the last window
-                        self.driver.switch_to.window(windows[-1])
-                    break
-                    
-                if attempt == max_retries - 1:
-                    raise Exception("Google login window not found")
-                    
-                logger.info(f"Waiting for Google window (attempt {attempt + 1})")
-            
-            # Handle email input with retry
-            logger.info("Looking for email input field...")
-            email_field = self.wait.until(
-                EC.presence_of_element_located((By.NAME, "identifier"))
-            )
-            email_field.clear()
-            time.sleep(1)
-            email_field.send_keys(self.email)
-            time.sleep(1)
-            email_field.send_keys(Keys.RETURN)
-            logger.info("Email entered successfully")
-            
-            # Wait for password field with explicit timeout
-            time.sleep(3)
-            logger.info("Looking for password input field...")
-            password_field = self.wait.until(
-                EC.presence_of_element_located((By.NAME, "password"))
-            )
-            password_field.clear()
-            time.sleep(1)
-            password_field.send_keys(self.password)
-            time.sleep(1)
-            password_field.send_keys(Keys.RETURN)
-            logger.info("Password entered successfully")
-            
-            # Wait for OAuth completion and switch back
-            time.sleep(5)
-            self.driver.switch_to.window(windows[0])
-            return True
-            
-        except Exception as e:
-            logger.error(f"Google OAuth failed: {str(e)}")
-            self.save_screenshot("google_oauth_failure.png")
-            return False
-
-    def verify_login(self, timeout=45):
-        """Verify successful login with improved checks."""
-        try:
-            start_time = time.time()
-            while time.time() - start_time < timeout:
-                try:
-                    current_url = self.driver.current_url
-                    if "/dashboard" in current_url or "/create" in current_url or "/studio" in current_url:
-                        logger.info(f"Login verified - Current URL: {current_url}")
-                        return True
-                except:
-                    # Handle potential DevTools disconnection
-                    logger.warning("Error checking URL, retrying...")
-                time.sleep(2)
-            logger.error("Login verification timeout")
-            return False
-        except Exception as e:
-            logger.error(f"Login verification failed: {str(e)}")
-            return False
-
     def login(self):
-        """Improved login process with enhanced stability and error handling."""
+        """Enhanced login process with improved reliability."""
         retry_count = 0
         while retry_count < self.max_retries:
             try:
                 logger.info(f"Starting login attempt {retry_count + 1}/{self.max_retries}")
                 
-                # Load Suno homepage
-                self.driver.get("https://suno.ai")
-                if not self.wait_for_page_load():
-                    raise LoginError("Page load timeout")
+                # Load homepage with enhanced retry
+                for _ in range(3):
+                    try:
+                        self.driver.get("https://www.udio.com/home")
+                        if self.wait_for_page_load():
+                            break
+                        time.sleep(3)
+                    except:
+                        time.sleep(3)
+                        continue
                 
-                time.sleep(3)  # Wait for initial animations
+                time.sleep(5)  # Extended wait for dynamic content
                 
-                # Click Sign In button with exact selector
-                sign_in_selector = "//button[text()='Sign in' and contains(@class, 'bottom')]"
-                if not self.wait_and_click(sign_in_selector, "Sign in button"):
+                # Updated sign-in selectors with exact Tailwind CSS classes
+                sign_in_selectors = [
+                    "//button[contains(@class, 'inline-flex') and contains(@class, 'items-center') and contains(@class, 'justify-center') and contains(@class, 'whitespace-nowrap')]",
+                    "//button[contains(@class, 'bg-white/5') and contains(@class, 'text-white')]",
+                    # Fallback selectors
+                    "//button[text()='Sign In']",
+                    "//button[contains(., 'Sign In')]",
+                    "//div[@role='button'][contains(., 'Sign In')]"
+                ]
+                
+                if not self.wait_and_click(sign_in_selectors, "Sign in button", timeout=60):
                     raise LoginError("Could not find or click Sign in button")
                 
-                time.sleep(3)  # Wait for modal animation
+                time.sleep(5)  # Extended wait for modal
                 
-                # Click Google login button (third auth button)
-                google_selector = "(//*[contains(@class, 'auth-button')])[3]"
-                if not self.wait_and_click(google_selector, "Google login button"):
+                # Updated Google login button selectors
+                google_selectors = [
+                    "//button[contains(., 'Continue with Google')]",
+                    "//button[contains(., 'Sign in with Google')]",
+                    "//button[contains(@class, 'google')]",
+                    "//button[.//img[contains(@src, 'google')]]",
+                    # Fallback selectors
+                    "//button[contains(., 'Google')]",
+                    "//div[@role='button'][contains(., 'Google')]"
+                ]
+                
+                if not self.wait_and_click(google_selectors, "Google login button", timeout=60):
                     raise LoginError("Could not find or click Google login button")
                 
-                time.sleep(3)  # Wait for OAuth window
+                time.sleep(3)
                 
-                # Handle Google OAuth process
                 if not self.handle_google_oauth():
                     raise LoginError("Google OAuth process failed")
                 
-                # Verify login success with longer timeout
-                if self.verify_login(timeout=45):
-                    logger.info("Login successful!")
-                    return True
+                # Enhanced login verification
+                logger.info("Verifying login success...")
+                start_time = time.time()
+                verification_timeout = 60
+                
+                while time.time() - start_time < verification_timeout:
+                    try:
+                        current_url = self.driver.current_url
+                        logger.debug(f"Current URL: {current_url}")
+                        
+                        if "/home" in current_url or "/dashboard" in current_url:
+                            # Verify logged-in state
+                            try:
+                                logged_in = self.driver.execute_script(
+                                    "return document.body.innerHTML.includes('Sign Out') || "
+                                    "document.body.innerHTML.includes('Logout') || "
+                                    "document.body.innerHTML.includes('Profile')"
+                                )
+                                if logged_in:
+                                    logger.info("Login successful!")
+                                    return True
+                            except:
+                                pass
+                        
+                        time.sleep(2)
+                    except:
+                        time.sleep(2)
+                        continue
                 
                 raise LoginError("Login verification failed")
                 
@@ -279,10 +443,9 @@ class SunoMusicBot:
                 if retry_count >= self.max_retries:
                     raise LoginError(f"Login failed after {self.max_retries} attempts")
                 
-                time.sleep(5)  # Wait before retry
+                time.sleep(5)
                 
                 try:
-                    # Clean up and restart WebDriver
                     self.close()
                 except:
                     logger.warning("Error while closing WebDriver, ignoring...")
@@ -292,7 +455,7 @@ class SunoMusicBot:
         return False
 
     def save_screenshot(self, filename):
-        """Save a screenshot with error handling."""
+        """Save a screenshot for debugging purposes."""
         try:
             filepath = self.logs_dir / filename
             self.driver.save_screenshot(str(filepath))
@@ -301,7 +464,7 @@ class SunoMusicBot:
             logger.error(f"Failed to save screenshot: {str(e)}")
 
     def close(self):
-        """Clean up resources with improved error handling."""
+        """Clean up resources."""
         if hasattr(self, 'driver'):
             try:
                 self.driver.quit()
@@ -312,10 +475,10 @@ class SunoMusicBot:
 if __name__ == "__main__":
     bot = None
     try:
-        bot = SunoMusicBot(headless=False)
+        bot = UdioMusicBot(headless=False)
         bot.login()
     except Exception as e:
-        logger.error(f"Main execution failed: {str(e)}")
+        logger.error(f"Error in main execution: {str(e)}")
     finally:
         if bot:
             bot.close()
