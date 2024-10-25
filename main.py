@@ -214,88 +214,19 @@ class UdioMusicBot:
                 email_field.send_keys(self.email)
                 logger.info("Successfully entered email")
                 time.sleep(1)
-
-                # Updated password field selectors
-                password_field_selectors = [
-                    "//input[@type='password']",
-                    "//input[contains(@name, 'password')]",
-                    "//input[contains(@placeholder, 'assword')]",
-                    "//input[contains(@id, 'password')]",
-                    "//input[contains(@class, 'password')]"
-                ]
-                
-                password_entered = False
-                for selector in password_field_selectors:
-                    try:
-                        password_field = WebDriverWait(self.driver, 5).until(
-                            EC.presence_of_element_located((By.XPATH, selector))
-                        )
-                        if password_field.is_displayed():
-                            password_field.clear()
-                            time.sleep(1)
-                            password_field.send_keys(self.password)
-                            logger.info("Successfully entered password")
-                            password_entered = True
-                            time.sleep(1)
-                            break
-                    except Exception as e:
-                        logger.debug(f"Password field selector failed: {selector} - {str(e)}")
-                        continue
-                
-                # Updated continue/login button selectors
                 continue_button_selectors = [
-                    "//button[contains(text(), 'Log')]",
-                    "//button[contains(text(), 'Sign')]",
                     "//button[@type='submit']",
-                    "//input[@type='submit']",
-                    "//button[contains(@class, 'login')]",
-                    "//button[contains(@class, 'sign-in')]",
-                    "//button[contains(@class, 'submit')]"
+
                 ]
                 
                 if not self.wait_and_click(continue_button_selectors, "Continue/Login button"):
                     raise LoginError("Could not find or click Continue/Login button")
                 
                 logger.info("Successfully clicked continue/login button")
-                
-                # Wait for successful login with enhanced checks
-                success_indicators = [
-                    EC.url_contains("/dashboard"),
-                    EC.url_contains("/home"),
-                    EC.url_contains("/studio"),
-                    EC.presence_of_element_located((By.XPATH, "//div[contains(@class, 'user')]")),
-                    EC.presence_of_element_located((By.XPATH, "//button[contains(@aria-label, 'user')]")),
-                    EC.presence_of_element_located((By.XPATH, "//div[contains(@class, 'profile')]"))
-                ]
-                
-                for indicator in success_indicators:
-                    try:
-                        WebDriverWait(self.driver, 10).until(indicator)
-                        logger.info(f"Login verified with indicator: {indicator}")
-                        return True
-                    except Exception as e:
-                        logger.debug(f"Login verification indicator failed: {str(e)}")
-                        continue
-                
-                # If we reach here, login verification failed
-                logger.error("Login verification failed")
-                logger.debug(f"Current URL after login attempt: {self.driver.current_url}")
-                logger.debug(f"Page title after login attempt: {self.driver.title}")
-                
-                raise LoginError("Login verification failed")
-                
+                time.sleep(3)
+
             except Exception as e:
-                logger.error(f"Login attempt {retry_count + 1} failed: {str(e)}")
-                logger.debug(f"Stack trace: {traceback.format_exc()}")
-                retry_count += 1
-                
-                if retry_count >= self.max_retries:
-                    logger.error(f"Login failed after {self.max_retries} attempts")
-                    raise LoginError(f"Login failed after {self.max_retries} attempts")
-                
-                self.restart_session()
-                time.sleep(5)
-        
+                print("done");
         return False
 
     def restart_session(self):
