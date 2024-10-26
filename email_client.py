@@ -114,6 +114,3 @@ def get_link_from_email(retries = 5):
 
 
             
-
-if __name__ == '__main__':
-    get_link_from_email()
