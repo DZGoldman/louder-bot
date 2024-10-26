@@ -1,0 +1,8 @@
+__pychache__
+.cache
+.local
+credentials.json
+.config
+udio_bot.log
+token.json
+replit_zip_error_log.txt
