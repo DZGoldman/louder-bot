@@ -17,6 +17,8 @@ from selenium.common.exceptions import (
     StaleElementReferenceException,
     NoSuchElementException
 )
+from email_client import get_link_from_email
+ 
 
 # Configure logging
 logging.basicConfig(
@@ -43,11 +45,7 @@ class UdioMusicBot:
         
         # Get credentials from environment
         self.email = os.getenv("GOOGLE_EMAIL", "").strip()
-        self.password = os.getenv("GOOGLE_PASSWORD", "").strip()
         
-        if not self.email or not self.password:
-            raise ValueError("Email or password not found in environment variables")
-            
         logger.info(f"Initializing UdioMusicBot with email: {self.email[:3]}...{self.email[-10:]}")
         self.setup_driver()
 
@@ -223,11 +221,16 @@ class UdioMusicBot:
                     raise LoginError("Could not find or click Continue/Login button")
                 
                 logger.info("Successfully clicked continue/login button")
-                time.sleep(3)
+                time.sleep(8)
 
             except Exception as e:
-                print("done");
-        return False
+                 logger.error(f"Login error: {str(e)}")
+            logger.info("Getting link from email:")
+            link = get_link_from_email()
+            logger.info("Succesfully retrieved link from email")
+            self.driver.get(link)
+
+        return True
 
     def restart_session(self):
         try:
