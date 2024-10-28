@@ -18,7 +18,7 @@ from selenium.common.exceptions import (
     NoSuchElementException
 )
 from email_client import get_link_from_email
- 
+from prompt_generator import generate_prompt 
 
 # Configure logging
 logging.basicConfig(
@@ -45,7 +45,9 @@ class UdioMusicBot:
         
         # Get credentials from environment
         self.email = os.getenv("GOOGLE_EMAIL", "").strip()
-        
+        if not self.email:
+             raise ("GOOGLE_EMAIL env variable not provided")
+
         logger.info(f"Initializing UdioMusicBot with email: {self.email[:3]}...{self.email[-10:]}")
         self.setup_driver()
 
@@ -76,7 +78,7 @@ class UdioMusicBot:
             logger.error(f"Failed to initialize WebDriver: {str(e)}")
             raise
 
-    def wait_and_click(self, selectors: Union[str, List[str]], element_name: str = "element", timeout: int = 20) -> bool:
+    def wait_and_click(self, selectors: Union[str, List[str]], element_name: str = "element", timeout: int = 20, target_text: str="") -> bool:
         if isinstance(selectors, str):
             selectors = [selectors]
             
@@ -92,10 +94,19 @@ class UdioMusicBot:
                     if not element.is_displayed():
                         logger.debug(f"Element found but not displayed: {selector}")
                         continue
+
+
                         
                     # Log element state
                     logger.debug(f"Element found - Tag: {element.tag_name}, Text: {element.text}, "
                                f"Location: {element.location}, Size: {element.size}")
+
+                    # if target_text:
+                    #     if element.text != target_text: 
+                    #         logger.debug(f"Skipping element with text: {element.text}")
+                    #         continue
+                    #     else:
+                    #         logger.info(f"Element with text: {element.text} found")
                     
                     # Scroll into view and wait
                     self.driver.execute_script("arguments[0].scrollIntoView(true);", element)
@@ -222,15 +233,46 @@ class UdioMusicBot:
                 
                 logger.info("Successfully clicked continue/login button")
                 time.sleep(8)
+                logger.info("Getting link from email:")
+                link = get_link_from_email()
+                logger.info("Succesfully retrieved link from email")
+                self.driver.get(link)
+                logger.info(f"Navigated to page: {self.driver.current_url}")
+                return True
 
             except Exception as e:
                  logger.error(f"Login error: {str(e)}")
-            logger.info("Getting link from email:")
-            link = get_link_from_email()
-            logger.info("Succesfully retrieved link from email")
-            self.driver.get(link)
 
-        return True
+
+    def create_song(self):
+        # once successfully logged in...
+        retry_count = 0
+        while retry_count < self.max_retries:
+            logger.info(f"On page: {self.driver.current_url}")
+            try:
+                prompt_field_selector =  "//input[@type='prompt']"
+                time.sleep(5)
+
+                prompt_field = WebDriverWait(self.driver, 30).until(
+                                    EC.presence_of_element_located((By.XPATH, prompt_field_selector))
+                                )
+                if prompt_field.is_displayed():
+                    logger.info(f"Found prompt field")
+                else:
+                    # TODO
+                    print("no field found")
+
+                prompt_field.clear()
+                time.sleep(1)
+                prompt_field.send_keys(generate_prompt())
+                self.wait_and_click("//button[contains(text(), 'Create')]", "Create song button")
+                               
+                logger.info("Successfully create")
+                # captcha? dead end?
+                time.sleep(30)
+                return True
+            except Exception as e:
+                 logger.error(f"Create song error: {str(e)}")
 
     def restart_session(self):
         try:
@@ -256,6 +298,8 @@ if __name__ == "__main__":
             logger.info("Login successful")
         else:
             logger.error("Login failed")
+
+        bot.create_song()
     except Exception as e:
         logger.error(f"Error in main execution: {str(e)}")
         logger.debug(f"Stack trace: {traceback.format_exc()}")
