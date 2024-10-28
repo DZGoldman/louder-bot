@@ -4,10 +4,8 @@ import logging
 import traceback
 from pathlib import Path
 from typing import Optional, List, Union
-# import undetected_chromedriver as webdriver
-from selenium import webdriver
+import undetected_chromedriver
 from selenium.webdriver.chrome.options import Options
-from selenium.webdriver.chrome.service import Service
 from selenium.webdriver.common.by import By
 from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
@@ -54,27 +52,10 @@ class UdioMusicBot:
         try:
             chrome_options = Options()
             chrome_options.add_argument('--no-sandbox')
-            chrome_options.add_argument('--disable-dev-shm-usage')
-            chrome_options.add_argument('--disable-gpu')
-            chrome_options.add_argument('--window-size=1920,1080')
-            chrome_options.add_argument('--disable-blink-features=AutomationControlled')
-            chrome_options.add_argument('--disable-notifications')
-            chrome_options.add_experimental_option("excludeSwitches", ["enable-automation"])
-            chrome_options.add_experimental_option('useAutomationExtension', False)
-            chrome_options.set_capability('goog:loggingPrefs', {'browser': 'ALL', 'performance': 'ALL'})
-            
             if self.headless:
                 chrome_options.add_argument('--headless=new')
-            
-            service = Service()
 
-
-            ua = UserAgent()
-            user_agent = ua.random
-            chrome_options.add_argument(f'user-agent={user_agent}')
-
-
-            self.driver = webdriver.Chrome(service=service, options=chrome_options)
+            self.driver = undetected_chromedriver.Chrome()
             self.driver.set_window_size(1920, 1080)
             self.driver.set_page_load_timeout(30)
 
@@ -84,7 +65,7 @@ class UdioMusicBot:
             logger.error(f"Failed to initialize WebDriver: {str(e)}")
             raise
 
-    def wait_and_click(self, selectors: Union[str, List[str]], element_name: str = "element", timeout: int = 20, target_text: str="") -> bool:
+    def wait_and_click(self, selectors: Union[str, List[str]], element_name: str = "element", timeout: int = 20) -> bool:
         if isinstance(selectors, str):
             selectors = [selectors]
             
@@ -107,13 +88,6 @@ class UdioMusicBot:
                     logger.debug(f"Element found - Tag: {element.tag_name}, Text: {element.text}, "
                                f"Location: {element.location}, Size: {element.size}")
 
-                    # if target_text:
-                    #     if element.text != target_text: 
-                    #         logger.debug(f"Skipping element with text: {element.text}")
-                    #         continue
-                    #     else:
-                    #         logger.info(f"Element with text: {element.text} found")
-                    
                     # Scroll into view and wait
                     self.driver.execute_script("arguments[0].scrollIntoView(true);", element)
                     time.sleep(1)
@@ -160,7 +134,7 @@ class UdioMusicBot:
                 # Load homepage
                 self.driver.get("https://www.udio.com")
                 logger.info(f"Loaded homepage: {self.driver.current_url}")
-                time.sleep(5)  # Wait for dynamic content
+                time.sleep(3)  # Wait for dynamic content
                 
                 # Log page state
                 logger.debug(f"Page title: {self.driver.title}")
@@ -247,7 +221,9 @@ class UdioMusicBot:
                 return True
 
             except Exception as e:
-                 logger.error(f"Login error: {str(e)}")
+                logger.error(f"Login error: {str(e)}")
+                retry_count+=1 
+
 
 
     def create_song(self):
@@ -266,26 +242,25 @@ class UdioMusicBot:
                 if prompt_field.is_displayed():
                     logger.info(f"Found prompt field")
                 else:
-                    # TODO
-                    print("no field found")
+                    raise ("Prompt field not found")
 
                 prompt_field.clear()
                 time.sleep(1)
                 self.random_mouse_movement()
-                slow_type(prompt_field,generate_prompt())
+                self.slow_type(prompt_field,generate_prompt())
                 self.random_mouse_movement()
                 time.sleep(3)
 
                 self.wait_and_click("//button[contains(text(), 'Create')]", "Create song button")
                                
                 logger.info("Successfully create")
-                # captcha? dead end?
-                time.sleep(30)
+                time.sleep(60)
                 return True
             except Exception as e:
                  logger.error(f"Create song error: {str(e)}")
+                 retry_count+=1 
 
-    def random_mouse_movement(self, duration=3):
+    def random_mouse_movement(self, duration=1):
         try:
             action = ActionChains(self.driver)
             start_time = time.time()
@@ -309,7 +284,7 @@ class UdioMusicBot:
             logger.error(f"Mouse movement failed: {str(e)}")
 
 
-    def slow_type(element, text, delay_range=(0.1, 0.3)):
+    def slow_type(self, element, text, delay_range=(0.05, 0.1)):
         for char in text:
             element.send_keys(char)
             time.sleep(random.uniform(*delay_range))
@@ -345,4 +320,5 @@ if __name__ == "__main__":
         logger.debug(f"Stack trace: {traceback.format_exc()}")
     finally:
         if bot:
+            print("closing bot now:")
             bot.close()

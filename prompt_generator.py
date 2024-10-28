@@ -17,4 +17,6 @@ def generate_prompt():
         new_word = word_array.pop(random.randint(0, len(word_array) - 1))
         prompt = f"{prompt},{new_word}"
     return prompt
-print(generate_prompt())
+if __name__ == "__main__":
+    print("random prompt:")
+    print(generate_prompt())
