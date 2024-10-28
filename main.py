@@ -74,13 +74,13 @@ class UdioMusicBot:
 
             ua = UserAgent()
             user_agent = ua.random
-            options.add_argument(f'user-agent={user_agent}')
+            chrome_options.add_argument(f'user-agent={user_agent}')
 
 
             self.driver = webdriver.Chrome(service=service, options=chrome_options)
             self.driver.set_window_size(1920, 1080)
             self.driver.set_page_load_timeout(30)
-            
+
             logger.info("Chrome WebDriver initialized successfully")
             
         except Exception as e:
