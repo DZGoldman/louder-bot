@@ -20,6 +20,8 @@ from selenium.common.exceptions import (
 from email_client import get_link_from_email
 from prompt_generator import generate_prompt 
 
+from fake_useragent import UserAgent
+
 # Configure logging
 logging.basicConfig(
     level=logging.DEBUG,
@@ -68,6 +70,13 @@ class UdioMusicBot:
                 chrome_options.add_argument('--headless=new')
             
             service = Service()
+
+
+            ua = UserAgent()
+            user_agent = ua.random
+            options.add_argument(f'user-agent={user_agent}')
+
+
             self.driver = webdriver.Chrome(service=service, options=chrome_options)
             self.driver.set_window_size(1920, 1080)
             self.driver.set_page_load_timeout(30)
@@ -263,8 +272,11 @@ class UdioMusicBot:
                     print("no field found")
 
                 prompt_field.clear()
-                time.sleep(1)
+                time.sleep(2)
                 prompt_field.send_keys(generate_prompt())
+
+                time.sleep(5)
+
                 self.wait_and_click("//button[contains(text(), 'Create')]", "Create song button")
                                
                 logger.info("Successfully create")
