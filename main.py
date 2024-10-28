@@ -4,6 +4,7 @@ import logging
 import traceback
 from pathlib import Path
 from typing import Optional, List, Union
+# import undetected_chromedriver as webdriver
 from selenium import webdriver
 from selenium.webdriver.chrome.options import Options
 from selenium.webdriver.chrome.service import Service
@@ -11,16 +12,12 @@ from selenium.webdriver.common.by import By
 from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
 from selenium.webdriver.common.action_chains import ActionChains
-from selenium.common.exceptions import (
-    TimeoutException, 
-    ElementClickInterceptedException,
-    StaleElementReferenceException,
-    NoSuchElementException
-)
+
 from email_client import get_link_from_email
 from prompt_generator import generate_prompt 
 
 from fake_useragent import UserAgent
+import random
 
 # Configure logging
 logging.basicConfig(
@@ -256,6 +253,7 @@ class UdioMusicBot:
     def create_song(self):
         # once successfully logged in...
         retry_count = 0
+        self.random_mouse_movement()
         while retry_count < self.max_retries:
             logger.info(f"On page: {self.driver.current_url}")
             try:
@@ -272,10 +270,11 @@ class UdioMusicBot:
                     print("no field found")
 
                 prompt_field.clear()
-                time.sleep(2)
-                prompt_field.send_keys(generate_prompt())
-
-                time.sleep(5)
+                time.sleep(1)
+                self.random_mouse_movement()
+                slow_type(prompt_field,generate_prompt())
+                self.random_mouse_movement()
+                time.sleep(3)
 
                 self.wait_and_click("//button[contains(text(), 'Create')]", "Create song button")
                                
@@ -285,6 +284,35 @@ class UdioMusicBot:
                 return True
             except Exception as e:
                  logger.error(f"Create song error: {str(e)}")
+
+    def random_mouse_movement(self, duration=3):
+        try:
+            action = ActionChains(self.driver)
+            start_time = time.time()
+            
+            # Get the size of the window
+            width = self.driver.execute_script("return window.innerWidth")
+            height = self.driver.execute_script("return window.innerHeight")
+
+            while time.time() - start_time < duration:
+                # Generate random x and y coordinates within the window's bounds
+                x = random.randint(0, width - 1)
+                y = random.randint(0, height - 1)
+                
+                # Move the mouse to a new location
+                action.move_by_offset(x, y).perform()
+                
+                # Reset the action chain and add a random delay
+                action.reset_actions()
+                time.sleep(random.uniform(0.1, 0.3))
+        except Exception as e:
+            logger.error(f"Mouse movement failed: {str(e)}")
+
+
+    def slow_type(element, text, delay_range=(0.1, 0.3)):
+        for char in text:
+            element.send_keys(char)
+            time.sleep(random.uniform(*delay_range))
 
     def restart_session(self):
         try:
