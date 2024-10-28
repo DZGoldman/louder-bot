@@ -10,7 +10,7 @@ def generate_prompt():
             if word:
                 word_array.append(word)
     # TODO
-    base_prompt= "TODO"
+    base_prompt= "CRYPTO,MEME,HYPERPOP,INTERNET,YOUTHFUL,2024"
     prompt = base_prompt
     count = random.randint(1, 3)
     for _ in range(random.randint(1, 3)):
