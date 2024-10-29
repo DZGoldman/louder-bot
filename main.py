@@ -390,11 +390,12 @@ class UdioMusicBot:
         file_count_pre_download = count_files_in_directory(download_dir)
         
         self.wait_and_click('//button[count(*)=2 and *[1][name()="svg"] and *[2][name()="div" and text()="Download"]]', wait_time = 300)
+        logger.info("Clicked 'Download'")
 
         file_count_download = count_files_in_directory(download_dir)
         logger.info("Waiting for download")
         for _ in range(0,100):
-            if file_count_download > file_count_pre_download:
+            if count_files_in_directory(download_dir) > file_count_pre_download:
                 logger.info("Done")
                 return
             else:
