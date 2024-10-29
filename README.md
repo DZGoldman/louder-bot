@@ -51,7 +51,7 @@ GOOGLE_EMAIL: Email address (same as address you used to create google gloud pro
 From root directory:
 
 ```
-pip install -r requirements.txt
+make install
 ```
 
 ## Run Bot
@@ -59,5 +59,12 @@ pip install -r requirements.txt
 From root directory:
 
 ```
-python main.py
+make run
+```
+
+
+or
+
+```
+make run-headless
 ```

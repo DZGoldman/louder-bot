@@ -19,6 +19,14 @@ from prompt_generator import generate_prompt
 
 from fake_useragent import UserAgent
 import random
+import argparse
+
+parser = argparse.ArgumentParser(description="A simple command line argument example.")
+
+parser.add_argument('--headless', type=bool)
+args = parser.parse_args()
+
+
 # Configure logging
 logging.basicConfig(
     level=logging.INFO,
@@ -51,7 +59,7 @@ class UdioMusicBot:
         # Get credentials from environment
         self.email = os.getenv("GOOGLE_EMAIL", "").strip()
         if not self.email:
-             raise ("GOOGLE_EMAIL env variable not provided")
+             raise Exception("GOOGLE_EMAIL env variable not provided")
 
         logger.info(f"Initializing UdioMusicBot with email: {self.email[:3]}...{self.email[-10:]}")
         self.setup_driver()
@@ -103,7 +111,6 @@ class UdioMusicBot:
             
         except Exception as e:
             logger.error(f"Failed to initialize WebDriver: {str(e)}")
-            raise
 
     def try_click(self, element):
         # Try multiple click methods
@@ -312,7 +319,7 @@ class UdioMusicBot:
                 if prompt_field.is_displayed():
                     logger.info(f"Found prompt field")
                 else:
-                    raise ("Prompt field not found")
+                    raise Exception("Prompt field not found")
 
                 prompt_field.clear()
                 time.sleep(1)
@@ -413,8 +420,9 @@ class UdioMusicBot:
 if __name__ == "__main__":
     stealth_bot = None
     reg_bot = None
+    start_time = time.time()
     try:
-        stealth_bot = UdioMusicBot(headless=False)
+        stealth_bot = UdioMusicBot(headless=bool(args.headless))
         if stealth_bot.login():
             logger.info("Login successful")
         else:
@@ -426,11 +434,8 @@ if __name__ == "__main__":
         else:
             sharable_link = stealth_bot.get_latest_song_sharable_link(likes)
             stealth_bot.close()
-            reg_bot = UdioMusicBot(headless=False, stealth = False )
+            reg_bot = UdioMusicBot(headless=bool(args.headless), stealth = False )
             reg_bot.download_song(sharable_link)
-
-
-        
     except Exception as e:
         logger.error(f"Error in main execution: {str(e)}")
         logger.debug(f"Stack trace: {traceback.format_exc()}")
@@ -441,4 +446,9 @@ if __name__ == "__main__":
         if reg_bot:
             print("closing reg_bot now:")
             reg_bot.close()
+        end_time = time.time()
+        minutes = int(elapsed_time // 60)
+        seconds = int(elapsed_time % 60)
+
+        print(f"Total time: {minutes} minutes and {seconds} seconds")
 
