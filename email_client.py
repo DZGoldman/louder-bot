@@ -12,13 +12,13 @@ import time
 # If modifying these SCOPES, delete the file token.json.
 SCOPES = ['https://www.googleapis.com/auth/gmail.readonly']
 
-WAIT_TIME = 10
+WAIT_TIME = 5
 
 def wait_and_retry_get_link_from_email(new_retries):
     print("Waiting and retrying get link from email:")
-    if retries < 1:
+    if new_retries < 1:
         raise Exception("no more attempts left")
-    time.sleep(10)
+    time.sleep(WAIT_TIME)
     return get_link_from_email(new_retries)
 
 def get_link_from_email(retries = 5):
@@ -75,9 +75,9 @@ def get_link_from_email(retries = 5):
         # Calculate the difference in seconds
         elapsed_time = (current_time - date_sent).total_seconds()
 
-
-        if elapsed_time > 60 * 10:
-            print("Last email > 10 minutes old")
+        elapsed_time_minutes_limit = 3
+        if elapsed_time > 60 * elapsed_time_minutes_limit:
+            print(f"Last email > {elapsed_time_minutes_limit} minutes old")
             return wait_and_retry_get_link_from_email(retries -1)
 
 
@@ -101,7 +101,7 @@ def get_link_from_email(retries = 5):
                         for link in links:
                             print(link.string)
                             if "Sign in to Udio" in link.string:
-                                print("Href found")
+                                print("Href found",link["href"])
                                 return link["href"]
 
             else:
@@ -113,4 +113,3 @@ def get_link_from_email(retries = 5):
             return wait_and_retry_get_link_from_email(retries -1)
 
 
-            

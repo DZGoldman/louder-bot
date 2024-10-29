@@ -11,12 +11,12 @@ def generate_prompt():
                 word_array.append(word)
     # TODO
     base_prompt= "CRYPTO,MEME,HYPERPOP,INTERNET,YOUTHFUL,2024"
-    prompt = base_prompt
     count = random.randint(1, 3)
+    prompt=""
     for _ in range(random.randint(1, 3)):
         new_word = word_array.pop(random.randint(0, len(word_array) - 1))
         prompt = f"{prompt},{new_word}"
-    return prompt
+    return base_prompt + prompt
 if __name__ == "__main__":
     print("random prompt:")
     print(generate_prompt())
