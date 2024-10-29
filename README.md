@@ -3,7 +3,8 @@
 #### Step 1: Create a Google Cloud Project
 
 - Go to Google Cloud Console: Visit [Google Cloud Console](https://console.cloud.google.com) with the email address the bot will be using.
-- Create a New Project:
+
+Create a New Project:
 - Click on the project dropdown in the top-left corner.
 - Click on New Project and give it a name, then click Create.
 
