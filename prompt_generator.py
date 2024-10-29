@@ -6,10 +6,10 @@ def generate_prompt():
 
     with open('prompt_bank.txt', 'r') as file:
         for line in file:
-            word = line.strip()
-            if word:
-                word_array.append(word)
-    # TODO
+            words = line.split(",")
+            for word in words:
+                if word.strip():
+                    word_array.append(word.strip())
     base_prompt= "CRYPTO,MEME,HYPERPOP,INTERNET,YOUTHFUL,2024"
     count = random.randint(1, 3)
     prompt=""
