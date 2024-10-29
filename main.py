@@ -21,6 +21,10 @@ from fake_useragent import UserAgent
 import random
 import argparse
 
+import cv2
+import mss
+import numpy as np
+
 parser = argparse.ArgumentParser(description="A simple command line argument example.")
 
 parser.add_argument('--headless', type=bool)
@@ -87,9 +91,6 @@ class UdioMusicBot:
             if self.stealth:
                 self.driver = undetected_chromedriver.Chrome(service=Service(ChromeDriverManager().install()), options=chrome_options, desired_capabilities=capabilities)
             else:
-
-                print("download_dir", download_dir)
-
                 prefs = {
                     "download.default_directory": download_dir, 
                     "download.prompt_for_download": False,
@@ -323,7 +324,9 @@ class UdioMusicBot:
 
                 prompt_field.clear()
                 time.sleep(1)
-                self.slow_type(prompt_field,generate_prompt())
+                prompt = generate_prompt()
+                logger.info(f"Prompt: {prompt}")
+                self.slow_type(prompt_field,prompt)
                 time.sleep(3)
 
                 self.wait_and_click("//button[contains(text(), 'Create')]", "Create song button")
@@ -347,6 +350,7 @@ class UdioMusicBot:
             like_elements = self.driver.find_elements(By.XPATH, "//button[@aria-label='like']")
             while len(like_elements) == previous_likes and attempts_left:
                 print(f"Still only {len(like_elements)} found; waiting {time_between_attempts_seconds} seconds")
+                # self.driver.save_screenshot(f'screenshots/{int(time.time())}.png')
                 time.sleep(time_between_attempts_seconds)
                 like_elements = self.driver.find_elements(By.XPATH, "//button[@aria-label='like']")
             print(f"{len(like_elements)} found")
@@ -377,24 +381,25 @@ class UdioMusicBot:
         time.sleep(3)
 
         self.wait_and_click("//button[@title='Download media']")
-        print("clicked 1")
+        logger.info("Clicked 'Download media'")
         time.sleep(2)
+        
         self.wait_and_click("//button/div[text()='Generate Video']")
-       
-        # Count only files, ignoring directories
+        logger.info("Clicked 'Generate Video'")
+
         file_count_pre_download = count_files_in_directory(download_dir)
         
         self.wait_and_click('//button[count(*)=2 and *[1][name()="svg"] and *[2][name()="div" and text()="Download"]]', wait_time = 300)
 
         file_count_download = count_files_in_directory(download_dir)
-        logger.info("waiting for download")
+        logger.info("Waiting for download")
         for _ in range(0,100):
             if file_count_download > file_count_pre_download:
-                logger.info("done")
+                logger.info("Done")
                 return
             else:
                 time.sleep(5)
-        raise Exception("download failed?")
+        raise Exception("Download failed?")
 
 
     def slow_type(self, element, text, delay_range=(0.1, 0.2)):
@@ -421,6 +426,8 @@ if __name__ == "__main__":
     stealth_bot = None
     reg_bot = None
     start_time = time.time()
+    out = None
+    
     try:
         stealth_bot = UdioMusicBot(headless=bool(args.headless))
         if stealth_bot.login():
@@ -446,9 +453,14 @@ if __name__ == "__main__":
         if reg_bot:
             print("closing reg_bot now:")
             reg_bot.close()
+        if out:
+            out.release()  # Release the video file
+            
         end_time = time.time()
+        elapsed_time = end_time - start_time
         minutes = int(elapsed_time // 60)
         seconds = int(elapsed_time % 60)
+      
 
         print(f"Total time: {minutes} minutes and {seconds} seconds")
 
