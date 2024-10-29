@@ -21,9 +21,7 @@ def wait_and_retry_get_link_from_email(new_retries):
     time.sleep(WAIT_TIME)
     return get_link_from_email(new_retries)
 
-def get_link_from_email(retries = 5):
-    if retries < 1:
-        raise Exception("no more attempts left")
+def get_creds():
     creds = None
     # The file token.json stores the user's access and refresh tokens.
     if os.path.exists('token.json'):
@@ -41,7 +39,12 @@ def get_link_from_email(retries = 5):
         # Save the credentials for the next run
         with open('token.json', 'w') as token:
             token.write(creds.to_json())
+    return creds
 
+def get_link_from_email(retries = 5):
+    if retries < 1:
+        raise Exception("no more attempts left")
+    creds = get_creds()
     # Call the Gmail API
     service = build('gmail', 'v1', credentials=creds)
 
@@ -113,3 +116,19 @@ def get_link_from_email(retries = 5):
             return wait_and_retry_get_link_from_email(retries -1)
 
 
+def test_messages():
+    creds = get_creds()
+    # Call the Gmail API
+    service = build('gmail', 'v1', credentials=creds)
+
+    # Fetch the list of emails
+    results = service.users().messages().list(userId='me', maxResults=10).execute()
+    messages = results.get('messages', [])
+    if (len(messages) > 0):
+        
+        print(f"Auth successful 👍; {len(messages)} emails found")
+    else:
+        print("Auth succeeded, but not emails found; check inbox")
+if __name__ == "__main__":
+    test_messages()
+    

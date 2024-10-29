@@ -356,8 +356,6 @@ class UdioMusicBot:
         # share_button = self.driver.find_element(By.XPATH, "//div[@role='menuitem' and text()='Share']")
         self.wait_and_click("//div[@role='menuitem' and text()='Share']")
         time.sleep(2)
-        self.wait_and_click("//button[text()='Generate Video']")
-        time.sleep(2)
 
         link_spans = self.driver.find_elements(By.XPATH, "//span[contains(text(), 'https://www.udio.com/songs/')]")
         # sanity check
