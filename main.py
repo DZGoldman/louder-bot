@@ -210,7 +210,7 @@ class UdioMusicBot:
                 # Load homepage
                 self.driver.get("https://www.udio.com")
                 logger.info(f"Loaded homepage: {self.driver.current_url}")
-                time.sleep(3)  # Wait for dynamic content
+                time.sleep(1)  # Wait for dynamic content
                 
                 # Log page state
                 logger.debug(f"Page title: {self.driver.title}")
@@ -237,7 +237,7 @@ class UdioMusicBot:
                             logger.debug(f"Button text: {btn.text}, class: {btn.get_attribute('class')}")
                     raise LoginError("Could not find or click Sign in button")
                 
-                time.sleep(3)
+                time.sleep(1)
                 logger.info("Successfully clicked sign in button")
                 
                 # Updated email field selectors
@@ -288,7 +288,7 @@ class UdioMusicBot:
                     raise LoginError("Could not find or click Continue/Login button")
                 
                 logger.info("Successfully clicked continue/login button")
-                time.sleep(5)
+                time.sleep(2)
                 for i in range(1, 4):
                     try:
                         logger.info(f"Getting link from email: attempt {i}")
@@ -301,7 +301,7 @@ class UdioMusicBot:
                     except Exception as e:
                         logger.error("Could not get link from email; clicking resend and tryign again")
                         self.wait_and_click(continue_button_selectors, "Continue/Login button")
-                        time.sleep(5)
+                        time.sleep(2)
                         
 
             except Exception as e:
@@ -319,7 +319,7 @@ class UdioMusicBot:
             logger.info(f"On page: {self.driver.current_url}")
             try:
                 prompt_field_selector =  "//input[@type='prompt']"
-                time.sleep(5)
+                time.sleep(1)
 
                 prompt_field = WebDriverWait(self.driver, 30).until(
                                     EC.presence_of_element_located((By.XPATH, prompt_field_selector))
@@ -334,7 +334,7 @@ class UdioMusicBot:
                 prompt = generate_prompt()
                 logger.info(f"Prompt: {prompt}")
                 self.slow_type(prompt_field,prompt)
-                time.sleep(3)
+                time.sleep(1)
 
                 self.wait_and_click("//button[contains(text(), 'Create')]", "Create song button")
                                
