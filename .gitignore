@@ -6,3 +6,4 @@ credentials.json
 token.json
 replit_zip_error_log.txt
 logs/udio_bot.log
+song_downloads/*
