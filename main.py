@@ -356,11 +356,10 @@ class UdioMusicBot:
 
             like_elements = self.driver.find_elements(By.XPATH, "//button[@aria-label='like']")
             while len(like_elements) == previous_likes and attempts_left:
-                print(f"Still only {len(like_elements)} found; waiting {time_between_attempts_seconds} seconds")
-                # self.driver.save_screenshot(f'screenshots/{int(time.time())}.png')
+                logger.info(f"Only {len(like_elements)} sound items found / new songs still loading; waiting {time_between_attempts_seconds} seconds")
                 time.sleep(time_between_attempts_seconds)
                 like_elements = self.driver.find_elements(By.XPATH, "//button[@aria-label='like']")
-            print(f"{len(like_elements)} found")
+            logger.info(f"{len(like_elements)} song itmes found; song loaded")
 
         first_like_element = self.driver.find_elements(By.XPATH, "//button[@aria-label='like']")[0]
         dropdown =  first_like_element.find_element(By.XPATH, "parent::*/following-sibling::*[1]")
