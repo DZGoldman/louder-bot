@@ -342,72 +342,82 @@ class UdioMusicBot:
                 time.sleep(2)
                 return len(self.driver.find_elements(By.XPATH, "//button[@aria-label='like']"))
             except Exception as e:
-                 logger.error(f"Create song error: {str(e)}")
+                 logger.error(f"Create song error: {str(e)}; attempt {retry_count + 1}/{self.max_retries}")
                  retry_count+=1 
         return False
     def get_latest_song_sharable_link(self, previous_likes=0):
          # TODO: navigate to home if needed 
-        #  TODO: retries? 
 
-        if previous_likes:
-            total_wait_time_seconds = 60 * 15
-            time_between_attempts_seconds = 10
-            attempts_left = total_wait_time_seconds / time_between_attempts_seconds
+        retry_count = 0
+        while retry_count < self.max_retries:
+            try:
+                if previous_likes:
+                    total_wait_time_seconds = 60 * 15
+                    time_between_attempts_seconds = 10
+                    attempts_left = total_wait_time_seconds / time_between_attempts_seconds
 
-            like_elements = self.driver.find_elements(By.XPATH, "//button[@aria-label='like']")
-            while len(like_elements) == previous_likes and attempts_left:
-                logger.info(f"Only {len(like_elements)} sound items found / new songs still loading; waiting {time_between_attempts_seconds} seconds")
-                time.sleep(time_between_attempts_seconds)
-                like_elements = self.driver.find_elements(By.XPATH, "//button[@aria-label='like']")
-            logger.info(f"{len(like_elements)} song itmes found; song loaded")
+                    like_elements = self.driver.find_elements(By.XPATH, "//button[@aria-label='like']")
+                    while len(like_elements) == previous_likes and attempts_left:
+                        logger.info(f"Only {len(like_elements)} sound items found / new songs still loading; waiting {time_between_attempts_seconds} seconds")
+                        time.sleep(time_between_attempts_seconds)
+                        like_elements = self.driver.find_elements(By.XPATH, "//button[@aria-label='like']")
+                    logger.info(f"{len(like_elements)} song itmes found; song loaded")
 
-        first_like_element = self.driver.find_elements(By.XPATH, "//button[@aria-label='like']")[0]
-        dropdown =  first_like_element.find_element(By.XPATH, "parent::*/following-sibling::*[1]")
+                first_like_element = self.driver.find_elements(By.XPATH, "//button[@aria-label='like']")[0]
+                dropdown =  first_like_element.find_element(By.XPATH, "parent::*/following-sibling::*[1]")
 
-        # sanity check
-        if dropdown.get_attribute("aria-haspopup") != "menu":
-            logger.error("Failed aria-haspopup sanity check")
+                # sanity check
+                if dropdown.get_attribute("aria-haspopup") != "menu":
+                    logger.error("Failed aria-haspopup sanity check")
 
-        self.try_click(dropdown)
-        time.sleep(2)
+                self.try_click(dropdown)
+                time.sleep(2)
 
-        self.wait_and_click("//div[@role='menuitem' and text()='Share']")
-        time.sleep(2)
+                self.wait_and_click("//div[@role='menuitem' and text()='Share']")
+                time.sleep(2)
 
-        link_spans = self.driver.find_elements(By.XPATH, "//span[contains(text(), 'https://www.udio.com/songs/')]")
-        # sanity check
-        if len(link_spans) > 1:
-            logger.error("Failed span sanity check")
-            # TODO: handle
-
-        return link_spans[0].text
-
+                link_spans = self.driver.find_elements(By.XPATH, "//span[contains(text(), 'https://www.udio.com/songs/')]")
+                # sanity check
+                if len(link_spans) > 1:
+                    logger.error("Failed span sanity check")
+                    # TODO: handle
+                return link_spans[0].text
+            except Exception as e:
+                logger.error(f"Get song from sharable link error {str(e)}; attempt {retry_count + 1}/{self.max_retries}")
+        retry_count += 1
     def download_song(self, share_url):
-        self.driver.get(share_url)
-        time.sleep(3)
+        retry_count = 0
+        while retry_count < self.max_retries:
+            try:
+                self.driver.get(share_url)
+                time.sleep(3)
 
-        self.wait_and_click("//button[@title='Download media']")
-        logger.info("Clicked 'Download media'")
-        time.sleep(2)
-        
-        self.wait_and_click("//button/div[text()='Generate Video']")
-        logger.info("Clicked 'Generate Video'")
+                self.wait_and_click("//button[@title='Download media']")
+                logger.info("Clicked 'Download media'")
+                time.sleep(2)
+                
+                self.wait_and_click("//button/div[text()='Generate Video']")
+                logger.info("Clicked 'Generate Video'")
 
-        file_count_pre_download = count_files_in_directory(download_dir)
-        
-        self.wait_and_click('//button[count(*)=2 and *[1][name()="svg"] and *[2][name()="div" and text()="Download"]]', wait_time = 300)
-        logger.info("Clicked 'Download'")
+                file_count_pre_download = count_files_in_directory(download_dir)
+                
+                self.wait_and_click('//button[count(*)=2 and *[1][name()="svg"] and *[2][name()="div" and text()="Download"]]', wait_time = 300)
+                logger.info("Clicked 'Download'")
 
-        file_count_download = count_files_in_directory(download_dir)
-        logger.info("Waiting for download")
-        for _ in range(0,100):
-            if count_files_in_directory(download_dir) > file_count_pre_download:
-                logger.info(f"🎵🎵 File downloaded to {download_dir} 🎵🎵")
-                return
-            else:
-                time.sleep(5)
-        raise Exception("Download failed?")
-
+                file_count_download = count_files_in_directory(download_dir)
+                logger.info("Waiting for download")
+                for _ in range(0,100):
+                    if count_files_in_directory(download_dir) > file_count_pre_download:
+                        logger.info(f"🎵🎵 File downloaded to {download_dir} 🎵🎵")
+                        time.sleep(5)
+                        return
+                    else:
+                        logger.info("Waiting for file to download...")
+                        time.sleep(5)
+                raise Exception("Download failed?")
+            except Exception as e:
+                logger.error(f"Download songerror {str(e)}; attempt {retry_count + 1}/{self.max_retries}")
+            retry_count+=1
 
     def slow_type(self, element, text, delay = 0.1):
         words = text.split(",")
