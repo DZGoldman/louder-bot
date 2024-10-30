@@ -21,9 +21,6 @@ from fake_useragent import UserAgent
 import random
 import argparse
 
-import cv2
-import mss
-import numpy as np
 
 parser = argparse.ArgumentParser(description="A simple command line argument example.")
 

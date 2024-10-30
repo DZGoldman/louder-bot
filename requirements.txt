@@ -21,4 +21,3 @@ google-auth-httplib2
 google-api-python-client
 bs4
 fake-useragent
-undetected_chromedriver
