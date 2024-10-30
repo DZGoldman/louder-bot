@@ -410,9 +410,11 @@ class UdioMusicBot:
         raise Exception("Download failed?")
 
 
-    def slow_type(self, element, text, delay_range=(0.1, 0.2)):
-        element.send_keys(text)
-        # TODO
+    def slow_type(self, element, text, delay = 0.1):
+        for (i,word) in enumerate(text.split(",")):
+            word_to_send = word + ", " if i < len(text) -1 else word
+            element.send_keys(word_to_send)
+            time.sleep(delay)
 
     def restart_session(self):
         try:
