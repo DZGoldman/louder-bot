@@ -22,7 +22,7 @@ import random
 import argparse
 
 
-parser = argparse.ArgumentParser(description="A simple command line argument example.")
+parser = argparse.ArgumentParser()
 
 parser.add_argument('--headless', type=bool)
 args = parser.parse_args()
@@ -112,8 +112,8 @@ class UdioMusicBot:
                 self.driver = webdriver.Chrome(service=Service(ChromeDriverManager().install()), options=chrome_options)
 
 
-            self.driver.set_window_size(1620, 1080)
-            self.driver.set_page_load_timeout(120)
+            self.driver.set_window_size(1445, 1080)
+            self.driver.set_page_load_timeout(180)
 
             logger.info("Chrome WebDriver initialized successfully")
             
@@ -150,17 +150,17 @@ class UdioMusicBot:
         while time.time() - start_time < timeout:
             for selector in selectors:
                 try:
-                    logger.debug(f"Looking for {element_name} with selector: {selector}")
+                    logger.info(f"Looking for {element_name} with selector: {selector}")
                     element = WebDriverWait(self.driver, wait_time).until(
                         EC.element_to_be_clickable((By.XPATH, selector))
                     )
                     
                     if not element.is_displayed():
-                        logger.debug(f"Element found but not displayed: {selector}")
+                        logger.info(f"Element found but not displayed: {selector}")
                         continue
 
                     # Log element state
-                    logger.debug(f"Element found - Tag: {element.tag_name}, Text: {element.text}, "
+                    logger.info(f"Element found - Tag: {element.tag_name}, Text: {element.text}, "
                                f"Location: {element.location}, Size: {element.size}")
 
                     # Scroll into view and wait
@@ -189,7 +189,9 @@ class UdioMusicBot:
                             continue
                             
                 except Exception as e:
-                    logger.debug(f"Selector {selector} failed: {str(e)}")
+                    logger.info(f"Selector {selector} failed")
+
+                    logger.debug(f"Failed with message: {str(e)}")
                     # Log the current page state
                     logger.debug(f"Current URL: {self.driver.current_url}")
                     logger.debug(f"Page title: {self.driver.title}")
@@ -218,8 +220,8 @@ class UdioMusicBot:
                 
                 # Updated sign in button selectors with additional options
                 sign_in_selectors = [
-                    "//button[contains(text(), 'Log')]",
                     "//button[contains(text(), 'Sign')]",
+                    "//button[contains(text(), 'Log')]",
                     "//a[contains(text(), 'Log')]",
                     "//a[contains(text(), 'Sign')]",
                     "//div[contains(@class, 'login')]//button",
@@ -294,7 +296,6 @@ class UdioMusicBot:
                         logger.info(f"Getting link from email: attempt {i}")
                         link = get_link_from_email()
                         logger.info("Succesfully retrieved link from email")
-                        # TODO: click resend if needed
                         self.driver.get(link)
                         logger.info(f"Navigated to page: {self.driver.current_url}")
                         return True
@@ -306,7 +307,7 @@ class UdioMusicBot:
 
             except Exception as e:
                 logger.error(f"Login error: {str(e)}")
-                retry_count+=1 
+            retry_count+=1 
 
 
 
@@ -315,13 +316,13 @@ class UdioMusicBot:
         # TODO: navigate to home if needed 
         
         retry_count = 0
+        logger.info("Creating song:")
         while retry_count < self.max_retries:
             logger.info(f"On page: {self.driver.current_url}")
             try:
                 prompt_field_selector =  "//input[@type='prompt']"
-                time.sleep(1)
 
-                prompt_field = WebDriverWait(self.driver, 30).until(
+                prompt_field = WebDriverWait(self.driver, 90).until(
                                     EC.presence_of_element_located((By.XPATH, prompt_field_selector))
                                 )
                 if prompt_field.is_displayed():
@@ -338,12 +339,12 @@ class UdioMusicBot:
 
                 self.wait_and_click("//button[contains(text(), 'Create')]", "Create song button")
                                
-                logger.info("Successfully create")
+                logger.info("Successfully clicked create")
                 time.sleep(2)
                 return len(self.driver.find_elements(By.XPATH, "//button[@aria-label='like']"))
             except Exception as e:
                  logger.error(f"Create song error: {str(e)}; attempt {retry_count + 1}/{self.max_retries}")
-                 retry_count+=1 
+            retry_count+=1 
         return False
     def get_latest_song_sharable_link(self, previous_likes=0):
          # TODO: navigate to home if needed 
@@ -353,15 +354,19 @@ class UdioMusicBot:
             try:
                 if previous_likes:
                     total_wait_time_seconds = 60 * 15
-                    time_between_attempts_seconds = 10
+                    time_between_attempts_seconds = 5
                     attempts_left = total_wait_time_seconds / time_between_attempts_seconds
 
                     like_elements = self.driver.find_elements(By.XPATH, "//button[@aria-label='like']")
-                    while len(like_elements) == previous_likes and attempts_left:
-                        logger.info(f"Only {len(like_elements)} sound items found / new songs still loading; waiting {time_between_attempts_seconds} seconds")
+                    logger.info(f"{len(like_elements)} songs already found on page")
+                    logger.info("Waiting for song to create (this could take a few minutes)")
+                    while len(like_elements) == previous_likes and attempts_left > 0:
+                        if attempts_left % 2 == 0:
+                            logger.info(f"New songs still loading...")
                         time.sleep(time_between_attempts_seconds)
-                        like_elements = self.driver.find_elements(By.XPATH, "//button[@aria-label='like']")
-                    logger.info(f"{len(like_elements)} song itmes found; song loaded")
+                        like_elements = self.driver.find_elements(By.XPATH, "//button[@aria-label='like']") 
+                        attempts_left -= 1
+                    logger.info(f"{len(like_elements)} song items found; song loaded")
 
                 first_like_element = self.driver.find_elements(By.XPATH, "//button[@aria-label='like']")[0]
                 dropdown =  first_like_element.find_element(By.XPATH, "parent::*/following-sibling::*[1]")
@@ -387,6 +392,8 @@ class UdioMusicBot:
         retry_count += 1
     def download_song(self, share_url):
         retry_count = 0
+        logger.info("Attempting to download song")
+        logger.info(f"On page: {self.driver.current_url}")
         while retry_count < self.max_retries:
             try:
                 self.driver.get(share_url)
@@ -405,7 +412,7 @@ class UdioMusicBot:
                 logger.info("Clicked 'Download'")
 
                 file_count_download = count_files_in_directory(download_dir)
-                logger.info("Waiting for download")
+                logger.info("Waiting for download (this could take a few minutes)")
                 for _ in range(0,100):
                     if count_files_in_directory(download_dir) > file_count_pre_download:
                         logger.info(f"🎵🎵 File downloaded to {download_dir} 🎵🎵")
@@ -416,8 +423,8 @@ class UdioMusicBot:
                         time.sleep(5)
                 raise Exception("Download failed?")
             except Exception as e:
-                logger.error(f"Download songerror {str(e)}; attempt {retry_count + 1}/{self.max_retries}")
-            retry_count+=1
+                logger.error(f"Download song error {str(e)}; attempt {retry_count + 1}/{self.max_retries}")
+        retry_count+=1
 
     def slow_type(self, element, text, delay = 0.1):
         words = text.split(",")
