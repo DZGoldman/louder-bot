@@ -28,12 +28,22 @@ parser.add_argument('--headless', type=bool)
 args = parser.parse_args()
 
 
+
+log_file_path = os.getcwd() + '/logs/udio_bot.log'  # specify your file path here
+
+if not os.path.exists(log_file_path):
+    with open(log_file_path, "w") as file:
+        file.write("")  # Create an empty file or write initial content
+    print(f"{log_file_path} created.")
+else:
+    print(f"{log_file_path} already exists.")
+
 # Configure logging
 logging.basicConfig(
     level=logging.INFO,
     format='%(asctime)s - %(name)s - %(levelname)s - %(message)s',
     handlers=[
-        logging.FileHandler('logs/udio_bot.log'),
+        logging.FileHandler(log_file_path),
         logging.StreamHandler()
     ]
 )
