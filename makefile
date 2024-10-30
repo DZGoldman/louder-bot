@@ -9,3 +9,6 @@ run:
 
 test-email-auth:
 	python email_client.py
+
+gen-prompt:
+	python prompt_generator.py
