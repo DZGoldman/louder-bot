@@ -63,8 +63,50 @@ class UdioMusicBot:
              raise Exception("GOOGLE_EMAIL env variable not provided")
 
         logger.info(f"Initializing UdioMusicBot with email: {self.email[:3]}...{self.email[-10:]}")
-        self.driver = None
-        self.setup_driver()
+        # tmp: move setup to init:
+        download_dir = os.getcwd() + "/song_downloads/"  # Adjust to your desired path
+        try:
+            chrome_options = Options()
+            # Set capabilities
+            capabilities = {
+                "browserName": "chrome",
+                "goog:chromeOptions": {
+                    "prefs": {
+                        "download.default_directory": download_dir,
+                        "download.prompt_for_download": False,
+                        "download.directory_upgrade": True,
+                        "safebrowsing.enabled": True
+                    }
+                }
+            }
+
+            if self.headless:
+                chrome_options.add_argument('--headless=new')
+
+            if self.stealth:
+                self.driver = undetected_chromedriver.Chrome(service=Service(ChromeDriverManager().install()), options=chrome_options, desired_capabilities=capabilities)
+            else:
+                prefs = {
+                    "download.default_directory": download_dir, 
+                    "download.prompt_for_download": False,
+                    "download.directory_upgrade": True,
+                    "safebrowsing.enabled": True
+                }
+                chrome_options.add_argument("--no-sandbox")
+                chrome_options.add_argument("--disable-dev-shm-usage")
+                chrome_options.add_experimental_option("prefs", prefs)
+
+                # Initialize the WebDriver
+                self.driver = webdriver.Chrome(service=Service(ChromeDriverManager().install()), options=chrome_options)
+
+
+            self.driver.set_window_size(1620, 1080)
+            self.driver.set_page_load_timeout(120)
+
+            logger.info("Chrome WebDriver initialized successfully")
+            
+        except Exception as e:
+            logger.error(f"Failed to initialize WebDriver: {str(e)}")
         
     def setup_driver(self):
         download_dir = os.getcwd() + "/song_downloads/"  # Adjust to your desired path
