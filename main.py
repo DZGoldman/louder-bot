@@ -33,10 +33,8 @@ log_file_path = os.getcwd() + '/logs/udio_bot.log'  # specify your file path her
 
 if not os.path.exists(log_file_path):
     with open(log_file_path, "w") as file:
-        file.write("")  # Create an empty file or write initial content
+        file.write("")  # Create empty log file
     print(f"{log_file_path} created.")
-else:
-    print(f"{log_file_path} already exists.")
 
 # Configure logging
 logging.basicConfig(
@@ -58,6 +56,9 @@ class LoginError(Exception):
     """Custom exception for login failures"""
     pass
 
+download_dir = os.getcwd() + "/song_downloads/"  # Adjust to your desired path
+
+
 class UdioMusicBot:
     def __init__(self, headless: bool = False, max_retries: int = 5, stealth = True):
         self.logs_dir = Path("logs")
@@ -76,7 +77,6 @@ class UdioMusicBot:
         self.setup_driver()
         
     def setup_driver(self):
-        download_dir = os.getcwd() + "/song_downloads/"  # Adjust to your desired path
         try:
             chrome_options = Options()
             # Set capabilities
@@ -403,7 +403,7 @@ class UdioMusicBot:
         logger.info("Waiting for download")
         for _ in range(0,100):
             if count_files_in_directory(download_dir) > file_count_pre_download:
-                logger.info("Done")
+                logger.info(f"🎵🎵 File downloaded to {download_dir} 🎵🎵")
                 return
             else:
                 time.sleep(5)
