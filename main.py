@@ -410,8 +410,9 @@ class UdioMusicBot:
 
 
     def slow_type(self, element, text, delay = 0.1):
-        for (i,word) in enumerate(text.split(",")):
-            word_to_send = word + ", " if i < len(text) -1 else word
+        words = text.split(",")
+        for (i,word) in enumerate(words):
+            word_to_send = word + ", " if i < len(words) -1 else word
             element.send_keys(word_to_send)
             time.sleep(delay)
 
@@ -457,10 +458,10 @@ if __name__ == "__main__":
         logger.debug(f"Stack trace: {traceback.format_exc()}")
     finally:
         if stealth_bot:
-            print("closing stealth_bot now:")
+            logger.info("Closing stealth_bot:")
             stealth_bot.close()
         if reg_bot:
-            print("closing reg_bot now:")
+            logger.info("Closing normal-mode bot:")
             reg_bot.close()
         if out:
             out.release()  # Release the video file
