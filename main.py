@@ -64,7 +64,8 @@ class UdioMusicBot:
 
         logger.info(f"Initializing UdioMusicBot with email: {self.email[:3]}...{self.email[-10:]}")
         self.setup_driver()
-
+        self.driver = None
+        
     def setup_driver(self):
         download_dir = os.getcwd() + "/song_downloads/"  # Adjust to your desired path
         try:
