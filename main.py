@@ -370,7 +370,7 @@ class UdioMusicBot:
 
         self.try_click(dropdown)
         time.sleep(2)
-        # share_button = self.driver.find_element(By.XPATH, "//div[@role='menuitem' and text()='Share']")
+
         self.wait_and_click("//div[@role='menuitem' and text()='Share']")
         time.sleep(2)
 
