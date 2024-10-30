@@ -68,7 +68,6 @@ def get_link_from_email(retries = 5):
         headers = msg['payload']['headers']
 
         date_str = next((header['value'] for header in headers if header['name'] == 'Date'), 'No Date')
-        print(f"Date Sent: {repr(date_str)}")
         # Parse the date string to a datetime object
         date_sent = datetime.strptime(date_str, "%a, %d %b %Y %H:%M:%S %z")
         # Set timezone to UTC for the parsed date (since it's in GMT)
@@ -98,11 +97,9 @@ def get_link_from_email(retries = 5):
                         # TODO: handle 
                     elif part['mimeType'] == 'text/html':
                         body_html = base64.urlsafe_b64decode(part['body']['data']).decode()
-                        # print(f"HTML Body {body_html}\n")
                         soup = BeautifulSoup(body_html, 'html.parser')
                         links = soup.find_all('a')
                         for link in links:
-                            print(link.string)
                             if "Sign in to Udio" in link.string:
                                 print("Href found",link["href"])
                                 return link["href"]
