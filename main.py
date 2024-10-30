@@ -29,7 +29,7 @@ args = parser.parse_args()
 
 
 
-log_file_path = os.getcwd() + '/logs/udio_bot.log'  # specify your file path here
+log_file_path = os.getcwd() + '/logs/udio_bot.log'  
 
 if not os.path.exists(log_file_path):
     with open(log_file_path, "w") as file:
@@ -56,7 +56,7 @@ class LoginError(Exception):
     """Custom exception for login failures"""
     pass
 
-download_dir = os.getcwd() + "/song_downloads/"  # Adjust to your desired path
+download_dir = os.getcwd() + "/song_downloads/" 
 
 
 class UdioMusicBot:
